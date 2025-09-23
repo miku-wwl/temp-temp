@@ -11,7 +11,7 @@ export default function LoginForm() {
     const { loginUser } = useAccount();
     const navigate = useNavigate();
     const location = useLocation();
-    const { control, handleSubmit, formState: { isValid, isSubmitting } } = useForm<LoginSchema>({
+    const {  control, handleSubmit, formState: { isValid, isSubmitting } } = useForm<LoginSchema>({
         mode: 'onTouched',
         resolver: zodResolver(loginSchema)
     });

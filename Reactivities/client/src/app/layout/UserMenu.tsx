@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { Avatar, Box, Divider, ListItemIcon, ListItemText } from '@mui/material';
 import { useAccount } from '../../lib/hooks/useAccount';
 import { Link } from 'react-router';
-import { Add, Logout, Person } from '@mui/icons-material';
+import { Logout, Person } from '@mui/icons-material';
 
 export default function UserMenu() {
     const { currentUser, logoutUser } = useAccount();
@@ -46,12 +46,6 @@ export default function UserMenu() {
                     'aria-labelledby': 'basic-button',
                 }}
             >
-                <MenuItem component={Link} to='/createActivity' onClick={handleClose}>
-                    <ListItemIcon>
-                        <Add />
-                    </ListItemIcon>
-                    <ListItemText>Create Activity</ListItemText>
-                </MenuItem>
                 <MenuItem component={Link} to={`/profiles/${currentUser?.id}`} onClick={handleClose}>
                     <ListItemIcon>
                         <Person />

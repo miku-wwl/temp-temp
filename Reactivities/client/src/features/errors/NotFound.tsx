@@ -1,7 +1,5 @@
 import { SearchOff } from "@mui/icons-material";
-import { Button, Paper, Typography } from "@mui/material";
-import { Link } from "react-router";
-
+import { Paper, Typography } from "@mui/material";
 export default function NotFound() {
   return (
     <Paper
@@ -18,9 +16,6 @@ export default function NotFound() {
         <Typography gutterBottom variant="h3">
             Oops - we could not find what you are looking for
         </Typography>
-        <Button fullWidth component={Link} to='/activities'>
-            Return to the activities page
-        </Button>
     </Paper>
   )
 }

@@ -1,6 +1,5 @@
 import { Grid2, Typography } from "@mui/material";
 import ProfileHeader from "./ProfileHeader";
-import ProfileContent from "./ProfileContent";
 import { useParams } from "react-router";
 import { useProfile } from "../../lib/hooks/useProfile";
 
@@ -16,7 +15,6 @@ export default function ProfilePage() {
     <Grid2 container>
         <Grid2 size={12}>
             <ProfileHeader />
-            <ProfileContent />
         </Grid2>
     </Grid2>
   )
