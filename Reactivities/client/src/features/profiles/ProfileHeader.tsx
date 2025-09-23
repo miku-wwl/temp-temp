@@ -1,10 +1,10 @@
-import { Avatar, Box, Button, Chip, Divider, Grid2, Paper, Stack, Typography } from "@mui/material";
+import { Avatar, Box, Chip, Grid2, Paper, Stack, Typography } from "@mui/material";
 import { useParams } from "react-router";
 import { useProfile } from "../../lib/hooks/useProfile";
 
 export default function ProfileHeader() {
     const { id } = useParams();
-    const { isCurrentUser, profile, updateFollowing } = useProfile(id);
+    const { profile, isCurrentUser } = useProfile(id);
 
     if (!profile) return null;
 
@@ -29,7 +29,7 @@ export default function ProfileHeader() {
                         </Box>
                     </Stack>
                 </Grid2>
-                <Grid2 size={4}>
+                <Grid2 size={3}>
                     <Stack spacing={2} alignItems='center'>
                         <Box display='flex' justifyContent='space-around' width='100%'>
                             <Box textAlign='center'>
@@ -41,22 +41,20 @@ export default function ProfileHeader() {
                                 <Typography variant="h3">{profile.followingCount}</Typography>
                             </Box>
                         </Box>
-                        {!isCurrentUser &&
-                            <>
-                                <Divider sx={{ width: '100%' }} />
-                                <Button
-                                    onClick={() => updateFollowing.mutate()}
-                                    disabled={updateFollowing.isPending}
-                                    fullWidth
-                                    variant="outlined"
-                                    color={profile.following ? 'error' : 'success'}
-                                >
-                                    {profile.following ? 'Unfollow' : 'Follow'}
-                                </Button>
-                            </>
-                        }
-
                     </Stack>
+                </Grid2>
+                <Grid2 size={1}>
+                    {isCurrentUser ? (
+                        <Box textAlign='center'>
+                            <Typography variant="h6">isCurrentUser</Typography>
+                            <Typography variant="h3">true</Typography>
+                        </Box>
+                    ) : (
+                        <Box textAlign='center'>
+                            <Typography variant="h6">isCurrentUser</Typography>
+                            <Typography variant="h3">false</Typography>
+                        </Box>
+                    )}
                 </Grid2>
             </Grid2>
         </Paper>
