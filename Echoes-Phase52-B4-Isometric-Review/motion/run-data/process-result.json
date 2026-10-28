@@ -1,0 +1,14 @@
+{
+  "width": 1280,
+  "height": 720,
+  "naturalExit": true,
+  "exitCode": 0,
+  "seconds": 153.5,
+  "exceptionLines": 0,
+  "video": true,
+  "before": false,
+  "automatedInput": true,
+  "otherGameProcessesRunning": [
+    63528
+  ]
+}
