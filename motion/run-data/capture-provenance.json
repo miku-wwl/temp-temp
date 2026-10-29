@@ -1,0 +1,29 @@
+{
+  "method": "Actual ScreenCapture.CaptureScreenshotAsTexture at WaitForEndOfFrame; original monotonic timestamps; no desktop capture or concept compositing",
+  "automatedInput": true,
+  "conceptCompositing": false,
+  "desktopCaptured": false,
+  "audioRecorded": false,
+  "framesCaptured": 1054,
+  "capturedSeconds": 83.25070667266846,
+  "videoDuration": 83.32,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "26375/2084",
+        "nb_frames": "1055"
+      }
+    ],
+    "format": {
+      "duration": "83.320000"
+    }
+  },
+  "fullDecode": "PASS",
+  "movieSha256": "08cb8c141f3a17d420f35afbe0114ac369a4db6b3c02d929ab321be34b04865e",
+  "presentation": "B5 painted environment (stage-painted spring, painted trees, garden beds, meadow and soil, minimap re-baked)",
+  "camera": "FixedFollowCamera25D yaw=45 pitch=48 distance=14 (zoom 10-17) fov=35"
+}

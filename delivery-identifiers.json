@@ -1,0 +1,90 @@
+{
+  "sourceCommit": "e4e4e0fa2e6dd9cece55af9f3cf2d1206cad8e75",
+  "finalCommit": "3d5ae5dfbeff10bddc9e6ccce8e7e6dc4f138292",
+  "originMain": "3d5ae5dfbeff10bddc9e6ccce8e7e6dc4f138292",
+  "remoteMainHead": "3d5ae5dfbeff10bddc9e6ccce8e7e6dc4f138292",
+  "gitWorktree": "CLEAN",
+  "remotePush": "PASS",
+  "buildId": "8dcf20bf30374cc1b676ad6c2df2fd78",
+  "buildDir": "artifacts/build/phase52-b5-final",
+  "lfsCurrentB5Files": {
+    "result": "PASS",
+    "method": "Downloaded from origin into a fresh isolated LFS storage and rehashed every current B5 PNG",
+    "count": 14,
+    "files": [
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Props/BroadleafTree.png",
+        "oid": "5e77d84a38b21b6fd8c06968a39269f32258cc09cee8add29c3f322c0aa05d81",
+        "bytes": 2352326
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Props/GardenPlants.png",
+        "oid": "4f9e43f737db6633fba2ae8633208a56f3e4e667b91c2004455938a619b5a5c2",
+        "bytes": 799129
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Props/SpringStages.png",
+        "oid": "08020c58eb92930bcf5b5d8c7fcc4bc09b61481f8f505545c85b3cdfffc50146",
+        "bytes": 8912305
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Source/broadleaf_tree.png",
+        "oid": "3ff9ee2d8296fbc3a4b1e9738d8ba036e73e082e4d8604fefbb221e2548aec1b",
+        "bytes": 2557109
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Source/farm_raised_beds.png",
+        "oid": "39244c66b88f572645a9de0958026f255512125afbeea66a478d974e9d3df42c",
+        "bytes": 2418753
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Source/meadow_grass_albedo.png",
+        "oid": "77f21e28d37b41e4d9afaf8c31f65108a8ad608713c2fd3a144d9160c767aac0",
+        "bytes": 3828354
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Source/spring_S0_dormant.png",
+        "oid": "c9abee13c1713b024934ba8bb6896c00c508592aef649c516487d1b8f3389b76",
+        "bytes": 2327182
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Source/spring_S3_restored.png",
+        "oid": "c2bdbe572487e831d75d85303bccc1ad6784a744256aa9de9d7922c54180e2ed",
+        "bytes": 2486993
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Source/tilled_soil_albedo.png",
+        "oid": "1a8e9d4d44ef6dd1bcd1aad983f3725921e00015046bde7e49b903fc6e06f7e7",
+        "bytes": 3287167
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Terrain/MeadowA.png",
+        "oid": "a434926bcb363a86be9425a509254400336d704e80f295fc05bded71d1dcdfd0",
+        "bytes": 2228085
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Terrain/MeadowB.png",
+        "oid": "90e2d7da33861036872ca0caa2ed0217f6118c5c7996c830282321f5ad4f3583",
+        "bytes": 2268362
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Terrain/PlazaCobbleWarm.png",
+        "oid": "7008f8a816d13fd42013f584b143c62b33f6c00ef6e4471fd8607df706fe4206",
+        "bytes": 2015524
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/Terrain/TilledSoil.png",
+        "oid": "8ede96c0711004a7bafbc82b686e63dd3504e4e9a0ae13add1c39fbd3aebfe7b",
+        "bytes": 1968514
+      },
+      {
+        "path": "game/Assets/Echoes/Art/Phase52B5/UI/MinimapBase.png",
+        "oid": "12aeb1d5a64a6e48bc330db7dd13bd23a108c9f67afb598b801c5bf28f0a73de",
+        "bytes": 1795943
+      }
+    ]
+  },
+  "humanVisualApproval": "PENDING",
+  "ownerPlaytest": "PENDING",
+  "actualVideoGuiPlayback": "NOT VERIFIED: owner stopped Computer Use with physical Escape"
+}

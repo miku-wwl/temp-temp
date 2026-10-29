@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="262" result="Passed" total="262" passed="262" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 09:01:40Z" duration="177.89745">
+  <test-suite type="TestSuite" id="1000" name="Echoes of the Valley" fullname="Echoes of the Valley" runstate="Runnable" testcasecount="262" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 09:01:40Z" duration="177.897450" total="262" passed="262" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1285" name="Echoes.Tests.EditMode.dll" fullname="D:/Unity/Temp/Echoes/phase52-b5-finalization-verified-20261029-215605/game/Library/ScriptAssemblies/Echoes.Tests.EditMode.dll" runstate="Runnable" testcasecount="262" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 09:01:40Z" duration="177.857047" total="262" passed="262" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="58888" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1286" name="Echoes" fullname="Echoes" runstate="Runnable" testcasecount="262" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 09:01:40Z" duration="177.837312" total="262" passed="262" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1287" name="Tests" fullname="Echoes.Tests" runstate="Runnable" testcasecount="262" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 09:01:40Z" duration="177.816387" total="262" passed="262" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="CraftingTests" fullname="Echoes.Tests.CraftingTests" classname="Echoes.Tests.CraftingTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.093442" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1009" name="ChickenFeed_AndWindmillBraces_CraftToTheirDesignedAmounts" fullname="Echoes.Tests.CraftingTests.ChickenFeed_AndWindmillBraces_CraftToTheirDesignedAmounts" methodname="ChickenFeed_AndWindmillBraces_CraftToTheirDesignedAmounts" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="2027639739" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.034825" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="Crafting_NotifiesOnceOnSuccess_AndNotAtAllOnFailure" fullname="Echoes.Tests.CraftingTests.Crafting_NotifiesOnceOnSuccess_AndNotAtAllOnFailure" methodname="Crafting_NotifiesOnceOnSuccess_AndNotAtAllOnFailure" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="969970209" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.002126" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="MissingIngredients_AreRejected_AndNothingIsConsumed" fullname="Echoes.Tests.CraftingTests.MissingIngredients_AreRejected_AndNothingIsConsumed" methodname="MissingIngredients_AreRejected_AndNothingIsConsumed" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="1231396637" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000548" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="OutputThatDoesNotFit_IsRejected_AndTheIngredientIsKept" fullname="Echoes.Tests.CraftingTests.OutputThatDoesNotFit_IsRejected_AndTheIngredientIsKept" methodname="OutputThatDoesNotFit_IsRejected_AndTheIngredientIsKept" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="993943252" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000680" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="RecipeBook_HasTheThreeDesignedRecipes_WithKnownItems" fullname="Echoes.Tests.CraftingTests.RecipeBook_HasTheThreeDesignedRecipes_WithKnownItems" methodname="RecipeBook_HasTheThreeDesignedRecipes_WithKnownItems" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="786952474" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.012288" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="RepeatedSubmission_CannotCraftMoreThanTheIngredientsAllow" fullname="Echoes.Tests.CraftingTests.RepeatedSubmission_CannotCraftMoreThanTheIngredientsAllow" methodname="RepeatedSubmission_CannotCraftMoreThanTheIngredientsAllow" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="1311228182" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001019" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SpringTonic_NeedsTwoHerbsAndOneBlossom_ForTheDesignedQuest" fullname="Echoes.Tests.CraftingTests.SpringTonic_NeedsTwoHerbsAndOneBlossom_ForTheDesignedQuest" methodname="SpringTonic_NeedsTwoHerbsAndOneBlossom_ForTheDesignedQuest" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="1281555356" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001045" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="UnknownRecipe_IsRejected" fullname="Echoes.Tests.CraftingTests.UnknownRecipe_IsRejected" methodname="UnknownRecipe_IsRejected" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="2055711249" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000516" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="ValidCraft_ConsumesExactlyTheIngredients_AndGivesTheOutput" fullname="Echoes.Tests.CraftingTests.ValidCraft_ConsumesExactlyTheIngredients_AndGivesTheOutput" methodname="ValidCraft_ConsumesExactlyTheIngredients_AndGivesTheOutput" classname="Echoes.Tests.CraftingTests" runstate="Runnable" seed="410650069" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000575" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1011" name="GameSessionTests" fullname="Echoes.Tests.GameSessionTests" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" testcasecount="29" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.093835" total="29" passed="29" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1021" name="Chicken_StartsHungry_AndCannotBeFedWithoutFeed" fullname="Echoes.Tests.GameSessionTests.Chicken_StartsHungry_AndCannotBeFedWithoutFeed" methodname="Chicken_StartsHungry_AndCannotBeFedWithoutFeed" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1075458409" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.003000" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="Coins_AreValidated" fullname="Echoes.Tests.GameSessionTests.Coins_AreValidated" methodname="Coins_AreValidated" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="757580795" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001099" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="CollectingTheEgg_GivesOneEgg_AndCannotBeRepeated" fullname="Echoes.Tests.GameSessionTests.CollectingTheEgg_GivesOneEgg_AndCannotBeRepeated" methodname="CollectingTheEgg_GivesOneEgg_AndCannotBeRepeated" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="594063645" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001631" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="CollectingTheEgg_WithAFullEggStack_KeepsTheEggInTheNest" fullname="Echoes.Tests.GameSessionTests.CollectingTheEgg_WithAFullEggStack_KeepsTheEggInTheNest" methodname="CollectingTheEgg_WithAFullEggStack_KeepsTheEggInTheNest" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1024694755" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000698" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="Egg_IsReady_OnlyAfterTheProductionTime" fullname="Echoes.Tests.GameSessionTests.Egg_IsReady_OnlyAfterTheProductionTime" methodname="Egg_IsReady_OnlyAfterTheProductionTime" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1564123306" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001148" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="EveryRequiredIngredient_IsOfferedByRenewableNodes" fullname="Echoes.Tests.GameSessionTests.EveryRequiredIngredient_IsOfferedByRenewableNodes" methodname="EveryRequiredIngredient_IsOfferedByRenewableNodes" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1609293072" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.002617" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="ExplorationProgress_OnlyMovesForward" fullname="Echoes.Tests.GameSessionTests.ExplorationProgress_OnlyMovesForward" methodname="ExplorationProgress_OnlyMovesForward" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="372144284" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001193" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="Feeding_ConsumesExactlyOneFeed_AndStartsProduction" fullname="Echoes.Tests.GameSessionTests.Feeding_ConsumesExactlyOneFeed_AndStartsProduction" methodname="Feeding_ConsumesExactlyOneFeed_AndStartsProduction" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1843266531" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001650" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="FeedingTwice_DoesNotConsumeASecondFeed" fullname="Echoes.Tests.GameSessionTests.FeedingTwice_DoesNotConsumeASecondFeed" methodname="FeedingTwice_DoesNotConsumeASecondFeed" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1610097876" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000609" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="Gather_DuringTheCooldown_IsRejected_AndGivesNothing" fullname="Echoes.Tests.GameSessionTests.Gather_DuringTheCooldown_IsRejected_AndGivesNothing" methodname="Gather_DuringTheCooldown_IsRejected_AndGivesNothing" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1595528788" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001002" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="Gather_GrantsTheItem_AndStartsTheCooldown" fullname="Echoes.Tests.GameSessionTests.Gather_GrantsTheItem_AndStartsTheCooldown" methodname="Gather_GrantsTheItem_AndStartsTheCooldown" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="73933267" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001143" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="Gather_NotifiesOnce_WithTheItemName" fullname="Echoes.Tests.GameSessionTests.Gather_NotifiesOnce_WithTheItemName" methodname="Gather_NotifiesOnce_WithTheItemName" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="446675887" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001602" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="Gather_UnknownNode_IsRejected" fullname="Echoes.Tests.GameSessionTests.Gather_UnknownNode_IsRejected" methodname="Gather_UnknownNode_IsRejected" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="540428840" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000439" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="Gather_WithoutRoom_KeepsTheNodeReady_AndTakesNothing" fullname="Echoes.Tests.GameSessionTests.Gather_WithoutRoom_KeepsTheNodeReady_AndTakesNothing" methodname="Gather_WithoutRoom_KeepsTheNodeReady_AndTakesNothing" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="2003878376" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000586" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="Hen_CanAlwaysBeFedAgain_BecauseFeedIsCraftableFromRenewableBlossoms" fullname="Echoes.Tests.GameSessionTests.Hen_CanAlwaysBeFedAgain_BecauseFeedIsCraftableFromRenewableBlossoms" methodname="Hen_CanAlwaysBeFedAgain_BecauseFeedIsCraftableFromRenewableBlossoms" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="450159790" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000804" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="NewSession_StartsClean" fullname="Echoes.Tests.GameSessionTests.NewSession_StartsClean" methodname="NewSession_StartsClean" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1092006123" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001473" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="Nodes_Regenerate_AfterTheirCooldown" fullname="Echoes.Tests.GameSessionTests.Nodes_Regenerate_AfterTheirCooldown" methodname="Nodes_Regenerate_AfterTheirCooldown" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1076493799" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000746" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="ProductionTime_IsShortEnoughToPlay" fullname="Echoes.Tests.GameSessionTests.ProductionTime_IsShortEnoughToPlay" methodname="ProductionTime_IsShortEnoughToPlay" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="627922960" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000727" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="Quest_CanBeFinished_EvenWithABagStuffedWithEverythingElse" fullname="Echoes.Tests.GameSessionTests.Quest_CanBeFinished_EvenWithABagStuffedWithEverythingElse" methodname="Quest_CanBeFinished_EvenWithABagStuffedWithEverythingElse" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="304920630" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001449" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="Quest_CanBeFinished_WithEveryOtherItemTypeAlreadyInTheBag" fullname="Echoes.Tests.GameSessionTests.Quest_CanBeFinished_WithEveryOtherItemTypeAlreadyInTheBag" methodname="Quest_CanBeFinished_WithEveryOtherItemTypeAlreadyInTheBag" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="733740599" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001597" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="Quest_CanStillBeFinished_AfterEveryNodeHasBeenEmptied" fullname="Echoes.Tests.GameSessionTests.Quest_CanStillBeFinished_AfterEveryNodeHasBeenEmptied" methodname="Quest_CanStillBeFinished_AfterEveryNodeHasBeenEmptied" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="465481015" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000956" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="QuestCannotStart_BeforeTheOpeningObjectiveIsDone" fullname="Echoes.Tests.GameSessionTests.QuestCannotStart_BeforeTheOpeningObjectiveIsDone" methodname="QuestCannotStart_BeforeTheOpeningObjectiveIsDone" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="34645364" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000686" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="RegisterNode_RejectsBadDefinitions" fullname="Echoes.Tests.GameSessionTests.RegisterNode_RejectsBadDefinitions" methodname="RegisterNode_RejectsBadDefinitions" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="2101398192" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001016" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="Restoration_CannotRepeat_NoSecondRewardOrConsumption" fullname="Echoes.Tests.GameSessionTests.Restoration_CannotRepeat_NoSecondRewardOrConsumption" methodname="Restoration_CannotRepeat_NoSecondRewardOrConsumption" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="961366864" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001460" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="Restoration_ConsumesExactlyOneTonic_PaysOnce_AndMovesToStageOne" fullname="Echoes.Tests.GameSessionTests.Restoration_ConsumesExactlyOneTonic_PaysOnce_AndMovesToStageOne" methodname="Restoration_ConsumesExactlyOneTonic_PaysOnce_AndMovesToStageOne" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="1127537688" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000855" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="Restoration_FiresItsMilestonesOnce" fullname="Echoes.Tests.GameSessionTests.Restoration_FiresItsMilestonesOnce" methodname="Restoration_FiresItsMilestonesOnce" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="736741467" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001698" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="Restoration_IsRejected_WithoutAnActiveQuest" fullname="Echoes.Tests.GameSessionTests.Restoration_IsRejected_WithoutAnActiveQuest" methodname="Restoration_IsRejected_WithoutAnActiveQuest" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="247056325" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000985" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="Restoration_IsRejected_WithoutTheRequiredItem" fullname="Echoes.Tests.GameSessionTests.Restoration_IsRejected_WithoutTheRequiredItem" methodname="Restoration_IsRejected_WithoutTheRequiredItem" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="189401530" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000386" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="Tick_IgnoresNonsenseDeltas" fullname="Echoes.Tests.GameSessionTests.Tick_IgnoresNonsenseDeltas" methodname="Tick_IgnoresNonsenseDeltas" classname="Echoes.Tests.GameSessionTests" runstate="Runnable" seed="968465453" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.026350" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1041" name="InteractionRangeTests" fullname="Echoes.Tests.InteractionRangeTests" classname="Echoes.Tests.InteractionRangeTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.009021" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1046" name="EachCandidateUsesItsOwnRange" fullname="Echoes.Tests.InteractionRangeTests.EachCandidateUsesItsOwnRange" methodname="EachCandidateUsesItsOwnRange" classname="Echoes.Tests.InteractionRangeTests" runstate="Runnable" seed="1849041381" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.002419" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="EqualDistancePrefersTheEarlierEntry" fullname="Echoes.Tests.InteractionRangeTests.EqualDistancePrefersTheEarlierEntry" methodname="EqualDistancePrefersTheEarlierEntry" classname="Echoes.Tests.InteractionRangeTests" runstate="Runnable" seed="848041275" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001023" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1043" name="HeightDifferenceBeyondToleranceBlocksInteraction" fullname="Echoes.Tests.InteractionRangeTests.HeightDifferenceBeyondToleranceBlocksInteraction" methodname="HeightDifferenceBeyondToleranceBlocksInteraction" classname="Echoes.Tests.InteractionRangeTests" runstate="Runnable" seed="1769699196" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000491" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1042" name="InsideRangeIsAccepted_OutsideIsRejected" fullname="Echoes.Tests.InteractionRangeTests.InsideRangeIsAccepted_OutsideIsRejected" methodname="InsideRangeIsAccepted_OutsideIsRejected" classname="Echoes.Tests.InteractionRangeTests" runstate="Runnable" seed="585962333" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000783" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="NearestInRangeCandidateWins" fullname="Echoes.Tests.InteractionRangeTests.NearestInRangeCandidateWins" methodname="NearestInRangeCandidateWins" classname="Echoes.Tests.InteractionRangeTests" runstate="Runnable" seed="538650978" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000845" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="NothingInRangeSelectsNothing" fullname="Echoes.Tests.InteractionRangeTests.NothingInRangeSelectsNothing" methodname="NothingInRangeSelectsNothing" classname="Echoes.Tests.InteractionRangeTests" runstate="Runnable" seed="485809377" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000595" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1048" name="InventoryTests" fullname="Echoes.Tests.InventoryTests" classname="Echoes.Tests.InventoryTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.013265" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1050" name="Add_StacksTheSameItem_AndUsesOneSlot" fullname="Echoes.Tests.InventoryTests.Add_StacksTheSameItem_AndUsesOneSlot" methodname="Add_StacksTheSameItem_AndUsesOneSlot" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="711970031" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000728" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="Changed_FiresOncePerCommit_AndNeverForAFailure" fullname="Echoes.Tests.InventoryTests.Changed_FiresOncePerCommit_AndNeverForAFailure" methodname="Changed_FiresOncePerCommit_AndNeverForAFailure" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1995441642" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001207" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1061" name="DefaultBag_CanAlwaysHoldOneOfEveryItemType" fullname="Echoes.Tests.InventoryTests.DefaultBag_CanAlwaysHoldOneOfEveryItemType" methodname="DefaultBag_CanAlwaysHoldOneOfEveryItemType" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="283942275" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001438" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="DuplicateEntriesInOneTransaction_AreSummed" fullname="Echoes.Tests.InventoryTests.DuplicateEntriesInOneTransaction_AreSummed" methodname="DuplicateEntriesInOneTransaction_AreSummed" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1241209331" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000523" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1053" name="InvalidQuantitiesAndIds_AreRejected" fullname="Echoes.Tests.InventoryTests.InvalidQuantitiesAndIds_AreRejected" methodname="InvalidQuantitiesAndIds_AreRejected" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="771338932" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000365" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="NewInventory_IsEmpty_WithDocumentedCapacity" fullname="Echoes.Tests.InventoryTests.NewInventory_IsEmpty_WithDocumentedCapacity" methodname="NewInventory_IsEmpty_WithDocumentedCapacity" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1338447575" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000875" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1052" name="Remove_MoreThanOwned_IsRejected_AndChangesNothing" fullname="Echoes.Tests.InventoryTests.Remove_MoreThanOwned_IsRejected_AndChangesNothing" methodname="Remove_MoreThanOwned_IsRejected_AndChangesNothing" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="727646279" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000261" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="Remove_ReducesTheStack_AndFreesTheSlotWhenEmpty" fullname="Echoes.Tests.InventoryTests.Remove_ReducesTheStack_AndFreesTheSlotWhenEmpty" methodname="Remove_ReducesTheStack_AndFreesTheSlotWhenEmpty" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="215083704" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000332" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1063" name="Restore_ReplacesContent_OnlyWhenEveryEntryIsValid" fullname="Echoes.Tests.InventoryTests.Restore_ReplacesContent_OnlyWhenEveryEntryIsValid" methodname="Restore_ReplacesContent_OnlyWhenEveryEntryIsValid" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1197931787" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001060" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1055" name="SlotCapacity_IsEnforced" fullname="Echoes.Tests.InventoryTests.SlotCapacity_IsEnforced" methodname="SlotCapacity_IsEnforced" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1731820660" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000342" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1062" name="Snapshot_ListsStacksInCatalogOrder" fullname="Echoes.Tests.InventoryTests.Snapshot_ListsStacksInCatalogOrder" methodname="Snapshot_ListsStacksInCatalogOrder" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1463665441" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000375" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="StackLimit_IsEnforced" fullname="Echoes.Tests.InventoryTests.StackLimit_IsEnforced" methodname="StackLimit_IsEnforced" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1929492919" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000260" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1058" name="Transaction_CountsTheSlotFreedByARemoval" fullname="Echoes.Tests.InventoryTests.Transaction_CountsTheSlotFreedByARemoval" methodname="Transaction_CountsTheSlotFreedByARemoval" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1944624045" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000249" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1057" name="Transaction_IsAtomic_WhenARemovalIsShort" fullname="Echoes.Tests.InventoryTests.Transaction_IsAtomic_WhenARemovalIsShort" methodname="Transaction_IsAtomic_WhenARemovalIsShort" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="274581208" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000537" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1056" name="Transaction_IsAtomic_WhenTheAdditionDoesNotFit" fullname="Echoes.Tests.InventoryTests.Transaction_IsAtomic_WhenTheAdditionDoesNotFit" methodname="Transaction_IsAtomic_WhenTheAdditionDoesNotFit" classname="Echoes.Tests.InventoryTests" runstate="Runnable" seed="1135968748" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000376" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1064" name="ObjectiveTrackerTests" fullname="Echoes.Tests.ObjectiveTrackerTests" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.006092" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1066" name="AdvancesInOrderUntilComplete" fullname="Echoes.Tests.ObjectiveTrackerTests.AdvancesInOrderUntilComplete" methodname="AdvancesInOrderUntilComplete" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" seed="1405189339" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000798" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1069" name="CompleteIsTerminal" fullname="Echoes.Tests.ObjectiveTrackerTests.CompleteIsTerminal" methodname="CompleteIsTerminal" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" seed="105978295" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000309" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1071" name="EveryStepHasPlayerFacingText" fullname="Echoes.Tests.ObjectiveTrackerTests.EveryStepHasPlayerFacingText" methodname="EveryStepHasPlayerFacingText" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" seed="161438769" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.001075" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1067" name="OutOfOrderMarksAreRejectedWithoutChangingState" fullname="Echoes.Tests.ObjectiveTrackerTests.OutOfOrderMarksAreRejectedWithoutChangingState" methodname="OutOfOrderMarksAreRejectedWithoutChangingState" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" seed="796158652" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000443" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="RepeatedMarksNeverAdvanceTwice" fullname="Echoes.Tests.ObjectiveTrackerTests.RepeatedMarksNeverAdvanceTwice" methodname="RepeatedMarksNeverAdvanceTwice" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" seed="1302277717" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000410" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1070" name="ResetStartsANewGame" fullname="Echoes.Tests.ObjectiveTrackerTests.ResetStartsANewGame" methodname="ResetStartsANewGame" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" seed="815355037" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000302" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1065" name="StartsAtTheFirstStep" fullname="Echoes.Tests.ObjectiveTrackerTests.StartsAtTheFirstStep" methodname="StartsAtTheFirstStep" classname="Echoes.Tests.ObjectiveTrackerTests" runstate="Runnable" seed="101947341" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:43Z" duration="0.000276" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1072" name="Phase2SceneTests" fullname="Echoes.Tests.Phase2SceneTests" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:57Z" duration="14.584173" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1085" name="Interactables_DoNotCrowdTheSpawnOrEachOther" fullname="Echoes.Tests.Phase2SceneTests.Interactables_DoNotCrowdTheSpawnOrEachOther" methodname="Interactables_DoNotCrowdTheSpawnOrEachOther" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="278038135" result="Passed" start-time="2026-10-29 08:58:43Z" end-time="2026-10-29 08:58:44Z" duration="1.371014" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1079" name="MainMenu_OffersContinueNewGameAndQuit" fullname="Echoes.Tests.Phase2SceneTests.MainMenu_OffersContinueNewGameAndQuit" methodname="MainMenu_OffersContinueNewGameAndQuit" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="1822243352" result="Passed" start-time="2026-10-29 08:58:44Z" end-time="2026-10-29 08:58:45Z" duration="0.756621" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1084" name="MovingWaterAndBloomObjects_AreNotStaticallyBatched" fullname="Echoes.Tests.Phase2SceneTests.MovingWaterAndBloomObjects_AreNotStaticallyBatched" methodname="MovingWaterAndBloomObjects_AreNotStaticallyBatched" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="1030842199" result="Passed" start-time="2026-10-29 08:58:45Z" end-time="2026-10-29 08:58:46Z" duration="1.180319" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1080" name="ObjectiveBanner_DoesNotOverlapTheObjectiveOrStatusPanels" fullname="Echoes.Tests.Phase2SceneTests.ObjectiveBanner_DoesNotOverlapTheObjectiveOrStatusPanels" methodname="ObjectiveBanner_DoesNotOverlapTheObjectiveOrStatusPanels" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="262741760" result="Passed" start-time="2026-10-29 08:58:46Z" end-time="2026-10-29 08:58:47Z" duration="1.052621" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1078" name="PauseMenu_HasAWorkingSaveButton" fullname="Echoes.Tests.Phase2SceneTests.PauseMenu_HasAWorkingSaveButton" methodname="PauseMenu_HasAWorkingSaveButton" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="483938301" result="Passed" start-time="2026-10-29 08:58:47Z" end-time="2026-10-29 08:58:48Z" duration="1.120505" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1083" name="ResonanceView_HasBloomsToGrow_AndWaterThatActuallyChanges" fullname="Echoes.Tests.Phase2SceneTests.ResonanceView_HasBloomsToGrow_AndWaterThatActuallyChanges" methodname="ResonanceView_HasBloomsToGrow_AndWaterThatActuallyChanges" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="295675686" result="Passed" start-time="2026-10-29 08:58:48Z" end-time="2026-10-29 08:58:49Z" duration="0.965490" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1074" name="ResourceNodes_AreSpreadOut_AndAwayFromTheSpawn" fullname="Echoes.Tests.Phase2SceneTests.ResourceNodes_AreSpreadOut_AndAwayFromTheSpawn" methodname="ResourceNodes_AreSpreadOut_AndAwayFromTheSpawn" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="839941201" result="Passed" start-time="2026-10-29 08:58:49Z" end-time="2026-10-29 08:58:50Z" duration="0.879726" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1076" name="Valley_GameplayPanels_AreWired_AndStartHidden" fullname="Echoes.Tests.Phase2SceneTests.Valley_GameplayPanels_AreWired_AndStartHidden" methodname="Valley_GameplayPanels_AreWired_AndStartHidden" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="1749099973" result="Passed" start-time="2026-10-29 08:58:50Z" end-time="2026-10-29 08:58:51Z" duration="0.942067" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1073" name="Valley_HasEnoughRenewableNodes_ForEveryRecipeAndTheQuest" fullname="Echoes.Tests.Phase2SceneTests.Valley_HasEnoughRenewableNodes_ForEveryRecipeAndTheQuest" methodname="Valley_HasEnoughRenewableNodes_ForEveryRecipeAndTheQuest" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="1217329877" result="Passed" start-time="2026-10-29 08:58:51Z" end-time="2026-10-29 08:58:52Z" duration="1.113686" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1081" name="Valley_HasTheSessionHostAndTheResonanceSystems" fullname="Echoes.Tests.Phase2SceneTests.Valley_HasTheSessionHostAndTheResonanceSystems" methodname="Valley_HasTheSessionHostAndTheResonanceSystems" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="124432800" result="Passed" start-time="2026-10-29 08:58:52Z" end-time="2026-10-29 08:58:53Z" duration="0.984631" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1082" name="Valley_IsSavedInTheSilentStage" fullname="Echoes.Tests.Phase2SceneTests.Valley_IsSavedInTheSilentStage" methodname="Valley_IsSavedInTheSilentStage" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="1120141927" result="Passed" start-time="2026-10-29 08:58:53Z" end-time="2026-10-29 08:58:54Z" duration="1.234800" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1075" name="Valley_ProvidesTheHen_WithItsStateFeedback" fullname="Echoes.Tests.Phase2SceneTests.Valley_ProvidesTheHen_WithItsStateFeedback" methodname="Valley_ProvidesTheHen_WithItsStateFeedback" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="319803756" result="Passed" start-time="2026-10-29 08:58:54Z" end-time="2026-10-29 08:58:56Z" duration="1.615654" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1077" name="Workshop_OpensTheCraftingPanel" fullname="Echoes.Tests.Phase2SceneTests.Workshop_OpensTheCraftingPanel" methodname="Workshop_OpensTheCraftingPanel" classname="Echoes.Tests.Phase2SceneTests" runstate="Runnable" seed="70347968" result="Passed" start-time="2026-10-29 08:58:56Z" end-time="2026-10-29 08:58:57Z" duration="1.361323" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1086" name="Phase3SaveTests" fullname="Echoes.Tests.Phase3SaveTests" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" testcasecount="24" result="Passed" start-time="2026-10-29 08:58:57Z" end-time="2026-10-29 08:58:58Z" duration="0.656151" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1109" name="ACorruptMainAndABadBackup_NeverProduceASession" fullname="Echoes.Tests.Phase3SaveTests.ACorruptMainAndABadBackup_NeverProduceASession" methodname="ACorruptMainAndABadBackup_NeverProduceASession" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="232704369" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.018938" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1108" name="ACorruptVersion2Main_FallsBackToTheVersion1Backup_AndSaysSo" fullname="Echoes.Tests.Phase3SaveTests.ACorruptVersion2Main_FallsBackToTheVersion1Backup_AndSaysSo" methodname="ACorruptVersion2Main_FallsBackToTheVersion1Backup_AndSaysSo" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1589391262" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.007991" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1102" name="ALoadedEndingIsNotRecordedAgain_AndLoadingRaisesNoMilestone" fullname="Echoes.Tests.Phase3SaveTests.ALoadedEndingIsNotRecordedAgain_AndLoadingRaisesNoMilestone" methodname="ALoadedEndingIsNotRecordedAgain_AndLoadingRaisesNoMilestone" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="542459420" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.005213" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1091" name="AMigratedSave_IsWrittenAsVersionTwo_AndRoundTrips" fullname="Echoes.Tests.Phase3SaveTests.AMigratedSave_IsWrittenAsVersionTwo_AndRoundTrips" methodname="AMigratedSave_IsWrittenAsVersionTwo_AndRoundTrips" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="372941035" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.005181" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1101" name="AnActiveGardenQuest_AndAnActiveWindmillQuest_RoundTrip" fullname="Echoes.Tests.Phase3SaveTests.AnActiveGardenQuest_AndAnActiveWindmillQuest_RoundTrip" methodname="AnActiveGardenQuest_AndAnActiveWindmillQuest_RoundTrip" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1784185320" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.001653" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1090" name="AnEarlyVersion1Save_KeepsItsProgress_AndStartsTheLaterQuestsFromScratch" fullname="Echoes.Tests.Phase3SaveTests.AnEarlyVersion1Save_KeepsItsProgress_AndStartsTheLaterQuestsFromScratch" methodname="AnEarlyVersion1Save_KeepsItsProgress_AndStartsTheLaterQuestsFromScratch" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1594651065" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.003428" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1110" name="AnUnreadableMainFile_IsSetAsideNotDeleted_WhenANewGameSaves" fullname="Echoes.Tests.Phase3SaveTests.AnUnreadableMainFile_IsSetAsideNotDeleted_WhenANewGameSaves" methodname="AnUnreadableMainFile_IsSetAsideNotDeleted_WhenANewGameSaves" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="957326117" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.007144" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1089" name="ARealPhase2Backup_AlsoLoads" fullname="Echoes.Tests.Phase3SaveTests.ARealPhase2Backup_AlsoLoads" methodname="ARealPhase2Backup_AlsoLoads" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="621132026" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000807" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1088" name="ARealPhase2Save_LoadsWithEverythingIntact_AndIsReportedAsMigrated" fullname="Echoes.Tests.Phase3SaveTests.ARealPhase2Save_LoadsWithEverythingIntact_AndIsReportedAsMigrated" methodname="ARealPhase2Save_LoadsWithEverythingIntact_AndIsReportedAsMigrated" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1919512661" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.001679" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1111" name="HasSaveFiles_ReflectsTheFolder" fullname="Echoes.Tests.Phase3SaveTests.HasSaveFiles_ReflectsTheFolder" methodname="HasSaveFiles_ReflectsTheFolder" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="150278315" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.002652" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1107" name="SavingOverAVersion1File_KeepsItAsTheLoadableBackup" fullname="Echoes.Tests.Phase3SaveTests.SavingOverAVersion1File_KeepsItAsTheLoadableBackup" methodname="SavingOverAVersion1File_KeepsItAsTheLoadableBackup" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1364942610" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.008833" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1087" name="TheLegacyChecksum_ReproducesTheRealPlayerFiles_AndTheCurrentCodeAgrees" fullname="Echoes.Tests.Phase3SaveTests.TheLegacyChecksum_ReproducesTheRealPlayerFiles_AndTheCurrentCodeAgrees" methodname="TheLegacyChecksum_ReproducesTheRealPlayerFiles_AndTheCurrentCodeAgrees" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="2056418049" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.001454" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1094" name="Version1_ClaimingAStageItCouldNeverHold_IsInvalid_EvenWithAValidChecksum" fullname="Echoes.Tests.Phase3SaveTests.Version1_ClaimingAStageItCouldNeverHold_IsInvalid_EvenWithAValidChecksum" methodname="Version1_ClaimingAStageItCouldNeverHold_IsInvalid_EvenWithAValidChecksum" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1936489600" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000509" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1092" name="Version1_IsVerifiedOnItsOwnFields_AnyEditFailsTheCheck" fullname="Echoes.Tests.Phase3SaveTests.Version1_IsVerifiedOnItsOwnFields_AnyEditFailsTheCheck" methodname="Version1_IsVerifiedOnItsOwnFields_AnyEditFailsTheCheck" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1730894182" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000779" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1093" name="Version1_NeverReadsVersionTwoFields_EvenIfSomeoneAddedThem" fullname="Echoes.Tests.Phase3SaveTests.Version1_NeverReadsVersionTwoFields_EvenIfSomeoneAddedThem" methodname="Version1_NeverReadsVersionTwoFields_EvenIfSomeoneAddedThem" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1886958708" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000805" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1104" name="Version2_ChecksumCoversTheNewFields" fullname="Echoes.Tests.Phase3SaveTests.Version2_ChecksumCoversTheNewFields" methodname="Version2_ChecksumCoversTheNewFields" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1961014850" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.001918" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1105" name="Version2_InconsistentProgress_IsRejected_EvenWithAValidChecksum" fullname="Echoes.Tests.Phase3SaveTests.Version2_InconsistentProgress_IsRejected_EvenWithAValidChecksum" methodname="Version2_InconsistentProgress_IsRejected_EvenWithAValidChecksum" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="626693124" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.003409" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1103" name="Version2_RequiresItsNewFields" fullname="Echoes.Tests.Phase3SaveTests.Version2_RequiresItsNewFields" methodname="Version2_RequiresItsNewFields" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1972564087" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000935" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1100" name="Version2_RoundTripsEveryStage_AndTheEnding" fullname="Echoes.Tests.Phase3SaveTests.Version2_RoundTripsEveryStage_AndTheEnding" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.004530" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1095" name="Version2_RoundTripsEveryStage_AndTheEnding(0)" fullname="Echoes.Tests.Phase3SaveTests.Version2_RoundTripsEveryStage_AndTheEnding(0)" methodname="Version2_RoundTripsEveryStage_AndTheEnding" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="2003856918" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000988" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1096" name="Version2_RoundTripsEveryStage_AndTheEnding(1)" fullname="Echoes.Tests.Phase3SaveTests.Version2_RoundTripsEveryStage_AndTheEnding(1)" methodname="Version2_RoundTripsEveryStage_AndTheEnding" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="2132404978" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000442" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1097" name="Version2_RoundTripsEveryStage_AndTheEnding(2)" fullname="Echoes.Tests.Phase3SaveTests.Version2_RoundTripsEveryStage_AndTheEnding(2)" methodname="Version2_RoundTripsEveryStage_AndTheEnding" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="668984022" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000438" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1098" name="Version2_RoundTripsEveryStage_AndTheEnding(3)" fullname="Echoes.Tests.Phase3SaveTests.Version2_RoundTripsEveryStage_AndTheEnding(3)" methodname="Version2_RoundTripsEveryStage_AndTheEnding" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1808174302" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000387" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1099" name="Version2_RoundTripsEveryStage_AndTheEnding(4)" fullname="Echoes.Tests.Phase3SaveTests.Version2_RoundTripsEveryStage_AndTheEnding(4)" methodname="Version2_RoundTripsEveryStage_AndTheEnding" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="992295234" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000421" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1106" name="VersionNumbers_AreValidated" fullname="Echoes.Tests.Phase3SaveTests.VersionNumbers_AreValidated" methodname="VersionNumbers_AreValidated" classname="Echoes.Tests.Phase3SaveTests" runstate="Runnable" seed="1990521696" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:58Z" duration="0.000909" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1112" name="Phase3SceneTests" fullname="Echoes.Tests.Phase3SceneTests" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:59:09Z" duration="11.036474" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1121" name="EndingScreen_IsWired_StartsHidden_AndOffersBothWaysOut" fullname="Echoes.Tests.Phase3SceneTests.EndingScreen_IsWired_StartsHidden_AndOffersBothWaysOut" methodname="EndingScreen_IsWired_StartsHidden_AndOffersBothWaysOut" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="1996440231" result="Passed" start-time="2026-10-29 08:58:58Z" end-time="2026-10-29 08:58:59Z" duration="1.010062" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1124" name="EveryDialogueLine_FitsTheDialogueBox" fullname="Echoes.Tests.Phase3SceneTests.EveryDialogueLine_FitsTheDialogueBox" methodname="EveryDialogueLine_FitsTheDialogueBox" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="1821886313" result="Passed" start-time="2026-10-29 08:58:59Z" end-time="2026-10-29 08:59:00Z" duration="0.987711" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1123" name="EveryObjectiveTheGameCanShow_FitsTheObjectivePanel_AndNamesTheNextStep" fullname="Echoes.Tests.Phase3SceneTests.EveryObjectiveTheGameCanShow_FitsTheObjectivePanel_AndNamesTheNextStep" methodname="EveryObjectiveTheGameCanShow_FitsTheObjectivePanel_AndNamesTheNextStep" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="1010534353" result="Passed" start-time="2026-10-29 08:59:00Z" end-time="2026-10-29 08:59:01Z" duration="0.948352" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1122" name="MainMenu_HasTheNewGameQuestion_WiredAndHidden" fullname="Echoes.Tests.Phase3SceneTests.MainMenu_HasTheNewGameQuestion_WiredAndHidden" methodname="MainMenu_HasTheNewGameQuestion_WiredAndHidden" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="1785288291" result="Passed" start-time="2026-10-29 08:59:01Z" end-time="2026-10-29 08:59:02Z" duration="0.651101" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1118" name="NewPlaces_StayClearOfResourceNodes_AndOfEachOther" fullname="Echoes.Tests.Phase3SceneTests.NewPlaces_StayClearOfResourceNodes_AndOfEachOther" methodname="NewPlaces_StayClearOfResourceNodes_AndOfEachOther" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="1722678746" result="Passed" start-time="2026-10-29 08:59:02Z" end-time="2026-10-29 08:59:03Z" duration="1.149855" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1114" name="ResonanceView_IsWiredForAllFourStages" fullname="Echoes.Tests.Phase3SceneTests.ResonanceView_IsWiredForAllFourStages" methodname="ResonanceView_IsWiredForAllFourStages" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="1152545809" result="Passed" start-time="2026-10-29 08:59:03Z" end-time="2026-10-29 08:59:04Z" duration="1.170926" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1117" name="TheGarden_HasItsBeds_AGate_AndBothStatesUnderOneRoot" fullname="Echoes.Tests.Phase3SceneTests.TheGarden_HasItsBeds_AGate_AndBothStatesUnderOneRoot" methodname="TheGarden_HasItsBeds_AGate_AndBothStatesUnderOneRoot" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="610018373" result="Passed" start-time="2026-10-29 08:59:04Z" end-time="2026-10-29 08:59:05Z" duration="1.094416" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1119" name="TheGround_IsFlatUnderTheGardenAndTheWindmill" fullname="Echoes.Tests.Phase3SceneTests.TheGround_IsFlatUnderTheGardenAndTheWindmill" methodname="TheGround_IsFlatUnderTheGardenAndTheWindmill" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="2058016505" result="Passed" start-time="2026-10-29 08:59:05Z" end-time="2026-10-29 08:59:06Z" duration="0.950807" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1120" name="TheNewPrefabs_ExistAndAreNotDuplicatedByTheGenerator" fullname="Echoes.Tests.Phase3SceneTests.TheNewPrefabs_ExistAndAreNotDuplicatedByTheGenerator" methodname="TheNewPrefabs_ExistAndAreNotDuplicatedByTheGenerator" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="255284882" result="Passed" start-time="2026-10-29 08:59:06Z" end-time="2026-10-29 08:59:06Z" duration="0.000611" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1113" name="Valley_HasExactlyThreeVillagers_OnTheSharedInteractionFramework" fullname="Echoes.Tests.Phase3SceneTests.Valley_HasExactlyThreeVillagers_OnTheSharedInteractionFramework" methodname="Valley_HasExactlyThreeVillagers_OnTheSharedInteractionFramework" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="235183147" result="Passed" start-time="2026-10-29 08:59:06Z" end-time="2026-10-29 08:59:07Z" duration="1.029612" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1115" name="Valley_StartsInTheSilentState_ForEveryStage" fullname="Echoes.Tests.Phase3SceneTests.Valley_StartsInTheSilentState_ForEveryStage" methodname="Valley_StartsInTheSilentState_ForEveryStage" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="920552877" result="Passed" start-time="2026-10-29 08:59:07Z" end-time="2026-10-29 08:59:08Z" duration="1.031459" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1116" name="Windmill_HasARotor_BothSailSets_AndASolidTower" fullname="Echoes.Tests.Phase3SceneTests.Windmill_HasARotor_BothSailSets_AndASolidTower" methodname="Windmill_HasARotor_BothSailSets_AndASolidTower" classname="Echoes.Tests.Phase3SceneTests" runstate="Runnable" seed="516173063" result="Passed" start-time="2026-10-29 08:59:08Z" end-time="2026-10-29 08:59:09Z" duration="1.006784" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1125" name="Phase3SessionTests" fullname="Echoes.Tests.Phase3SessionTests" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" testcasecount="21" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.025421" total="21" passed="21" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1146" name="AfterEveryRestoration_GatheringCraftingAndTheHenKeepWorking" fullname="Echoes.Tests.Phase3SessionTests.AfterEveryRestoration_GatheringCraftingAndTheHenKeepWorking" methodname="AfterEveryRestoration_GatheringCraftingAndTheHenKeepWorking" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="2086646933" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.001942" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1144" name="ANearlyFullEggStack_StillDelivers_AndALayingHenNeverLosesAnEgg" fullname="Echoes.Tests.Phase3SessionTests.ANearlyFullEggStack_StillDelivers_AndALayingHenNeverLosesAnEgg" methodname="ANearlyFullEggStack_StillDelivers_AndALayingHenNeverLosesAnEgg" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="2087002809" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000659" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1134" name="AnEggCollectedBeforeTheQuest_CompletesItWithoutASoftlock" fullname="Echoes.Tests.Phase3SessionTests.AnEggCollectedBeforeTheQuest_CompletesItWithoutASoftlock" methodname="AnEggCollectedBeforeTheQuest_CompletesItWithoutASoftlock" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="815825593" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000417" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1139" name="BracesCraftedAtAnyEarlierPoint_StillCompleteTheQuest" fullname="Echoes.Tests.Phase3SessionTests.BracesCraftedAtAnyEarlierPoint_StillCompleteTheQuest" methodname="BracesCraftedAtAnyEarlierPoint_StillCompleteTheQuest" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="748772312" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000548" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1138" name="BracesDelivery_ConsumesExactlyOneSet_PaysOnce_AndMovesToStageThree" fullname="Echoes.Tests.Phase3SessionTests.BracesDelivery_ConsumesExactlyOneSet_PaysOnce_AndMovesToStageThree" methodname="BracesDelivery_ConsumesExactlyOneSet_PaysOnce_AndMovesToStageThree" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="1117517566" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000547" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1137" name="BracesDelivery_NeedsTheQuestAndRealBraces_AndOtherwiseChangesNothing" fullname="Echoes.Tests.Phase3SessionTests.BracesDelivery_NeedsTheQuestAndRealBraces_AndOtherwiseChangesNothing" methodname="BracesDelivery_NeedsTheQuestAndRealBraces_AndOtherwiseChangesNothing" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="1500086251" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000772" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1131" name="EggDelivery_ConsumesExactlyOneEgg_PaysOnce_AndMovesToStageTwo" fullname="Echoes.Tests.Phase3SessionTests.EggDelivery_ConsumesExactlyOneEgg_PaysOnce_AndMovesToStageTwo" methodname="EggDelivery_ConsumesExactlyOneEgg_PaysOnce_AndMovesToStageTwo" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="475936682" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000678" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1130" name="EggDelivery_NeedsTheQuestAndARealEgg_AndOtherwiseChangesNothing" fullname="Echoes.Tests.Phase3SessionTests.EggDelivery_NeedsTheQuestAndARealEgg_AndOtherwiseChangesNothing" methodname="EggDelivery_NeedsTheQuestAndARealEgg_AndOtherwiseChangesNothing" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="578337401" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000371" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1141" name="Ending_NeedsTheRestoredValley_AndIsRecordedOnce" fullname="Echoes.Tests.Phase3SessionTests.Ending_NeedsTheRestoredValley_AndIsRecordedOnce" methodname="Ending_NeedsTheRestoredValley_AndIsRecordedOnce" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="2091013773" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000612" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1142" name="EveryOutOfOrderAttempt_ChangesNothing" fullname="Echoes.Tests.Phase3SessionTests.EveryOutOfOrderAttempt_ChangesNothing" methodname="EveryOutOfOrderAttempt_ChangesNothing" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="1951713186" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.001174" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1143" name="FullPlaythrough_OnlyRenewableResourcesAndPublicActions_ReachesTheEnding_InOrder" fullname="Echoes.Tests.Phase3SessionTests.FullPlaythrough_OnlyRenewableResourcesAndPublicActions_ReachesTheEnding_InOrder" methodname="FullPlaythrough_OnlyRenewableResourcesAndPublicActions_ReachesTheEnding_InOrder" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="2032490919" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.004069" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1128" name="GardenQuest_IsLockedUntilTheStreamIsRestored" fullname="Echoes.Tests.Phase3SessionTests.GardenQuest_IsLockedUntilTheStreamIsRestored" methodname="GardenQuest_IsLockedUntilTheStreamIsRestored" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="1173101289" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000511" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1129" name="GardenQuest_StartsOnce_AtStageOne_AndChangesNothingElse" fullname="Echoes.Tests.Phase3SessionTests.GardenQuest_StartsOnce_AtStageOne_AndChangesNothingElse" methodname="GardenQuest_StartsOnce_AtStageOne_AndChangesNothingElse" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="835381845" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000719" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1133" name="GardenQuest_WorksThroughTheRealHenCycle_AndTheHenStaysUsable" fullname="Echoes.Tests.Phase3SessionTests.GardenQuest_WorksThroughTheRealHenCycle_AndTheHenStaysUsable" methodname="GardenQuest_WorksThroughTheRealHenCycle_AndTheHenStaysUsable" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="1629498442" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000613" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1127" name="NewSession_HasNoLaterQuestProgress" fullname="Echoes.Tests.Phase3SessionTests.NewSession_HasNoLaterQuestProgress" methodname="NewSession_HasNoLaterQuestProgress" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="751192464" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000238" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1132" name="RapidRepeatedEggDeliveries_PayAndConsumeOnlyOnce" fullname="Echoes.Tests.Phase3SessionTests.RapidRepeatedEggDeliveries_PayAndConsumeOnlyOnce" methodname="RapidRepeatedEggDeliveries_PayAndConsumeOnlyOnce" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="937523823" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000402" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1126" name="ResonanceStages_KeepTheirSavedIntegerValues" fullname="Echoes.Tests.Phase3SessionTests.ResonanceStages_KeepTheirSavedIntegerValues" methodname="ResonanceStages_KeepTheirSavedIntegerValues" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="452762360" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000188" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1145" name="RewardsAtTheCoinCap_AreClamped_NeverLostAndNeverBlockProgress" fullname="Echoes.Tests.Phase3SessionTests.RewardsAtTheCoinCap_AreClamped_NeverLostAndNeverBlockProgress" methodname="RewardsAtTheCoinCap_AreClamped_NeverLostAndNeverBlockProgress" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="2050857197" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000376" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1140" name="TheWindmillNeedsOnlyRenewableOre_EvenWithASingleNode" fullname="Echoes.Tests.Phase3SessionTests.TheWindmillNeedsOnlyRenewableOre_EvenWithASingleNode" methodname="TheWindmillNeedsOnlyRenewableOre_EvenWithASingleNode" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="893772959" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000513" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1135" name="WindmillQuest_IsLockedUntilTheGardenBlooms" fullname="Echoes.Tests.Phase3SessionTests.WindmillQuest_IsLockedUntilTheGardenBlooms" methodname="WindmillQuest_IsLockedUntilTheGardenBlooms" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="898060806" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000478" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1136" name="WindmillQuest_StartsOnce_AtStageTwo" fullname="Echoes.Tests.Phase3SessionTests.WindmillQuest_StartsOnce_AtStageTwo" methodname="WindmillQuest_StartsOnce_AtStageTwo" classname="Echoes.Tests.Phase3SessionTests" runstate="Runnable" seed="568565620" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.000521" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1147" name="Phase4AudioTests" fullname="Echoes.Tests.Phase4AudioTests" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:24Z" duration="14.573289" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1148" name="EverySound_ExistsAndImportsAsPlainMonoPcm" fullname="Echoes.Tests.Phase4AudioTests.EverySound_ExistsAndImportsAsPlainMonoPcm" methodname="EverySound_ExistsAndImportsAsPlainMonoPcm" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="2137719285" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:09Z" duration="0.017976" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1150" name="EverySound_IsAudible_NotClipped_AndFreeOfDcOffset" fullname="Echoes.Tests.Phase4AudioTests.EverySound_IsAudible_NotClipped_AndFreeOfDcOffset" methodname="EverySound_IsAudible_NotClipped_AndFreeOfDcOffset" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="100771772" result="Passed" start-time="2026-10-29 08:59:09Z" end-time="2026-10-29 08:59:10Z" duration="0.829809" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1162" name="EverySpeakerHasATint_AndTheVillagersAreDistinct" fullname="Echoes.Tests.Phase4AudioTests.EverySpeakerHasATint_AndTheVillagersAreDistinct" methodname="EverySpeakerHasATint_AndTheVillagersAreDistinct" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="627585743" result="Passed" start-time="2026-10-29 08:59:10Z" end-time="2026-10-29 08:59:10Z" duration="0.001168" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1149" name="Loops_HaveTheExactLoopLength_SoEveryStemStaysInStep" fullname="Echoes.Tests.Phase4AudioTests.Loops_HaveTheExactLoopLength_SoEveryStemStaysInStep" methodname="Loops_HaveTheExactLoopLength_SoEveryStemStaysInStep" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="139443136" result="Passed" start-time="2026-10-29 08:59:10Z" end-time="2026-10-29 08:59:10Z" duration="0.227634" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1152" name="Loops_JoinWithoutAClick" fullname="Echoes.Tests.Phase4AudioTests.Loops_JoinWithoutAClick" methodname="Loops_JoinWithoutAClick" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="153915895" result="Passed" start-time="2026-10-29 08:59:10Z" end-time="2026-10-29 08:59:13Z" duration="3.019053" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1151" name="OneShots_StartAndEndInSilence_SoNothingClicks" fullname="Echoes.Tests.Phase4AudioTests.OneShots_StartAndEndInSilence_SoNothingClicks" methodname="OneShots_StartAndEndInSilence_SoNothingClicks" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="1836943981" result="Passed" start-time="2026-10-29 08:59:13Z" end-time="2026-10-29 08:59:13Z" duration="0.034119" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1153" name="TheComposition_StaysInDMajor_AndItsPhrasesFillTheirBars" fullname="Echoes.Tests.Phase4AudioTests.TheComposition_StaysInDMajor_AndItsPhrasesFillTheirBars" methodname="TheComposition_StaysInDMajor_AndItsPhrasesFillTheirBars" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="301117744" result="Passed" start-time="2026-10-29 08:59:13Z" end-time="2026-10-29 08:59:13Z" duration="0.004859" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1161" name="TheCredits_StateWhatIsTrue_AndDoNotInventAName" fullname="Echoes.Tests.Phase4AudioTests.TheCredits_StateWhatIsTrue_AndDoNotInventAName" methodname="TheCredits_StateWhatIsTrue_AndDoNotInventAName" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="1926465497" result="Passed" start-time="2026-10-29 08:59:13Z" end-time="2026-10-29 08:59:13Z" duration="0.001214" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1157" name="TheOfflineMix_NeverClips_AndGrowsFromEachStageToTheNext" fullname="Echoes.Tests.Phase4AudioTests.TheOfflineMix_NeverClips_AndGrowsFromEachStageToTheNext" methodname="TheOfflineMix_NeverClips_AndGrowsFromEachStageToTheNext" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="99165576" result="Passed" start-time="2026-10-29 08:59:13Z" end-time="2026-10-29 08:59:15Z" duration="1.264426" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1155" name="TheRenderedMusic_IsInKey_AndInTune" fullname="Echoes.Tests.Phase4AudioTests.TheRenderedMusic_IsInKey_AndInTune" methodname="TheRenderedMusic_IsInKey_AndInTune" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="574370319" result="Passed" start-time="2026-10-29 08:59:15Z" end-time="2026-10-29 08:59:22Z" duration="7.330360" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1156" name="TheStagePlan_AddsOneGroupOfLayersPerStage_AndNeverTakesOneAway" fullname="Echoes.Tests.Phase4AudioTests.TheStagePlan_AddsOneGroupOfLayersPerStage_AndNeverTakesOneAway" methodname="TheStagePlan_AddsOneGroupOfLayersPerStage_AndNeverTakesOneAway" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="105128325" result="Passed" start-time="2026-10-29 08:59:22Z" end-time="2026-10-29 08:59:22Z" duration="0.004167" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1159" name="TheTitleScreenDirector_PlaysTheWelcomeMix_AndKnowsTheInterfaceSounds" fullname="Echoes.Tests.Phase4AudioTests.TheTitleScreenDirector_PlaysTheWelcomeMix_AndKnowsTheInterfaceSounds" methodname="TheTitleScreenDirector_PlaysTheWelcomeMix_AndKnowsTheInterfaceSounds" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="1648704227" result="Passed" start-time="2026-10-29 08:59:22Z" end-time="2026-10-29 08:59:23Z" duration="0.701855" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1154" name="TheTuneComesHome_AndTheEndingResolvesOnTheHomeChord" fullname="Echoes.Tests.Phase4AudioTests.TheTuneComesHome_AndTheEndingResolvesOnTheHomeChord" methodname="TheTuneComesHome_AndTheEndingResolvesOnTheHomeChord" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="924868571" result="Passed" start-time="2026-10-29 08:59:23Z" end-time="2026-10-29 08:59:23Z" duration="0.005045" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1158" name="TheValleyDirector_HasEveryLayerAndCue_WiredAndFollowingTheStage" fullname="Echoes.Tests.Phase4AudioTests.TheValleyDirector_HasEveryLayerAndCue_WiredAndFollowingTheStage" methodname="TheValleyDirector_HasEveryLayerAndCue_WiredAndFollowingTheStage" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="374920674" result="Passed" start-time="2026-10-29 08:59:23Z" end-time="2026-10-29 08:59:24Z" duration="1.120111" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1160" name="VolumeSettings_RoundTrip_ClampAndShrugOffADamagedFile" fullname="Echoes.Tests.Phase4AudioTests.VolumeSettings_RoundTrip_ClampAndShrugOffADamagedFile" methodname="VolumeSettings_RoundTrip_ClampAndShrugOffADamagedFile" classname="Echoes.Tests.Phase4AudioTests" runstate="Runnable" seed="161632953" result="Passed" start-time="2026-10-29 08:59:24Z" end-time="2026-10-29 08:59:24Z" duration="0.005674" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1163" name="Phase4SceneTests" fullname="Echoes.Tests.Phase4SceneTests" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-29 08:59:24Z" end-time="2026-10-29 08:59:42Z" duration="18.512875" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1175" name="BothScenes_HavePostProcessing_AndTheGradientSky" fullname="Echoes.Tests.Phase4SceneTests.BothScenes_HavePostProcessing_AndTheGradientSky" methodname="BothScenes_HavePostProcessing_AndTheGradientSky" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="885502494" result="Passed" start-time="2026-10-29 08:59:24Z" end-time="2026-10-29 08:59:27Z" duration="2.864007" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1167" name="CreditsScreen_FitsItsText_AndItsButtonClearsTheHint" fullname="Echoes.Tests.Phase4SceneTests.CreditsScreen_FitsItsText_AndItsButtonClearsTheHint" methodname="CreditsScreen_FitsItsText_AndItsButtonClearsTheHint" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="582116463" result="Passed" start-time="2026-10-29 08:59:27Z" end-time="2026-10-29 08:59:27Z" duration="0.712700" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1165" name="EndingCard_ClearsTheObjectiveAndStatusPanels_AndUsesTheCreditLines" fullname="Echoes.Tests.Phase4SceneTests.EndingCard_ClearsTheObjectiveAndStatusPanels_AndUsesTheCreditLines" methodname="EndingCard_ClearsTheObjectiveAndStatusPanels_AndUsesTheCreditLines" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="559999558" result="Passed" start-time="2026-10-29 08:59:27Z" end-time="2026-10-29 08:59:28Z" duration="1.159834" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1171" name="EveryRenderer_HasItsMaterials_AndEveryShaderIsSupported" fullname="Echoes.Tests.Phase4SceneTests.EveryRenderer_HasItsMaterials_AndEveryShaderIsSupported" methodname="EveryRenderer_HasItsMaterials_AndEveryShaderIsSupported" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="247634346" result="Passed" start-time="2026-10-29 08:59:28Z" end-time="2026-10-29 08:59:30Z" duration="1.881904" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1164" name="Hud_ElementsThatCanShowTogether_NeverOverlap" fullname="Echoes.Tests.Phase4SceneTests.Hud_ElementsThatCanShowTogether_NeverOverlap" methodname="Hud_ElementsThatCanShowTogether_NeverOverlap" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="2128076133" result="Passed" start-time="2026-10-29 08:59:30Z" end-time="2026-10-29 08:59:32Z" duration="1.232676" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1166" name="MainMenu_HasCreditsAndVolume_WiredAndHidden_AndNothingOverlaps" fullname="Echoes.Tests.Phase4SceneTests.MainMenu_HasCreditsAndVolume_WiredAndHidden_AndNothingOverlaps" methodname="MainMenu_HasCreditsAndVolume_WiredAndHidden_AndNothingOverlaps" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="753457967" result="Passed" start-time="2026-10-29 08:59:32Z" end-time="2026-10-29 08:59:32Z" duration="0.688555" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1170" name="NoLabelInEitherScene_IsTallerThanItsBox" fullname="Echoes.Tests.Phase4SceneTests.NoLabelInEitherScene_IsTallerThanItsBox" methodname="NoLabelInEitherScene_IsTallerThanItsBox" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="570975858" result="Passed" start-time="2026-10-29 08:59:32Z" end-time="2026-10-29 08:59:34Z" duration="1.951522" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1174" name="NoParticleSystem_MixesCurveModesInItsVelocity" fullname="Echoes.Tests.Phase4SceneTests.NoParticleSystem_MixesCurveModesInItsVelocity" methodname="NoParticleSystem_MixesCurveModesInItsVelocity" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="2013436305" result="Passed" start-time="2026-10-29 08:59:34Z" end-time="2026-10-29 08:59:36Z" duration="1.842412" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1173" name="NoScript_AndNoReference_IsMissing_InEitherScene" fullname="Echoes.Tests.Phase4SceneTests.NoScript_AndNoReference_IsMissing_InEitherScene" methodname="NoScript_AndNoReference_IsMissing_InEitherScene" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="1655750678" result="Passed" start-time="2026-10-29 08:59:36Z" end-time="2026-10-29 08:59:38Z" duration="1.917712" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1168" name="PauseMenu_HasVolumeSliders_AndItsPartsDoNotOverlap" fullname="Echoes.Tests.Phase4SceneTests.PauseMenu_HasVolumeSliders_AndItsPartsDoNotOverlap" methodname="PauseMenu_HasVolumeSliders_AndItsPartsDoNotOverlap" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="1862161124" result="Passed" start-time="2026-10-29 08:59:38Z" end-time="2026-10-29 08:59:39Z" duration="1.284360" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1169" name="TheDialogueNamePlate_ShowsTheLongestSpeakerOnOneLine" fullname="Echoes.Tests.Phase4SceneTests.TheDialogueNamePlate_ShowsTheLongestSpeakerOnOneLine" methodname="TheDialogueNamePlate_ShowsTheLongestSpeakerOnOneLine" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="1481788253" result="Passed" start-time="2026-10-29 08:59:39Z" end-time="2026-10-29 08:59:40Z" duration="1.027944" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1172" name="TheTerrainLayers_HaveTheirTextures" fullname="Echoes.Tests.Phase4SceneTests.TheTerrainLayers_HaveTheirTextures" methodname="TheTerrainLayers_HaveTheirTextures" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="1701717950" result="Passed" start-time="2026-10-29 08:59:40Z" end-time="2026-10-29 08:59:41Z" duration="0.971479" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1176" name="TheValley_HasCloudsFlowingWaterGlowingWindowsAndRiggedCharacters" fullname="Echoes.Tests.Phase4SceneTests.TheValley_HasCloudsFlowingWaterGlowingWindowsAndRiggedCharacters" methodname="TheValley_HasCloudsFlowingWaterGlowingWindowsAndRiggedCharacters" classname="Echoes.Tests.Phase4SceneTests" runstate="Runnable" seed="1787463509" result="Passed" start-time="2026-10-29 08:59:41Z" end-time="2026-10-29 08:59:42Z" duration="0.966331" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1177" name="Phase51ArtTests" fullname="Echoes.Tests.Phase51ArtTests" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-29 08:59:42Z" end-time="2026-10-29 08:59:44Z" duration="1.691423" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1178" name="ClosedSleevesAndTrousers_FaceOutward_NotJustConsistentlyInward" fullname="Echoes.Tests.Phase51ArtTests.ClosedSleevesAndTrousers_FaceOutward_NotJustConsistentlyInward" methodname="ClosedSleevesAndTrousers_FaceOutward_NotJustConsistentlyInward" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" seed="653141282" result="Passed" start-time="2026-10-29 08:59:42Z" end-time="2026-10-29 08:59:42Z" duration="0.015457" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1180" name="Clover_HasOriginalBirdGeometryInsideTheExistingBodyAndStateIndicators" fullname="Echoes.Tests.Phase51ArtTests.Clover_HasOriginalBirdGeometryInsideTheExistingBodyAndStateIndicators" methodname="Clover_HasOriginalBirdGeometryInsideTheExistingBodyAndStateIndicators" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" seed="131611852" result="Passed" start-time="2026-10-29 08:59:42Z" end-time="2026-10-29 08:59:42Z" duration="0.003174" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1182" name="GeneratedMeshes_MatchNativeUnityFaceWinding" fullname="Echoes.Tests.Phase51ArtTests.GeneratedMeshes_MatchNativeUnityFaceWinding" methodname="GeneratedMeshes_MatchNativeUnityFaceWinding" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" seed="1912136031" result="Passed" start-time="2026-10-29 08:59:42Z" end-time="2026-10-29 08:59:43Z" duration="0.210674" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1184" name="HeroMesh_IsAdultHeightWithNeckAndSevenHeadProportion_AndOriginalAssets" fullname="Echoes.Tests.Phase51ArtTests.HeroMesh_IsAdultHeightWithNeckAndSevenHeadProportion_AndOriginalAssets" methodname="HeroMesh_IsAdultHeightWithNeckAndSevenHeadProportion_AndOriginalAssets" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" seed="592284153" result="Passed" start-time="2026-10-29 08:59:43Z" end-time="2026-10-29 08:59:43Z" duration="0.010500" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1183" name="RebuildingVolume_KeepsGuidAndOnlyThreeReferencedOverrides" fullname="Echoes.Tests.Phase51ArtTests.RebuildingVolume_KeepsGuidAndOnlyThreeReferencedOverrides" methodname="RebuildingVolume_KeepsGuidAndOnlyThreeReferencedOverrides" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" seed="1480981192" result="Passed" start-time="2026-10-29 08:59:43Z" end-time="2026-10-29 08:59:43Z" duration="0.501318" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1181" name="SatchelSprites_AreBoundInStableCatalogOrder" fullname="Echoes.Tests.Phase51ArtTests.SatchelSprites_AreBoundInStableCatalogOrder" methodname="SatchelSprites_AreBoundInStableCatalogOrder" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" seed="2120358156" result="Passed" start-time="2026-10-29 08:59:43Z" end-time="2026-10-29 08:59:44Z" duration="0.915882" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1179" name="WorldHumans_PreserveCollidersAndUseDistinctOriginalMeshProfiles" fullname="Echoes.Tests.Phase51ArtTests.WorldHumans_PreserveCollidersAndUseDistinctOriginalMeshProfiles" methodname="WorldHumans_PreserveCollidersAndUseDistinctOriginalMeshProfiles" classname="Echoes.Tests.Phase51ArtTests" runstate="Runnable" seed="1878016051" result="Passed" start-time="2026-10-29 08:59:44Z" end-time="2026-10-29 08:59:44Z" duration="0.002183" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1185" name="Phase52B2Tests" fullname="Echoes.Tests.Phase52B2Tests" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-29 08:59:44Z" end-time="2026-10-29 08:59:48Z" duration="4.460705" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1191" name="FoliageMaterials_UseTheDitherFadeShader_AndTheDriverIsInThePilotScene" fullname="Echoes.Tests.Phase52B2Tests.FoliageMaterials_UseTheDitherFadeShader_AndTheDriverIsInThePilotScene" methodname="FoliageMaterials_UseTheDitherFadeShader_AndTheDriverIsInThePilotScene" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="1036763269" result="Passed" start-time="2026-10-29 08:59:44Z" end-time="2026-10-29 08:59:45Z" duration="1.089331" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1187" name="Hero_MeshBudget_IsBoundedAndEverySubmeshIsUsed" fullname="Echoes.Tests.Phase52B2Tests.Hero_MeshBudget_IsBoundedAndEverySubmeshIsUsed" methodname="Hero_MeshBudget_IsBoundedAndEverySubmeshIsUsed" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="924561263" result="Passed" start-time="2026-10-29 08:59:45Z" end-time="2026-10-29 08:59:45Z" duration="0.007021" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1186" name="Hero_UsesFewPaintedToonMaterials_WithTexturesPassesAndABlinkTwin" fullname="Echoes.Tests.Phase52B2Tests.Hero_UsesFewPaintedToonMaterials_WithTexturesPassesAndABlinkTwin" methodname="Hero_UsesFewPaintedToonMaterials_WithTexturesPassesAndABlinkTwin" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="255664807" result="Passed" start-time="2026-10-29 08:59:45Z" end-time="2026-10-29 08:59:45Z" duration="0.024359" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1194" name="NoPilotAssetReferencesAMissingTextureShaderOrMesh" fullname="Echoes.Tests.Phase52B2Tests.NoPilotAssetReferencesAMissingTextureShaderOrMesh" methodname="NoPilotAssetReferencesAMissingTextureShaderOrMesh" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="656238286" result="Passed" start-time="2026-10-29 08:59:45Z" end-time="2026-10-29 08:59:45Z" duration="0.006429" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1192" name="PilotTerrain_KeepsTheOriginalPathsAndPlaza_SumsToOne_AndIsNotUniform" fullname="Echoes.Tests.Phase52B2Tests.PilotTerrain_KeepsTheOriginalPathsAndPlaza_SumsToOne_AndIsNotUniform" methodname="PilotTerrain_KeepsTheOriginalPathsAndPlaza_SumsToOne_AndIsNotUniform" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="1398494200" result="Passed" start-time="2026-10-29 08:59:45Z" end-time="2026-10-29 08:59:46Z" duration="1.077288" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[P52B2 terrain weights] texels whose weights do not sum to 1: pilot=0 of 262144 (the original RC2 terrain has 156 such texels along its far southern edge)
+[P52B2 path preservation] original path centreline samples that were dirt=142, still dirt in the pilot terrain=140
+]]></output>
+            </test-case>
+            <test-case id="1193" name="PilotTerrainLayers_HaveRgbOnlyDiffuse_SoTheGroundNeverGetsASunGlint" fullname="Echoes.Tests.Phase52B2Tests.PilotTerrainLayers_HaveRgbOnlyDiffuse_SoTheGroundNeverGetsASunGlint" methodname="PilotTerrainLayers_HaveRgbOnlyDiffuse_SoTheGroundNeverGetsASunGlint" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="1421914938" result="Passed" start-time="2026-10-29 08:59:46Z" end-time="2026-10-29 08:59:47Z" duration="1.005820" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1190" name="Trees_AreSmallLeafClusters_HighAboveTheCameraCorridor" fullname="Echoes.Tests.Phase52B2Tests.Trees_AreSmallLeafClusters_HighAboveTheCameraCorridor" methodname="Trees_AreSmallLeafClusters_HighAboveTheCameraCorridor" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="148581991" result="Passed" start-time="2026-10-29 08:59:47Z" end-time="2026-10-29 08:59:47Z" duration="0.002718" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1189" name="TurnClips_KeyEveryBone_SoLayeredBlendingNeverFallsBackToTheRestPose" fullname="Echoes.Tests.Phase52B2Tests.TurnClips_KeyEveryBone_SoLayeredBlendingNeverFallsBackToTheRestPose" methodname="TurnClips_KeyEveryBone_SoLayeredBlendingNeverFallsBackToTheRestPose" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="1547105478" result="Passed" start-time="2026-10-29 08:59:47Z" end-time="2026-10-29 08:59:47Z" duration="0.023378" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1188" name="WalkClip_PlantsTheStanceFoot_AtTheUnchangedControllerSpeed" fullname="Echoes.Tests.Phase52B2Tests.WalkClip_PlantsTheStanceFoot_AtTheUnchangedControllerSpeed" methodname="WalkClip_PlantsTheStanceFoot_AtTheUnchangedControllerSpeed" classname="Echoes.Tests.Phase52B2Tests" runstate="Runnable" seed="1788061170" result="Passed" start-time="2026-10-29 08:59:47Z" end-time="2026-10-29 08:59:48Z" duration="1.214418" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[P52B2 foot planting] lowest sole vertex=-0.001319099 m; contact samples=1468; ground speed of contact vertices median=0.01026713 p90=0.4363624 m/s (controller 4.5)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1195" name="Phase52B3Tests" fullname="Echoes.Tests.Phase52B3Tests" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-29 08:59:48Z" end-time="2026-10-29 08:59:56Z" duration="7.959122" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1200" name="Atlas_TransparentTexelsCarryBledColour_SoFilteringLeavesNoDarkOrWhiteFringe" fullname="Echoes.Tests.Phase52B3Tests.Atlas_TransparentTexelsCarryBledColour_SoFilteringLeavesNoDarkOrWhiteFringe" methodname="Atlas_TransparentTexelsCarryBledColour_SoFilteringLeavesNoDarkOrWhiteFringe" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="2096707413" result="Passed" start-time="2026-10-29 08:59:48Z" end-time="2026-10-29 08:59:49Z" duration="0.649504" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1198" name="AtlasFrames_DoNotOverlap" fullname="Echoes.Tests.Phase52B3Tests.AtlasFrames_DoNotOverlap" methodname="AtlasFrames_DoNotOverlap" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="1448569716" result="Passed" start-time="2026-10-29 08:59:49Z" end-time="2026-10-29 08:59:49Z" duration="0.031082" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1196" name="B3Scene_KeepsOnePlayerRoot_AndTheSpriteIsAVisualOnlyChild" fullname="Echoes.Tests.Phase52B3Tests.B3Scene_KeepsOnePlayerRoot_AndTheSpriteIsAVisualOnlyChild" methodname="B3Scene_KeepsOnePlayerRoot_AndTheSpriteIsAVisualOnlyChild" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="1584394361" result="Passed" start-time="2026-10-29 08:59:49Z" end-time="2026-10-29 08:59:50Z" duration="1.026073" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1197" name="CaretakerSheet_HasRunAndIdleForFourDirections_AndEHasItsOwnFrames" fullname="Echoes.Tests.Phase52B3Tests.CaretakerSheet_HasRunAndIdleForFourDirections_AndEHasItsOwnFrames" methodname="CaretakerSheet_HasRunAndIdleForFourDirections_AndEHasItsOwnFrames" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="1144821628" result="Passed" start-time="2026-10-29 08:59:50Z" end-time="2026-10-29 08:59:50Z" duration="0.005578" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1203" name="DialogueBusts_AndSatchelPortrait_ShowTheSameOriginalCaretaker" fullname="Echoes.Tests.Phase52B3Tests.DialogueBusts_AndSatchelPortrait_ShowTheSameOriginalCaretaker" methodname="DialogueBusts_AndSatchelPortrait_ShowTheSameOriginalCaretaker" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="777567011" result="Passed" start-time="2026-10-29 08:59:50Z" end-time="2026-10-29 08:59:51Z" duration="0.989895" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1201" name="FixedCamera_IsConstrained_AndTheLegacyOrbitStaysForTheEndingDrift" fullname="Echoes.Tests.Phase52B3Tests.FixedCamera_IsConstrained_AndTheLegacyOrbitStaysForTheEndingDrift" methodname="FixedCamera_IsConstrained_AndTheLegacyOrbitStaysForTheEndingDrift" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="760134352" result="Passed" start-time="2026-10-29 08:59:51Z" end-time="2026-10-29 08:59:52Z" duration="0.993004" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1205" name="OriginalAndB2Scenes_ContainNoB3Presentation" fullname="Echoes.Tests.Phase52B3Tests.OriginalAndB2Scenes_ContainNoB3Presentation" methodname="OriginalAndB2Scenes_ContainNoB3Presentation" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="1555289722" result="Passed" start-time="2026-10-29 08:59:52Z" end-time="2026-10-29 08:59:54Z" duration="2.087374" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1199" name="RunCycle_StrideMatchesTheUnchangedControllerSpeed" fullname="Echoes.Tests.Phase52B3Tests.RunCycle_StrideMatchesTheUnchangedControllerSpeed" methodname="RunCycle_StrideMatchesTheUnchangedControllerSpeed" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="1464467543" result="Passed" start-time="2026-10-29 08:59:54Z" end-time="2026-10-29 08:59:55Z" duration="1.041011" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1204" name="Sprites_RecordTheUnmodifiedOwnerSuppliedSources" fullname="Echoes.Tests.Phase52B3Tests.Sprites_RecordTheUnmodifiedOwnerSuppliedSources" methodname="Sprites_RecordTheUnmodifiedOwnerSuppliedSources" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="160037072" result="Passed" start-time="2026-10-29 08:59:55Z" end-time="2026-10-29 08:59:55Z" duration="0.048056" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1202" name="Villagers_ShowIllustratedSprites_AndKeepTheirInteractionAndCollider" fullname="Echoes.Tests.Phase52B3Tests.Villagers_ShowIllustratedSprites_AndKeepTheirInteractionAndCollider" methodname="Villagers_ShowIllustratedSprites_AndKeepTheirInteractionAndCollider" classname="Echoes.Tests.Phase52B3Tests" runstate="Runnable" seed="79668737" result="Passed" start-time="2026-10-29 08:59:55Z" end-time="2026-10-29 08:59:56Z" duration="1.077868" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1206" name="Phase52B4Tests" fullname="Echoes.Tests.Phase52B4Tests" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-29 08:59:56Z" end-time="2026-10-29 09:00:13Z" duration="16.387309" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1210" name="B4Atlas_FramesDoNotOverlap_AndTransparentTexelsCarryBledColour" fullname="Echoes.Tests.Phase52B4Tests.B4Atlas_FramesDoNotOverlap_AndTransparentTexelsCarryBledColour" methodname="B4Atlas_FramesDoNotOverlap_AndTransparentTexelsCarryBledColour" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="719979919" result="Passed" start-time="2026-10-29 08:59:56Z" end-time="2026-10-29 08:59:57Z" duration="0.735620" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1211" name="B4RunCycle_StrideMatchesTheControllerSpeed_AtAReadableRate" fullname="Echoes.Tests.Phase52B4Tests.B4RunCycle_StrideMatchesTheControllerSpeed_AtAReadableRate" methodname="B4RunCycle_StrideMatchesTheControllerSpeed_AtAReadableRate" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="223980016" result="Passed" start-time="2026-10-29 08:59:57Z" end-time="2026-10-29 08:59:57Z" duration="0.000676" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1207" name="B4Scene_KeepsOnePlayerRoot_WithTheB4DrawingsOnTheUnchangedPresenter" fullname="Echoes.Tests.Phase52B4Tests.B4Scene_KeepsOnePlayerRoot_WithTheB4DrawingsOnTheUnchangedPresenter" methodname="B4Scene_KeepsOnePlayerRoot_WithTheB4DrawingsOnTheUnchangedPresenter" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="88850865" result="Passed" start-time="2026-10-29 08:59:57Z" end-time="2026-10-29 08:59:58Z" duration="1.114239" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1209" name="B4Sheet_HasFourDirections_TwelveIdleAndEightRunFrames_AtOneConsistentHeight" fullname="Echoes.Tests.Phase52B4Tests.B4Sheet_HasFourDirections_TwelveIdleAndEightRunFrames_AtOneConsistentHeight" methodname="B4Sheet_HasFourDirections_TwelveIdleAndEightRunFrames_AtOneConsistentHeight" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1088090045" result="Passed" start-time="2026-10-29 08:59:58Z" end-time="2026-10-29 08:59:58Z" duration="0.004235" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1220" name="B4Sources_AreTheUnmodifiedOwnerSuppliedFiles" fullname="Echoes.Tests.Phase52B4Tests.B4Sources_AreTheUnmodifiedOwnerSuppliedFiles" methodname="B4Sources_AreTheUnmodifiedOwnerSuppliedFiles" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1479794190" result="Passed" start-time="2026-10-29 08:59:58Z" end-time="2026-10-29 08:59:59Z" duration="1.039986" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1218" name="B4Terrain_IsACopyWithACobbledPlaza_AndTheB2TerrainIsUnchanged" fullname="Echoes.Tests.Phase52B4Tests.B4Terrain_IsACopyWithACobbledPlaza_AndTheB2TerrainIsUnchanged" methodname="B4Terrain_IsACopyWithACobbledPlaza_AndTheB2TerrainIsUnchanged" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1762183425" result="Passed" start-time="2026-10-29 08:59:59Z" end-time="2026-10-29 09:00:00Z" duration="1.014546" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1208" name="HighFixedCamera_UsesTheDefaultPitchWithinTheTestedRange_AndOnlyAGentleEndingSway" fullname="Echoes.Tests.Phase52B4Tests.HighFixedCamera_UsesTheDefaultPitchWithinTheTestedRange_AndOnlyAGentleEndingSway" methodname="HighFixedCamera_UsesTheDefaultPitchWithinTheTestedRange_AndOnlyAGentleEndingSway" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1891096525" result="Passed" start-time="2026-10-29 09:00:00Z" end-time="2026-10-29 09:00:01Z" duration="1.088626" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1216" name="Minimap_IsARealBakedMapOfTheValley_TurnedWithTheCamera" fullname="Echoes.Tests.Phase52B4Tests.Minimap_IsARealBakedMapOfTheValley_TurnedWithTheCamera" methodname="Minimap_IsARealBakedMapOfTheValley_TurnedWithTheCamera" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="800667955" result="Passed" start-time="2026-10-29 09:00:01Z" end-time="2026-10-29 09:00:03Z" duration="1.204693" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1217" name="MinimapTargets_FollowTheObjectivePanel" fullname="Echoes.Tests.Phase52B4Tests.MinimapTargets_FollowTheObjectivePanel" methodname="MinimapTargets_FollowTheObjectivePanel" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="667743026" result="Passed" start-time="2026-10-29 09:00:03Z" end-time="2026-10-29 09:00:03Z" duration="0.001604" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1221" name="OriginalB2AndB3Scenes_ContainNoB4Presentation" fullname="Echoes.Tests.Phase52B4Tests.OriginalB2AndB3Scenes_ContainNoB4Presentation" methodname="OriginalB2AndB3Scenes_ContainNoB4Presentation" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="2067041527" result="Passed" start-time="2026-10-29 09:00:03Z" end-time="2026-10-29 09:00:07Z" duration="4.476689" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1213" name="PaintedCardsAndFoliage_AreAlphaTestedWithDepth_SoTheyNeverDependOnSorting" fullname="Echoes.Tests.Phase52B4Tests.PaintedCardsAndFoliage_AreAlphaTestedWithDepth_SoTheyNeverDependOnSorting" methodname="PaintedCardsAndFoliage_AreAlphaTestedWithDepth_SoTheyNeverDependOnSorting" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="931359395" result="Passed" start-time="2026-10-29 09:00:07Z" end-time="2026-10-29 09:00:08Z" duration="1.209821" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1212" name="PaintedProps_StandOnTheirLandmarks_AsVisualOnlyCards" fullname="Echoes.Tests.Phase52B4Tests.PaintedProps_StandOnTheirLandmarks_AsVisualOnlyCards" methodname="PaintedProps_StandOnTheirLandmarks_AsVisualOnlyCards" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1003707951" result="Passed" start-time="2026-10-29 09:00:08Z" end-time="2026-10-29 09:00:09Z" duration="1.168222" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1219" name="PlazaStones_TakeThePaintedFieldstone_AndBeforeModeRestoresTheirMaterials" fullname="Echoes.Tests.Phase52B4Tests.PlazaStones_TakeThePaintedFieldstone_AndBeforeModeRestoresTheirMaterials" methodname="PlazaStones_TakeThePaintedFieldstone_AndBeforeModeRestoresTheirMaterials" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1114208836" result="Passed" start-time="2026-10-29 09:00:09Z" end-time="2026-10-29 09:00:11Z" duration="1.104589" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1215" name="ReplacedLandmarks_KeepTheirGameplayColliders" fullname="Echoes.Tests.Phase52B4Tests.ReplacedLandmarks_KeepTheirGameplayColliders" methodname="ReplacedLandmarks_KeepTheirGameplayColliders" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1200165308" result="Passed" start-time="2026-10-29 09:00:11Z" end-time="2026-10-29 09:00:12Z" duration="1.120274" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1214" name="WorkshopCollision_FollowsThePaintedFootprint_AndEveryInteractionStaysReachable" fullname="Echoes.Tests.Phase52B4Tests.WorkshopCollision_FollowsThePaintedFootprint_AndEveryInteractionStaysReachable" methodname="WorkshopCollision_FollowsThePaintedFootprint_AndEveryInteractionStaysReachable" classname="Echoes.Tests.Phase52B4Tests" runstate="Runnable" seed="1078718849" result="Passed" start-time="2026-10-29 09:00:12Z" end-time="2026-10-29 09:00:13Z" duration="1.093755" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1222" name="Phase52B5Tests" fullname="Echoes.Tests.Phase52B5Tests" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-29 09:00:13Z" end-time="2026-10-29 09:00:34Z" duration="21.125617" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1238" name="B5Scene_KeepsTheB4CaretakerCameraAndPlayerRoot" fullname="Echoes.Tests.Phase52B5Tests.B5Scene_KeepsTheB4CaretakerCameraAndPlayerRoot" methodname="B5Scene_KeepsTheB4CaretakerCameraAndPlayerRoot" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="1049892680" result="Passed" start-time="2026-10-29 09:00:13Z" end-time="2026-10-29 09:00:14Z" duration="1.471731" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1223" name="B5Sources_AreTheUnmodifiedOwnerSuppliedFiles" fullname="Echoes.Tests.Phase52B5Tests.B5Sources_AreTheUnmodifiedOwnerSuppliedFiles" methodname="B5Sources_AreTheUnmodifiedOwnerSuppliedFiles" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="1594340597" result="Passed" start-time="2026-10-29 09:00:14Z" end-time="2026-10-29 09:00:15Z" duration="0.369874" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1226" name="B5Terrain_KeepsTheB4Heights_AndUsesThePaintedLayers" fullname="Echoes.Tests.Phase52B5Tests.B5Terrain_KeepsTheB4Heights_AndUsesThePaintedLayers" methodname="B5Terrain_KeepsTheB4Heights_AndUsesThePaintedLayers" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="1821603478" result="Passed" start-time="2026-10-29 09:00:15Z" end-time="2026-10-29 09:00:16Z" duration="1.400025" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1237" name="BeforeMode_RestoresTheB4Presentation_InTheSameScene" fullname="Echoes.Tests.Phase52B5Tests.BeforeMode_RestoresTheB4Presentation_InTheSameScene" methodname="BeforeMode_RestoresTheB4Presentation_InTheSameScene" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="942341068" result="Passed" start-time="2026-10-29 09:00:16Z" end-time="2026-10-29 09:00:17Z" duration="1.421284" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1233" name="EveryInteraction_StaysReachable_WithTheB5Collision" fullname="Echoes.Tests.Phase52B5Tests.EveryInteraction_StaysReachable_WithTheB5Collision" methodname="EveryInteraction_StaysReachable_WithTheB5Collision" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="670125866" result="Passed" start-time="2026-10-29 09:00:17Z" end-time="2026-10-29 09:00:19Z" duration="1.207785" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1232" name="GardenBeds_StandOnTheRealGardenLayout_WithCollision_AndThePlantsFollowTheGardensOwnStage" fullname="Echoes.Tests.Phase52B5Tests.GardenBeds_StandOnTheRealGardenLayout_WithCollision_AndThePlantsFollowTheGardensOwnStage" methodname="GardenBeds_StandOnTheRealGardenLayout_WithCollision_AndThePlantsFollowTheGardensOwnStage" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="1265888173" result="Passed" start-time="2026-10-29 09:00:19Z" end-time="2026-10-29 09:00:20Z" duration="1.232533" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1235" name="GatheringSpots_KeepTheirNodes_WithPaintedReadyAndCutVisuals" fullname="Echoes.Tests.Phase52B5Tests.GatheringSpots_KeepTheirNodes_WithPaintedReadyAndCutVisuals" methodname="GatheringSpots_KeepTheirNodes_WithPaintedReadyAndCutVisuals" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="856021129" result="Passed" start-time="2026-10-29 09:00:20Z" end-time="2026-10-29 09:00:21Z" duration="1.272850" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1225" name="GroundTextures_ImportAsOpaqueRepeatingMipmappedDxt1_WithAnisotropy" fullname="Echoes.Tests.Phase52B5Tests.GroundTextures_ImportAsOpaqueRepeatingMipmappedDxt1_WithAnisotropy" methodname="GroundTextures_ImportAsOpaqueRepeatingMipmappedDxt1_WithAnisotropy" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="458283881" result="Passed" start-time="2026-10-29 09:00:21Z" end-time="2026-10-29 09:00:21Z" duration="0.009181" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1224" name="GroundTextures_WrapWithoutSeams_InBothDirections" fullname="Echoes.Tests.Phase52B5Tests.GroundTextures_WrapWithoutSeams_InBothDirections" methodname="GroundTextures_WrapWithoutSeams_InBothDirections" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="181293399" result="Passed" start-time="2026-10-29 09:00:21Z" end-time="2026-10-29 09:00:22Z" duration="0.448913" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1236" name="Minimap_IsTheB5ValleyBaked_AndBeforeModeShowsTheB4Bake" fullname="Echoes.Tests.Phase52B5Tests.Minimap_IsTheB5ValleyBaked_AndBeforeModeShowsTheB4Bake" methodname="Minimap_IsTheB5ValleyBaked_AndBeforeModeShowsTheB4Bake" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="2099630720" result="Passed" start-time="2026-10-29 09:00:22Z" end-time="2026-10-29 09:00:23Z" duration="1.366831" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1240" name="OriginalB2B3AndB4Scenes_ContainNoB5Presentation" fullname="Echoes.Tests.Phase52B5Tests.OriginalB2B3AndB4Scenes_ContainNoB5Presentation" methodname="OriginalB2B3AndB4Scenes_ContainNoB5Presentation" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="919179380" result="Passed" start-time="2026-10-29 09:00:23Z" end-time="2026-10-29 09:00:28Z" duration="4.534539" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1229" name="PaintedCards_AreAlphaTestedWithDepth_AndTheirTexturesKeepCoverageInTheMipmaps" fullname="Echoes.Tests.Phase52B5Tests.PaintedCards_AreAlphaTestedWithDepth_AndTheirTexturesKeepCoverageInTheMipmaps" methodname="PaintedCards_AreAlphaTestedWithDepth_AndTheirTexturesKeepCoverageInTheMipmaps" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="320745465" result="Passed" start-time="2026-10-29 09:00:28Z" end-time="2026-10-29 09:00:29Z" duration="1.191968" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1230" name="PaintedTextures_TransparentTexelsCarryBledColour_NoDarkOrWhiteHalo" fullname="Echoes.Tests.Phase52B5Tests.PaintedTextures_TransparentTexelsCarryBledColour_NoDarkOrWhiteHalo" methodname="PaintedTextures_TransparentTexelsCarryBledColour_NoDarkOrWhiteHalo" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="1688210384" result="Passed" start-time="2026-10-29 09:00:29Z" end-time="2026-10-29 09:00:29Z" duration="0.380174" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1231" name="PaintedTrees_StandOnTheOldTrees_WhoseTrunksStillBlock_AndWhoseShadowsStay" fullname="Echoes.Tests.Phase52B5Tests.PaintedTrees_StandOnTheOldTrees_WhoseTrunksStillBlock_AndWhoseShadowsStay" methodname="PaintedTrees_StandOnTheOldTrees_WhoseTrunksStillBlock_AndWhoseShadowsStay" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="538924688" result="Passed" start-time="2026-10-29 09:00:29Z" end-time="2026-10-29 09:00:30Z" duration="1.091380" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1239" name="SilentValleyLight_IsLessBlue_InB5_AndTheB4LightIsKeptForBeforeMode" fullname="Echoes.Tests.Phase52B5Tests.SilentValleyLight_IsLessBlue_InB5_AndTheB4LightIsKeptForBeforeMode" methodname="SilentValleyLight_IsLessBlue_InB5_AndTheB4LightIsKeptForBeforeMode" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="831409831" result="Passed" start-time="2026-10-29 09:00:30Z" end-time="2026-10-29 09:00:31Z" duration="1.100720" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1228" name="SpringCard_ShowsTheShownStage_OnTheSpringsLandmark" fullname="Echoes.Tests.Phase52B5Tests.SpringCard_ShowsTheShownStage_OnTheSpringsLandmark" methodname="SpringCard_ShowsTheShownStage_OnTheSpringsLandmark" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="755722419" result="Passed" start-time="2026-10-29 09:00:31Z" end-time="2026-10-29 09:00:32Z" duration="1.175314" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1234" name="SpringFootprint_IsSolid_AndOnlyOldStonesOutsideThePaintingStopBlocking" fullname="Echoes.Tests.Phase52B5Tests.SpringFootprint_IsSolid_AndOnlyOldStonesOutsideThePaintingStopBlocking" methodname="SpringFootprint_IsSolid_AndOnlyOldStonesOutsideThePaintingStopBlocking" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="507411693" result="Passed" start-time="2026-10-29 09:00:32Z" end-time="2026-10-29 09:00:33Z" duration="1.012473" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1227" name="SpringStages_AreFourRegisteredPaintingsOnOneFootprint" fullname="Echoes.Tests.Phase52B5Tests.SpringStages_AreFourRegisteredPaintingsOnOneFootprint" methodname="SpringStages_AreFourRegisteredPaintingsOnOneFootprint" classname="Echoes.Tests.Phase52B5Tests" runstate="Runnable" seed="136256520" result="Passed" start-time="2026-10-29 09:00:33Z" end-time="2026-10-29 09:00:34Z" duration="0.411065" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1241" name="Phase52SkinTests" fullname="Echoes.Tests.Phase52SkinTests" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-29 09:00:34Z" end-time="2026-10-29 09:00:51Z" duration="17.308439" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <output><![CDATA[Main Object Name 'Caretaker_OriginalWeightedSurface' does not match filename 'CaretakerWeighted'
+[Echoes][P52B2] native skin baked: bones=43 vertices=44598 triangles=61872 materials=8 clips=4 stride=2.88
+[Echoes][P52B2] bounded route: 8 tree models, 101 ground-cover clusters, 12 old renderers swapped; original colliders retained.
+[Echoes][P52] isolated pilot generated; default build scenes and original scenes/prefabs untouched.
+]]></output>
+            <test-case id="1243" name="FourAuthoredClips_ResolveTheirBonePathsAndContainChangingKneeCurves" fullname="Echoes.Tests.Phase52SkinTests.FourAuthoredClips_ResolveTheirBonePathsAndContainChangingKneeCurves" methodname="FourAuthoredClips_ResolveTheirBonePathsAndContainChangingKneeCurves" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" seed="2052369145" result="Passed" start-time="2026-10-29 09:00:46Z" end-time="2026-10-29 09:00:46Z" duration="0.148529" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1246" name="LocalTerrainPaint_KeepsEveryOriginalHeight" fullname="Echoes.Tests.Phase52SkinTests.LocalTerrainPaint_KeepsEveryOriginalHeight" methodname="LocalTerrainPaint_KeepsEveryOriginalHeight" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" seed="977910367" result="Passed" start-time="2026-10-29 09:00:46Z" end-time="2026-10-29 09:00:47Z" duration="1.323723" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1245" name="PilotScene_PreservesPlayerCameraColliderAndPublicInteractionCounts" fullname="Echoes.Tests.Phase52SkinTests.PilotScene_PreservesPlayerCameraColliderAndPublicInteractionCounts" methodname="PilotScene_PreservesPlayerCameraColliderAndPublicInteractionCounts" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" seed="1615987333" result="Passed" start-time="2026-10-29 09:00:47Z" end-time="2026-10-29 09:00:50Z" duration="2.241490" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1248" name="Portrait_IsCaretakerInformationAndNeverMiraSpeakerArt" fullname="Echoes.Tests.Phase52SkinTests.Portrait_IsCaretakerInformationAndNeverMiraSpeakerArt" methodname="Portrait_IsCaretakerInformationAndNeverMiraSpeakerArt" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" seed="1423717963" result="Passed" start-time="2026-10-29 09:00:50Z" end-time="2026-10-29 09:00:51Z" duration="1.072846" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1242" name="Skin_HasNormalizedWeightsAndBlendedJointInfluences" fullname="Echoes.Tests.Phase52SkinTests.Skin_HasNormalizedWeightsAndBlendedJointInfluences" methodname="Skin_HasNormalizedWeightsAndBlendedJointInfluences" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" seed="140468054" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.389580" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1247" name="ThreeTreeSilhouettes_UseCutoutWithTransparentBorderAndValidTexture" fullname="Echoes.Tests.Phase52SkinTests.ThreeTreeSilhouettes_UseCutoutWithTransparentBorderAndValidTexture" methodname="ThreeTreeSilhouettes_UseCutoutWithTransparentBorderAndValidTexture" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" seed="384514895" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.034099" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1244" name="WalkSample_BendsKneeAndActuallyDeformsTheNativeSkin" fullname="Echoes.Tests.Phase52SkinTests.WalkSample_BendsKneeAndActuallyDeformsTheNativeSkin" methodname="WalkSample_BendsKneeAndActuallyDeformsTheNativeSkin" classname="Echoes.Tests.Phase52SkinTests" runstate="Runnable" seed="802022334" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.032775" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[P52 Skin sample] actualVertexFloor=0.002102401 conservativeBoundsFloor=-0.0003308058 kneeBend=52.78543 averageVertexChange=0.06968404
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1249" name="SaveTests" fullname="Echoes.Tests.SaveTests" classname="Echoes.Tests.SaveTests" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.098585" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1252" name="CompletedRestoration_StaysCompleted_AndPaysNothingTwice" fullname="Echoes.Tests.SaveTests.CompletedRestoration_StaysCompleted_AndPaysNothingTwice" methodname="CompletedRestoration_StaysCompleted_AndPaysNothingTwice" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="344446035" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.001917" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1259" name="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing" fullname="Echoes.Tests.SaveTests.CorruptJson_IsRejected_AsCorrupt_WithoutThrowing" classname="Echoes.Tests.SaveTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.004194" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1255" name="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;&quot;)" fullname="Echoes.Tests.SaveTests.CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;&quot;)" methodname="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1202619900" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000866" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1256" name="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;   &quot;)" fullname="Echoes.Tests.SaveTests.CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;   &quot;)" methodname="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1085622991" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000492" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1257" name="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;this is not json&quot;)" fullname="Echoes.Tests.SaveTests.CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;this is not json&quot;)" methodname="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1715156737" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000431" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1258" name="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;{{{{&quot;)" fullname="Echoes.Tests.SaveTests.CorruptJson_IsRejected_AsCorrupt_WithoutThrowing(&quot;{{{{&quot;)" methodname="CorruptJson_IsRejected_AsCorrupt_WithoutThrowing" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1358748973" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000337" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1269" name="CorruptMainAndBackup_ReportCorruption_AndNeverProduceASession" fullname="Echoes.Tests.SaveTests.CorruptMainAndBackup_ReportCorruption_AndNeverProduceASession" methodname="CorruptMainAndBackup_ReportCorruption_AndNeverProduceASession" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="967788064" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.010615" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1268" name="CorruptMainSave_FallsBackToTheBackup_AndSaysSo" fullname="Echoes.Tests.SaveTests.CorruptMainSave_FallsBackToTheBackup_AndSaysSo" methodname="CorruptMainSave_FallsBackToTheBackup_AndSaysSo" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1668306885" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.007837" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1271" name="FailedWrite_LeavesTheExistingSaveUntouched" fullname="Echoes.Tests.SaveTests.FailedWrite_LeavesTheExistingSaveUntouched" methodname="FailedWrite_LeavesTheExistingSaveUntouched" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="732653376" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.004844" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1250" name="FreshSession_RoundTripsThroughJson" fullname="Echoes.Tests.SaveTests.FreshSession_RoundTripsThroughJson" methodname="FreshSession_RoundTripsThroughJson" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1930454899" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.001091" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1263" name="HandEditedValues_FailTheIntegrityCheck" fullname="Echoes.Tests.SaveTests.HandEditedValues_FailTheIntegrityCheck" methodname="HandEditedValues_FailTheIntegrityCheck" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="205659818" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.002718" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1264" name="InvalidQuantities_AreRejected_EvenWithAMatchingChecksum" fullname="Echoes.Tests.SaveTests.InvalidQuantities_AreRejected_EvenWithAMatchingChecksum" methodname="InvalidQuantities_AreRejected_EvenWithAMatchingChecksum" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1479292256" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.003919" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1261" name="MissingFields_AreRejected" fullname="Echoes.Tests.SaveTests.MissingFields_AreRejected" methodname="MissingFields_AreRejected" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1709431897" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.001854" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1265" name="MissingSave_IsReportedAsMissing" fullname="Echoes.Tests.SaveTests.MissingSave_IsReportedAsMissing" methodname="MissingSave_IsReportedAsMissing" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="139846128" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000584" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1253" name="NewGame_IsCleanEvenAfterALoad" fullname="Echoes.Tests.SaveTests.NewGame_IsCleanEvenAfterALoad" methodname="NewGame_IsCleanEvenAfterALoad" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1999981611" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.001029" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1251" name="PlayedSession_RoundTripsEveryField" fullname="Echoes.Tests.SaveTests.PlayedSession_RoundTripsEveryField" methodname="PlayedSession_RoundTripsEveryField" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1006291953" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.001246" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1254" name="ProducingHenWithAnAlmostFinishedTimer_StillRoundTrips" fullname="Echoes.Tests.SaveTests.ProducingHenWithAnAlmostFinishedTimer_StillRoundTrips" methodname="ProducingHenWithAnAlmostFinishedTimer_StillRoundTrips" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1578662924" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000693" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1266" name="Save_WritesTheMainFile_AndLeavesNoTempFile" fullname="Echoes.Tests.SaveTests.Save_WritesTheMainFile_AndLeavesNoTempFile" methodname="Save_WritesTheMainFile_AndLeavesNoTempFile" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1876359776" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.004513" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1272" name="SavedFile_IsReadableJson_WithAnExplicitVersion" fullname="Echoes.Tests.SaveTests.SavedFile_IsReadableJson_WithAnExplicitVersion" methodname="SavedFile_IsReadableJson_WithAnExplicitVersion" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1342104835" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.004750" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1270" name="SavingOverACorruptMainFile_DoesNotDestroyAGoodBackup" fullname="Echoes.Tests.SaveTests.SavingOverACorruptMainFile_DoesNotDestroyAGoodBackup" methodname="SavingOverACorruptMainFile_DoesNotDestroyAGoodBackup" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1306627828" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.011361" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1267" name="SecondSave_KeepsThePreviousGoodSaveAsBackup" fullname="Echoes.Tests.SaveTests.SecondSave_KeepsThePreviousGoodSaveAsBackup" methodname="SecondSave_KeepsThePreviousGoodSaveAsBackup" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="764677766" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.007894" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1260" name="TruncatedJson_IsNeverAccepted" fullname="Echoes.Tests.SaveTests.TruncatedJson_IsNeverAccepted" methodname="TruncatedJson_IsNeverAccepted" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1126128980" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.004829" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1262" name="UnsupportedVersion_IsRejected" fullname="Echoes.Tests.SaveTests.UnsupportedVersion_IsRejected" methodname="UnsupportedVersion_IsRejected" classname="Echoes.Tests.SaveTests" runstate="Runnable" seed="1732978318" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000849" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1273" name="SceneContentTests" fullname="Echoes.Tests.SceneContentTests" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:01:40Z" duration="49.161155" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1274" name="BothScenesExist" fullname="Echoes.Tests.SceneContentTests.BothScenesExist" methodname="BothScenesExist" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="1351775528" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000707" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1275" name="BuildSettingsStartWithMainMenuThenValley" fullname="Echoes.Tests.SceneContentTests.BuildSettingsStartWithMainMenuThenValley" methodname="BuildSettingsStartWithMainMenuThenValley" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="1901874726" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:51Z" duration="0.000746" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1280" name="MainMenu_HasTitlePlayAndQuit" fullname="Echoes.Tests.SceneContentTests.MainMenu_HasTitlePlayAndQuit" methodname="MainMenu_HasTitlePlayAndQuit" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="454711454" result="Passed" start-time="2026-10-29 09:00:51Z" end-time="2026-10-29 09:00:52Z" duration="0.820989" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1276" name="ProjectTargetsWindowsMonoD3D11WithTheNewInputSystem" fullname="Echoes.Tests.SceneContentTests.ProjectTargetsWindowsMonoD3D11WithTheNewInputSystem" methodname="ProjectTargetsWindowsMonoD3D11WithTheNewInputSystem" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="1797959084" result="Passed" start-time="2026-10-29 09:00:52Z" end-time="2026-10-29 09:00:52Z" duration="0.002820" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1284" name="RunningTheGeneratorAgainDoesNotDuplicateContent" fullname="Echoes.Tests.SceneContentTests.RunningTheGeneratorAgainDoesNotDuplicateContent" methodname="RunningTheGeneratorAgainDoesNotDuplicateContent" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="1162650572" result="Passed" start-time="2026-10-29 09:00:52Z" end-time="2026-10-29 09:01:34Z" duration="42.266813" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Project generation started.
+[Echoes] Tuned 2 URP pipeline asset(s).
+[Echoes] Original Blender pilot baked: 164 mesh/material groups.
+[Echoes] Audio: 36 files (0 written, 36 unchanged).
+[Echoes] Generated Assets/Echoes/Scenes/MainMenu.unity
+[Echoes] Scenery: 56 trees, 14 rocks, 28 flower patches
+[Echoes] Scenery: 520 grass tufts
+[Echoes] Scenery: 41 reed clusters
+[Echoes] Scenery: 29 path stones
+[Echoes] Generated Assets/Echoes/Scenes/Valley.unity
+[Echoes] Project generation finished.
+]]></output>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1283" name="Scene_HasNoMissingScriptsReferencesOrShaders" fullname="Echoes.Tests.SceneContentTests.Scene_HasNoMissingScriptsReferencesOrShaders" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-29 09:01:34Z" end-time="2026-10-29 09:01:37Z" duration="2.482189" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1281" name="Scene_HasNoMissingScriptsReferencesOrShaders(&quot;Assets/Echoes/Scenes/MainMenu.unity&quot;)" fullname="Echoes.Tests.SceneContentTests.Scene_HasNoMissingScriptsReferencesOrShaders(&quot;Assets/Echoes/Scenes/MainMenu.unity&quot;)" methodname="Scene_HasNoMissingScriptsReferencesOrShaders" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="960044343" result="Passed" start-time="2026-10-29 09:01:34Z" end-time="2026-10-29 09:01:35Z" duration="0.883127" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1282" name="Scene_HasNoMissingScriptsReferencesOrShaders(&quot;Assets/Echoes/Scenes/Valley.unity&quot;)" fullname="Echoes.Tests.SceneContentTests.Scene_HasNoMissingScriptsReferencesOrShaders(&quot;Assets/Echoes/Scenes/Valley.unity&quot;)" methodname="Scene_HasNoMissingScriptsReferencesOrShaders" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="1544000576" result="Passed" start-time="2026-10-29 09:01:35Z" end-time="2026-10-29 09:01:37Z" duration="1.586204" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1278" name="Valley_HasFourInteractablesOnTheSharedFramework" fullname="Echoes.Tests.SceneContentTests.Valley_HasFourInteractablesOnTheSharedFramework" methodname="Valley_HasFourInteractablesOnTheSharedFramework" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="1598132250" result="Passed" start-time="2026-10-29 09:01:37Z" end-time="2026-10-29 09:01:38Z" duration="1.155950" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1279" name="Valley_HudObjectiveAndPauseAreWired" fullname="Echoes.Tests.SceneContentTests.Valley_HudObjectiveAndPauseAreWired" methodname="Valley_HudObjectiveAndPauseAreWired" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="1244370293" result="Passed" start-time="2026-10-29 09:01:38Z" end-time="2026-10-29 09:01:39Z" duration="1.178053" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1277" name="Valley_PlayerAndCameraAreConfigured" fullname="Echoes.Tests.SceneContentTests.Valley_PlayerAndCameraAreConfigured" methodname="Valley_PlayerAndCameraAreConfigured" classname="Echoes.Tests.SceneContentTests" runstate="Runnable" seed="2103528032" result="Passed" start-time="2026-10-29 09:01:39Z" end-time="2026-10-29 09:01:40Z" duration="1.249044" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/weila/AppData/LocalLow/EchoesJam/Echoes of the Valley\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

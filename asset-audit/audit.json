@@ -1,0 +1,111 @@
+{
+ "source": "D:\\workshop\\oct\\echoes-of-the-valley\\game\\Assets\\Echoes\\Art\\Phase52B5\\Source",
+ "props": {
+  "spring_S0_dormant": {
+   "softTexels": 24448,
+   "redFringe": 21,
+   "yellowFringe": 5821,
+   "lightFringe": 0,
+   "softFartherThan3px": 6877,
+   "maxSoftDistancePx": 14.317821063276353,
+   "opaqueTexels": 840248,
+   "size": [
+    1456,
+    1080
+   ],
+   "alphaMin": 0,
+   "alphaMax": 255
+  },
+  "spring_S3_restored": {
+   "softTexels": 27281,
+   "redFringe": 15,
+   "yellowFringe": 12897,
+   "lightFringe": 5,
+   "softFartherThan3px": 9244,
+   "maxSoftDistancePx": 14.560219778561036,
+   "opaqueTexels": 832686,
+   "size": [
+    1456,
+    1080
+   ],
+   "alphaMin": 0,
+   "alphaMax": 255
+  },
+  "farm_raised_beds": {
+   "softTexels": 36158,
+   "redFringe": 63,
+   "yellowFringe": 6851,
+   "lightFringe": 145,
+   "softFartherThan3px": 12155,
+   "maxSoftDistancePx": 14.560219778561036,
+   "opaqueTexels": 760818,
+   "size": [
+    1448,
+    1086
+   ],
+   "alphaMin": 0,
+   "alphaMax": 255
+  },
+  "broadleaf_tree": {
+   "softTexels": 61488,
+   "redFringe": 34,
+   "yellowFringe": 16660,
+   "lightFringe": 0,
+   "softFartherThan3px": 20197,
+   "maxSoftDistancePx": 19.6468827043885,
+   "opaqueTexels": 853152,
+   "size": [
+    1211,
+    1299
+   ],
+   "alphaMin": 0,
+   "alphaMax": 255
+  }
+ },
+ "ground": {
+  "meadow_grass_albedo": {
+   "edgeMaeX": 16.35,
+   "edgeMaeY": 14.67,
+   "innerNeighbourMaeX": 13.36,
+   "innerNeighbourMaeY": 10.92,
+   "seamRatioX": 1.22,
+   "seamRatioY": 1.34,
+   "lowFrequencyLumaStd": 1.97,
+   "meanRGB": [
+    107.7,
+    138.5,
+    46.2
+   ]
+  },
+  "tilled_soil_albedo": {
+   "edgeMaeX": 13.15,
+   "edgeMaeY": 11.51,
+   "innerNeighbourMaeX": 7.71,
+   "innerNeighbourMaeY": 8.14,
+   "seamRatioX": 1.71,
+   "seamRatioY": 1.41,
+   "lowFrequencyLumaStd": 0.98,
+   "meanRGB": [
+    102.9,
+    63.5,
+    35.2
+   ]
+  }
+ },
+ "springRegistration": {
+  "silhouetteIoU": 0.9831,
+  "siftMatches": 1181,
+  "ransacInliers": 1105,
+  "scale": 0.9994,
+  "rotationDeg": -0.01,
+  "translationPx": [
+   -0.5,
+   -0.42
+  ],
+  "inlierResidualMedianPx": 0.636,
+  "inlierResidualP95Px": 1.651,
+  "silhouetteIoUAfterAlignment": 0.9844,
+  "onlyS0PxAfter": 10051,
+  "onlyS3PxAfter": 3266
+ }
+}

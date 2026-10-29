@@ -1,0 +1,101 @@
+Mono path[0] = 'D:/workshop/oct/echoes-of-the-valley/artifacts/build/phase52-b5-final/EchoesOfTheValley_Data/Managed'
+Mono config path = 'D:/workshop/oct/echoes-of-the-valley/artifacts/build/phase52-b5-final/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.27f1 (672d562a42a7)
+[Subsystems] Discovering subsystems at path D:/workshop/oct/echoes-of-the-valley/artifacts/build/phase52-b5-final/EchoesOfTheValley_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon 780M Graphics (ID=0x1900)
+    Vendor:   ATI
+    VRAM:     16030 MB
+    Driver:   31.0.22042.4001
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.224 seconds
+- Finished resetting the current domain, in  0.007 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.007600 ms
+[Echoes][P52] pilot saves isolated: D:\workshop\oct\echoes-of-the-valley\artifacts\visual-qa\phase-5.2\b5\player-final\tour1080-before-unrecorded\save
+[Echoes] MainMenu ready.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.748300 ms
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 20182.
+Total: 6.229700 ms (FindLiveObjects: 2.187900 ms CreateObjectMapping: 0.367600 ms MarkObjects: 3.159600 ms  DeleteObjects: 0.514300 ms)
+
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=True; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5 TOUR] READY; AUTOMATED_INPUT; B4 presentation in the B5 scene (before mode); FixedFollowCamera25D yaw=45 pitch=48 distance=14 (zoom 10-17) fov=35
+[Echoes][P52 B5 TOUR] idle start on the plaza
+[Echoes][P52 B5 TOUR] zoom in to 10
+[Echoes][P52 B5 TOUR] zoom out to 17
+[Echoes][P52 B5 TOUR] zoom back to 14
+[Echoes][P52 B5 TOUR] eight directions (W, W+D, D, S+D, S, S+A, A, W+A)
+[Echoes][P52 B5 TOUR] stop after the directions
+[Echoes][P52 B5 TOUR] three small circles on the plaza (every facing three times)
+[Echoes][P52 B5 TOUR] stop after the circles
+[Echoes][P52 B5 TOUR] walk to Mira
+[Echoes][P52 B5 TOUR] stop at Mira
+[Echoes][P52 B5 TOUR] talk to Mira: dialogue open (Mira)
+[Echoes][P52 B5 TOUR] talk to Mira: dialogue closed after 3 lines; objective now Spring
+[Echoes][P52 B5 TOUR] walk to the workshop door
+[Echoes][P52 B5 TOUR] stop at the workshop door
+[Echoes][P52 B5 TOUR] walk round behind the painted workshop
+[Echoes][P52 B5 TOUR] stop behind the workshop (occluded)
+[Echoes][P52 B5 TOUR] walk along the workshop's back
+[Echoes][P52 B5 TOUR] circle under the willow canopy
+[Echoes][P52 B5 TOUR] walk to the Dawn Blossom
+[Echoes][P52 B5 TOUR] stop at the Dawn Blossom
+[Echoes][P52 B5 TOUR] gathered flower_3 (0 -> 1); ready visual shown False
+[Echoes][P52 B5 TOUR] walk south and under the broadleaf by the hen yard
+[Echoes][P52 B5 TOUR] stop under the broadleaf's canopy (behind its trunk)
+[Echoes][P52 B5 TOUR] walk to the garden's west gate
+[Echoes][P52 B5 TOUR] walk into the garden between the raised beds
+[Echoes][P52 B5 TOUR] stop at the garden's east end
+[Echoes][P52 B5 TOUR] walk back out of the garden
+[Echoes][P52 B5 TOUR] walk round the plaza to the west path and the spring
+[Echoes][P52 B5 TOUR] step up to the spring until it is offered
+[Echoes][P52 B5 TOUR] stop at the spring
+[Echoes][P52 B5 TOUR] inspect the spring: dialogue open (The Ruined Spring)
+[Echoes][P52 B5 TOUR] inspect the spring: dialogue closed after 3 lines; objective now Heart
+[Echoes][P52 B5 TOUR] walk down the stream bank under the trees
+[Echoes][P52 B5 TOUR] stop on the stream bank
+[Echoes][P52 B5 TOUR] walk back to the plaza
+[Echoes][P52 B5 TOUR] stop on the plaza
+[Echoes][P52 B5 TOUR] ROUTE FAIL metres=243.1 seconds=92.1 failures=walk down the stream bank under the trees: did not reach (-21.40, 11.20) (stuck at (-20.1, 0.0, 12.6))
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-workshop: visible 0.000, without the opening 0.000, marked 1.000 (3368 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-workshop-closest-zoom: visible 0.000, without the opening 0.000, marked 1.000 (6876 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-workshop-before-b4: visible 0.000, without the opening -1.000, marked 0.918 (3480 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-workshop-before-b4-closest-zoom: visible 0.000, without the opening -1.000, marked 0.923 (7304 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-willow: visible 0.830, without the opening 0.830, marked 0.847 (3523 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-willow-closest-zoom: visible 0.835, without the opening 0.835, marked 0.846 (7165 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-willow-before-b4: visible 0.811, without the opening -1.000, marked 0.851 (4204 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-willow-before-b4-closest-zoom: visible 0.814, without the opening -1.000, marked 0.850 (8545 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-henyard: visible 0.692, without the opening 0.000, marked 0.894 (3550 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-henyard-closest-zoom: visible 0.737, without the opening 0.000, marked 0.894 (7139 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-henyard-before-b4: visible 0.226, without the opening -1.000, marked 0.973 (3496 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-henyard-before-b4-closest-zoom: visible 0.151, without the opening -1.000, marked 0.987 (7210 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-stream: visible 0.844, without the opening 0.000, marked 0.991 (3232 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-stream-closest-zoom: visible 0.857, without the opening 0.000, marked 0.994 (6542 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-stream-before-b4: visible 0.647, without the opening -1.000, marked 0.993 (3310 reference pixels)
+[Echoes][P52 B5 TOUR] visibility occlusion-behind-broadleaf-stream-before-b4-closest-zoom: visible 0.713, without the opening -1.000, marked 0.987 (6853 reference pixels)
+[Echoes][P52 B5 TOUR] stage set by the evidence script: AwakeningStream
+[Echoes][P52 B5 TOUR] stage set by the evidence script: BloomingGarden
+[Echoes][P52 B5 TOUR] stage set by the evidence script: RestoredValley
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

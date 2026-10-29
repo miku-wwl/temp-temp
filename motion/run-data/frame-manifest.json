@@ -1,0 +1,5272 @@
+[
+  {
+    "file": "frame-00000.jpg",
+    "t": 0.010653495788574219,
+    "sha256": "fbe8e51980c79d02b083a3eccc43f53be717435a7de06311ef15e94c2213efdc"
+  },
+  {
+    "file": "frame-00001.jpg",
+    "t": 0.09407997131347656,
+    "sha256": "b637b5dd6157169a889e5278f5c44c3a58f062020aa7a9918e13875251205f89"
+  },
+  {
+    "file": "frame-00002.jpg",
+    "t": 0.17012786865234375,
+    "sha256": "aa42a3b71444261e450749ae25e2a602c78951722620d8d9fae93678e6cea917"
+  },
+  {
+    "file": "frame-00003.jpg",
+    "t": 0.249420166015625,
+    "sha256": "fe50cc87e5490794e66ef7e8be01f7ed31761f6cb8748831894009637dd624a4"
+  },
+  {
+    "file": "frame-00004.jpg",
+    "t": 0.32628345489501953,
+    "sha256": "29ea746172be5bfda18344641627252d9b1a518fe38e6b274753d2ec0f4b6eb8"
+  },
+  {
+    "file": "frame-00005.jpg",
+    "t": 0.4057731628417969,
+    "sha256": "cedc92aec9459f2ae08be7ecca0d48066e7e06ceb3e6c63cbb36dd0745ca5868"
+  },
+  {
+    "file": "frame-00006.jpg",
+    "t": 0.4762840270996094,
+    "sha256": "7972a1874b68b99f5c499ebe5c9a5b97a30b9494a525fb8bb8dfab4890bddb84"
+  },
+  {
+    "file": "frame-00007.jpg",
+    "t": 0.560175895690918,
+    "sha256": "45ace62488bc92c94ea69af2e21c048695efcf1d691fbb953c5f32dd5fa95b3b"
+  },
+  {
+    "file": "frame-00008.jpg",
+    "t": 0.6331005096435547,
+    "sha256": "284f030819c76075abf01acb91486140e6e663928986f788350762f070a0fcf7"
+  },
+  {
+    "file": "frame-00009.jpg",
+    "t": 0.7058963775634766,
+    "sha256": "f0579895063f1399aa83c473c4f1761aa3376fd1dca90d289d828cdfa1d9f9ad"
+  },
+  {
+    "file": "frame-00010.jpg",
+    "t": 0.7791481018066406,
+    "sha256": "e47ea160ef1920eb34f127a15b6d695536ecb142b1e58adc9397dd8069cc49c1"
+  },
+  {
+    "file": "frame-00011.jpg",
+    "t": 0.8518218994140625,
+    "sha256": "37053d2640d3995d94cfab1f6bcff391895dcd3e3d9920e0189560c1104cd1ef"
+  },
+  {
+    "file": "frame-00012.jpg",
+    "t": 0.9265804290771484,
+    "sha256": "7c0705cc038f466bf7a626050bbdcdfca878f015c843ecd5f567aeb35d99500a"
+  },
+  {
+    "file": "frame-00013.jpg",
+    "t": 1.0026063919067383,
+    "sha256": "22c5e4202a16d0ec0aa11c649217fb053f06dc29e311363d6b67c82d43ba64e9"
+  },
+  {
+    "file": "frame-00014.jpg",
+    "t": 1.0744104385375977,
+    "sha256": "40ca18414e19e3f5cf1a5750c5c81cb3a6c0e330466ae80d17ad58d6d358b3ab"
+  },
+  {
+    "file": "frame-00015.jpg",
+    "t": 1.1541719436645508,
+    "sha256": "70781adb045108b0db3d1d6a96ec7f4a889ef0e3d8afb2a917d8e54ca0387c43"
+  },
+  {
+    "file": "frame-00016.jpg",
+    "t": 1.2358131408691406,
+    "sha256": "4405e8a3f63bc31f30e9002ae749b2b15274c25378096844f2b1fe3eadf4976f"
+  },
+  {
+    "file": "frame-00017.jpg",
+    "t": 1.3141098022460938,
+    "sha256": "df49e9b4894300de72bedde9b7f2ba439ebd468071991e6cfc89ea16774f1af3"
+  },
+  {
+    "file": "frame-00018.jpg",
+    "t": 1.3994197845458984,
+    "sha256": "f67126991e2b5335a73f4ec3c4c9ac5699faf069e61028467a0c1d85876ef015"
+  },
+  {
+    "file": "frame-00019.jpg",
+    "t": 1.5082330703735352,
+    "sha256": "d515649c83ea82116c7c4180e0dfe9f9235de7dd7ffc287304396204dee7cdd1"
+  },
+  {
+    "file": "frame-00020.jpg",
+    "t": 1.593332290649414,
+    "sha256": "b1521cc9c32c65bf0e2cc54fad5d843a96dba00103849a0f31730a78214ed642"
+  },
+  {
+    "file": "frame-00021.jpg",
+    "t": 1.670257568359375,
+    "sha256": "65762c11d93631fa11f51562e0d7459c163bf3eb05a5dabf3199007af7926f57"
+  },
+  {
+    "file": "frame-00022.jpg",
+    "t": 1.7390079498291016,
+    "sha256": "949638e0efecf2b97a17c1407e3fe6f08e1689974b700c3c0a2c864466516312"
+  },
+  {
+    "file": "frame-00023.jpg",
+    "t": 1.8055591583251953,
+    "sha256": "5cf2e0e2a2e453ef5fac7acc435d793c4d6dda82a2524439a644e5021221b942"
+  },
+  {
+    "file": "frame-00024.jpg",
+    "t": 1.8845577239990234,
+    "sha256": "a0e82b47afacb47395d5131781c6729eccc8c369011153686e4ed95c26949805"
+  },
+  {
+    "file": "frame-00025.jpg",
+    "t": 1.9633512496948242,
+    "sha256": "7f98f8d1554b31715c7b9e99a5497b3954a2cc7ae892cd15fd051d19f6d96f7f"
+  },
+  {
+    "file": "frame-00026.jpg",
+    "t": 2.0384559631347656,
+    "sha256": "8636e28a77c31014b5769a3e28d1b9cfca2994ed80bb6948a7b8bd673b44a15f"
+  },
+  {
+    "file": "frame-00027.jpg",
+    "t": 2.117905616760254,
+    "sha256": "79a512894f8f8dcbd587673b4f1036e48b341101edda3a288eca1e89549798d9"
+  },
+  {
+    "file": "frame-00028.jpg",
+    "t": 2.184176445007324,
+    "sha256": "61e1ebe366a3bc4dd1bfbff7c59d018494fabbdbc60ec233d06e0ec5107c8c77"
+  },
+  {
+    "file": "frame-00029.jpg",
+    "t": 2.257826805114746,
+    "sha256": "6207c36f8e578bb5dac45cc9705f61aadadd7753475ed6ea67c0b8d8845af40e"
+  },
+  {
+    "file": "frame-00030.jpg",
+    "t": 2.334056854248047,
+    "sha256": "f9238b0435077b6a75f4bb3b98b937f9fecc5212908fcd043485642ea4f5d1c1"
+  },
+  {
+    "file": "frame-00031.jpg",
+    "t": 2.408137321472168,
+    "sha256": "9833f20b39346d7a7b1c89a53bbb628c1c64b3fb8310e28f260e226e4cea7c80"
+  },
+  {
+    "file": "frame-00032.jpg",
+    "t": 2.486896514892578,
+    "sha256": "f207810fb157a1b5242760ac11c3dabe3825a39954b5e01ddbcfa7022d7bbd56"
+  },
+  {
+    "file": "frame-00033.jpg",
+    "t": 2.5660667419433594,
+    "sha256": "647278853cb68f90ee77aff6eb8e7706f1c4efb14565ae0772b57fa2e93ce21f"
+  },
+  {
+    "file": "frame-00034.jpg",
+    "t": 2.6429405212402344,
+    "sha256": "6a74d889f220d567a058bbd5a4f07769c2dee2cc27371be53ce08db91bd2f027"
+  },
+  {
+    "file": "frame-00035.jpg",
+    "t": 2.7122573852539062,
+    "sha256": "b0f949b5837a3c725c7659cd16df6a5e44464a896bd64c6efc809a21285ed2f5"
+  },
+  {
+    "file": "frame-00036.jpg",
+    "t": 2.795945167541504,
+    "sha256": "c5310b66b5def776ea3c7c511464b9f4a784e10ba38eebc2a15d89f07b1d20f2"
+  },
+  {
+    "file": "frame-00037.jpg",
+    "t": 2.8729896545410156,
+    "sha256": "f5946e59134afaf326b1d9c57f530aa8997cf2ba0a5c8d3324b4b034dec67671"
+  },
+  {
+    "file": "frame-00038.jpg",
+    "t": 2.9424800872802734,
+    "sha256": "3660383bf0b9fd3544d180e263d950ff5933e0915a443684e124676ba7c2e4ec"
+  },
+  {
+    "file": "frame-00039.jpg",
+    "t": 3.0195064544677734,
+    "sha256": "e9535adeaee9cca0bc00fc646d7accb3075b72ede5d012f8700e94e31d07fe7e"
+  },
+  {
+    "file": "frame-00040.jpg",
+    "t": 3.0933780670166016,
+    "sha256": "52e2fd674c2b9037fad8c1dd77951aaef3aeed93f822acb660d1c5ff4e91d79c"
+  },
+  {
+    "file": "frame-00041.jpg",
+    "t": 3.162477493286133,
+    "sha256": "1257ea59a0fb3c481149158d5aadcc7277838f7549f8b7b89bc3f4aa9062de7c"
+  },
+  {
+    "file": "frame-00042.jpg",
+    "t": 3.233706474304199,
+    "sha256": "23e01c131d76ace40ba69c38a486d8669cf064d358158035770b73e8f9820b50"
+  },
+  {
+    "file": "frame-00043.jpg",
+    "t": 3.313113212585449,
+    "sha256": "15dbe9854c0e2997d6a6b330c167ba4048896262c52a3565f966b51db587e114"
+  },
+  {
+    "file": "frame-00044.jpg",
+    "t": 3.391148567199707,
+    "sha256": "f505cadedddc2f4caeaa046e5a1859b542c441e80ca74caa9c3efff67d6a659a"
+  },
+  {
+    "file": "frame-00045.jpg",
+    "t": 3.4713191986083984,
+    "sha256": "255a99946d0c91fc8c5bfebd3b6a4f65c64d6caf4fe113bafec929fa738dcf27"
+  },
+  {
+    "file": "frame-00046.jpg",
+    "t": 3.542003631591797,
+    "sha256": "1961d69f507c66c7650c78a4750597c9bd4f91988879e7f99433d106eb1e57bb"
+  },
+  {
+    "file": "frame-00047.jpg",
+    "t": 3.617854118347168,
+    "sha256": "8210ac62244cafedc5d5cf52720eb93b8239305b34bc185a0fb10317246c4a01"
+  },
+  {
+    "file": "frame-00048.jpg",
+    "t": 3.688058853149414,
+    "sha256": "89c5b46caa100bce6e782f3b3d6de971a87e54cc27679ee66cb901a029477a25"
+  },
+  {
+    "file": "frame-00049.jpg",
+    "t": 3.795257568359375,
+    "sha256": "dd14198b355f8d3ebceba24a729de9a302f36394736bf9d9b6803f77d5d7a268"
+  },
+  {
+    "file": "frame-00050.jpg",
+    "t": 3.8845748901367188,
+    "sha256": "5c3db0c7d5794415feb03539ff5b53939bc00bf5f7ad1adfdd77d1b818214480"
+  },
+  {
+    "file": "frame-00051.jpg",
+    "t": 3.9594945907592773,
+    "sha256": "0ef07a120be56a0205f52998fa70480daba084451f9bccd62032d244e778ef60"
+  },
+  {
+    "file": "frame-00052.jpg",
+    "t": 4.035687446594238,
+    "sha256": "394d5667bba936e8f791599934efd7ac296aa0997090f639b7b5175a2eb51e05"
+  },
+  {
+    "file": "frame-00053.jpg",
+    "t": 4.112455368041992,
+    "sha256": "e9419699ce679515beced5319c62a0698792753089f2e1cfff6dfffb377e6a16"
+  },
+  {
+    "file": "frame-00054.jpg",
+    "t": 4.188183784484863,
+    "sha256": "c898ae9eb15c2290cc7de56a6741ba1076f65781eae1934b554d7e4901d95377"
+  },
+  {
+    "file": "frame-00055.jpg",
+    "t": 4.263786315917969,
+    "sha256": "6b3ca4cc339f0f337badc4107715962bb1bcd0c870f6480a3b801a1b0e997074"
+  },
+  {
+    "file": "frame-00056.jpg",
+    "t": 4.3517255783081055,
+    "sha256": "2a6b2ffa0b76a019cd03b9b3ef2d575993f1e38de928985e32edc988b8cee5db"
+  },
+  {
+    "file": "frame-00057.jpg",
+    "t": 4.434431076049805,
+    "sha256": "e6dc71b729976b9da57ce226012239f8c5656dcd2510f9f0fac118b64063cdf6"
+  },
+  {
+    "file": "frame-00058.jpg",
+    "t": 4.511120796203613,
+    "sha256": "10d23a24d7fab0d2f47090fc539ec1c713220fadb76f6c98cdec0e9a39dd7fff"
+  },
+  {
+    "file": "frame-00059.jpg",
+    "t": 4.588141441345215,
+    "sha256": "b3d7bd48d484c8cdb42ce4d55f3160969f0da63e56d00999aac32b377fa6e702"
+  },
+  {
+    "file": "frame-00060.jpg",
+    "t": 4.6740312576293945,
+    "sha256": "3db489c0ca90f965c961e2e5e585e222762c3f49e4439312be324b1979bddcf7"
+  },
+  {
+    "file": "frame-00061.jpg",
+    "t": 4.759329795837402,
+    "sha256": "647b66a5ffcbc6cd2210905079a3a38358de77214ffc44833b6081979ad6cc21"
+  },
+  {
+    "file": "frame-00062.jpg",
+    "t": 4.841766357421875,
+    "sha256": "2b1c88be41b63dd5ead9de99a7cdadf4f28a604dfc7119d112f98e52f7ad84b6"
+  },
+  {
+    "file": "frame-00063.jpg",
+    "t": 4.9136857986450195,
+    "sha256": "510b70a0453bf73f71e9f001c2499e377a283e86255e7595cbd341bd1cb5b9c2"
+  },
+  {
+    "file": "frame-00064.jpg",
+    "t": 4.9943084716796875,
+    "sha256": "2a983d7e527f3790c5fc2bfb20474d75f96a0d43ea786433948eccd15461aed1"
+  },
+  {
+    "file": "frame-00065.jpg",
+    "t": 5.078400611877441,
+    "sha256": "e26c3a98143ed09d06267545af4cb055b724af7e57267d306be4b1c0b5410ec1"
+  },
+  {
+    "file": "frame-00066.jpg",
+    "t": 5.158529281616211,
+    "sha256": "a9ec11993daa2b4d6d074bdabd33c433b781ac8a1da64df3641cf852b0867c6c"
+  },
+  {
+    "file": "frame-00067.jpg",
+    "t": 5.238256454467773,
+    "sha256": "480cead7ae50cded1c9822cceb379cd038b8a50ede046f4072803c6e9a0c780c"
+  },
+  {
+    "file": "frame-00068.jpg",
+    "t": 5.310517311096191,
+    "sha256": "6202660283cd4f0763ab6e8c6016737d4767ecbbd1a07e0f50f26b6b252a51c7"
+  },
+  {
+    "file": "frame-00069.jpg",
+    "t": 5.385420799255371,
+    "sha256": "b965c49414f71cc926ec8a15a7878438017187c383850816bde65df9a5be330e"
+  },
+  {
+    "file": "frame-00070.jpg",
+    "t": 5.458701133728027,
+    "sha256": "8f6b478b3a4f456908a75ff6c0d84a988f55e55e34e31b425a864934378c41b4"
+  },
+  {
+    "file": "frame-00071.jpg",
+    "t": 5.527215957641602,
+    "sha256": "0948a381670dc288c0eab3fb0693806554579bd0799ec9eca4e57b2f653efd61"
+  },
+  {
+    "file": "frame-00072.jpg",
+    "t": 5.596891403198242,
+    "sha256": "d41876ea97705ce00639b04d8d2f11dd7b520e915db3efe102887ed391222210"
+  },
+  {
+    "file": "frame-00073.jpg",
+    "t": 5.675162315368652,
+    "sha256": "5a2ce993f6a36f076c807fd853b0fcf19dd6280ccd15ab3f9a98628648b5d3c1"
+  },
+  {
+    "file": "frame-00074.jpg",
+    "t": 5.755523681640625,
+    "sha256": "7fc1266cd7a86159169367ff160ddc7a775c2116da8f60a2534ec06835d12c7b"
+  },
+  {
+    "file": "frame-00075.jpg",
+    "t": 5.839366912841797,
+    "sha256": "8847f5968b3479f992a3d8187de8056e6efd63ced52cb82629b6d188cabadc71"
+  },
+  {
+    "file": "frame-00076.jpg",
+    "t": 5.915990829467773,
+    "sha256": "9e7601e6335397e6a064aa928d21f1531fd621f3fc781656e5ad82cd10bd30b9"
+  },
+  {
+    "file": "frame-00077.jpg",
+    "t": 5.994473457336426,
+    "sha256": "42d8a8811f95f3d5f91dc2c9cf7029f5ff6ef659cc9e0c213312ceafb1b39245"
+  },
+  {
+    "file": "frame-00078.jpg",
+    "t": 6.0802459716796875,
+    "sha256": "20ce3019d5b15ed2fa2a7112117a219eb23d1852ce1a2c57b33822cbc4d76654"
+  },
+  {
+    "file": "frame-00079.jpg",
+    "t": 6.170236587524414,
+    "sha256": "5be67bb99187f0f5281669b80ef75f7e7429e4a0ba676ffe5f1fccf9de223cb4"
+  },
+  {
+    "file": "frame-00080.jpg",
+    "t": 6.24443244934082,
+    "sha256": "24b49f0baec28f06ca156ae67f684cb15c3e366c550543b084ef4e87f8d90ab0"
+  },
+  {
+    "file": "frame-00081.jpg",
+    "t": 6.317436218261719,
+    "sha256": "15da3af1d6059f2d9b9ae21a2888b18e775b64babacd4fdfc21dfee51e54a4b5"
+  },
+  {
+    "file": "frame-00082.jpg",
+    "t": 6.392552375793457,
+    "sha256": "f0af61bbbda1cd2955e8b2a78b910f8ad5af9411f216c6d55903e3ba77755434"
+  },
+  {
+    "file": "frame-00083.jpg",
+    "t": 6.471865653991699,
+    "sha256": "d9175512740dd04008cd9c10042a983acf8998b22ad6c99135ffed744817af69"
+  },
+  {
+    "file": "frame-00084.jpg",
+    "t": 6.54707145690918,
+    "sha256": "d93d091c7b5925c6bb0deb6e042e7299f3de683760265fbec806a4601a9abb0c"
+  },
+  {
+    "file": "frame-00085.jpg",
+    "t": 6.625266075134277,
+    "sha256": "c908d28657eb83a940540490b5ee00d3e504f5884c1193408046b3c89ccd435e"
+  },
+  {
+    "file": "frame-00086.jpg",
+    "t": 6.694990158081055,
+    "sha256": "13f4a34627d6d7456369d5e6963c974006b64584b93ff2e5106a21572dd11e5b"
+  },
+  {
+    "file": "frame-00087.jpg",
+    "t": 6.768065452575684,
+    "sha256": "3f6a7ccfad251dcc5e60a089f005579f0dc3ccb57c2fd235fb216be3cb298ada"
+  },
+  {
+    "file": "frame-00088.jpg",
+    "t": 6.843345642089844,
+    "sha256": "c52bd39d5570d0de26bfa4e427d91e0604578bd4536f559a537d132fa2cd6d72"
+  },
+  {
+    "file": "frame-00089.jpg",
+    "t": 6.911359786987305,
+    "sha256": "65757817d13f88cb9ecb2aac3daef27747cb81d84b792c7506a97b92ab1915ff"
+  },
+  {
+    "file": "frame-00090.jpg",
+    "t": 6.983074188232422,
+    "sha256": "bcbc8d51e49897f9e2561f8e65f9d66d2f8ee65b0986da5b3e47bf49aef5d337"
+  },
+  {
+    "file": "frame-00091.jpg",
+    "t": 7.063569068908691,
+    "sha256": "61be9b2caced2c41de8dc8b853969b9665091c17ebce7755ca8fb89ede8035bd"
+  },
+  {
+    "file": "frame-00092.jpg",
+    "t": 7.1438188552856445,
+    "sha256": "40ec4ccc1a36db6a99b124a68076eaeea9ba4c06a8923c65e313cd8a6c562406"
+  },
+  {
+    "file": "frame-00093.jpg",
+    "t": 7.224238395690918,
+    "sha256": "c12adcc07cda3ce4de6e27474857bcfb1181d8526c0763e564ec9a42e019729e"
+  },
+  {
+    "file": "frame-00094.jpg",
+    "t": 7.302868843078613,
+    "sha256": "59565d2c1006bdc9348d9a03403d5958845a4a3b4a55b70ffeef1e8421a9078d"
+  },
+  {
+    "file": "frame-00095.jpg",
+    "t": 7.391672134399414,
+    "sha256": "f78e459da203efb07a27ba288596fe99948d09659a7efb05a2e356a5fcaa4bfa"
+  },
+  {
+    "file": "frame-00096.jpg",
+    "t": 7.4681549072265625,
+    "sha256": "59ab7ef8fdc980abbc4e02029a70904b2087b2a58a6c800bce3a7ec0379c0daf"
+  },
+  {
+    "file": "frame-00097.jpg",
+    "t": 7.5438642501831055,
+    "sha256": "8ad19364906ce37a5388befd83d29550457f8761ed17d63cf7a4d81114d5b0a2"
+  },
+  {
+    "file": "frame-00098.jpg",
+    "t": 7.61332893371582,
+    "sha256": "fcf9b26ef7ad2b746db02c0c0d6f4080cd9df4aab4fd4ed00d636635fbf9be86"
+  },
+  {
+    "file": "frame-00099.jpg",
+    "t": 7.700333595275879,
+    "sha256": "1f337365f2a9e8def285d603c2b5bf244a44786b4402ada039b832b085e28b00"
+  },
+  {
+    "file": "frame-00100.jpg",
+    "t": 7.773317337036133,
+    "sha256": "df8ccb99f0516411d1bbe6efd772a60223d93e211a8e67e7364ceaedbd4f3ed2"
+  },
+  {
+    "file": "frame-00101.jpg",
+    "t": 7.847430229187012,
+    "sha256": "c29cc55e09062812ada61ca4b96797bdb7f82bf040d0679c173e59141e1ab50b"
+  },
+  {
+    "file": "frame-00102.jpg",
+    "t": 7.923108100891113,
+    "sha256": "dce698c4fe2fde4083673dcfa83cfd0d6db533befbe502239cdf701049bd096a"
+  },
+  {
+    "file": "frame-00103.jpg",
+    "t": 8.00145435333252,
+    "sha256": "e47c35698fd674ba5a1501084499b3e0abd81e86ea469d44f628bebf4e50d684"
+  },
+  {
+    "file": "frame-00104.jpg",
+    "t": 8.072346687316895,
+    "sha256": "aaf42fba2c97a01f3a016264a2c22727c0628e61cf6dc356d93044d9b562c390"
+  },
+  {
+    "file": "frame-00105.jpg",
+    "t": 8.145813941955566,
+    "sha256": "20c2ad55816c54305d8c8970487a425313dd6d8fcdba27038fa837b310887f51"
+  },
+  {
+    "file": "frame-00106.jpg",
+    "t": 8.220179557800293,
+    "sha256": "15b8d2f732c41533b2ffc6a6f811639440f81639a608888003b2e3efc9c79129"
+  },
+  {
+    "file": "frame-00107.jpg",
+    "t": 8.294819831848145,
+    "sha256": "278f2fd1fa415bc5d7ee63d489fb61a886938007af83eb39975f316dc3887e3b"
+  },
+  {
+    "file": "frame-00108.jpg",
+    "t": 8.379427909851074,
+    "sha256": "d8868848a0b6ec3179c76a8e8b169f16e6d5e786dba00cccb4bd9228b9d9a74b"
+  },
+  {
+    "file": "frame-00109.jpg",
+    "t": 8.466897010803223,
+    "sha256": "96890f33c6a6886fd602ab98c63ab86be8c146c1232fdbbd4d660ece1e1f643a"
+  },
+  {
+    "file": "frame-00110.jpg",
+    "t": 8.545136451721191,
+    "sha256": "9343d48916b4a4db74d714f0d72dbf3772f389aae0c6cb78df3832af2d658de8"
+  },
+  {
+    "file": "frame-00111.jpg",
+    "t": 8.621636390686035,
+    "sha256": "fa054bb727ec5d21621eafd9af0ab95ccad2d9d3387f94c8509eb4bebecf383b"
+  },
+  {
+    "file": "frame-00112.jpg",
+    "t": 8.689444541931152,
+    "sha256": "a82cd391630246d02b651cb94755b846fb1985ac9c0b71b19eb1dcd5af707148"
+  },
+  {
+    "file": "frame-00113.jpg",
+    "t": 8.765040397644043,
+    "sha256": "541a74405371ba5e7b7aaf71133476a45526e2aac686364c48ae92a8183f8761"
+  },
+  {
+    "file": "frame-00114.jpg",
+    "t": 8.837090492248535,
+    "sha256": "6d90188ca257b552cc83239cf1a198dbc2833ce1efcd548fb1b9d1a6b27a4aa1"
+  },
+  {
+    "file": "frame-00115.jpg",
+    "t": 8.943760871887207,
+    "sha256": "712a639a38d5d98fa773cf8516e1055bb0c2fa6f3bd61b4940b8e3c6a6efb586"
+  },
+  {
+    "file": "frame-00116.jpg",
+    "t": 9.041203498840332,
+    "sha256": "79bdb3db8767cce16498159ca5d070cdc85a50b2396e1f8d5c72e152fd0b23af"
+  },
+  {
+    "file": "frame-00117.jpg",
+    "t": 9.114214897155762,
+    "sha256": "3fc02f6e2d099caf8e8cc8dfaa9e4ac07d0c720d8d2bdafab19c31f3b08a7f58"
+  },
+  {
+    "file": "frame-00118.jpg",
+    "t": 9.193629264831543,
+    "sha256": "bf597bb68d530f742e5f31c8f164f15b751fbd8ddd529252b99aaf7b1fda19ab"
+  },
+  {
+    "file": "frame-00119.jpg",
+    "t": 9.268935203552246,
+    "sha256": "9ba9682bd0e34d979f073b389e0971776a4875cd9e7a6d8ca9ccf335ea175ec1"
+  },
+  {
+    "file": "frame-00120.jpg",
+    "t": 9.3430814743042,
+    "sha256": "967c8c64c6e649dd818283665851e197692ecacf454a059e4d309d099f33855c"
+  },
+  {
+    "file": "frame-00121.jpg",
+    "t": 9.42754077911377,
+    "sha256": "67566a053d7e868039dca11c968132d828ebc9934ba7910e98299744f34dcef4"
+  },
+  {
+    "file": "frame-00122.jpg",
+    "t": 9.505961418151855,
+    "sha256": "e7a05d994c37c43c35f02e7b70fee224e5b323e389c49897908c758a9218cb13"
+  },
+  {
+    "file": "frame-00123.jpg",
+    "t": 9.582541465759277,
+    "sha256": "ebfdc061c0a10791dcf7441ddaffce8c3d80a1e566f2b5467a0a2e4705e6af47"
+  },
+  {
+    "file": "frame-00124.jpg",
+    "t": 9.668547630310059,
+    "sha256": "483d211a621c3ef125ed13a8cfaa553520a91e035f587f3947f85832ffb7f2d8"
+  },
+  {
+    "file": "frame-00125.jpg",
+    "t": 9.74899959564209,
+    "sha256": "f86ae7dbde56134a7db43fa640134937d2e0386d13ed4522c712dc8b0d3a5c07"
+  },
+  {
+    "file": "frame-00126.jpg",
+    "t": 9.81925106048584,
+    "sha256": "ed5eb347fbd248a0433ee942614a7f96b071085fceb167d4c5fb99f7f9c8b618"
+  },
+  {
+    "file": "frame-00127.jpg",
+    "t": 9.89616870880127,
+    "sha256": "5a87838ceac7f027d48d396361cfa87eb036c5493d819dc6cbf9aee9e86c600e"
+  },
+  {
+    "file": "frame-00128.jpg",
+    "t": 9.972182273864746,
+    "sha256": "e40e8c4a734aaf7dc2899aa4cc731b74932f3dabdc3bb0b1f6ecec9a43ee5812"
+  },
+  {
+    "file": "frame-00129.jpg",
+    "t": 10.059706687927246,
+    "sha256": "ab35ab07984e09e42593b8e091370731f3d71340082390e946c1af94eef104ff"
+  },
+  {
+    "file": "frame-00130.jpg",
+    "t": 10.1433687210083,
+    "sha256": "a41a083b50bf4a9af8ed9c73b365fab2c0f6764d163d27f6408f59a1bb09803b"
+  },
+  {
+    "file": "frame-00131.jpg",
+    "t": 10.219794273376465,
+    "sha256": "daa734edda8897421a494c677a2199c3691e74f4d0eb85c62d37dff04c7aad7d"
+  },
+  {
+    "file": "frame-00132.jpg",
+    "t": 10.296420097351074,
+    "sha256": "a259c496572c1c8c39018310bcf486ae8a0caaf79f9de485a9ff3f9b68e0179e"
+  },
+  {
+    "file": "frame-00133.jpg",
+    "t": 10.37353801727295,
+    "sha256": "e1bf72f8843fecd8003eaca65f4c9aad11c9d0a7661224708489f64a6d317aee"
+  },
+  {
+    "file": "frame-00134.jpg",
+    "t": 10.44817066192627,
+    "sha256": "d61f788d0ce8100461c654753fdaa28b2eda92c1985462e38ae380110a7466fd"
+  },
+  {
+    "file": "frame-00135.jpg",
+    "t": 10.524720191955566,
+    "sha256": "10d890b18a287b51fbbad543fc7a2e055ce2e16cfb27601b0d8a5f93d931abad"
+  },
+  {
+    "file": "frame-00136.jpg",
+    "t": 10.594990730285645,
+    "sha256": "28208ef99007610f3b60a696c619cb453453d3a71082a198e31e5a18c962cf0b"
+  },
+  {
+    "file": "frame-00137.jpg",
+    "t": 10.685759544372559,
+    "sha256": "827594555aa94ebfde736d1347ed892d7f8e73acd0359dafdf5de1e32444814e"
+  },
+  {
+    "file": "frame-00138.jpg",
+    "t": 10.76731014251709,
+    "sha256": "71ad072bd62a589da9a43ac98cd63947a59bc25acfb8ea0982b48a9920b64de6"
+  },
+  {
+    "file": "frame-00139.jpg",
+    "t": 10.83820629119873,
+    "sha256": "4569d46ac835714a3f6c76c22d13915613b1803fb8edcf7f316d529cd589c6c9"
+  },
+  {
+    "file": "frame-00140.jpg",
+    "t": 10.918118476867676,
+    "sha256": "5b042a93651287023c60f580a2d4403387d68f2d2fa043dffa94ff7544a052d9"
+  },
+  {
+    "file": "frame-00141.jpg",
+    "t": 10.986554145812988,
+    "sha256": "29561f1125cf427d5196de4ba1f3b1c3a0cb83302572595651e2d91b125300a9"
+  },
+  {
+    "file": "frame-00142.jpg",
+    "t": 11.063326835632324,
+    "sha256": "bc70f84aadddf592d1b89d20c8cb25f4d4ffe8b603b0746542a97c87ec49db92"
+  },
+  {
+    "file": "frame-00143.jpg",
+    "t": 11.140471458435059,
+    "sha256": "e02f270fe3fb005acbf82ea30d5899c8cface474edaae81027543d37c13b4598"
+  },
+  {
+    "file": "frame-00144.jpg",
+    "t": 11.213194847106934,
+    "sha256": "f0f72b3c6aac719c933edad694f4ae70a897bb0a70433886b02c64dc760ac3cb"
+  },
+  {
+    "file": "frame-00145.jpg",
+    "t": 11.286704063415527,
+    "sha256": "e84884624c2882dd1a61e8e542e6d5bffbb657cc27c7b01abe4aba3ffd1d9a5b"
+  },
+  {
+    "file": "frame-00146.jpg",
+    "t": 11.366242408752441,
+    "sha256": "8c8b3617c5dcd599685bdff364cb27fa9f16e99f473dfc5a15d979a7b6c6e3ef"
+  },
+  {
+    "file": "frame-00147.jpg",
+    "t": 11.437819480895996,
+    "sha256": "6698098c2931dbcc3f4caa949a4ebf0519cac7b6c170d76861671890cd5cba41"
+  },
+  {
+    "file": "frame-00148.jpg",
+    "t": 11.511393547058105,
+    "sha256": "45f217d9857a78301bc411a56d55fef223d42d1f3d17689965aadc7ddfa600ac"
+  },
+  {
+    "file": "frame-00149.jpg",
+    "t": 11.588091850280762,
+    "sha256": "027dcb99bf20cb7dc53f093d23ce1a80107728285ff0092a93047e1b2e8023b1"
+  },
+  {
+    "file": "frame-00150.jpg",
+    "t": 11.657893180847168,
+    "sha256": "a98cc8cd42122ce1274aaffb0d861c78bacfbb2c7282b600002d84c1be09bce5"
+  },
+  {
+    "file": "frame-00151.jpg",
+    "t": 11.7338285446167,
+    "sha256": "392f05eb4caf53b422843a35c9683802a0563f4882d6390e92bbc6875e2b05ea"
+  },
+  {
+    "file": "frame-00152.jpg",
+    "t": 11.813878059387207,
+    "sha256": "c0ce4c9fbec13913f885c4e857d2195e0e6525e7972e96e963493f949b903446"
+  },
+  {
+    "file": "frame-00153.jpg",
+    "t": 11.908196449279785,
+    "sha256": "d0b7f4f32bbe2078101f148be8fe64fcaf47358efcb96a2c16d1944a9a6898cc"
+  },
+  {
+    "file": "frame-00154.jpg",
+    "t": 11.99062442779541,
+    "sha256": "8e22db261c0f9d438c70ab9e90074a5957f22375f3396d1b0ca8c1c1a11da409"
+  },
+  {
+    "file": "frame-00155.jpg",
+    "t": 12.06519603729248,
+    "sha256": "e25a0460584934000d71d311131576d800e236b1a2806568fed87746395aa4d0"
+  },
+  {
+    "file": "frame-00156.jpg",
+    "t": 12.14207935333252,
+    "sha256": "7c6b2572e8ba76c5f31999d2e2fdb66586febe3b9f598bf443c6d837c6bd6953"
+  },
+  {
+    "file": "frame-00157.jpg",
+    "t": 12.213116645812988,
+    "sha256": "80fe4d79daa0b73368f9c7a1fad08ac40d2ca2010b26bf8564acfc7caca21848"
+  },
+  {
+    "file": "frame-00158.jpg",
+    "t": 12.286974906921387,
+    "sha256": "6399c5aac39d92894b062b591cfab62457a280c293845efbcd2dc3dc1e64756a"
+  },
+  {
+    "file": "frame-00159.jpg",
+    "t": 12.36571216583252,
+    "sha256": "a813ea4dbcd22c033066b9784163140eda36c40c537ecaaa91299dbd5990b7e1"
+  },
+  {
+    "file": "frame-00160.jpg",
+    "t": 12.438191413879395,
+    "sha256": "9c9ac3208d845c439e62e49e692b5190314abd66268fbadb4162d2cfed35ab8b"
+  },
+  {
+    "file": "frame-00161.jpg",
+    "t": 12.512917518615723,
+    "sha256": "8dc0cf95c79970c535ca7896633edd7d473f4192e4fe2da26bff9278285f1470"
+  },
+  {
+    "file": "frame-00162.jpg",
+    "t": 12.589280128479004,
+    "sha256": "c8f1ac0835379be2519db2307e47f052714fca7506dd087f3e873fb124f576c6"
+  },
+  {
+    "file": "frame-00163.jpg",
+    "t": 12.666499137878418,
+    "sha256": "60fc0eab6659672d12f1601a2c6f48d6a71b96aea3740c5877afaa1e4436eb53"
+  },
+  {
+    "file": "frame-00164.jpg",
+    "t": 12.740141868591309,
+    "sha256": "9ddd8610088de8ef39cee8b98e9dc9e8688dbca7e277b7dd66b62923532ec75c"
+  },
+  {
+    "file": "frame-00165.jpg",
+    "t": 12.822842597961426,
+    "sha256": "90e48644e22609aa3ecbd2e7654429a683e29208db7e75121f25ecbf3b9e82a1"
+  },
+  {
+    "file": "frame-00166.jpg",
+    "t": 12.897612571716309,
+    "sha256": "441752e728334a0021ef054f2dd81ddd272eb44d3b038fc4baf65a6129d26ffe"
+  },
+  {
+    "file": "frame-00167.jpg",
+    "t": 12.98792552947998,
+    "sha256": "6992560f9963a117e475a5c60bd45868bc365891ae61593dfe65edab4667b401"
+  },
+  {
+    "file": "frame-00168.jpg",
+    "t": 13.069336891174316,
+    "sha256": "ec7a8a6db4aafc05958f17da37ffe70160beb4c6dfe1f0bccac4bd64ddb6e628"
+  },
+  {
+    "file": "frame-00169.jpg",
+    "t": 13.139424324035645,
+    "sha256": "0ec9bbaea2dd17c6be856e8ba085d54825812bdf79f369b1bfcc9775d89b2451"
+  },
+  {
+    "file": "frame-00170.jpg",
+    "t": 13.21300983428955,
+    "sha256": "65868c08019d9ad0e76fa597e9c0d4e6972e9914d069333350ecbb00521460c7"
+  },
+  {
+    "file": "frame-00171.jpg",
+    "t": 13.285704612731934,
+    "sha256": "5d277c6df7f4418134f641edee33df81b85c06fdf85c8385a3f8ef3fc7420a6b"
+  },
+  {
+    "file": "frame-00172.jpg",
+    "t": 13.361742973327637,
+    "sha256": "d706aed0dbfa6b74eb733023bc255afa1cbab3137628b2d4e72c2212f15fa351"
+  },
+  {
+    "file": "frame-00173.jpg",
+    "t": 13.436602592468262,
+    "sha256": "90111f88f8b0a8485c84bc9c079d997ca5f8919fbff09b48b6961cb598ed307c"
+  },
+  {
+    "file": "frame-00174.jpg",
+    "t": 13.515305519104004,
+    "sha256": "35ace52b431792c2ee2aaad8bd5117f6a2083d08f0e34c84269d2975df3eb9fc"
+  },
+  {
+    "file": "frame-00175.jpg",
+    "t": 13.594208717346191,
+    "sha256": "c559ff2ab7e86357b9d909cf2bd8f4af6eab32dc74e2123f4636c88d0e1991a1"
+  },
+  {
+    "file": "frame-00176.jpg",
+    "t": 13.665982246398926,
+    "sha256": "accfe40995ad1ba73ee11507d758de460beba07dfc85556e435310f8bdee6b46"
+  },
+  {
+    "file": "frame-00177.jpg",
+    "t": 13.74121379852295,
+    "sha256": "7e511d85285fe10738b9e85f839801f18d0915861c34b5b84a9559c7e76cc64a"
+  },
+  {
+    "file": "frame-00178.jpg",
+    "t": 13.81848430633545,
+    "sha256": "2f82c0302879dcfb9ce396d6150d3f0615341c3a4db2a8cc08fe87f9dd137fe1"
+  },
+  {
+    "file": "frame-00179.jpg",
+    "t": 13.890929222106934,
+    "sha256": "c84b85d25cde19ef84ff0771f9b716768e1223e79fb566acc09c48600a4cf5e5"
+  },
+  {
+    "file": "frame-00180.jpg",
+    "t": 13.963065147399902,
+    "sha256": "e431e638c92b534ec7b3566c09c209f8c17280cb52ed0537095c57d2c36a5d96"
+  },
+  {
+    "file": "frame-00181.jpg",
+    "t": 14.040358543395996,
+    "sha256": "8aaee1c6daec983b0e15b1e8e68418fe5ba9cd5b99978f1e8f09ed13a33ff43b"
+  },
+  {
+    "file": "frame-00182.jpg",
+    "t": 14.11601734161377,
+    "sha256": "ef4d3f917aefb71d759168836cd6b700e958f927f1b59e33205ebaa7023e7bb6"
+  },
+  {
+    "file": "frame-00183.jpg",
+    "t": 14.195662498474121,
+    "sha256": "783b854ddf3fc64bfd6177f42f042db3fd27ae3e5731f5f59905377a9cbc278c"
+  },
+  {
+    "file": "frame-00184.jpg",
+    "t": 14.269558906555176,
+    "sha256": "0b329db93a9c6273619d069a55392a67d586ce33e60e6ca3925f667a8a783cfc"
+  },
+  {
+    "file": "frame-00185.jpg",
+    "t": 14.340140342712402,
+    "sha256": "e7c58acbe3e585d122d3a53b76bda8c9d49c5160803589b8e6d230afa655a081"
+  },
+  {
+    "file": "frame-00186.jpg",
+    "t": 14.414116859436035,
+    "sha256": "7d502a12b4fb91feaa9e9f30def1346663e8aaca35068ef2efa24e89392f7ff5"
+  },
+  {
+    "file": "frame-00187.jpg",
+    "t": 14.488242149353027,
+    "sha256": "73acb379f5b39ce3ccb96a0c964716baea3fe874c5d8a1018020e98b91b5b97b"
+  },
+  {
+    "file": "frame-00188.jpg",
+    "t": 14.562485694885254,
+    "sha256": "f6718cf0a5cd06fcf77c1af9c027329ebd39a846b4950bcfb2a4966335c52baa"
+  },
+  {
+    "file": "frame-00189.jpg",
+    "t": 14.636765480041504,
+    "sha256": "a1310054a094de9afa04c6adbf04d36101a6a48a4d85d43fd5dc459c92cd108e"
+  },
+  {
+    "file": "frame-00190.jpg",
+    "t": 14.710490226745605,
+    "sha256": "7f8497aa9d063c283e0760a3cdd0706ef61f6820cabfe6fd95156fe948befbc9"
+  },
+  {
+    "file": "frame-00191.jpg",
+    "t": 14.794137001037598,
+    "sha256": "9e7f1a665855d9571d0111ef1eb369b9986f2a68e7fd317f3c935da48149bda6"
+  },
+  {
+    "file": "frame-00192.jpg",
+    "t": 14.870532035827637,
+    "sha256": "92574836a0d2ca4f311ed69755cd58c29240d5775537ed533292de5a94258c0c"
+  },
+  {
+    "file": "frame-00193.jpg",
+    "t": 14.944354057312012,
+    "sha256": "51223bd2550cc1ef0377a08b5491a5412c685f288c61db32377631eb548cfb9d"
+  },
+  {
+    "file": "frame-00194.jpg",
+    "t": 15.021805763244629,
+    "sha256": "68dbd0655ccd7bec61c0aeba93bbc018419a51403b2db21affc272864a09caf9"
+  },
+  {
+    "file": "frame-00195.jpg",
+    "t": 15.100539207458496,
+    "sha256": "b7b0ddaec3b9ab751a4ff2548f1efb46b825a54f3b22e81e2eb2de6934db8ebd"
+  },
+  {
+    "file": "frame-00196.jpg",
+    "t": 15.179312705993652,
+    "sha256": "e8b5a225158ca67239f7d7ab4e8fa1365c4195dbb5d8efd552f0049bd7c12d2e"
+  },
+  {
+    "file": "frame-00197.jpg",
+    "t": 15.286782264709473,
+    "sha256": "67ec3c8d212342151d8d6f6d588582e8d0d1abb010c4579c7f08c9c294a25374"
+  },
+  {
+    "file": "frame-00198.jpg",
+    "t": 15.364947319030762,
+    "sha256": "c27d947cc7dad2f8eb281cae27ed1ed7c5e841aba02648a9dd28ffc53e095f28"
+  },
+  {
+    "file": "frame-00199.jpg",
+    "t": 15.43935489654541,
+    "sha256": "6b9706fa3f4e47be54a95904be97d79a0bc67ce9ea4f6034261b5334da3f01ad"
+  },
+  {
+    "file": "frame-00200.jpg",
+    "t": 15.52929401397705,
+    "sha256": "5b16a25ab318586093b99d95bc94de2a15c25742cb4cb9b5e5df01b7ece5b805"
+  },
+  {
+    "file": "frame-00201.jpg",
+    "t": 15.612109184265137,
+    "sha256": "16a8ebc35acb48333fb8fddf4702fb480e5aa3359648fa017e9b45cc6707d90b"
+  },
+  {
+    "file": "frame-00202.jpg",
+    "t": 15.73901653289795,
+    "sha256": "ea478ecaa86a24885779edd86decbe1efc07b45b73cf72ba3cc305de2d51a469"
+  },
+  {
+    "file": "frame-00203.jpg",
+    "t": 15.817240715026855,
+    "sha256": "47f7fde95bcc27c22a648cb4cb42f8cddb0dff1e6a91a76f62fcf117ba680273"
+  },
+  {
+    "file": "frame-00204.jpg",
+    "t": 15.888287544250488,
+    "sha256": "02216464d9af02aeae39346d51f93ad4628fb51e18a15d936c89dc2f4fb94734"
+  },
+  {
+    "file": "frame-00205.jpg",
+    "t": 15.969019889831543,
+    "sha256": "4d733724f17af3ae0caf51f31ae2c4dfa028b0e87c1cb5c30b63cd6f7a9bc332"
+  },
+  {
+    "file": "frame-00206.jpg",
+    "t": 16.048965454101562,
+    "sha256": "24920c3381907d94e3c6e1a20c47720612fbd91cb90c87e63487e154391267ca"
+  },
+  {
+    "file": "frame-00207.jpg",
+    "t": 16.12520980834961,
+    "sha256": "51fa47fc8278fbe34a2310042bd64cc1ccdc174638c122aa5312c740da90420d"
+  },
+  {
+    "file": "frame-00208.jpg",
+    "t": 16.203685760498047,
+    "sha256": "8d2a572f1643470e3460fc56028ad35756855fb4421e5c023343a6e451a63961"
+  },
+  {
+    "file": "frame-00209.jpg",
+    "t": 16.283729553222656,
+    "sha256": "ca746f78f451cb682b0696c099f348e6aadff5712855e320cd5b6d832c79a1bc"
+  },
+  {
+    "file": "frame-00210.jpg",
+    "t": 16.356964111328125,
+    "sha256": "3031daa111597e851a2fbba9ce698370ebbdbef4f42665e182675824bf9f93f8"
+  },
+  {
+    "file": "frame-00211.jpg",
+    "t": 16.441238403320312,
+    "sha256": "f420c998f9bb7ce661d418bbe1d0c434f60781abb4f784ccefbc27b331792bf5"
+  },
+  {
+    "file": "frame-00212.jpg",
+    "t": 16.51470947265625,
+    "sha256": "e0aff53eb819738e185ac493184d9d88b0212803d7a37aa1b70b42c5a8b9d680"
+  },
+  {
+    "file": "frame-00213.jpg",
+    "t": 16.5872802734375,
+    "sha256": "4e0c2ed745a9c17feccaab5e7d15e50b1d39383a61c6ad842d69abd715355242"
+  },
+  {
+    "file": "frame-00214.jpg",
+    "t": 16.658199310302734,
+    "sha256": "14e1763e2e5188b447d153dc40027de6de761acb7a6ab34912fafb0a0348251d"
+  },
+  {
+    "file": "frame-00215.jpg",
+    "t": 16.73269271850586,
+    "sha256": "e795756b016853120e3f9631ab418abcd6f54b8982806febc38ac515a873bb1a"
+  },
+  {
+    "file": "frame-00216.jpg",
+    "t": 16.803916931152344,
+    "sha256": "389d2a15d62cc282b92127c7acce4166671598c45ee645156179e8a3b75e5a4d"
+  },
+  {
+    "file": "frame-00217.jpg",
+    "t": 16.881847381591797,
+    "sha256": "c78561d3fea0e0b7a9920e2ddf2bde0a5fc41237a992526fb40fbf944acb60b0"
+  },
+  {
+    "file": "frame-00218.jpg",
+    "t": 16.95832061767578,
+    "sha256": "d61bd62ec2388f19620a1b44dad3500e168b41a76634bc1485e78ae12a221fff"
+  },
+  {
+    "file": "frame-00219.jpg",
+    "t": 17.03229522705078,
+    "sha256": "a4b883fdf39b45fd268e775487b01d05b0c15877a8a557f4d74c884ba3f98889"
+  },
+  {
+    "file": "frame-00220.jpg",
+    "t": 17.11087417602539,
+    "sha256": "c8f84483c6e3de7bf637ea5770a52acadcc21e1eb670eae2fa702fad9a75bb50"
+  },
+  {
+    "file": "frame-00221.jpg",
+    "t": 17.194137573242188,
+    "sha256": "cf3e2efe9032709bff93ca2b09974be0652293d9cf16715fe49053b46753b7e3"
+  },
+  {
+    "file": "frame-00222.jpg",
+    "t": 17.284652709960938,
+    "sha256": "a9ac5c59c466d82f1dea727b4c4c110c7a533305f785c9d0f90b8ce531600767"
+  },
+  {
+    "file": "frame-00223.jpg",
+    "t": 17.36005401611328,
+    "sha256": "f33339197f57337d631b436b7ddc78d01e6ccf3b34c5009dce4485b187396d08"
+  },
+  {
+    "file": "frame-00224.jpg",
+    "t": 17.44076919555664,
+    "sha256": "7bf208b3451baae861d71e8efc8afb04e658d18f12f1f9f117fd506de4d5a96b"
+  },
+  {
+    "file": "frame-00225.jpg",
+    "t": 17.529346466064453,
+    "sha256": "a74e03f7c91b3af0067e6c0adfe08ae80a1a6cedce3a85f032c3003b092f3caa"
+  },
+  {
+    "file": "frame-00226.jpg",
+    "t": 17.61029052734375,
+    "sha256": "bf2a3c2273a33cced7ccfce7bef24b52d8e08b8ca5b78889241d7de0ab4d8564"
+  },
+  {
+    "file": "frame-00227.jpg",
+    "t": 17.684009552001953,
+    "sha256": "3215aebf95e7a6393bafbd4254ee944e14cade12cbd5c05b17939cb714e12beb"
+  },
+  {
+    "file": "frame-00228.jpg",
+    "t": 17.771411895751953,
+    "sha256": "8c2a7be5c2400c93c0a298057d136e9488d2d62b5d71a529ae4d9a41be21ebec"
+  },
+  {
+    "file": "frame-00229.jpg",
+    "t": 17.84278106689453,
+    "sha256": "c154e550708fda495e62aa97d404aef830bdd544720697427c38d7a6ce1647a3"
+  },
+  {
+    "file": "frame-00230.jpg",
+    "t": 17.923397064208984,
+    "sha256": "c6ade3cfb6e704190f75200a7d194eeb831dbd034a562a2195ef0ec84603b01a"
+  },
+  {
+    "file": "frame-00231.jpg",
+    "t": 17.99762725830078,
+    "sha256": "3200bea1b8a421bbd338d983084e9f4c5862253a8682a90d7eed71970465aeab"
+  },
+  {
+    "file": "frame-00232.jpg",
+    "t": 18.07408905029297,
+    "sha256": "75f3e607255c6fbad13f36be3ddcc0c574af962ccd6fb3ed2326717fbfabe69c"
+  },
+  {
+    "file": "frame-00233.jpg",
+    "t": 18.151355743408203,
+    "sha256": "2f7baf95e0853063873be9268624289d3396fd9ffca68244d7d46cdb7a13f1fe"
+  },
+  {
+    "file": "frame-00234.jpg",
+    "t": 18.22330093383789,
+    "sha256": "1db0d64a86f442dba8abe0fcbfefd77eed1b1b133e33c38bc114af42ec6be5ed"
+  },
+  {
+    "file": "frame-00235.jpg",
+    "t": 18.296123504638672,
+    "sha256": "efa6d555369c6447a408b7cdf6c69c40dffd756808f4f29c44f6e9ec84c614c5"
+  },
+  {
+    "file": "frame-00236.jpg",
+    "t": 18.36928939819336,
+    "sha256": "a85706634774bdfc22819ef667e632f65b245550daa5af454d88f52c9c7e7804"
+  },
+  {
+    "file": "frame-00237.jpg",
+    "t": 18.443580627441406,
+    "sha256": "db640e3e0c97b7e4517de89290446c698dbee669b502018a2e96a6a69ab2c02f"
+  },
+  {
+    "file": "frame-00238.jpg",
+    "t": 18.51744842529297,
+    "sha256": "7db2f5bc0259278d9e7424903a0626e43ad9ad1a64795f7234db6b3cc615ca84"
+  },
+  {
+    "file": "frame-00239.jpg",
+    "t": 18.59395980834961,
+    "sha256": "c772829a16272936360ff720e82b7bd449e4d485c3d353aff2412b409db9b8e0"
+  },
+  {
+    "file": "frame-00240.jpg",
+    "t": 18.672199249267578,
+    "sha256": "58a2c8da8d3da06bded4da46919b975f96b039aa4bf5836ed865287476c68409"
+  },
+  {
+    "file": "frame-00241.jpg",
+    "t": 18.75882339477539,
+    "sha256": "78562cb0138e9e093670bc6e62bbe7229b166d32939a4800a1dd69293b75c18e"
+  },
+  {
+    "file": "frame-00242.jpg",
+    "t": 18.843669891357422,
+    "sha256": "376cc233e64f7c3eccef3669b88e2ab22a630475b7d232dde13f8717a0a5be77"
+  },
+  {
+    "file": "frame-00243.jpg",
+    "t": 18.9151611328125,
+    "sha256": "22c2763fad30b41c357dc8515538e450b64049dea0f5c827c552c35ad052f405"
+  },
+  {
+    "file": "frame-00244.jpg",
+    "t": 18.985671997070312,
+    "sha256": "8b4e3c5a8536bb9f87ecad2db8ad2312a7501c2446892868a548b5e2d0e8ce8c"
+  },
+  {
+    "file": "frame-00245.jpg",
+    "t": 19.070804595947266,
+    "sha256": "dd485504e7ca104b298cc90d849ee049927f54d9839254f00d966f16853bec34"
+  },
+  {
+    "file": "frame-00246.jpg",
+    "t": 19.14507293701172,
+    "sha256": "f8c0bc5824376354d55e5abe9d6b925a94d89d7ea60f357652ce9c8b597a30de"
+  },
+  {
+    "file": "frame-00247.jpg",
+    "t": 19.217060089111328,
+    "sha256": "d499744f8b6fd137950ef2e696eab3fb4ee4a1eaf0c0b377d36a684671b33919"
+  },
+  {
+    "file": "frame-00248.jpg",
+    "t": 19.28677749633789,
+    "sha256": "34d1c258c8467a6b36322cdff05c279e7f4b0f21cdfdead318d8596a04cdcce7"
+  },
+  {
+    "file": "frame-00249.jpg",
+    "t": 19.363117218017578,
+    "sha256": "518c772c894ebbde4660e4bf75542dbabb721960578009cdc1c7cf27ea0617c1"
+  },
+  {
+    "file": "frame-00250.jpg",
+    "t": 19.434093475341797,
+    "sha256": "a517d7ddaf49a65018e823030f0714ea368777aad7e6cc74de37301bbb73f721"
+  },
+  {
+    "file": "frame-00251.jpg",
+    "t": 19.509567260742188,
+    "sha256": "cda951e62740e3fe13fccede1ee074269c8d97d8977b49da9a2f8b725dc45b4f"
+  },
+  {
+    "file": "frame-00252.jpg",
+    "t": 19.635868072509766,
+    "sha256": "fa55723f0ac9c639945304c099482ffadb5ab36bd1602b0710746225353b4996"
+  },
+  {
+    "file": "frame-00253.jpg",
+    "t": 19.71151351928711,
+    "sha256": "32a56f0269fa988e086184ab3f1576cd89bce5fa12d3a0b58759febf1253684f"
+  },
+  {
+    "file": "frame-00254.jpg",
+    "t": 19.795406341552734,
+    "sha256": "23236ea09b9e1838ce6ff147bb92e2b397a9da3132d12e124edb419b8ed3f489"
+  },
+  {
+    "file": "frame-00255.jpg",
+    "t": 19.876117706298828,
+    "sha256": "3aec5a8c24b06a682a29e0034d89c2151a2b84b1959b8f809a64a55d64e216f8"
+  },
+  {
+    "file": "frame-00256.jpg",
+    "t": 19.94949722290039,
+    "sha256": "51fc3cc088e1d53e1737be30061ecf847367722eda0b4bfed8ef7ddf6f9edb12"
+  },
+  {
+    "file": "frame-00257.jpg",
+    "t": 20.037715911865234,
+    "sha256": "37e7c0aeb870eb05b4a357ffdeebb0d628822c8c3c70b940be6dca14017f8c70"
+  },
+  {
+    "file": "frame-00258.jpg",
+    "t": 20.124065399169922,
+    "sha256": "68d80b2bd3340fa47b24723536c414b2103afe6a73c5bff4b49e812be877dee1"
+  },
+  {
+    "file": "frame-00259.jpg",
+    "t": 20.196765899658203,
+    "sha256": "f0784f5edbd24e0bacf300cdd5d0a3ede799cbe8263b189ea3975dc8c0e03892"
+  },
+  {
+    "file": "frame-00260.jpg",
+    "t": 20.271743774414062,
+    "sha256": "95085bf0867bf4f67da926d2140897ec1be2280129dc1f3209f3dd1da5ea77b5"
+  },
+  {
+    "file": "frame-00261.jpg",
+    "t": 20.348209381103516,
+    "sha256": "a699833a980adefc8a5e1cbc158d9f79365ed289c25e7982e9de746f7cbf84e5"
+  },
+  {
+    "file": "frame-00262.jpg",
+    "t": 20.47077178955078,
+    "sha256": "24f1f3f673357d332eedbecbc1d71a775ee0b7cac4c966f8cbf53767e91f1898"
+  },
+  {
+    "file": "frame-00263.jpg",
+    "t": 20.545978546142578,
+    "sha256": "1b2f69881b81e822bd03e6357758e459b4142c743214ce418295162dc710d609"
+  },
+  {
+    "file": "frame-00264.jpg",
+    "t": 20.627269744873047,
+    "sha256": "cfab1ed9897836ee09fb3c5b99e5677b94386c273576c2d32c39b0b99ce54fe2"
+  },
+  {
+    "file": "frame-00265.jpg",
+    "t": 20.707965850830078,
+    "sha256": "7df58831ca2a2f5523de66e691d48fa23d933640668ec1c156dec8f66108855d"
+  },
+  {
+    "file": "frame-00266.jpg",
+    "t": 20.786319732666016,
+    "sha256": "e1975c55cb2e652191bfd3fc952bc04eca0fa12acee1d371c47d74e11a43467f"
+  },
+  {
+    "file": "frame-00267.jpg",
+    "t": 20.861446380615234,
+    "sha256": "9f63263b4285b706300f63ce036dc11c098350352568ee9545a53999bdd0feb7"
+  },
+  {
+    "file": "frame-00268.jpg",
+    "t": 20.935569763183594,
+    "sha256": "6bce291216eacbbc3e348f8ac3b0157f561e44550fdab4e7ea36c8832e1aa34d"
+  },
+  {
+    "file": "frame-00269.jpg",
+    "t": 21.027324676513672,
+    "sha256": "e8ab50bf5e6e9bf0ce76c9ce32f297811b1b81cb77ec0d92d522f654c13b66fb"
+  },
+  {
+    "file": "frame-00270.jpg",
+    "t": 21.096446990966797,
+    "sha256": "b63ae0cbe8a9e7818308f1e06bdc111d903cf57b158ddcd4c5a378cd251df3d9"
+  },
+  {
+    "file": "frame-00271.jpg",
+    "t": 21.165504455566406,
+    "sha256": "55c85ca7074af3fdc25ed83434433856373e0575aee80e0dbc71144c8958bcad"
+  },
+  {
+    "file": "frame-00272.jpg",
+    "t": 21.24544906616211,
+    "sha256": "98e2a6e3df7240261d21c38d65b1cca2b2683815bda8a9f265bc5cf76b447dc7"
+  },
+  {
+    "file": "frame-00273.jpg",
+    "t": 21.32687759399414,
+    "sha256": "f441fc67828f968ec2427b7dc0f94c23fb1cc241ca7435766d14d59d89744226"
+  },
+  {
+    "file": "frame-00274.jpg",
+    "t": 21.39712142944336,
+    "sha256": "84e288a5ff4ff3e976c690629200627330b720924f46b03f22aa8ef57f5b0633"
+  },
+  {
+    "file": "frame-00275.jpg",
+    "t": 21.50440216064453,
+    "sha256": "441601da3e12a7ea18916840db1ba9ab9a6c32abbd6658a01e722bf6e575f21c"
+  },
+  {
+    "file": "frame-00276.jpg",
+    "t": 21.583358764648438,
+    "sha256": "04413b3b3dfe7d95738650d5d66bfb16004182aed03fcc475cf49e60cdf82ecf"
+  },
+  {
+    "file": "frame-00277.jpg",
+    "t": 21.656646728515625,
+    "sha256": "9b494916a42f02efb45126fd373ea0826f6baab65a14c0b07c89920e165a9be5"
+  },
+  {
+    "file": "frame-00278.jpg",
+    "t": 21.730384826660156,
+    "sha256": "d7833c2e3ea14bb6793ddf34c54c11be30fb43902104290326e963614be126ac"
+  },
+  {
+    "file": "frame-00279.jpg",
+    "t": 21.804546356201172,
+    "sha256": "92ac6eeecdf42e2f84d6a8383c5dadf80a01b9913c1c7ffaad14fd6d0c218a2b"
+  },
+  {
+    "file": "frame-00280.jpg",
+    "t": 21.876651763916016,
+    "sha256": "46c9379abc01e51ec009e6db2cc2307e0cfae655ebd0fd3ee7ccc5b690a44c00"
+  },
+  {
+    "file": "frame-00281.jpg",
+    "t": 21.949657440185547,
+    "sha256": "15451ba2e7d2d9e941c3641bf9335ad2e4ff1da4667e5d48e35c3ab9d514a109"
+  },
+  {
+    "file": "frame-00282.jpg",
+    "t": 22.025856018066406,
+    "sha256": "d1a91fcebb87cb4cdfd0e3ac1d9c8b699afdfbd4c7e10c3e93307e642b5e3ac4"
+  },
+  {
+    "file": "frame-00283.jpg",
+    "t": 22.119770050048828,
+    "sha256": "80018d6bc835dca398dd0d03e55b4eac169e381801b8fb5e11ec307581871354"
+  },
+  {
+    "file": "frame-00284.jpg",
+    "t": 22.19580841064453,
+    "sha256": "f824e4e28681ac4fbf2eee719233fe0e3767b12d4ce6765656f94556856aeba9"
+  },
+  {
+    "file": "frame-00285.jpg",
+    "t": 22.270992279052734,
+    "sha256": "69a5da4276737d251b029ad2f27e1971ab8e3065c01139b33890600b747d5965"
+  },
+  {
+    "file": "frame-00286.jpg",
+    "t": 22.343345642089844,
+    "sha256": "1dc297dbf10b3d075d81410350b3416878d8acb8002cb3da570062220afce978"
+  },
+  {
+    "file": "frame-00287.jpg",
+    "t": 22.41588592529297,
+    "sha256": "ae33739e027e9a51d17d838b8ab2c314dbde7c5db49174407539d2fe6f3a1a36"
+  },
+  {
+    "file": "frame-00288.jpg",
+    "t": 22.485332489013672,
+    "sha256": "c4765d94342f537f011bf0bdecd02c3958663c384ab22d21236dffa5ce0e633b"
+  },
+  {
+    "file": "frame-00289.jpg",
+    "t": 22.559463500976562,
+    "sha256": "dc44ea1d2a4554106ee5575c69c1f8e4bf2f8f11338552775aa1fcf6bd26b89e"
+  },
+  {
+    "file": "frame-00290.jpg",
+    "t": 22.631752014160156,
+    "sha256": "8881eaf76d0a3073bd80d537ed5f4dab690f8573305bb48640903774fecfa327"
+  },
+  {
+    "file": "frame-00291.jpg",
+    "t": 22.701732635498047,
+    "sha256": "6157c42e9df207522781c677b2a0641993cd4040f79b6235b760fe590a7972b8"
+  },
+  {
+    "file": "frame-00292.jpg",
+    "t": 22.775531768798828,
+    "sha256": "a3e6b831225503dea6f0e6bddfda37debbad2cc20150c452bac30a6789707d7b"
+  },
+  {
+    "file": "frame-00293.jpg",
+    "t": 22.845401763916016,
+    "sha256": "873ea0dc31ba25acd994cc962f47f1b57a7ef25f658156690c2c700d0e1a9d2b"
+  },
+  {
+    "file": "frame-00294.jpg",
+    "t": 22.91946792602539,
+    "sha256": "1ad80fce262201e501e5ab55f72960ee274816e3dc5e04999b39338b0766b858"
+  },
+  {
+    "file": "frame-00295.jpg",
+    "t": 22.995685577392578,
+    "sha256": "116a78b5c93c40b2733381c6b2fa9fa5985be9ae378b76fa1175e37573a6a254"
+  },
+  {
+    "file": "frame-00296.jpg",
+    "t": 23.07681655883789,
+    "sha256": "5b148355d3f91abae5a84339d3deb5306c5f4e39b36f05e321df7dfe808bc6fe"
+  },
+  {
+    "file": "frame-00297.jpg",
+    "t": 23.150089263916016,
+    "sha256": "0797f1e34ca311be76f73c2bf66fd6da24258ea20ad51fae42b227623488ab7b"
+  },
+  {
+    "file": "frame-00298.jpg",
+    "t": 23.22442626953125,
+    "sha256": "bcdae25a158dff148acf0e38eb5a736606f560eab822601913fd208712d5ac8b"
+  },
+  {
+    "file": "frame-00299.jpg",
+    "t": 23.305953979492188,
+    "sha256": "9c1eef40719b7383f7b029a31468e9a3d93198d66e6c4918bf67eef8fddffe2e"
+  },
+  {
+    "file": "frame-00300.jpg",
+    "t": 23.377002716064453,
+    "sha256": "3fa4ce546fa02b3d86a244c38e3920dec5f67e51c4fa9719a39035cb74781c41"
+  },
+  {
+    "file": "frame-00301.jpg",
+    "t": 23.49783706665039,
+    "sha256": "2138e9e58ad167d7c58390a64ade9f8d2029479c543a738fe6553ce0a489a2a7"
+  },
+  {
+    "file": "frame-00302.jpg",
+    "t": 23.571041107177734,
+    "sha256": "02c7ce131c3d0ea1db951eeb95be4f1438c36eb63adb2cced05a321638f16c42"
+  },
+  {
+    "file": "frame-00303.jpg",
+    "t": 23.644973754882812,
+    "sha256": "cca69af184f0e05c3a91e230e0538d3e13a3219fb0f60f5e2e44af6e2f8496c3"
+  },
+  {
+    "file": "frame-00304.jpg",
+    "t": 23.729122161865234,
+    "sha256": "aeb48b7a078f3e3f9f307d15a5f13af7a75583b7a72503cb897a33af5d154f26"
+  },
+  {
+    "file": "frame-00305.jpg",
+    "t": 23.807037353515625,
+    "sha256": "805d04a7742f25deeaf6a7c0e01b0b8fd7b04933f4b8acd6a5329e67b491dcd3"
+  },
+  {
+    "file": "frame-00306.jpg",
+    "t": 23.880489349365234,
+    "sha256": "218bb6122f4ba492a20eff41d2243f66f438e52b1230e9ac14db65665964ff07"
+  },
+  {
+    "file": "frame-00307.jpg",
+    "t": 23.960437774658203,
+    "sha256": "2740b02dad59120bfaf5f68754350ce1b6ff00a06bca8ed6f6def378bce6564c"
+  },
+  {
+    "file": "frame-00308.jpg",
+    "t": 24.029830932617188,
+    "sha256": "71f280ca0ff4e0ffac23f051cf338735345e31c3405526392dda6023e3f33658"
+  },
+  {
+    "file": "frame-00309.jpg",
+    "t": 24.102943420410156,
+    "sha256": "758b9c8b77e7398e729a1b4232a7723ab33628ff997dea151bb6855f5fba4425"
+  },
+  {
+    "file": "frame-00310.jpg",
+    "t": 24.17538833618164,
+    "sha256": "3dc7cc53017d49caf11647398b492e909777f578a970274caeb31b842c1a55db"
+  },
+  {
+    "file": "frame-00311.jpg",
+    "t": 24.245784759521484,
+    "sha256": "b3d98d3e6b08ba6605e48f985077b2461d0552aa326ca01bfd4f247ee8f6a4c6"
+  },
+  {
+    "file": "frame-00312.jpg",
+    "t": 24.33575439453125,
+    "sha256": "9f031112ace5489197892e7ac0ec4c5fdeb68ae794ee20cb66dc34bdeb172be2"
+  },
+  {
+    "file": "frame-00313.jpg",
+    "t": 24.422985076904297,
+    "sha256": "8ad48321666907f041c1766b32ac25a89b36fa78907ef309576cfbbeb4405aff"
+  },
+  {
+    "file": "frame-00314.jpg",
+    "t": 24.503704071044922,
+    "sha256": "9bc75911d9f4b8f3be59b5f0b628c1fa81cb00b2da445be80976f14b08a805e7"
+  },
+  {
+    "file": "frame-00315.jpg",
+    "t": 24.57345199584961,
+    "sha256": "827ccaf29ee3262f649c735828e8f1a855b7bde26e7ddff3b00ce39400f8fdef"
+  },
+  {
+    "file": "frame-00316.jpg",
+    "t": 24.644485473632812,
+    "sha256": "23947e0bc4b2df00baa5a93f52679088d91915a50973498b3f59a5c680a93066"
+  },
+  {
+    "file": "frame-00317.jpg",
+    "t": 24.720989227294922,
+    "sha256": "5fd2c6fb8a843e89ae0b5d93d922fd7ff379d187a726d9c57397ae37524513ac"
+  },
+  {
+    "file": "frame-00318.jpg",
+    "t": 24.794513702392578,
+    "sha256": "e4331edbf9c9c2fbcfa4f4ee061557c6af4bb5f03b262c2c540d56ffb96944d4"
+  },
+  {
+    "file": "frame-00319.jpg",
+    "t": 24.8707275390625,
+    "sha256": "4b2e7273129b12721b7ba5144ca7b982cdde557768d060f9e3d51d24f8c44bfe"
+  },
+  {
+    "file": "frame-00320.jpg",
+    "t": 24.95639419555664,
+    "sha256": "a34eb3f74d874031417b6a8be456de00f56576a22c606ab524db9ec4be236ffe"
+  },
+  {
+    "file": "frame-00321.jpg",
+    "t": 25.043277740478516,
+    "sha256": "edc737dbfaf2312ee12ab82869b08b49e28609a61ad6886c43a3a881d3129b22"
+  },
+  {
+    "file": "frame-00322.jpg",
+    "t": 25.11594009399414,
+    "sha256": "c7b4827111bbcc3def498004bdd4d78c8956c4c8bec1f12a1385e56c5fd20c74"
+  },
+  {
+    "file": "frame-00323.jpg",
+    "t": 25.267047882080078,
+    "sha256": "605f044ca84e3188809874c63b0a52ee00a7fdca3951214459fb85dec5d98129"
+  },
+  {
+    "file": "frame-00324.jpg",
+    "t": 25.350833892822266,
+    "sha256": "3a97c02012994f1883a6e2afff01cf7a546d9f09bb781ac5ed6782c1549905bd"
+  },
+  {
+    "file": "frame-00325.jpg",
+    "t": 25.43096923828125,
+    "sha256": "dde9b52dd40647556ddb6bf045925f7eaed472c85699d610bd59f7aa1ace8151"
+  },
+  {
+    "file": "frame-00326.jpg",
+    "t": 25.506805419921875,
+    "sha256": "c24848e814208b9f7276ec1a2a1a09005892d2146a6fe69ed399bb58e93909fe"
+  },
+  {
+    "file": "frame-00327.jpg",
+    "t": 25.58526611328125,
+    "sha256": "b5de11a37ca2ad72b31da86f4e507d1ef0608f9bf4d2e8f5a5a4af644f4866a9"
+  },
+  {
+    "file": "frame-00328.jpg",
+    "t": 25.66558074951172,
+    "sha256": "3b1abdfe84921b60e2b3307f7e6acf92df1c94f160ad5aad150bb81d4105c357"
+  },
+  {
+    "file": "frame-00329.jpg",
+    "t": 25.737449645996094,
+    "sha256": "685453a30377348342e2861ead8343ed551e94cb71caf4822502c7091d781568"
+  },
+  {
+    "file": "frame-00330.jpg",
+    "t": 25.816822052001953,
+    "sha256": "0185a5e83d0711c8680c476d946faa9c6903b671f93e174a3be100bd4fdb3b2b"
+  },
+  {
+    "file": "frame-00331.jpg",
+    "t": 25.898128509521484,
+    "sha256": "31af0ac4660c5d549ebb97c4d2cf15a948f12f2f6502618c2e9df45a065c09b5"
+  },
+  {
+    "file": "frame-00332.jpg",
+    "t": 25.972362518310547,
+    "sha256": "eb245448c16d358329f07724f04960f4e058ecfc0c83d1fcfc13dcfd448c1ba8"
+  },
+  {
+    "file": "frame-00333.jpg",
+    "t": 26.051647186279297,
+    "sha256": "d136ad30ce9e2289a38fc4f387bdcb818147c716ccc35b511db2776eccf73daa"
+  },
+  {
+    "file": "frame-00334.jpg",
+    "t": 26.125404357910156,
+    "sha256": "952e6828710007fb7d6e14f65e28a2936686c23b10420cd24236c5ae18804730"
+  },
+  {
+    "file": "frame-00335.jpg",
+    "t": 26.19805145263672,
+    "sha256": "b2f92c76c1fe4d166634ae04f3c3fd866c9e86ac65a0fd35dd1b17b189070713"
+  },
+  {
+    "file": "frame-00336.jpg",
+    "t": 26.27737808227539,
+    "sha256": "43275c7461943521b99d1d88c2ef921d441df46d1ef0ae63b4570a5a275cbe1f"
+  },
+  {
+    "file": "frame-00337.jpg",
+    "t": 26.35205078125,
+    "sha256": "4a725f029d3b4c1036083132fca0cdb9f9b71c5396c196f80738a87fa5e5a808"
+  },
+  {
+    "file": "frame-00338.jpg",
+    "t": 26.430267333984375,
+    "sha256": "f14c4d772415e6ed34eb8b02c8954ac5e64f0055257765f83ab6a660f189af6b"
+  },
+  {
+    "file": "frame-00339.jpg",
+    "t": 26.507396697998047,
+    "sha256": "6b7bbc3230a3a49c4540d2dc6c2219a39260e5179576adf8d6ae0805ffa04fa6"
+  },
+  {
+    "file": "frame-00340.jpg",
+    "t": 26.590465545654297,
+    "sha256": "bf779f1595267794f0b37b251e7d6d5bf0e30b803407a10ea81287e82385b4ef"
+  },
+  {
+    "file": "frame-00341.jpg",
+    "t": 26.678913116455078,
+    "sha256": "8e451e1c2b6d66b7adc696703483f428bcf434aa8692eb753c5bfa813cb93ce4"
+  },
+  {
+    "file": "frame-00342.jpg",
+    "t": 26.75421142578125,
+    "sha256": "3d7e2aade3d55f34dbe9c51cc3525f5022a0f03634693641db9e607349636715"
+  },
+  {
+    "file": "frame-00343.jpg",
+    "t": 26.827983856201172,
+    "sha256": "6eb2d37e6b58854d62be0050ff6cdad2a58f2c299a96ed1e41bcc311cb7fda1b"
+  },
+  {
+    "file": "frame-00344.jpg",
+    "t": 26.900829315185547,
+    "sha256": "187b0909c6a7312427b8f4d010010f78e3648b1e6e8958396d3d0c6e4418bad1"
+  },
+  {
+    "file": "frame-00345.jpg",
+    "t": 26.973812103271484,
+    "sha256": "d5a2e81303269198a37e36bd6865dc01f8408140b8697ba3ffd86c98f183687f"
+  },
+  {
+    "file": "frame-00346.jpg",
+    "t": 27.052433013916016,
+    "sha256": "674ca707f5fd911aefc375b40f801893f7419649eb87d69e10d09fbd6773396e"
+  },
+  {
+    "file": "frame-00347.jpg",
+    "t": 27.123611450195312,
+    "sha256": "ac87eea2149ad449d03f274243a4f75f05bb65ec165ca52c5bf722c2848a36d4"
+  },
+  {
+    "file": "frame-00348.jpg",
+    "t": 27.194271087646484,
+    "sha256": "73634a0a37b306ab72dba1e3fabf9e0df33217948636cc9fdc0f2be6704658df"
+  },
+  {
+    "file": "frame-00349.jpg",
+    "t": 27.269428253173828,
+    "sha256": "649425f7119c59c2efaad0f497c262fbfaebbc2fda6cceef3545d5b66573032b"
+  },
+  {
+    "file": "frame-00350.jpg",
+    "t": 27.3455810546875,
+    "sha256": "5720b20c93975030ec40d56f67c0d5c467d8a4f0aaadd55ba9a594405db65c80"
+  },
+  {
+    "file": "frame-00351.jpg",
+    "t": 27.427154541015625,
+    "sha256": "0e352787374975d08c44fda797684aad58f3498b3f61574ea11e0efe10e025ac"
+  },
+  {
+    "file": "frame-00352.jpg",
+    "t": 27.50440216064453,
+    "sha256": "ecb608e0ba29f7488f5444b20bd6e20515b552bd6d0d1dc4a4638328950d3965"
+  },
+  {
+    "file": "frame-00353.jpg",
+    "t": 27.58049774169922,
+    "sha256": "6b421430c4b8249f89e1b80a5c8eb375df278cfa55e5c818d1bd498d8ddbd6f2"
+  },
+  {
+    "file": "frame-00354.jpg",
+    "t": 27.65465545654297,
+    "sha256": "5e73d5f45d7711248270c1465db00b3d46a45cd615cebb472eb4c0ba9a581342"
+  },
+  {
+    "file": "frame-00355.jpg",
+    "t": 27.733688354492188,
+    "sha256": "e94f9f695455d0f37cb4e671797364f05c3c21e6bc5c08eb61552272ff9c4008"
+  },
+  {
+    "file": "frame-00356.jpg",
+    "t": 27.855979919433594,
+    "sha256": "d924eed3ae2c5b93c30b512e0d6b6a8108a42597555e0816afc4e9599359ff17"
+  },
+  {
+    "file": "frame-00357.jpg",
+    "t": 27.941646575927734,
+    "sha256": "d025425e8ba76b2811031caf98375eea87b811daa7231d01356209e5924d3054"
+  },
+  {
+    "file": "frame-00358.jpg",
+    "t": 28.015377044677734,
+    "sha256": "cf28c4b98d245bf5c2a8b950fb1caca4697035744096cf6e2d11d42c6241690e"
+  },
+  {
+    "file": "frame-00359.jpg",
+    "t": 28.086456298828125,
+    "sha256": "4ffa5ea64c7a8ad6038f5892a8d7db49b418732722f5e23d2d5b65bd243ae474"
+  },
+  {
+    "file": "frame-00360.jpg",
+    "t": 28.164859771728516,
+    "sha256": "0865f2683adb4f8aeabd4027f791c0665c57af12cbad4f5e5b423f13b197ba16"
+  },
+  {
+    "file": "frame-00361.jpg",
+    "t": 28.242416381835938,
+    "sha256": "9c1ff1314ea609c3de87ee29b22ce8040f4325f8b1405da94860b8cd73a8ed85"
+  },
+  {
+    "file": "frame-00362.jpg",
+    "t": 28.31705093383789,
+    "sha256": "3b31876e0c962cff6c1c863c3610982c833794dcc50851d7b562e147e1da86ab"
+  },
+  {
+    "file": "frame-00363.jpg",
+    "t": 28.39059066772461,
+    "sha256": "e7a106eb4d5b078c91326e588f5ea7d8218f9ae8f3229c3504334bb528db4fa4"
+  },
+  {
+    "file": "frame-00364.jpg",
+    "t": 28.51009750366211,
+    "sha256": "4d88a2558c0c5d8817532bbcbd80b810dadd0fdf75f99023b9ef89fe26a9a4a2"
+  },
+  {
+    "file": "frame-00365.jpg",
+    "t": 28.58379364013672,
+    "sha256": "12ae7ac7b7dcba4c4ef5909d159d1e5055d3759e8e95ae34054636c96753eed0"
+  },
+  {
+    "file": "frame-00366.jpg",
+    "t": 28.661861419677734,
+    "sha256": "f71379d482f7856ac7689eef8629d825f72d1731ae6eea380886135f85332a5b"
+  },
+  {
+    "file": "frame-00367.jpg",
+    "t": 28.742847442626953,
+    "sha256": "2e432307230fc630bea979074d483fdfa1d181c07fe4ac05cc791e12f55e1bd9"
+  },
+  {
+    "file": "frame-00368.jpg",
+    "t": 28.827411651611328,
+    "sha256": "36a172295fe5eb097fe6a6bcd09e80dd1932d4f86070335211508248e5012f29"
+  },
+  {
+    "file": "frame-00369.jpg",
+    "t": 28.91686248779297,
+    "sha256": "15274f927000361b49b56b4fcb1698a14571dc81d9a35ea0cbc2e3bc3972056e"
+  },
+  {
+    "file": "frame-00370.jpg",
+    "t": 28.995529174804688,
+    "sha256": "740872268d73494834248a8d15f014063f53549e59b9ba2ef8c9e001cc84ce5f"
+  },
+  {
+    "file": "frame-00371.jpg",
+    "t": 29.06375503540039,
+    "sha256": "562f97e717d63e4a34733fca832aeb45b2672748e5ea6b0eff64494edcfbc939"
+  },
+  {
+    "file": "frame-00372.jpg",
+    "t": 29.141613006591797,
+    "sha256": "c454f55dd45e4805fa03f42c119ec6984718db767edf6718dabc87bd28f99d3c"
+  },
+  {
+    "file": "frame-00373.jpg",
+    "t": 29.215702056884766,
+    "sha256": "ff6765dd197d11072d8b73d18bd965e0105ed5bf1670c927266b8b20daba95a9"
+  },
+  {
+    "file": "frame-00374.jpg",
+    "t": 29.295494079589844,
+    "sha256": "7645cc35c5760730eaa5b56bbf33081ac4db300deefe8720c7208f93981716cd"
+  },
+  {
+    "file": "frame-00375.jpg",
+    "t": 29.370819091796875,
+    "sha256": "ca74882b25e5f103e74130a8712e2d0d44e054885da9972fba13d7551696cebc"
+  },
+  {
+    "file": "frame-00376.jpg",
+    "t": 29.447128295898438,
+    "sha256": "8575921e1fb3a1b0208b6f43733e4635c3f1ba088e28c1fad8b104b33271b522"
+  },
+  {
+    "file": "frame-00377.jpg",
+    "t": 29.524734497070312,
+    "sha256": "6ad3fcc7f17a1bd1f6996d217ca7e342ec4875774b4a4189d1ba724fa56b63fa"
+  },
+  {
+    "file": "frame-00378.jpg",
+    "t": 29.600570678710938,
+    "sha256": "11a562fe7c03f2d0fe64eef0247de4e73d8a02368df3af6a131e8c9c5f8b94de"
+  },
+  {
+    "file": "frame-00379.jpg",
+    "t": 29.71941375732422,
+    "sha256": "54b1d9d3fd36021ae8b4fb3f539bf0f3a86bd6802a0df3270fa435aa588cf6cc"
+  },
+  {
+    "file": "frame-00380.jpg",
+    "t": 29.79779815673828,
+    "sha256": "70ed4545ac5fc9615bb120354af58b80f1e581fe134e8e44c0b8203f04542597"
+  },
+  {
+    "file": "frame-00381.jpg",
+    "t": 29.876976013183594,
+    "sha256": "cf2c5533eec3516d477de308c4638e4032611e206085eb953365dc588b7fe895"
+  },
+  {
+    "file": "frame-00382.jpg",
+    "t": 29.95477294921875,
+    "sha256": "886dae57500fe9d1672a701d88d4f24dda843a6911e7217938946e99b6646f7a"
+  },
+  {
+    "file": "frame-00383.jpg",
+    "t": 30.032005310058594,
+    "sha256": "1e6c4cd88e0c62fe2d3a6971daaecee31dccd1708dd0d1e030e138a8f67874a4"
+  },
+  {
+    "file": "frame-00384.jpg",
+    "t": 30.11761474609375,
+    "sha256": "3c2e81ec3b22efad3a61915da63c381db41b72ae390b7f47522f78b227601010"
+  },
+  {
+    "file": "frame-00385.jpg",
+    "t": 30.205413818359375,
+    "sha256": "44c766fb49ad40d01b3d8cad695106070ec943932429434e8b3ecd4901f9805d"
+  },
+  {
+    "file": "frame-00386.jpg",
+    "t": 30.282306671142578,
+    "sha256": "da6266716abc428e9aa52077f8b652f657a9a841f152358e49841ecb710443f1"
+  },
+  {
+    "file": "frame-00387.jpg",
+    "t": 30.368328094482422,
+    "sha256": "7754820515677eaf3c2bd97df1e5c8e0d84d21e8f23e7b66ccec1d90297de948"
+  },
+  {
+    "file": "frame-00388.jpg",
+    "t": 30.456546783447266,
+    "sha256": "f8d496bcbc7abfe601b1d9495a755e61335118f2386472a04c36413d98878179"
+  },
+  {
+    "file": "frame-00389.jpg",
+    "t": 30.536190032958984,
+    "sha256": "8e8d53b49e4a123e900fc8d881dd253bb49c90bb2cdcf1f9dd49bc0e1752c03d"
+  },
+  {
+    "file": "frame-00390.jpg",
+    "t": 30.611602783203125,
+    "sha256": "29d5291e4d8a5c2ed6a7cad1dc8c0b831655591407d096aa4d9687c96c76d1e9"
+  },
+  {
+    "file": "frame-00391.jpg",
+    "t": 30.685211181640625,
+    "sha256": "dbd1b35b56d6c916ca4f40c76cd1ad611af08a4a78eb155e4063c95b59e536cf"
+  },
+  {
+    "file": "frame-00392.jpg",
+    "t": 30.763771057128906,
+    "sha256": "42792c485e892152f4501569f8b8b2b54950bd2a404ac6e66eaee83db2e4637c"
+  },
+  {
+    "file": "frame-00393.jpg",
+    "t": 30.837890625,
+    "sha256": "2daff7e369024f6db65b0835f3e2a998763d8921b07531e43025da168279ed1f"
+  },
+  {
+    "file": "frame-00394.jpg",
+    "t": 30.911876678466797,
+    "sha256": "134506cabbab8da5026f01c364e209198ba56d424c2414af585feae5d463ab1a"
+  },
+  {
+    "file": "frame-00395.jpg",
+    "t": 30.987598419189453,
+    "sha256": "ed173eab78c07fe62f375de583baa707b5f33b49e067d1cc98d55d3d6f552271"
+  },
+  {
+    "file": "frame-00396.jpg",
+    "t": 31.073638916015625,
+    "sha256": "bfbc2e46b078506a14230a74e9139d5f5f3faa000f5f0ba107fe248796012421"
+  },
+  {
+    "file": "frame-00397.jpg",
+    "t": 31.166091918945312,
+    "sha256": "f571c0dfa530ccef35645132c3e54b67be4a3da2942978bed0c02be950720097"
+  },
+  {
+    "file": "frame-00398.jpg",
+    "t": 31.24911880493164,
+    "sha256": "b6770351482df228e2451bc629add146b6380fe31516e26565dde3d6f22df294"
+  },
+  {
+    "file": "frame-00399.jpg",
+    "t": 31.321788787841797,
+    "sha256": "c091c81b0b79eee1aeacb0532977e48e2a24b0efce6d6b35283ef38fd2b5f53c"
+  },
+  {
+    "file": "frame-00400.jpg",
+    "t": 31.412487030029297,
+    "sha256": "1b6c7880a8625b11e06ddf1168d895b3f6ee7631f0b4eb1825b9617ddc872905"
+  },
+  {
+    "file": "frame-00401.jpg",
+    "t": 31.48779296875,
+    "sha256": "1c42665c556599f32ed5bae1c30e5fbaf01ce5f4fb471c9213c11650a6ea5eee"
+  },
+  {
+    "file": "frame-00402.jpg",
+    "t": 31.620101928710938,
+    "sha256": "7fba1605e525a782a38f0e0fc165a390d2080b60fe1cf7f050a1f95934e82202"
+  },
+  {
+    "file": "frame-00403.jpg",
+    "t": 31.711750030517578,
+    "sha256": "0921c58737a5c35600bf75c171151ab957dc307c6d77ed1b51e27b68565865d6"
+  },
+  {
+    "file": "frame-00404.jpg",
+    "t": 31.785247802734375,
+    "sha256": "284e8e6e97e1c7d47f8ce3b62b80f75110ee51ffc5092e88ab8bb6ccb03542e5"
+  },
+  {
+    "file": "frame-00405.jpg",
+    "t": 31.86156463623047,
+    "sha256": "018561c4e11bd42df683e2206f8e7682105f7c69d996b93cb8128773d14dc17b"
+  },
+  {
+    "file": "frame-00406.jpg",
+    "t": 31.938045501708984,
+    "sha256": "f14aeb2cb25b505c7d4b35acd3a4153319ad392563d0d8b24808d0285cf286d7"
+  },
+  {
+    "file": "frame-00407.jpg",
+    "t": 32.0136604309082,
+    "sha256": "b46961c3b6946e69148f448c82388c5689671a161dde3c366161823f648368f6"
+  },
+  {
+    "file": "frame-00408.jpg",
+    "t": 32.093238830566406,
+    "sha256": "3712748510ff390f71aa065a4b818fa4a9685f9f6988b8fa6d067b96032ac565"
+  },
+  {
+    "file": "frame-00409.jpg",
+    "t": 32.17086410522461,
+    "sha256": "1169f706cf6f64937b48b76d1502fabc0ddb31292d1826aebfde58e739d1ddc4"
+  },
+  {
+    "file": "frame-00410.jpg",
+    "t": 32.24751281738281,
+    "sha256": "84edc0abbd8e0fb55f4d9c678c3c52fff20ba07276f83182c19a5d4727fa6a42"
+  },
+  {
+    "file": "frame-00411.jpg",
+    "t": 32.32662582397461,
+    "sha256": "2a8b3f52755e45ecb3c2885e9337d585fbbd369066656162d8dce22e1a827d21"
+  },
+  {
+    "file": "frame-00412.jpg",
+    "t": 32.418060302734375,
+    "sha256": "643372a762a1d887a3b3c310857ed2c091589df05b707e1f5b0e019db44b39c5"
+  },
+  {
+    "file": "frame-00413.jpg",
+    "t": 32.50503158569336,
+    "sha256": "c4dff00d14717133587ab9094290b4f7a195e58d51beb9069c604b2f919ec5cb"
+  },
+  {
+    "file": "frame-00414.jpg",
+    "t": 32.58699035644531,
+    "sha256": "aa51af5cdfff055433680d183e225f759d7863bdcd3d219fe5ff1cf014fc9380"
+  },
+  {
+    "file": "frame-00415.jpg",
+    "t": 32.675743103027344,
+    "sha256": "c661619489f675abf1ae837913df18e887a6da25fe3727b7580ddce646de243e"
+  },
+  {
+    "file": "frame-00416.jpg",
+    "t": 32.74607467651367,
+    "sha256": "c7c24393962744002851c96efbe9270a1747571889bb2ae8d35f9240802d0a1a"
+  },
+  {
+    "file": "frame-00417.jpg",
+    "t": 32.81801986694336,
+    "sha256": "16bdc6c71a8d690cee509d5caa14f3f9efff5c51b5f041a787235e6a0ccffadf"
+  },
+  {
+    "file": "frame-00418.jpg",
+    "t": 32.894596099853516,
+    "sha256": "a427af567832dbf232d333b402103caf2f4b24aa34de06b3c3dceb18ee8ff156"
+  },
+  {
+    "file": "frame-00419.jpg",
+    "t": 32.96653366088867,
+    "sha256": "8ef88fcff618d0d9315f9c7a7698122c57281ee7eb6a3bb021758fb58005d223"
+  },
+  {
+    "file": "frame-00420.jpg",
+    "t": 33.04462432861328,
+    "sha256": "c0d758670c3298ec5c7503cf0ffe9fd76f6218dd75f3f617bd94b4e0e4cff560"
+  },
+  {
+    "file": "frame-00421.jpg",
+    "t": 33.12653350830078,
+    "sha256": "4c889d12b1fdc11bd323d62ca6dd8c25a8a81e441a50955005665183e636e029"
+  },
+  {
+    "file": "frame-00422.jpg",
+    "t": 33.196983337402344,
+    "sha256": "55eb8e3fa2cc82c82cd758bc028242f5fe5316bc9fbde733169c6f78d323eef6"
+  },
+  {
+    "file": "frame-00423.jpg",
+    "t": 33.27232360839844,
+    "sha256": "210767bfb76fa6ec3fc6b72bbfc569a6e8c4b3d6f412e3ef7a4e43f2f5eeb80d"
+  },
+  {
+    "file": "frame-00424.jpg",
+    "t": 33.35063552856445,
+    "sha256": "71632a7aa025727b757911ca3e70f48e51e7d4c6ce9641e1ed2f65fadd5d6a38"
+  },
+  {
+    "file": "frame-00425.jpg",
+    "t": 33.4460563659668,
+    "sha256": "44de81967ba56579da20d8957795dc744b8e0ad1252dbb18d1c0479f9bdc47dc"
+  },
+  {
+    "file": "frame-00426.jpg",
+    "t": 33.534950256347656,
+    "sha256": "e8ad083a6edb398154c527ed4b24340e72e61bb706419d78811fa1b7cfad70e2"
+  },
+  {
+    "file": "frame-00427.jpg",
+    "t": 33.607784271240234,
+    "sha256": "548e41c75558e0db82f6af286bcfa982da972b404ac6c8da02c6acfda9405630"
+  },
+  {
+    "file": "frame-00428.jpg",
+    "t": 33.68454360961914,
+    "sha256": "ad2beedc73f6690f7aef9ee08871dd213f0b7b3267b9ef3ec3726f21cc0b0145"
+  },
+  {
+    "file": "frame-00429.jpg",
+    "t": 33.7624397277832,
+    "sha256": "9dec7aa632bad38c393edd668620e8919b0be0b285ccc3050b28a7e739e11a46"
+  },
+  {
+    "file": "frame-00430.jpg",
+    "t": 33.83445739746094,
+    "sha256": "1fd8ab3ad61fdcb6140d2bac6edf89c9b84bd4d119d3e6f990c96a370d59f765"
+  },
+  {
+    "file": "frame-00431.jpg",
+    "t": 33.91111373901367,
+    "sha256": "1f8df7b02434d5c896297f8578dabb8362d0ebdf73617d730257eb7701d3da8c"
+  },
+  {
+    "file": "frame-00432.jpg",
+    "t": 33.989280700683594,
+    "sha256": "7196ac2460aab9b9f0956a98d216b0ea1465ce16132a5650dd4c4ae7874c6b4b"
+  },
+  {
+    "file": "frame-00433.jpg",
+    "t": 34.06142807006836,
+    "sha256": "a22a67cfc1ba34dc72f40f3e3c94f98c10853e3aaff81f1d1d7f40278041e532"
+  },
+  {
+    "file": "frame-00434.jpg",
+    "t": 34.14154815673828,
+    "sha256": "70269a52c01edcf7cd8a6a0011b104754804b4648473c67b4fe526a797de2199"
+  },
+  {
+    "file": "frame-00435.jpg",
+    "t": 34.21910858154297,
+    "sha256": "e45a09aa3e156ca8fc0ec3dfe7eb0db988e57848beaf08803b7baaaf664ce09e"
+  },
+  {
+    "file": "frame-00436.jpg",
+    "t": 34.29114532470703,
+    "sha256": "fb11ee38b71c93b7b6dbfc4b7f0dd6b26f4e22023e3f65d91a12a08e499d2102"
+  },
+  {
+    "file": "frame-00437.jpg",
+    "t": 34.365360260009766,
+    "sha256": "325a226754db447adc6da5d3fb2c754b20d9ff00ec57587e15c6607e1453bde6"
+  },
+  {
+    "file": "frame-00438.jpg",
+    "t": 34.44210433959961,
+    "sha256": "eaf5c11eb2c0f50a9e64f36540bad134fe03e03ddd384f5326f946c4a1bd52d9"
+  },
+  {
+    "file": "frame-00439.jpg",
+    "t": 34.51110076904297,
+    "sha256": "7697e3dcbeb00d555aeebe06a8ef91a377530f6f21f668215caa13e9c8cf38f5"
+  },
+  {
+    "file": "frame-00440.jpg",
+    "t": 34.5897102355957,
+    "sha256": "a1f8c3148bc2401eac52918b82cc4231ad8744cff11a2d623930c1d5d1b527f3"
+  },
+  {
+    "file": "frame-00441.jpg",
+    "t": 34.69777297973633,
+    "sha256": "3c6bdbe4d79c9c6f309bcf315b4a1e56809fb5c5ed778742b51574f13a60192c"
+  },
+  {
+    "file": "frame-00442.jpg",
+    "t": 34.78911590576172,
+    "sha256": "d460d2dd79d237a4bf56e0ce5108ffb80162899ef3ce0c6bc42a591437de20b9"
+  },
+  {
+    "file": "frame-00443.jpg",
+    "t": 34.857608795166016,
+    "sha256": "63ecf676673bdad53cd3c72886ca54a3e73096bf96120951608220e0e97ffce5"
+  },
+  {
+    "file": "frame-00444.jpg",
+    "t": 34.93714904785156,
+    "sha256": "a02e73e2cd437b99562f3a1856384964d3b26e958ea5183b9d8fddee010efe74"
+  },
+  {
+    "file": "frame-00445.jpg",
+    "t": 35.01414108276367,
+    "sha256": "7176deac7f145e6de87f96b7dab7a6836dd27e5c015760f56b8b5be44df93262"
+  },
+  {
+    "file": "frame-00446.jpg",
+    "t": 35.08778381347656,
+    "sha256": "6c15b5ff65072ad8dc09d8fb768a03db7dc7f3517f2fe7d8020ccb778eceb9b7"
+  },
+  {
+    "file": "frame-00447.jpg",
+    "t": 35.16048049926758,
+    "sha256": "672bb7d0cfc0369b04ed8f9a8844b66301b35d4b2be94538884419fa2b85f8a3"
+  },
+  {
+    "file": "frame-00448.jpg",
+    "t": 35.23433303833008,
+    "sha256": "b1c991f840097a775acf6ea47d673d48c9c388da90d3393aa4bf34603e23db58"
+  },
+  {
+    "file": "frame-00449.jpg",
+    "t": 35.312931060791016,
+    "sha256": "d1b2c26c4391f670c61a5f9be5ba24030783ba21802b096739320c2c619404d7"
+  },
+  {
+    "file": "frame-00450.jpg",
+    "t": 35.39053726196289,
+    "sha256": "d5a1c8b660ff0f7791acabcf15e723f900decc28efd782cc3592d6bcd7e831e2"
+  },
+  {
+    "file": "frame-00451.jpg",
+    "t": 35.459293365478516,
+    "sha256": "d82576b621a9bf219eea2f0e8e593f7dbbeaf1a39790aa8a0d825ccea8b4da7a"
+  },
+  {
+    "file": "frame-00452.jpg",
+    "t": 35.53539276123047,
+    "sha256": "3f079ce6b77bcaf0d2a70f6e3bc02ade32d7b1d2ac6e63d740b15fcdb91a6dc6"
+  },
+  {
+    "file": "frame-00453.jpg",
+    "t": 35.606781005859375,
+    "sha256": "5d322b7de0e2e07b9a4d47482bb971461996012f6b05c73ddbee754182a7770f"
+  },
+  {
+    "file": "frame-00454.jpg",
+    "t": 35.6852912902832,
+    "sha256": "3c69d0fae7b5e52704f236920a063fc4a01ed550a3c8d706b4ef5e2c63fbcde3"
+  },
+  {
+    "file": "frame-00455.jpg",
+    "t": 35.76892852783203,
+    "sha256": "93f2611934323b765f018ebd70f9348bf2e3bf094770a87809a8987cdc550f84"
+  },
+  {
+    "file": "frame-00456.jpg",
+    "t": 35.84722137451172,
+    "sha256": "89932843a08ff1df604acbcadac050cc0b7d401c2bc375ffc5795d7c5c09d6e7"
+  },
+  {
+    "file": "frame-00457.jpg",
+    "t": 35.92311096191406,
+    "sha256": "4ce380aa36ac3244d9f3db0824eccc393345a62929c0643bcef78d508e026d38"
+  },
+  {
+    "file": "frame-00458.jpg",
+    "t": 35.996089935302734,
+    "sha256": "748f1dfa322c4607f2b4c244f9b34c045efd9b59f95511d9c7fdd56175655f1e"
+  },
+  {
+    "file": "frame-00459.jpg",
+    "t": 36.07406234741211,
+    "sha256": "84dcf4e1c63fc1dcc60acd3738324cc62f12cb8647dcf67c1adfea6e739aa866"
+  },
+  {
+    "file": "frame-00460.jpg",
+    "t": 36.15031433105469,
+    "sha256": "45e1a6774926e478306c07b62f2e922cec4bffa08f85040704c02f3605b3c84c"
+  },
+  {
+    "file": "frame-00461.jpg",
+    "t": 36.22683334350586,
+    "sha256": "98e141822fa1e2b1b6e34c73918169f65e61d898c89df392d59e234f7d625759"
+  },
+  {
+    "file": "frame-00462.jpg",
+    "t": 36.30316925048828,
+    "sha256": "4485fb050bdad38d33a2c6bb1d9990667346b9f3215aa9dec0a1f0b7f3af7b99"
+  },
+  {
+    "file": "frame-00463.jpg",
+    "t": 36.39223861694336,
+    "sha256": "3063dba8dc5050012ccd267b87dbb829f692a831259db2df82d4fd24789ca89a"
+  },
+  {
+    "file": "frame-00464.jpg",
+    "t": 36.46615982055664,
+    "sha256": "1bd7c366d7184952ce1c7a666f642ae9524764a540a8d5c0dc2f8a9e404e226f"
+  },
+  {
+    "file": "frame-00465.jpg",
+    "t": 36.540916442871094,
+    "sha256": "d0c5348a64cbc8b16ca9fe1717b46bff5df47029f9b6a1040691f86a1a017c2c"
+  },
+  {
+    "file": "frame-00466.jpg",
+    "t": 36.619014739990234,
+    "sha256": "d3c27d264a01e174a5b51280dd87a6cf5a3a06ffb1973d78713e60c8ba86df8c"
+  },
+  {
+    "file": "frame-00467.jpg",
+    "t": 36.69571304321289,
+    "sha256": "460e0a8fab7b8044270fc08158837a56c087ac99cba5bd1d288b51bee6fac941"
+  },
+  {
+    "file": "frame-00468.jpg",
+    "t": 36.77056121826172,
+    "sha256": "78fa83ad6b08e7993f71f17719600b0f6c0051956c03ddfe18964cc84717e043"
+  },
+  {
+    "file": "frame-00469.jpg",
+    "t": 36.8515625,
+    "sha256": "aa3039bf4791eed53f40e5062133b22e3ca441bc1552772074824d63ad64f185"
+  },
+  {
+    "file": "frame-00470.jpg",
+    "t": 37.00414276123047,
+    "sha256": "6f305618065e3182eaee33130465ab5fb7f7650b75a337f4912700673457718b"
+  },
+  {
+    "file": "frame-00471.jpg",
+    "t": 37.0814323425293,
+    "sha256": "210ed0446b013bc3914a2948d9f7572775af4359bfbf4fcae3f6301131f21e2a"
+  },
+  {
+    "file": "frame-00472.jpg",
+    "t": 37.16028594970703,
+    "sha256": "aced0b394fcf6b5fc411ce2da4c006d26a4b85f416de8dcec19724836e7ee3e7"
+  },
+  {
+    "file": "frame-00473.jpg",
+    "t": 37.23333740234375,
+    "sha256": "aeb92021989c0f9cdc0e5f500d01e670dd6a43c2a7f45c794198df6dbc9b0cd7"
+  },
+  {
+    "file": "frame-00474.jpg",
+    "t": 37.3114128112793,
+    "sha256": "2c489e32afb59a628ce4e866eba4c62abbf75f2c64379183c5f020f6d3cf5eb2"
+  },
+  {
+    "file": "frame-00475.jpg",
+    "t": 37.39033889770508,
+    "sha256": "b2aabecb51b3d1f4d2d7d8a6ab0da62d025b3cc10e88fb5154738ca5d5033352"
+  },
+  {
+    "file": "frame-00476.jpg",
+    "t": 37.46921157836914,
+    "sha256": "db8f4bc59020a47544e8e9a1cd9b72f016b760482ddaa024e62ece47bfb509bc"
+  },
+  {
+    "file": "frame-00477.jpg",
+    "t": 37.5540771484375,
+    "sha256": "26dcb405daa0389c71a35684eed8512957f827b892875ba50be01d66433b4cda"
+  },
+  {
+    "file": "frame-00478.jpg",
+    "t": 37.627960205078125,
+    "sha256": "53a0d66b84b97c98909a0605e226113d7e6d3621f5a3e3767058f18e0946fbde"
+  },
+  {
+    "file": "frame-00479.jpg",
+    "t": 37.70854568481445,
+    "sha256": "3bcd655279ef8de08d6e864868c1152bad9f23832b47b28bfc6bffbc790d5c8b"
+  },
+  {
+    "file": "frame-00480.jpg",
+    "t": 37.78623580932617,
+    "sha256": "aede3c9466b24bd34d3283c00d7ebc6659a864fe39a57fcdc67dbf24581beb09"
+  },
+  {
+    "file": "frame-00481.jpg",
+    "t": 37.85746765136719,
+    "sha256": "ef9eb839cbd6b69d08fd425e45e41e32042434dc9064c80e6b3a3ca222926e74"
+  },
+  {
+    "file": "frame-00482.jpg",
+    "t": 37.9417724609375,
+    "sha256": "13d23c7dad111203e96034df876af971e1c219e0cb25b48d8bc04fcbce657e93"
+  },
+  {
+    "file": "frame-00483.jpg",
+    "t": 38.02790451049805,
+    "sha256": "f0e3409507eb6733f32abe9a9384ef14d82841b52958dbb66770b8c9d58e97e8"
+  },
+  {
+    "file": "frame-00484.jpg",
+    "t": 38.10204315185547,
+    "sha256": "fb82ea4b9017cab6ff2ff7318410395d46fd8b2f648d15f27682f8dfeb603452"
+  },
+  {
+    "file": "frame-00485.jpg",
+    "t": 38.17790222167969,
+    "sha256": "797f6ecf66f1860578c1e19c2283e8131a8263fb3b49630e6d8a628b7334f77f"
+  },
+  {
+    "file": "frame-00486.jpg",
+    "t": 38.26353454589844,
+    "sha256": "25c469725efa0645c2bda748d655b6e8389967d0a4a8b46d729aed221433e8c7"
+  },
+  {
+    "file": "frame-00487.jpg",
+    "t": 38.345970153808594,
+    "sha256": "29dd5ff5d86eff19d37fdfffce464db2c4829a845a193a85594d5ffecd0756b7"
+  },
+  {
+    "file": "frame-00488.jpg",
+    "t": 38.44148254394531,
+    "sha256": "22fc94b8d22e36fb4872410dc00bcdc767d25cf24fc11845fb2d25d4b733b7fa"
+  },
+  {
+    "file": "frame-00489.jpg",
+    "t": 38.522090911865234,
+    "sha256": "af37a59ad7e4315112c078e6643f174f643e0519da181e8db5a23ba2c407092f"
+  },
+  {
+    "file": "frame-00490.jpg",
+    "t": 38.592960357666016,
+    "sha256": "4c075e6c2a29959cdd921eaec054cfa606b970727f05154457ef80c2f01d995b"
+  },
+  {
+    "file": "frame-00491.jpg",
+    "t": 38.66824722290039,
+    "sha256": "4519438ed1ceee8081d019ccd3b3cb80ac9a7af49d818495f0f7298b7df97126"
+  },
+  {
+    "file": "frame-00492.jpg",
+    "t": 38.74517059326172,
+    "sha256": "233c6b74d264c8b164f02b3012ea3a486ff069e531dcf94e5ec064adeb1a22fc"
+  },
+  {
+    "file": "frame-00493.jpg",
+    "t": 38.82758331298828,
+    "sha256": "0cfd2794005ca1568c2513fe074805dc8c314dc689c44e994158d356e22ff85a"
+  },
+  {
+    "file": "frame-00494.jpg",
+    "t": 38.908782958984375,
+    "sha256": "4836256602d862c5dfc32ab2315166b470c68f74b9d6a699bc055985a91c850d"
+  },
+  {
+    "file": "frame-00495.jpg",
+    "t": 38.98606872558594,
+    "sha256": "a4baa1dc50a768a1f1f1ac2d4d6260b3744d205b5f23191e27baf682bb935fbd"
+  },
+  {
+    "file": "frame-00496.jpg",
+    "t": 39.060943603515625,
+    "sha256": "27e9421ca65f08df898530984d338e89521b863caa66a60108604a7ba392e355"
+  },
+  {
+    "file": "frame-00497.jpg",
+    "t": 39.16513442993164,
+    "sha256": "6c5d142d9620f053d06231754c368d5b4708f01cac52787f9299de775a06ac26"
+  },
+  {
+    "file": "frame-00498.jpg",
+    "t": 39.26483154296875,
+    "sha256": "72e03f17127fe9c04261ec1d1a4c18ca786f18c3a8457dea6b0b0fd2e8b6e08b"
+  },
+  {
+    "file": "frame-00499.jpg",
+    "t": 39.3482551574707,
+    "sha256": "eacc4ee3a0577e03d39db4495dfd3ea82d679b0281e5d21259c9cc405c62c116"
+  },
+  {
+    "file": "frame-00500.jpg",
+    "t": 39.4206657409668,
+    "sha256": "0904353c05ca1299e8a4e53f7f3e31fc621ba8e2e893c2fa7124c5be6f84a5d7"
+  },
+  {
+    "file": "frame-00501.jpg",
+    "t": 39.501953125,
+    "sha256": "3192e64300ccbe79adeb4ec44e1ec51e1feed77fc27cdd01628e4e23f2b6010f"
+  },
+  {
+    "file": "frame-00502.jpg",
+    "t": 39.5870361328125,
+    "sha256": "a66e4fd6bc9252a3967c0707616478036cb040c1eb4062ecb6ad096ccfdae704"
+  },
+  {
+    "file": "frame-00503.jpg",
+    "t": 39.66814041137695,
+    "sha256": "c9801f55a22068535a56d59a0cd9c28460a98ad65d9309c743b43bfbef138872"
+  },
+  {
+    "file": "frame-00504.jpg",
+    "t": 39.74024963378906,
+    "sha256": "866b310fbc69ed1c0749c6515362e21eee148c3185c2c492930d412cb1a3a07b"
+  },
+  {
+    "file": "frame-00505.jpg",
+    "t": 39.81923294067383,
+    "sha256": "601a852d15c23deab3de0e1f2b57967c738c6688e7bfb319bd4ec253942f08d5"
+  },
+  {
+    "file": "frame-00506.jpg",
+    "t": 39.907196044921875,
+    "sha256": "c8aa9bb5511552f2e63e18540e31158de8f4976bd2169c18f8c1fe0682ca322b"
+  },
+  {
+    "file": "frame-00507.jpg",
+    "t": 39.994869232177734,
+    "sha256": "238736589254ae9c4e87b3b8e7b09486d0868c145bc665685554f9f4bfe1402a"
+  },
+  {
+    "file": "frame-00508.jpg",
+    "t": 40.07203674316406,
+    "sha256": "4ebeceef4cdeed90de2c19d48290c61674d93a9caa4b8e194e498fce3f3a79c9"
+  },
+  {
+    "file": "frame-00509.jpg",
+    "t": 40.150299072265625,
+    "sha256": "d2fa6605e88c5cb9241fc0c69f33f3340457e2b6317afb95e4427742a23323ae"
+  },
+  {
+    "file": "frame-00510.jpg",
+    "t": 40.2370491027832,
+    "sha256": "3ab49138660837cffd05f176c84eb082c01861220e32a25d8ab72c4668590aa0"
+  },
+  {
+    "file": "frame-00511.jpg",
+    "t": 40.326377868652344,
+    "sha256": "ddde844ff56b555a84c1b97e7ef9e54147031a9cc1214a6917d0337bd41dd781"
+  },
+  {
+    "file": "frame-00512.jpg",
+    "t": 40.401123046875,
+    "sha256": "b78e56072786b63871825033c577a43c46a6ab972a18797b4691fbb7cf02477c"
+  },
+  {
+    "file": "frame-00513.jpg",
+    "t": 40.4831428527832,
+    "sha256": "8acec0efd4a987f2ecec4c1f6d7b822f015debb9bb99be14084dd36bb4797653"
+  },
+  {
+    "file": "frame-00514.jpg",
+    "t": 40.56541061401367,
+    "sha256": "c9740c6582052bed04ee7ade42b4a605bdbe67f8cbb3c3a16ef2c8a745f80204"
+  },
+  {
+    "file": "frame-00515.jpg",
+    "t": 40.63698196411133,
+    "sha256": "b3a5b8905190d8dccaebd92bc55b025205fc3541e2708102bd0956fd7a39d91c"
+  },
+  {
+    "file": "frame-00516.jpg",
+    "t": 40.71393585205078,
+    "sha256": "87241b2e1cb162705511384adc6fc7996536e544ba0f906ee1ec0417738fbfec"
+  },
+  {
+    "file": "frame-00517.jpg",
+    "t": 40.80011749267578,
+    "sha256": "7de7c44e944e2750b3e58ea74bb8071b48517dbfe3dba31bf8280f339408ae6d"
+  },
+  {
+    "file": "frame-00518.jpg",
+    "t": 40.87739562988281,
+    "sha256": "835f650a45de30706f85f8d42b8f95bc343a5f95db802855570ee49a7e58e1fd"
+  },
+  {
+    "file": "frame-00519.jpg",
+    "t": 40.951358795166016,
+    "sha256": "8ff41cd75e533b3ebaf3d0eeb7bdbfbe9caaa353f1e554f019dcbb1c5b014549"
+  },
+  {
+    "file": "frame-00520.jpg",
+    "t": 41.02565383911133,
+    "sha256": "364102380ed63852cc8d805a628ca550efdb490859b06f22d7c73288cfad74f2"
+  },
+  {
+    "file": "frame-00521.jpg",
+    "t": 41.09970474243164,
+    "sha256": "482fa0d69fe6f56f0c46dc9aa182059df1a79b5cc0271b754c08027a4b2a33fc"
+  },
+  {
+    "file": "frame-00522.jpg",
+    "t": 41.18067169189453,
+    "sha256": "07f56f7c8479abd50debb32e3df7fbecfc7cb19f03f51bc22d916ca25c5642e7"
+  },
+  {
+    "file": "frame-00523.jpg",
+    "t": 41.32455825805664,
+    "sha256": "86f10a555730fdf575c5ddacdfe8d62e4c50d0687c17489d97c97fbc20d027fe"
+  },
+  {
+    "file": "frame-00524.jpg",
+    "t": 41.403297424316406,
+    "sha256": "33ffb4c39b369aa95dca0eb23fcc94ab1c36edd80397e56c299cabf7722280db"
+  },
+  {
+    "file": "frame-00525.jpg",
+    "t": 41.48182678222656,
+    "sha256": "434064aafb0857f868897c3be1097ca6e04288753231e4e811151a321e73b2fa"
+  },
+  {
+    "file": "frame-00526.jpg",
+    "t": 41.57665252685547,
+    "sha256": "2b143d1a4c775fd0f504b6452e2a4d9ff094223cc84565d036554f0b46dd70a2"
+  },
+  {
+    "file": "frame-00527.jpg",
+    "t": 41.65794372558594,
+    "sha256": "12e843dec0201a39f0ec568c9508d172a4a217bab8750cf252aa4dc14508fdba"
+  },
+  {
+    "file": "frame-00528.jpg",
+    "t": 41.740562438964844,
+    "sha256": "260b77fc49404f7056eca04d124dc041ad8818ed13908b723a940f4195f21c0c"
+  },
+  {
+    "file": "frame-00529.jpg",
+    "t": 41.818336486816406,
+    "sha256": "18b990a66f308c64018158edad4ab180a0f05ca9314c13b2d409969938d9d73b"
+  },
+  {
+    "file": "frame-00530.jpg",
+    "t": 41.897438049316406,
+    "sha256": "618185dc5523a4385bf7e2aca912325b80fbd0d64c27f801230820ac3d289a2f"
+  },
+  {
+    "file": "frame-00531.jpg",
+    "t": 41.97453308105469,
+    "sha256": "b953febcea72e88b37b37511743095d9961c5480253c11de1bf6ca5d9bdb329b"
+  },
+  {
+    "file": "frame-00532.jpg",
+    "t": 42.05213165283203,
+    "sha256": "5bc75973712a658ce6eab6bf954f82ab095b2b6b27784df173d21faa46707cc5"
+  },
+  {
+    "file": "frame-00533.jpg",
+    "t": 42.13212203979492,
+    "sha256": "0b417aea3618c275fb0c4eaf576490d2033e51543ba0459eda4db6ff0a94ae8f"
+  },
+  {
+    "file": "frame-00534.jpg",
+    "t": 42.20676803588867,
+    "sha256": "0682f17ee8250ddd07cf6d0c0ea9085547f629122ff5a286398aca9568245cb4"
+  },
+  {
+    "file": "frame-00535.jpg",
+    "t": 42.28657531738281,
+    "sha256": "055596cfff843c8081329bd126b72f0f583ca9e0fae0f5dabcc708dc2b3ea5ef"
+  },
+  {
+    "file": "frame-00536.jpg",
+    "t": 42.3671875,
+    "sha256": "084410d1164147fa8ba52249e96383573a606de32c909fe4644ab079a321ccfc"
+  },
+  {
+    "file": "frame-00537.jpg",
+    "t": 42.44657516479492,
+    "sha256": "e8318ef422fbc1ccf77dbeac567dc9e29fc280fb4bde2bcc25219421e8604374"
+  },
+  {
+    "file": "frame-00538.jpg",
+    "t": 42.53642272949219,
+    "sha256": "39082f8e114ee381a63b7f2c844fb2f6da1380f90f614687799cf8402cb744eb"
+  },
+  {
+    "file": "frame-00539.jpg",
+    "t": 42.62569808959961,
+    "sha256": "9dc86a3c4e467d2410c6947fce6123d295271993b479d52a142131eb05329745"
+  },
+  {
+    "file": "frame-00540.jpg",
+    "t": 42.696861267089844,
+    "sha256": "378cb490ea91cd7119cf961bc9249dc54ad18188254b445768999ece1d56927e"
+  },
+  {
+    "file": "frame-00541.jpg",
+    "t": 42.77830123901367,
+    "sha256": "c9d451d288bcdfdd8783ad48ae23b6694f183ba5e440fede9dfc01d388a4f7db"
+  },
+  {
+    "file": "frame-00542.jpg",
+    "t": 42.85768127441406,
+    "sha256": "225d798b30a2ceba53f98e349bf67fb1fa842ec87b268650e4955dc484bcfdeb"
+  },
+  {
+    "file": "frame-00543.jpg",
+    "t": 42.9298210144043,
+    "sha256": "00c29665b1de8fbce6f1d767c58ddaa92829753c00bc6974bafec1cd5ee83615"
+  },
+  {
+    "file": "frame-00544.jpg",
+    "t": 43.01334762573242,
+    "sha256": "78e6dab9f0140af849e980f0ceb75b59ae4ae1e08f7e66a2f0772ea24ee3ece9"
+  },
+  {
+    "file": "frame-00545.jpg",
+    "t": 43.09550857543945,
+    "sha256": "b0332c541c285268e33d074335a7f675a82427f453c6717e90307617d65907dc"
+  },
+  {
+    "file": "frame-00546.jpg",
+    "t": 43.20964813232422,
+    "sha256": "758ff83a6b4af401b3f08699f4246951b1db507e61c2221c9b8bf825ae76df26"
+  },
+  {
+    "file": "frame-00547.jpg",
+    "t": 43.286827087402344,
+    "sha256": "04a299124d48e4b6966cad99cfd7a6b266dba5268175e260d49aee125938f04c"
+  },
+  {
+    "file": "frame-00548.jpg",
+    "t": 43.357826232910156,
+    "sha256": "703401d6676d95fbc1ac1f58b4692daa6280740e4c5875b5a4bc3bbf844c8b09"
+  },
+  {
+    "file": "frame-00549.jpg",
+    "t": 43.4368782043457,
+    "sha256": "a085d6142ebe68648d27b2791e6e575e1cadfbdea76f6076a6f17b419accba48"
+  },
+  {
+    "file": "frame-00550.jpg",
+    "t": 43.51775360107422,
+    "sha256": "9399249a0329c59ab573b4378fafecfd4166ac22f5960db28744a942a65848f0"
+  },
+  {
+    "file": "frame-00551.jpg",
+    "t": 43.594879150390625,
+    "sha256": "bc0733339b41797af03ed970635929c41abbf0855df39c69525db2f267c62799"
+  },
+  {
+    "file": "frame-00552.jpg",
+    "t": 43.67045211791992,
+    "sha256": "d0c4e10236162e9fdbbfbdf9304f326c51c44f2701b25266f8c3ca501765a449"
+  },
+  {
+    "file": "frame-00553.jpg",
+    "t": 43.7495231628418,
+    "sha256": "32688771c3947a1dec91442663da69f19cb05e7379060f41c46e92bc9e3d5c81"
+  },
+  {
+    "file": "frame-00554.jpg",
+    "t": 43.84774398803711,
+    "sha256": "1df28af97303a0772493ba5472f7ee5f20fe9e9ffb2814578b3e6251bdd461f0"
+  },
+  {
+    "file": "frame-00555.jpg",
+    "t": 43.9211311340332,
+    "sha256": "8418b273f8f9819af965f02d7acd24bd22ea81f6eece9d2a04ccca6f7f335b32"
+  },
+  {
+    "file": "frame-00556.jpg",
+    "t": 43.99516296386719,
+    "sha256": "797ca67a219491ab1e2539787c667d6618134e4549e16ffe1bf727b8bd7e3b0f"
+  },
+  {
+    "file": "frame-00557.jpg",
+    "t": 44.0773811340332,
+    "sha256": "f3cc62641207b4505189f6cbd44576d7b14fa0c4273e73b0d74ef3bc1a847cf9"
+  },
+  {
+    "file": "frame-00558.jpg",
+    "t": 44.152217864990234,
+    "sha256": "3b7f3d3bb3d5e29a86fe408ef8633d5ef0639851faeb839a8429d81a98a36035"
+  },
+  {
+    "file": "frame-00559.jpg",
+    "t": 44.22783279418945,
+    "sha256": "061e4549e566fdade6d14310a607ced64fffbedfdd3550def21563473d7b4fa4"
+  },
+  {
+    "file": "frame-00560.jpg",
+    "t": 44.30693054199219,
+    "sha256": "89a6c9565c86418422181d66c441215ef40e42c1dd12cadfa347a8cc4f930075"
+  },
+  {
+    "file": "frame-00561.jpg",
+    "t": 44.3817138671875,
+    "sha256": "14de5160cb271bd50a6ac472712dc755022de6fa57bd38ccc427a1c053e021c3"
+  },
+  {
+    "file": "frame-00562.jpg",
+    "t": 44.45793914794922,
+    "sha256": "b0735579ae5df8bc215f34811cbaa65bda904a3820396d61b9a9293b6bf310d7"
+  },
+  {
+    "file": "frame-00563.jpg",
+    "t": 44.53639221191406,
+    "sha256": "97c28b2e959f292cd6e0b5a80a782f386727d4f8d33c5c86fcd1de9134340c53"
+  },
+  {
+    "file": "frame-00564.jpg",
+    "t": 44.62063217163086,
+    "sha256": "4df280980a8355e0b4f7ba026153135458b1be018f4904ce5d216aa61d47c62f"
+  },
+  {
+    "file": "frame-00565.jpg",
+    "t": 44.69380187988281,
+    "sha256": "fb8f2010d8580ffa595fd0e4a341a605cfbae7c7e4f5723d21ba75c576758ef2"
+  },
+  {
+    "file": "frame-00566.jpg",
+    "t": 44.76934051513672,
+    "sha256": "411cc2ba316dc39080da8e281a233803dd8765303fd89ef32c70da93dc795cfc"
+  },
+  {
+    "file": "frame-00567.jpg",
+    "t": 44.85700225830078,
+    "sha256": "94be8407d64f00fe6268338bb483c544e6a040dcbe9e2ce7c2f6f378dd592e76"
+  },
+  {
+    "file": "frame-00568.jpg",
+    "t": 44.93185806274414,
+    "sha256": "d1498c9527b97b81cb7a4591cef39021d4a8fc761aa4cda646a6440f4f4e1c1c"
+  },
+  {
+    "file": "frame-00569.jpg",
+    "t": 45.09202194213867,
+    "sha256": "b7a9fd9e537cfd92c1bfaf5ba2923c7c538237eabbf518f2c7366efd6fc92c09"
+  },
+  {
+    "file": "frame-00570.jpg",
+    "t": 45.1796875,
+    "sha256": "c920c99c98b6715ea287a1536f181eb5679291856ccc857d31566b0cb50b64a9"
+  },
+  {
+    "file": "frame-00571.jpg",
+    "t": 45.256046295166016,
+    "sha256": "9cf18cf909a008b3bd33cad1cf6a525506d535a8552e5b0301b4f8d2be563fcb"
+  },
+  {
+    "file": "frame-00572.jpg",
+    "t": 45.334381103515625,
+    "sha256": "90044b3929714b5e625bc004706c95c51b9dde183b254ad3721f93910c17d0dd"
+  },
+  {
+    "file": "frame-00573.jpg",
+    "t": 45.40625,
+    "sha256": "5404d24d900bcb05e378b9cc3c6c0cdfc3ca23121ae9b81a6cbef353f4612c86"
+  },
+  {
+    "file": "frame-00574.jpg",
+    "t": 45.48353958129883,
+    "sha256": "f10a004c273de109cef6ec3c871113df3f7c91cb266785bf801bd925e4b001d8"
+  },
+  {
+    "file": "frame-00575.jpg",
+    "t": 45.562618255615234,
+    "sha256": "de4d49219b4d87f2be52530979a2619ac326dbe95e6c91ccb202bf5255051e94"
+  },
+  {
+    "file": "frame-00576.jpg",
+    "t": 45.64299011230469,
+    "sha256": "f81a5c95e4168babda1674b34b78a12029a65fca024e0731e1dfe05a57ea11ac"
+  },
+  {
+    "file": "frame-00577.jpg",
+    "t": 45.72123336791992,
+    "sha256": "59f4373e6e852833d80c417c4a00d4e6850eb22a08c29bca2048196793254617"
+  },
+  {
+    "file": "frame-00578.jpg",
+    "t": 45.79433822631836,
+    "sha256": "330d1662e4646f3c1daa340996b2031db4df0aa74607095be5c7291aadec4245"
+  },
+  {
+    "file": "frame-00579.jpg",
+    "t": 45.873329162597656,
+    "sha256": "cbdf9601809946d2dca1ca3942e0b7e5c712138dfe44beb46f3bd5135d5410da"
+  },
+  {
+    "file": "frame-00580.jpg",
+    "t": 45.94146728515625,
+    "sha256": "f76571bf0b797934fc4e4aaabfc8678b7f5af09035e6ba02cad09a8acf18ee8b"
+  },
+  {
+    "file": "frame-00581.jpg",
+    "t": 46.017738342285156,
+    "sha256": "4e5c9c9e29c7e2d06a8e7786cab63a43e3a6b1907702793fcfde23352978fa29"
+  },
+  {
+    "file": "frame-00582.jpg",
+    "t": 46.09370422363281,
+    "sha256": "840180d5adbac7afc76b441b20c3232c2ad6e925056378b4b4d311aee6c5a836"
+  },
+  {
+    "file": "frame-00583.jpg",
+    "t": 46.17897033691406,
+    "sha256": "53e03e58d51be3250db8271f0c618fd26b74390abd433fca5431b91cf1dfc077"
+  },
+  {
+    "file": "frame-00584.jpg",
+    "t": 46.25270462036133,
+    "sha256": "cf7d051171569af535b88127fdbfdacdba031bbbc1a1202b155a2657721d58f0"
+  },
+  {
+    "file": "frame-00585.jpg",
+    "t": 46.342525482177734,
+    "sha256": "a48e349f56b9ff52a6d1faac5ef12f19f5b8a783a35d7a10e32fdc11743837f0"
+  },
+  {
+    "file": "frame-00586.jpg",
+    "t": 46.41527557373047,
+    "sha256": "a96361ef9fd95d99173c45444d44a63c30e0a27a324979f98e4c5566645b8b75"
+  },
+  {
+    "file": "frame-00587.jpg",
+    "t": 46.4906120300293,
+    "sha256": "2c5f5a991623234f1d8caae2caf28aeb1686a684155802e2ba44230a833e9a78"
+  },
+  {
+    "file": "frame-00588.jpg",
+    "t": 46.56650924682617,
+    "sha256": "8011fb684632a9ba98233e78d7f7320100763f2bc532d299b2ef01243b8be986"
+  },
+  {
+    "file": "frame-00589.jpg",
+    "t": 46.640872955322266,
+    "sha256": "d28f71225eabc90321f121fc26e04b7aac4448c26afef698699de7d5b760d935"
+  },
+  {
+    "file": "frame-00590.jpg",
+    "t": 46.718589782714844,
+    "sha256": "5ee28707facfbdbe8892475d39fa853e1a48321692b14ee7f26173869512882b"
+  },
+  {
+    "file": "frame-00591.jpg",
+    "t": 46.79048538208008,
+    "sha256": "85a2073e4e48701132dc878db3865a6aacb54a7aef5d969ff0878eefe7f1766a"
+  },
+  {
+    "file": "frame-00592.jpg",
+    "t": 46.8654899597168,
+    "sha256": "2f45ff88e278b6751adc9417f8e67634cb3a1776171629bfbf77ee7d6fde9db6"
+  },
+  {
+    "file": "frame-00593.jpg",
+    "t": 46.96540069580078,
+    "sha256": "072bdb78f867b2a0c92d715ceac6c07e291285e270f620e26f6f63d53aba2e61"
+  },
+  {
+    "file": "frame-00594.jpg",
+    "t": 47.032752990722656,
+    "sha256": "ac081d51371d8101c436c4a63576a5189218526b97f7e8d2bd157003e51696d8"
+  },
+  {
+    "file": "frame-00595.jpg",
+    "t": 47.1081657409668,
+    "sha256": "f0a21409443da8b063d98b389ebc2e50f4a6c4882aa3c3d0d524d68cab8e0bc6"
+  },
+  {
+    "file": "frame-00596.jpg",
+    "t": 47.19612503051758,
+    "sha256": "5c6e12226bcf09c06b6a59571b79ab5b4845f97b29a7bb14cf338de8e5154194"
+  },
+  {
+    "file": "frame-00597.jpg",
+    "t": 47.263580322265625,
+    "sha256": "ef244b34dca759f4c320b556846449d34b4eaea453dbe93517c1a5a5c3d32192"
+  },
+  {
+    "file": "frame-00598.jpg",
+    "t": 47.33682632446289,
+    "sha256": "494f9d221499397bf99db817c81790c632d353f5f58bea9f503b09cc707edcd1"
+  },
+  {
+    "file": "frame-00599.jpg",
+    "t": 47.414573669433594,
+    "sha256": "c4cd7dc0c4302bc89aa6be4d7cf2dd8e5042625346b466696142b0a89f3889f8"
+  },
+  {
+    "file": "frame-00600.jpg",
+    "t": 47.484405517578125,
+    "sha256": "59a0a9ea207644b181b85c2eeccaebbdde43b20353a555a8fed14844f9fd1e95"
+  },
+  {
+    "file": "frame-00601.jpg",
+    "t": 47.55961227416992,
+    "sha256": "9e160a5f540dc8f3ab42dee9650294857f51d9b053053f33a749ac24ef051c36"
+  },
+  {
+    "file": "frame-00602.jpg",
+    "t": 47.64323806762695,
+    "sha256": "04ba19a49dc7beaf1eedb8d74af02cac2451ab7418af98bafa2d952f12fe2544"
+  },
+  {
+    "file": "frame-00603.jpg",
+    "t": 47.71177673339844,
+    "sha256": "a32ddfceb8fd52306dd1a50117c936b22f1916e0a4936faeb7d0234a3ffc2f11"
+  },
+  {
+    "file": "frame-00604.jpg",
+    "t": 47.783203125,
+    "sha256": "8f13b19dffe3148e43af76f3127ec9d38ea6267821d039416f033491c77fe848"
+  },
+  {
+    "file": "frame-00605.jpg",
+    "t": 47.86289978027344,
+    "sha256": "6f84a4b6d097871509164bd9d82be10d508505d61c3cb604733338cdabbac049"
+  },
+  {
+    "file": "frame-00606.jpg",
+    "t": 47.940155029296875,
+    "sha256": "459ad47c17d209b933d00aee7f7e08a7cb19d2ef27c5db33a1a65f49ae99265c"
+  },
+  {
+    "file": "frame-00607.jpg",
+    "t": 48.01523208618164,
+    "sha256": "3dbafd49716cc9615bbd090d832201e284d9b9ced7855b1aeb1add5ce4607b78"
+  },
+  {
+    "file": "frame-00608.jpg",
+    "t": 48.09142303466797,
+    "sha256": "5ac8665394b54ef7805d797b6c2300bddfbec11f0ded6ef48bb8163491c99bdf"
+  },
+  {
+    "file": "frame-00609.jpg",
+    "t": 48.17033386230469,
+    "sha256": "3a014eace7566b11b79584a5500a9dd0f5d22aec840fdede1c8bea1dbd84d037"
+  },
+  {
+    "file": "frame-00610.jpg",
+    "t": 48.24578857421875,
+    "sha256": "e3c5d7362bfeab986e3e89d71f08a9c24b33c7cc675a206eccf7d52476b74128"
+  },
+  {
+    "file": "frame-00611.jpg",
+    "t": 48.32056427001953,
+    "sha256": "b3d6319e38fee097f711f3c2c00c294dd08aa7173d0515f11d3a37f76ebed056"
+  },
+  {
+    "file": "frame-00612.jpg",
+    "t": 48.40068054199219,
+    "sha256": "d85d5f22775012df80475e34557e9eecb02360831c66e5ea328b0b4e9cde632f"
+  },
+  {
+    "file": "frame-00613.jpg",
+    "t": 48.47453689575195,
+    "sha256": "2c40999f304453cbe8e7e8b703db0fce0472332665ecada6a2d8c49bbd832f2f"
+  },
+  {
+    "file": "frame-00614.jpg",
+    "t": 48.5483283996582,
+    "sha256": "189afd0828d1c63d48828156dd232a9114b95a492a7b265d200a5398cd37c338"
+  },
+  {
+    "file": "frame-00615.jpg",
+    "t": 48.624839782714844,
+    "sha256": "0e67cc6c52170cfdb4747f7a26729c5935ab77917b13deaaf1c8d32751ac63f1"
+  },
+  {
+    "file": "frame-00616.jpg",
+    "t": 48.69635009765625,
+    "sha256": "f4269fa8cb85aea09ded62fd801e91c21be3a7891d91cd666ca3d625ff2b7a67"
+  },
+  {
+    "file": "frame-00617.jpg",
+    "t": 48.769798278808594,
+    "sha256": "0805cf0f56ece4eba3a7d537392a1ef571f1137953a19cd13cff77b8caf3de55"
+  },
+  {
+    "file": "frame-00618.jpg",
+    "t": 48.91049575805664,
+    "sha256": "911154887220c7cb5343660b8745b9b8691223328ddcbcb39507fe8c0c5bdf03"
+  },
+  {
+    "file": "frame-00619.jpg",
+    "t": 48.98366165161133,
+    "sha256": "1a2d2c4de9021319e80968c48560847990170c480b7288293cb6279030fa4d69"
+  },
+  {
+    "file": "frame-00620.jpg",
+    "t": 49.06267166137695,
+    "sha256": "226c4895bb115ddfdf08a70d01ba9680ebe4bf3a006824c5d4c8cf305b1c509e"
+  },
+  {
+    "file": "frame-00621.jpg",
+    "t": 49.141357421875,
+    "sha256": "adcca985ebd4d7d830ae7b6e9d296c02c55fe7c75c6af203d9a717909e681481"
+  },
+  {
+    "file": "frame-00622.jpg",
+    "t": 49.21583938598633,
+    "sha256": "38288f857c23af6b8f343c960f9c8ae620f016c67421d8a67ed9f58295ed7292"
+  },
+  {
+    "file": "frame-00623.jpg",
+    "t": 49.296268463134766,
+    "sha256": "caef73695b25d36d5f3d131e912578b46cd49b0d780029ac9c33a078c12211c9"
+  },
+  {
+    "file": "frame-00624.jpg",
+    "t": 49.375892639160156,
+    "sha256": "6b9a57819b5f23f3bd78d5d987e9bc463073ac0e77bcba87dd69e15a577dc670"
+  },
+  {
+    "file": "frame-00625.jpg",
+    "t": 49.467002868652344,
+    "sha256": "143c19ca9f31383404974485f9af6e1a891d76634354d8cb788b8fcb379833d8"
+  },
+  {
+    "file": "frame-00626.jpg",
+    "t": 49.541900634765625,
+    "sha256": "f11c60a31f1b47e4e93a3b4dd4cfff9665e2409293c6085d9a8ea3aeade1680a"
+  },
+  {
+    "file": "frame-00627.jpg",
+    "t": 49.621437072753906,
+    "sha256": "5c65136d30cea84487ad43cbe25be16617fcef977110256600c46b7405a82adb"
+  },
+  {
+    "file": "frame-00628.jpg",
+    "t": 49.713111877441406,
+    "sha256": "f1bb91a9157f5ac5c8fdce0a93f1f73921fd5997f135a505780bf1e91d5e993c"
+  },
+  {
+    "file": "frame-00629.jpg",
+    "t": 49.79317855834961,
+    "sha256": "77f19cdf012463415413c2e87dd5c5638f950b8b68ae4c4980f7ef95eca482df"
+  },
+  {
+    "file": "frame-00630.jpg",
+    "t": 49.86686706542969,
+    "sha256": "43c1c0aa78b62ddaa22c3cdcd3e0ccb1b7922c952ec50a7aba9a72ac0a13d844"
+  },
+  {
+    "file": "frame-00631.jpg",
+    "t": 49.95310974121094,
+    "sha256": "5a966168ff1ef5a145333282ae9ef9a3669abeaad1dfa7cad6ab4cdacc3fc10d"
+  },
+  {
+    "file": "frame-00632.jpg",
+    "t": 50.0322151184082,
+    "sha256": "1291064a9ced0f81dfbf099dce3e88751ef7d45564f3a1ad0c0c4d3b5d9ad052"
+  },
+  {
+    "file": "frame-00633.jpg",
+    "t": 50.11882400512695,
+    "sha256": "66842dfa8b2a016556d3e0579df9b745c59982945181af85b41f58b3c242be7a"
+  },
+  {
+    "file": "frame-00634.jpg",
+    "t": 50.19366455078125,
+    "sha256": "e978799a1b94511a89a18aa62bff6169da0dbdb45f7b555cd4219a78111196db"
+  },
+  {
+    "file": "frame-00635.jpg",
+    "t": 50.280059814453125,
+    "sha256": "8311127452661efe681704617f90e2e7509b0c505a84f0a641f8e114b51f4b0b"
+  },
+  {
+    "file": "frame-00636.jpg",
+    "t": 50.3603401184082,
+    "sha256": "768a431f4e0b3b77ebf6ab7348863afdf0b665fbd26ddc31c47375902d2c1f0a"
+  },
+  {
+    "file": "frame-00637.jpg",
+    "t": 50.43851852416992,
+    "sha256": "39b156f8ed13087917ce9cc0895a1ed1b18c0f6287483a2753b481db0cdd9339"
+  },
+  {
+    "file": "frame-00638.jpg",
+    "t": 50.51516342163086,
+    "sha256": "60d002251544f8e1c5fe19daa397972e5f99b3ae824dd13ae7ce784595734cbc"
+  },
+  {
+    "file": "frame-00639.jpg",
+    "t": 50.598148345947266,
+    "sha256": "50d1bf51b6a3cb8c2532340be58edd4e744060334c9b9c9bd693412d5f0a045e"
+  },
+  {
+    "file": "frame-00640.jpg",
+    "t": 50.672332763671875,
+    "sha256": "fa84a13e4da01dec52cd4af40d0c572b101b8971052e56ba328727622984b6fc"
+  },
+  {
+    "file": "frame-00641.jpg",
+    "t": 50.776885986328125,
+    "sha256": "e9af7d5656c5616506bf9181a7d65434b6442147d2cfb8fc4f66799cbe6376da"
+  },
+  {
+    "file": "frame-00642.jpg",
+    "t": 50.8565788269043,
+    "sha256": "fc4b9e583dbc2eeb3ec737c2c4788939fcbe41086a7da7c38f30b74b15da75d6"
+  },
+  {
+    "file": "frame-00643.jpg",
+    "t": 50.93282699584961,
+    "sha256": "fcc1537ab5ea26ae0d9269971d40d76a02df73a489bcf68fb8ef8e397d20a267"
+  },
+  {
+    "file": "frame-00644.jpg",
+    "t": 51.01363754272461,
+    "sha256": "371355a8f8be3462a413f66120728160c41dc9bfee7e6913e3deadd1b6b65b12"
+  },
+  {
+    "file": "frame-00645.jpg",
+    "t": 51.08768844604492,
+    "sha256": "ab93ddbc6cf469fe4332a94b67f5142186e96b4d6ea954e43e9e83bf85dbb7f2"
+  },
+  {
+    "file": "frame-00646.jpg",
+    "t": 51.16521072387695,
+    "sha256": "88b8b03dded9c25fecb301b11e007c9f757c4316f937037fb0955f16c98679d5"
+  },
+  {
+    "file": "frame-00647.jpg",
+    "t": 51.24368667602539,
+    "sha256": "4273ad8cd468b04b2e98263dc085e4a6aa253edf6fbc8ea6be725c873727fc22"
+  },
+  {
+    "file": "frame-00648.jpg",
+    "t": 51.31411361694336,
+    "sha256": "b636ebcc523d5e8648174f80b7ea1bcf682ee393b98752e5bdd3ddc1b5a9fdf9"
+  },
+  {
+    "file": "frame-00649.jpg",
+    "t": 51.386192321777344,
+    "sha256": "f6765d9a1aac91b25191fe0489af5eb62ec53a27980c01fc9c1af27ab76c5d48"
+  },
+  {
+    "file": "frame-00650.jpg",
+    "t": 51.462135314941406,
+    "sha256": "a8800bfd90c69fa3a844b6791cf22efef7613f12b33a6108af01f2e955931841"
+  },
+  {
+    "file": "frame-00651.jpg",
+    "t": 51.533363342285156,
+    "sha256": "e9d3f981956c954d92c3427194e3212ccb902a976ece1e96f169cb9c905a73a4"
+  },
+  {
+    "file": "frame-00652.jpg",
+    "t": 51.61581802368164,
+    "sha256": "83cdf4be75ac68950c359f0afad7eb8f7613569afebe1b2965777691345512c4"
+  },
+  {
+    "file": "frame-00653.jpg",
+    "t": 51.710601806640625,
+    "sha256": "0be2e28cabd3d58ba4ea43a9d76bc5133c75a7d3458f925f9a29b1edf4b03ac9"
+  },
+  {
+    "file": "frame-00654.jpg",
+    "t": 51.78635787963867,
+    "sha256": "85bb33589abc31c464bfc82398f2c1626afbc2bb6e9b1a4dd0dde26871df5209"
+  },
+  {
+    "file": "frame-00655.jpg",
+    "t": 51.86005401611328,
+    "sha256": "3de53132028364c6c869e3baadac95374c61e1a744dd8ab7395ea4aa8804b161"
+  },
+  {
+    "file": "frame-00656.jpg",
+    "t": 51.9378662109375,
+    "sha256": "7c8afc0a92cea05227824d3d7202efe5c4b0868ef7dd8f8790c5e17703f9202d"
+  },
+  {
+    "file": "frame-00657.jpg",
+    "t": 52.0136604309082,
+    "sha256": "b0c9bfc39a8262d15352779672df39a41dd4ef620ae92268f08ba4ae699cef33"
+  },
+  {
+    "file": "frame-00658.jpg",
+    "t": 52.09149932861328,
+    "sha256": "a3d43ab486e633407735da26b53eddcb2a525a933cf96f4b907e2c06b68b51ee"
+  },
+  {
+    "file": "frame-00659.jpg",
+    "t": 52.16747283935547,
+    "sha256": "34bb4e9866ca3ab1720e96feb8dd6e3b77c74b1163e55980e93386ad0ec1a7a9"
+  },
+  {
+    "file": "frame-00660.jpg",
+    "t": 52.24094772338867,
+    "sha256": "68b50da4727fbc669fc09716661d3562d33ec973a47b02412593190bff95e7fb"
+  },
+  {
+    "file": "frame-00661.jpg",
+    "t": 52.31224060058594,
+    "sha256": "4c9d22d982d862f98337309f485408f8de6ce097f4008b31482b80d855958e23"
+  },
+  {
+    "file": "frame-00662.jpg",
+    "t": 52.38499069213867,
+    "sha256": "0d02bd956554d5d03ffdc3aac4ab7f4e92926a827c2d4f1c587971ee8c87adf3"
+  },
+  {
+    "file": "frame-00663.jpg",
+    "t": 52.469482421875,
+    "sha256": "7a2953f62b4240d5effad40769038666c874e2beb40fc36d835bc2c10cd74946"
+  },
+  {
+    "file": "frame-00664.jpg",
+    "t": 52.545955657958984,
+    "sha256": "384e6a1fbfcc091e9cdd1f4a46db4534a12becdb9c310463ab5bf0afc5521279"
+  },
+  {
+    "file": "frame-00665.jpg",
+    "t": 52.61851501464844,
+    "sha256": "a0ba4a9a65b9ccf124c8b211359b80db392e803e32de11720c34643c6cfe1f27"
+  },
+  {
+    "file": "frame-00666.jpg",
+    "t": 52.7540283203125,
+    "sha256": "de3987fca936720b5699ee602a1c95d7da174560f5fd77af3f649fe388f35a64"
+  },
+  {
+    "file": "frame-00667.jpg",
+    "t": 52.82533264160156,
+    "sha256": "0a3e0b007da072f0f2eef03c9c27c9a8dd1946ed857c5b9f99146543db1f90a3"
+  },
+  {
+    "file": "frame-00668.jpg",
+    "t": 52.90437316894531,
+    "sha256": "7428459f647ea04f32eed6192d9f97ff561155e1baa331dcd15c628fc085d8e5"
+  },
+  {
+    "file": "frame-00669.jpg",
+    "t": 52.97599411010742,
+    "sha256": "ae63422f7732036dd531cedf58ff28b8e720d04b6d9949f1e34797dc4ac3cba4"
+  },
+  {
+    "file": "frame-00670.jpg",
+    "t": 53.051422119140625,
+    "sha256": "c15074c3960f483ff90ebcb4ddedb9e8e00155ec2e13164ce09af13cbffa3158"
+  },
+  {
+    "file": "frame-00671.jpg",
+    "t": 53.130767822265625,
+    "sha256": "528919f334f9dbed3efd2f3600eadbd5c3405ad0950a51d45b28d0d9a1b9ff2b"
+  },
+  {
+    "file": "frame-00672.jpg",
+    "t": 53.204734802246094,
+    "sha256": "4b89677655c7d2954f2ba2a2f40593016c7f8b5a4c5fccaf7e67d057079cec85"
+  },
+  {
+    "file": "frame-00673.jpg",
+    "t": 53.28061294555664,
+    "sha256": "f87193ee38da41114088ae553da291b2406cf23a77594e30f709e2a65663320c"
+  },
+  {
+    "file": "frame-00674.jpg",
+    "t": 53.35266876220703,
+    "sha256": "ff2d7b2a88e7499d834574760966da0654fabfa2e354167be7b88fc054f520a4"
+  },
+  {
+    "file": "frame-00675.jpg",
+    "t": 53.42649841308594,
+    "sha256": "09addbaeac5a794c89b478a0468e57212da455d051c06c904c44f53e82cf2c53"
+  },
+  {
+    "file": "frame-00676.jpg",
+    "t": 53.50493240356445,
+    "sha256": "98de035f87b1977dd6661120ad7447bf332d9da01435a491a5e99cc9e47772ff"
+  },
+  {
+    "file": "frame-00677.jpg",
+    "t": 53.575191497802734,
+    "sha256": "51802e2f8eaba6955d5ca20fc1a614ecab17999567afc4900ebdb4f1071837ae"
+  },
+  {
+    "file": "frame-00678.jpg",
+    "t": 53.65376281738281,
+    "sha256": "1add9ffa0508a37cb8e4eabf736a562056ad00cf99fb3345f23a36979894b465"
+  },
+  {
+    "file": "frame-00679.jpg",
+    "t": 53.72806167602539,
+    "sha256": "ee61a7eedd5767e6b7070b0d004aa28e00df4a7ae1e04e336bb931b8cb019966"
+  },
+  {
+    "file": "frame-00680.jpg",
+    "t": 53.802860260009766,
+    "sha256": "f349e4fe5e9223e7321400548baab36eab885e24e86302daeb8639ebd6fdb9ff"
+  },
+  {
+    "file": "frame-00681.jpg",
+    "t": 53.879703521728516,
+    "sha256": "92182d6ad38dde50f80a86118e957a21b572acc4ae24b3d9117c37341d290804"
+  },
+  {
+    "file": "frame-00682.jpg",
+    "t": 53.968711853027344,
+    "sha256": "f9481ed1e048bf0ece847cf8f9cbca726edb8cfa8ba7984967ca77dddb052ca9"
+  },
+  {
+    "file": "frame-00683.jpg",
+    "t": 54.05270004272461,
+    "sha256": "a84697c1e0963beddc945e005cbea659f5cf23503d27deb404f17cadb5a4cb46"
+  },
+  {
+    "file": "frame-00684.jpg",
+    "t": 54.12773895263672,
+    "sha256": "1ad8260085f4d4fa1bbd713c46a351829826707b6662065160a0df1852c946c0"
+  },
+  {
+    "file": "frame-00685.jpg",
+    "t": 54.20464324951172,
+    "sha256": "d4af3a2804f2b108e382fe7e31487639383acc763f4bd66827a8703f89cd19a8"
+  },
+  {
+    "file": "frame-00686.jpg",
+    "t": 54.277931213378906,
+    "sha256": "8739f1334c2818a1f4371d75bef01bd1ce9d7156562e913f26a2d62cb0dccfec"
+  },
+  {
+    "file": "frame-00687.jpg",
+    "t": 54.35265350341797,
+    "sha256": "6ff29a05ce782f62c2eac73a1f3dfc9b948e9eb6cc8a566a4b6674bdf5e54606"
+  },
+  {
+    "file": "frame-00688.jpg",
+    "t": 54.42597198486328,
+    "sha256": "ad35ad5bf7fd8b7e941aaa22401a0113be7561d4152820c97ebca40cabae8c0b"
+  },
+  {
+    "file": "frame-00689.jpg",
+    "t": 54.564659118652344,
+    "sha256": "1b81585ea80630ec923d6021e29093cbb0e197e03bbdbb7f0020b8e0159e14fa"
+  },
+  {
+    "file": "frame-00690.jpg",
+    "t": 54.65300369262695,
+    "sha256": "c4b0f44c1409a6c0acbd7b0f5d175775191673381b6f85231578680dad730207"
+  },
+  {
+    "file": "frame-00691.jpg",
+    "t": 54.724056243896484,
+    "sha256": "83ae4743684b38c62aac51ac0952a708aea0ef5d5d5c045cdf0a352dff0adef2"
+  },
+  {
+    "file": "frame-00692.jpg",
+    "t": 54.79924392700195,
+    "sha256": "927d07caa634fe1b7662908072404b481247f9c6eac908482c20b48a17868dff"
+  },
+  {
+    "file": "frame-00693.jpg",
+    "t": 54.87506866455078,
+    "sha256": "fe2ad759a61faea049745f491f0b02db3f69f9653219df3072d5b565975d9be6"
+  },
+  {
+    "file": "frame-00694.jpg",
+    "t": 54.962642669677734,
+    "sha256": "354be8300e9b1d4563d88b85e1b09e422bea774b6ed8d674847c732636a3f057"
+  },
+  {
+    "file": "frame-00695.jpg",
+    "t": 55.03963851928711,
+    "sha256": "0e2d60ac5ea4c4497e4cbc8d535df07a27505f9af84b952049853411e1bef0eb"
+  },
+  {
+    "file": "frame-00696.jpg",
+    "t": 55.1162223815918,
+    "sha256": "f8dd4d4c507e1e326cb0151dad2a23fb3c82bcbef3c7af5290861cb177523aab"
+  },
+  {
+    "file": "frame-00697.jpg",
+    "t": 55.19667053222656,
+    "sha256": "e7ae22c6998ea21eb9d5ebf9abe3ac2e34a06c6e0b2cae3de2349906f31f7f21"
+  },
+  {
+    "file": "frame-00698.jpg",
+    "t": 55.271156311035156,
+    "sha256": "4a4d5822987130a82f47039fc207189b4b44898835467ae7ed2894e320c8e284"
+  },
+  {
+    "file": "frame-00699.jpg",
+    "t": 55.3536491394043,
+    "sha256": "0105028d344c064497eb180dfee042ae90a52bfc9d3e37f4e503241ddb1ce80a"
+  },
+  {
+    "file": "frame-00700.jpg",
+    "t": 55.43181610107422,
+    "sha256": "46b45b6093492f54e1355dbdac4034f0437e4da736671fb7e391bcef8600aa46"
+  },
+  {
+    "file": "frame-00701.jpg",
+    "t": 55.51099395751953,
+    "sha256": "cd72b8fa4476ca23778357f39ed143c3a56b4fef290b41b6c66bc813cbc3a95d"
+  },
+  {
+    "file": "frame-00702.jpg",
+    "t": 55.59768295288086,
+    "sha256": "ff4f4fd444ff585727bcdfcdf2af8c0279b5c8d5255db8e62131ea2ba9725281"
+  },
+  {
+    "file": "frame-00703.jpg",
+    "t": 55.669490814208984,
+    "sha256": "c5e3e456eb72c8ddd581879b8ff9b88200e842bd2e49653f01a390d3c0294535"
+  },
+  {
+    "file": "frame-00704.jpg",
+    "t": 55.74669647216797,
+    "sha256": "78240f085699ec352484d5d95e5e9f2c6f3806e5fd0e984f8e89ee8070b515a4"
+  },
+  {
+    "file": "frame-00705.jpg",
+    "t": 55.8302001953125,
+    "sha256": "59abd0e4f33d6c9de579f0442371eb098fd07fba649929cf75e6213ca0e7e522"
+  },
+  {
+    "file": "frame-00706.jpg",
+    "t": 55.90605926513672,
+    "sha256": "e7784c5260ce76787124bd75f1960e89ae271a1a87a4cbfda0fc56802fe22785"
+  },
+  {
+    "file": "frame-00707.jpg",
+    "t": 55.97876739501953,
+    "sha256": "221962b32ddbaf7be5ddac7640b952fe1d89cf913c7594df25f2dacbd0b05a31"
+  },
+  {
+    "file": "frame-00708.jpg",
+    "t": 56.049888610839844,
+    "sha256": "2d980f19d653c779eaf981b1c6a5a2d9e5221e50695d0c8fb17df2b68b6178a5"
+  },
+  {
+    "file": "frame-00709.jpg",
+    "t": 56.1280517578125,
+    "sha256": "f811b3e19a7f5cd42815ffd20046482b83ad1b93f330f7849c533b9af7f445c7"
+  },
+  {
+    "file": "frame-00710.jpg",
+    "t": 56.20549774169922,
+    "sha256": "3aad2cd6363cd9920ef7ce8844b00cff0da98d67063d9a221ab0ac6ea4135ef8"
+  },
+  {
+    "file": "frame-00711.jpg",
+    "t": 56.293663024902344,
+    "sha256": "8227101e6a44edd66da2d907b5599152edcba2ca5beeadd23ffacda422218e26"
+  },
+  {
+    "file": "frame-00712.jpg",
+    "t": 56.39198303222656,
+    "sha256": "66610cbe0ca4e219ff7d29c795740676d0d7c62f6cd6d20812a1d093bd970c75"
+  },
+  {
+    "file": "frame-00713.jpg",
+    "t": 56.468505859375,
+    "sha256": "da9b6ef1b2c0d0a1383a336ddb307e2736214e91475e24d58c686806a69586e2"
+  },
+  {
+    "file": "frame-00714.jpg",
+    "t": 56.541603088378906,
+    "sha256": "b4f96b0dd5d92477f907866b80d1a01de2328190f1e4a687830dcc9d8ab35704"
+  },
+  {
+    "file": "frame-00715.jpg",
+    "t": 56.62117004394531,
+    "sha256": "db8f8a94bf025aace9455810d8ce6c1ec381534b6a77577dbdbb1fb8c9113bbc"
+  },
+  {
+    "file": "frame-00716.jpg",
+    "t": 56.69374084472656,
+    "sha256": "24276540947583a310837a37c1e89bce2ff9e9aa4cd84080b596a089578ed066"
+  },
+  {
+    "file": "frame-00717.jpg",
+    "t": 56.771636962890625,
+    "sha256": "830a54bab90e8b591995e1153bfa8e6489fac95722056c1a5ff5e7fe19fce4cb"
+  },
+  {
+    "file": "frame-00718.jpg",
+    "t": 56.848602294921875,
+    "sha256": "a62f5b644edf44e1fd96dca5d62455381509fe2b85e6cf19bef1179a2efdfcde"
+  },
+  {
+    "file": "frame-00719.jpg",
+    "t": 56.92449951171875,
+    "sha256": "7d31ab029ad21e6be63b8984cd5bf057a5e4a62942bc8181cf6e7f7d96b7c325"
+  },
+  {
+    "file": "frame-00720.jpg",
+    "t": 57.00559997558594,
+    "sha256": "3d3ab75e09218d81b7fade671d156c02c26a0bbb2fbbf4eeafb4fd743c42f4a3"
+  },
+  {
+    "file": "frame-00721.jpg",
+    "t": 57.07647705078125,
+    "sha256": "8bb915204ad8250049523a00de5b2d32d863cfb8750bacdecf2b08efbe700d24"
+  },
+  {
+    "file": "frame-00722.jpg",
+    "t": 57.15082550048828,
+    "sha256": "567937947a2fc46084c15c457ae240cec223405c47f3e683aa2d7e7389075778"
+  },
+  {
+    "file": "frame-00723.jpg",
+    "t": 57.22612762451172,
+    "sha256": "da5d3b1f2b152ce8aea39fc94875af90b1eaa512a81d67cc3d3df87643899fde"
+  },
+  {
+    "file": "frame-00724.jpg",
+    "t": 57.298797607421875,
+    "sha256": "c0a9202d78b3b25e827f56de1bc9c0d0a8f7afc2ff4f1a75dcc4a728f4afe7e5"
+  },
+  {
+    "file": "frame-00725.jpg",
+    "t": 57.37705993652344,
+    "sha256": "5ed87e9fd282e7e0208d8958936f1f6ed6fd477d34e9888c7e78c70e8d0b24ed"
+  },
+  {
+    "file": "frame-00726.jpg",
+    "t": 57.456146240234375,
+    "sha256": "85324ddc3cbc80fb4ed4b24e05c2df99c934c2c6af8b20a11d3ae9efc0ce73eb"
+  },
+  {
+    "file": "frame-00727.jpg",
+    "t": 57.530799865722656,
+    "sha256": "ebfa364cd018ea1eec45b099da11f9070b2fbfe8418ec5094441711730f3c502"
+  },
+  {
+    "file": "frame-00728.jpg",
+    "t": 57.60498809814453,
+    "sha256": "c7ff48b50beb89d8acd9a256431d5c13291624d2ef94cca6f1d12de73be32940"
+  },
+  {
+    "file": "frame-00729.jpg",
+    "t": 57.68683624267578,
+    "sha256": "060629c391974e7ed67963353072f836b0095f20a41567571bd312a9a00e1031"
+  },
+  {
+    "file": "frame-00730.jpg",
+    "t": 57.760093688964844,
+    "sha256": "6aa7bccaf509f67d0f93995ececdec3e5bdc67692967dbf6b42caadef46481d0"
+  },
+  {
+    "file": "frame-00731.jpg",
+    "t": 57.831520080566406,
+    "sha256": "9d7964b6d8eb088ec0314ffbca3751d3e82b99b79541e7c62db66c25ced7c7e3"
+  },
+  {
+    "file": "frame-00732.jpg",
+    "t": 57.90929412841797,
+    "sha256": "ab0542b970402ef4f573e9e5b5b38fb5c1cbccfa414f0f2a8f2458a1e5b771ec"
+  },
+  {
+    "file": "frame-00733.jpg",
+    "t": 57.989990234375,
+    "sha256": "d9c03edbea5f327bd5eb7a4af30a7ebcf9f3fcc3a68ed1fe1878116f85f225ec"
+  },
+  {
+    "file": "frame-00734.jpg",
+    "t": 58.06327819824219,
+    "sha256": "4014c9c92cfcb6063ce6fe5045079d854c9de8b64f4a2a1863d26b5369252cd7"
+  },
+  {
+    "file": "frame-00735.jpg",
+    "t": 58.136138916015625,
+    "sha256": "a6bb5aea40e63036a4ee722efa448e97701d13f58233c60198e9c0204cd0641a"
+  },
+  {
+    "file": "frame-00736.jpg",
+    "t": 58.21620178222656,
+    "sha256": "245022c02be1136b3c7247f892fccfe80770483676268786638f1e0d9d33d1c1"
+  },
+  {
+    "file": "frame-00737.jpg",
+    "t": 58.292396545410156,
+    "sha256": "b1f2a5acbd51919e8cfc3b4e5c68d4ddd33a12117936d0b43c937871b93cd64a"
+  },
+  {
+    "file": "frame-00738.jpg",
+    "t": 58.364967346191406,
+    "sha256": "21d133ab07e213d8a44456447e544286652e3a73af449b13ea061a9f7c7edc9d"
+  },
+  {
+    "file": "frame-00739.jpg",
+    "t": 58.44178009033203,
+    "sha256": "d09a3e78fc5ccf5c6bee415039749a6c6a527e3b7f55f7e368d5c9a4a7fa952b"
+  },
+  {
+    "file": "frame-00740.jpg",
+    "t": 58.519805908203125,
+    "sha256": "0c7debf0650e2d8a3d4f56c674135e4723007eea13ca85530a5b30738a202ed9"
+  },
+  {
+    "file": "frame-00741.jpg",
+    "t": 58.60569763183594,
+    "sha256": "9ae993eb4f5d3bd746578d2398df8058cd6afa3d0359e415ab40d689474aff64"
+  },
+  {
+    "file": "frame-00742.jpg",
+    "t": 58.685760498046875,
+    "sha256": "fd5b09b030ec54016d425952818cf2668b3c7298a8e5dc92958a7aee1bf3329b"
+  },
+  {
+    "file": "frame-00743.jpg",
+    "t": 58.75910949707031,
+    "sha256": "b22ad7ea1c8717b1449d82f1868c3a8723fe8c2c3bf3e20322e201307cb55d2b"
+  },
+  {
+    "file": "frame-00744.jpg",
+    "t": 58.918487548828125,
+    "sha256": "cf7bdd3fdcd405b1a8837f063eb4e851fe37895793018acc180c27ad380f929f"
+  },
+  {
+    "file": "frame-00745.jpg",
+    "t": 58.991615295410156,
+    "sha256": "eb2d9f719ea46cb02df08f3519386e8fb8585afd23e84ac40f876304e49baf3a"
+  },
+  {
+    "file": "frame-00746.jpg",
+    "t": 59.06166076660156,
+    "sha256": "b18c703ed91841e6ffa1b551f1f1805ffaf8e4506add1804bd30f67537c7f3dd"
+  },
+  {
+    "file": "frame-00747.jpg",
+    "t": 59.13654327392578,
+    "sha256": "39204baadb2d420423d91ea8cd88125e74074553a8015962214cd1474a611051"
+  },
+  {
+    "file": "frame-00748.jpg",
+    "t": 59.21282958984375,
+    "sha256": "2d55b7b347390a2570e33e10db6693580e6abd3d1c8ebec85f5e12de1539ceb8"
+  },
+  {
+    "file": "frame-00749.jpg",
+    "t": 59.28697967529297,
+    "sha256": "c0a6a85adc1f9059e7fa790654bbd96c0cd95cf15b776192ed0a6ecffad05982"
+  },
+  {
+    "file": "frame-00750.jpg",
+    "t": 59.363304138183594,
+    "sha256": "1415b8251a755b8062cf4fbd9b9fe920572552f2582a836d476a0bad7f693bc6"
+  },
+  {
+    "file": "frame-00751.jpg",
+    "t": 59.44078063964844,
+    "sha256": "7a0ef060145ac540ba45860c1e2bcd69673133e2d6aabb67f9e9e30a4f96b853"
+  },
+  {
+    "file": "frame-00752.jpg",
+    "t": 59.51155090332031,
+    "sha256": "4e969a5c5a4e29929d177436d914e6236d16c72482ee05f7beb04ff2543e8f1f"
+  },
+  {
+    "file": "frame-00753.jpg",
+    "t": 59.58746337890625,
+    "sha256": "46ff5586faa1ee5006efa37bda3f6f1ab43a0c4c78cb4070f26531ca7314b2ee"
+  },
+  {
+    "file": "frame-00754.jpg",
+    "t": 59.666473388671875,
+    "sha256": "aa99a2c0921e6a124ff96fcbb33d331d5edbd3497f3e3a42d42c368fb81828b2"
+  },
+  {
+    "file": "frame-00755.jpg",
+    "t": 59.7508544921875,
+    "sha256": "a10425ba4a8541f009664544addfb64bcfcd2f88a46fc06a794a1a70184f13d4"
+  },
+  {
+    "file": "frame-00756.jpg",
+    "t": 59.822662353515625,
+    "sha256": "9050e38673ac121e1cadb2137e9ae5fa2265f02c6840d69c131dce278d07d128"
+  },
+  {
+    "file": "frame-00757.jpg",
+    "t": 59.90455627441406,
+    "sha256": "91ce4fc4886f1ad5a4dd2740deb42a3f432f476e259694cc7874072dd50d5982"
+  },
+  {
+    "file": "frame-00758.jpg",
+    "t": 59.980499267578125,
+    "sha256": "b83dbc92d16ae36627c200549832ad29833d77f0cad22b4b9c8d6df8fc5de9d7"
+  },
+  {
+    "file": "frame-00759.jpg",
+    "t": 60.05718994140625,
+    "sha256": "f49b9f4d6b24a4525f6019d51009fdd6a5a03da97cda7b4dbbc550d4471b3568"
+  },
+  {
+    "file": "frame-00760.jpg",
+    "t": 60.13002014160156,
+    "sha256": "688189762713ce8c070f6816daae229a39d54fd42bc3808d717a7c8aa6af1e80"
+  },
+  {
+    "file": "frame-00761.jpg",
+    "t": 60.205810546875,
+    "sha256": "7060d3afefb13040015c15c02242a2a4c5a2197ca3d12faa5dc142523ce529bc"
+  },
+  {
+    "file": "frame-00762.jpg",
+    "t": 60.27809143066406,
+    "sha256": "649612a629f40749922094533edc73cb1075227097a7ee0d7849e3ade2c098e1"
+  },
+  {
+    "file": "frame-00763.jpg",
+    "t": 60.351402282714844,
+    "sha256": "b4f5cd3267eac72c11ca77c5d03351d069c450310c368ef445f9b6f93d2150bd"
+  },
+  {
+    "file": "frame-00764.jpg",
+    "t": 60.42803192138672,
+    "sha256": "2ddeeec175a6e7decdd119ca86e9cb3126cf6ded4d1a405f8b4fe001a1bca285"
+  },
+  {
+    "file": "frame-00765.jpg",
+    "t": 60.497802734375,
+    "sha256": "57261e73e918d16fb326a6ac696271623dd2836b8fa6bcd30427ecbfeb65e9b1"
+  },
+  {
+    "file": "frame-00766.jpg",
+    "t": 60.568275451660156,
+    "sha256": "f491d313e56c6eee751db8775f66c9490b4f1882ab2771b79f8ee4e8e6b290ef"
+  },
+  {
+    "file": "frame-00767.jpg",
+    "t": 60.641197204589844,
+    "sha256": "b1eb7c69220d238397008139edce144815e80ed52ad89e2be1d0c7cdf8a13e64"
+  },
+  {
+    "file": "frame-00768.jpg",
+    "t": 60.71131896972656,
+    "sha256": "9fd05b9524c0bb8f209a944421dc74cad6991a1405648fc81ee31a00f2c2e267"
+  },
+  {
+    "file": "frame-00769.jpg",
+    "t": 60.788482666015625,
+    "sha256": "f348ad7ba99bc57ddb5d5b716050513049ea5372ad46faaf07754ff77290b9e4"
+  },
+  {
+    "file": "frame-00770.jpg",
+    "t": 60.864959716796875,
+    "sha256": "beadcde82c257f06404b5a200cc676dcc94158ffb602f93dd68d28d714f8c749"
+  },
+  {
+    "file": "frame-00771.jpg",
+    "t": 60.959754943847656,
+    "sha256": "c9515a40b9678f69b40ec33b670471309e12ed21059a98ed5a6a5e5280994e7b"
+  },
+  {
+    "file": "frame-00772.jpg",
+    "t": 61.037200927734375,
+    "sha256": "f36e6e8061cbb3a4bd70c0d622372e51528deb96c72efa26502bee48d2f608e9"
+  },
+  {
+    "file": "frame-00773.jpg",
+    "t": 61.11084747314453,
+    "sha256": "e8893a8c8e2eadb3a8c06c2525207ce0c170991af54feab090c722c93f5e390e"
+  },
+  {
+    "file": "frame-00774.jpg",
+    "t": 61.191497802734375,
+    "sha256": "229019a6f5326badd6567eb57101ced63c830973cd4f3fd70bd3a1dd5ba92f59"
+  },
+  {
+    "file": "frame-00775.jpg",
+    "t": 61.26917266845703,
+    "sha256": "c591f246fc8fcd30d3df755545d6116dd8c705276e31076c3bf06406a29f4334"
+  },
+  {
+    "file": "frame-00776.jpg",
+    "t": 61.3375244140625,
+    "sha256": "c4acc22b8b8dc3e90ccfad9fc7b7fdb843f2c2513c09011d4e98d307eb38d66d"
+  },
+  {
+    "file": "frame-00777.jpg",
+    "t": 61.408958435058594,
+    "sha256": "49345c170823aa4278a5a58ec9991847cacd8cadbc66192b75326de41a164b91"
+  },
+  {
+    "file": "frame-00778.jpg",
+    "t": 61.479461669921875,
+    "sha256": "e2d09627fcc09e9ccf028741a066aed7c4a114d4e5ab98d6bd5f687c5999f2d5"
+  },
+  {
+    "file": "frame-00779.jpg",
+    "t": 61.557762145996094,
+    "sha256": "0b73e25cf43beaae0acab6a861b9ecff77026059586cc3dc9b4850689fee390f"
+  },
+  {
+    "file": "frame-00780.jpg",
+    "t": 61.638710021972656,
+    "sha256": "06d35650bdd244027f63bbca187c1427a8a558f218f94ddc4733dc6a1c84c875"
+  },
+  {
+    "file": "frame-00781.jpg",
+    "t": 61.70800018310547,
+    "sha256": "726010b8d5558e1145c2b4d89eca93a71f3c7360316bbbc2d5cd50d2cb3fe173"
+  },
+  {
+    "file": "frame-00782.jpg",
+    "t": 61.783447265625,
+    "sha256": "b85fe56821fbb5970b643833110b63d5a7ac44a727ba1215377e77f6f0097543"
+  },
+  {
+    "file": "frame-00783.jpg",
+    "t": 61.855926513671875,
+    "sha256": "38a1a029c5bb701d0ee6e555cc77bc54e104aec77c83e017c3857d73cc4dd167"
+  },
+  {
+    "file": "frame-00784.jpg",
+    "t": 61.929588317871094,
+    "sha256": "a63b3f06decdb8a8c7caf212b4d265c21ebc5374256bafa5ec9db71ccebb2726"
+  },
+  {
+    "file": "frame-00785.jpg",
+    "t": 62.006622314453125,
+    "sha256": "6fb3cbbd6d6fe21408b9e7c43cfa50ac4c9f0a9b503ec2fc3f4a8b824d0c3811"
+  },
+  {
+    "file": "frame-00786.jpg",
+    "t": 62.08446502685547,
+    "sha256": "007021857c51337f43fee74bba01bfc6d23d5174f77027813533c3f7d203e1e3"
+  },
+  {
+    "file": "frame-00787.jpg",
+    "t": 62.15956115722656,
+    "sha256": "244e08ef70372ea7b392c6cab78e56c626ad346dbef6f2c264d1db995049c993"
+  },
+  {
+    "file": "frame-00788.jpg",
+    "t": 62.23114013671875,
+    "sha256": "00ed0af8e65a5975b4eb3cd8d56b39f63f6df6a71ce0751240c779edd9bce433"
+  },
+  {
+    "file": "frame-00789.jpg",
+    "t": 62.30748748779297,
+    "sha256": "881860c439fa3674d5c20aa6b6cdb9c21783253bb13ce8af873ac464695a33a2"
+  },
+  {
+    "file": "frame-00790.jpg",
+    "t": 62.38468933105469,
+    "sha256": "3fe28bbf5fe8f53ae50c0deb57adf4b64775d89c40f6e3993d1937220e70ea39"
+  },
+  {
+    "file": "frame-00791.jpg",
+    "t": 62.45372772216797,
+    "sha256": "2517bad24f1a645544cbb3612e195f7deb37c3f1b008d20ef8e5c3c1725a1ac9"
+  },
+  {
+    "file": "frame-00792.jpg",
+    "t": 62.5263671875,
+    "sha256": "c2b8c202ce57df2e20942758b1e9ff8f507754577dc159e7d0655619d58ced5a"
+  },
+  {
+    "file": "frame-00793.jpg",
+    "t": 62.61659240722656,
+    "sha256": "11cbebb8ed6a167dc7a859e3a1c1cbdfb22d97729e0a33224c8e4cd4b50c71d6"
+  },
+  {
+    "file": "frame-00794.jpg",
+    "t": 62.687591552734375,
+    "sha256": "faf5a47711acba27fc610e46d9858d7cbf6b2651029c5bfd1dc3c8be765c92f8"
+  },
+  {
+    "file": "frame-00795.jpg",
+    "t": 62.76670837402344,
+    "sha256": "b1bd37427888710fa43b847ccfd6df0901adae09fbeee75990a0660602b10358"
+  },
+  {
+    "file": "frame-00796.jpg",
+    "t": 62.84877014160156,
+    "sha256": "51b4202698542effab22e2f29259d1c016523e218539a3bedd78bb964df078d6"
+  },
+  {
+    "file": "frame-00797.jpg",
+    "t": 62.921783447265625,
+    "sha256": "2b85a10de9cac8f6e088673fa7d3a1f9da624b9cf04c5ed24898d6b7fefba266"
+  },
+  {
+    "file": "frame-00798.jpg",
+    "t": 62.99162292480469,
+    "sha256": "1914e17fe6c379c59630f8c964a68edff14f4980f764fb78deeab61de67d551e"
+  },
+  {
+    "file": "frame-00799.jpg",
+    "t": 63.073036193847656,
+    "sha256": "a1a3a81351a94f359924c67d0990433c893eb59f08b6c748126e140617a83bca"
+  },
+  {
+    "file": "frame-00800.jpg",
+    "t": 63.151580810546875,
+    "sha256": "6129079520696c357a82dd1c23e01266875e96e6a65fdddd54b486000f716557"
+  },
+  {
+    "file": "frame-00801.jpg",
+    "t": 63.25428771972656,
+    "sha256": "e5aeafacf15c44e3de30c70fc325fc36d6e1279a213a7ddd6d05659774c63e02"
+  },
+  {
+    "file": "frame-00802.jpg",
+    "t": 63.334327697753906,
+    "sha256": "42d55fb443d760839c1a58fc16f4b4103811c9f5b0d6ba3fe888f4e24ecfa757"
+  },
+  {
+    "file": "frame-00803.jpg",
+    "t": 63.40619659423828,
+    "sha256": "c2b0c0d0eaa440d27e55eabcbd0f40a7ddb876c3844bd1f1abce3fd0a398829b"
+  },
+  {
+    "file": "frame-00804.jpg",
+    "t": 63.48847198486328,
+    "sha256": "f6bd2de21e46a3da40f4592ede9252d7389c28dcebeeb76a58f7410d382bf653"
+  },
+  {
+    "file": "frame-00805.jpg",
+    "t": 63.595619201660156,
+    "sha256": "2855acfa8737e088149862155e953ac808c0a9b9662a95ffde95811cbeb5104f"
+  },
+  {
+    "file": "frame-00806.jpg",
+    "t": 63.671226501464844,
+    "sha256": "3e32261944f06c7f72f0ce99bccce1d44ec5b29244c890883434fcdbb45b0d84"
+  },
+  {
+    "file": "frame-00807.jpg",
+    "t": 63.75159454345703,
+    "sha256": "f7746b31c9ef04f034b3f9af712ef8b1acbbc54bc2f210ca3f5b5ca90bb5e33a"
+  },
+  {
+    "file": "frame-00808.jpg",
+    "t": 63.831817626953125,
+    "sha256": "2ff902fe030d173eea58c9977105c8b9be4c9c85e74c757aeafb461c0dcc93cf"
+  },
+  {
+    "file": "frame-00809.jpg",
+    "t": 63.91075897216797,
+    "sha256": "ce04767f26862dbf1f03a85c92d3efe736684cc0dc83a6da95fcc4c087ec0426"
+  },
+  {
+    "file": "frame-00810.jpg",
+    "t": 63.98866271972656,
+    "sha256": "e687fe0d3707b5866d279955b84ccfca606148fd117f78df86b7f295d045c993"
+  },
+  {
+    "file": "frame-00811.jpg",
+    "t": 64.06685638427734,
+    "sha256": "0e2fe74234ed04e76374d402b16fd76da5bc8a3a8c7e5f3b1f20625fd49a8f91"
+  },
+  {
+    "file": "frame-00812.jpg",
+    "t": 64.15469360351562,
+    "sha256": "56dd6ddc4dddab0c7cd1b290f958b0f76d2ab02aa115db5e1b42aef86ff2047f"
+  },
+  {
+    "file": "frame-00813.jpg",
+    "t": 64.23159790039062,
+    "sha256": "bfa5a2dd38b8495bce1afb771e9bb413adc71cf2d00c3780db83bbabf7b0319d"
+  },
+  {
+    "file": "frame-00814.jpg",
+    "t": 64.31211853027344,
+    "sha256": "582add2d7613c44643acddd7ab8da16d3975b0c6f6282cde82003fb5cb17ad1b"
+  },
+  {
+    "file": "frame-00815.jpg",
+    "t": 64.3873062133789,
+    "sha256": "6424300e995a46afa00ee6d3911cb3e297c453cda5c31ccad3414f592af54d6f"
+  },
+  {
+    "file": "frame-00816.jpg",
+    "t": 64.46669006347656,
+    "sha256": "59ff9dc961cf134f95a319c85c47734e33ae67f461164ce8da8aef0f98d09de5"
+  },
+  {
+    "file": "frame-00817.jpg",
+    "t": 64.53826904296875,
+    "sha256": "49fc62ae1c5b183eaa9de09f43a631aaf6cd2621e221c5250faf24d1179b5ca0"
+  },
+  {
+    "file": "frame-00818.jpg",
+    "t": 64.61917877197266,
+    "sha256": "75c80426cfdeba5ac44fffe0b3401870891642f3c0229c121697c38de76d30ec"
+  },
+  {
+    "file": "frame-00819.jpg",
+    "t": 64.70752716064453,
+    "sha256": "74dfd9ea9937e9bd69e2c1224768857e31d6f4d2b10514a649b70aedd43c40c0"
+  },
+  {
+    "file": "frame-00820.jpg",
+    "t": 64.78755187988281,
+    "sha256": "b99957ac662594bfc8fa568a1a531b02f841ddf1e57973d219ca456febfe4619"
+  },
+  {
+    "file": "frame-00821.jpg",
+    "t": 64.85980987548828,
+    "sha256": "6e298aeacd7eb8fb48db4120a85365fa77c8b970ec184e4f358212239496909a"
+  },
+  {
+    "file": "frame-00822.jpg",
+    "t": 64.93677520751953,
+    "sha256": "fa11bce820d941fff9181e23f2cf584cce13599964ef0b7f0f219451380191aa"
+  },
+  {
+    "file": "frame-00823.jpg",
+    "t": 65.0242691040039,
+    "sha256": "b3bfe9533969221176009832e9f3f01440530db8d3cd2f59bb32fe5a838d6066"
+  },
+  {
+    "file": "frame-00824.jpg",
+    "t": 65.09754180908203,
+    "sha256": "d36e9e93762bfb4195cd68cb69eecd62b70edf7f060ad5e50ccf791ee65789c9"
+  },
+  {
+    "file": "frame-00825.jpg",
+    "t": 65.17076110839844,
+    "sha256": "9240194c21ac1706a3536e9ad3ab4a0bd60ad0bdb6d2c6b0f288942f3d21fa29"
+  },
+  {
+    "file": "frame-00826.jpg",
+    "t": 65.2451171875,
+    "sha256": "44cfa136a5de41336d9163bfc0efa738adf6b34ccd1be679be5642f855c7d2ac"
+  },
+  {
+    "file": "frame-00827.jpg",
+    "t": 65.31616973876953,
+    "sha256": "8b7dd0ca1063b8633a127f99983e3b38af2b14c25f0165ec5f46047c081531ae"
+  },
+  {
+    "file": "frame-00828.jpg",
+    "t": 65.38822174072266,
+    "sha256": "ab181d78f3b18b8ca8ac6917ded00a41f0351024b96efd11e6eae8dd04605d3a"
+  },
+  {
+    "file": "frame-00829.jpg",
+    "t": 65.47307586669922,
+    "sha256": "77e3c9bd4c4f248c09ec3c1db33be836e45933d10cb0056535adf6fc26e11ec2"
+  },
+  {
+    "file": "frame-00830.jpg",
+    "t": 65.5548324584961,
+    "sha256": "c41da261a246f1aadd4d3664d7216dbc6cb1deae5e2672dcc5d9dc05614d5e0c"
+  },
+  {
+    "file": "frame-00831.jpg",
+    "t": 65.6418228149414,
+    "sha256": "7725d1075d9dbbacba00a557fa7bbd4e5cdef3ad6a58fbd57b2aaf16ed38e5a4"
+  },
+  {
+    "file": "frame-00832.jpg",
+    "t": 65.71583557128906,
+    "sha256": "61dcdb001fc6f5aeb316adc5a5de957ace620af06712b79ce638d99bc915bda6"
+  },
+  {
+    "file": "frame-00833.jpg",
+    "t": 65.7979507446289,
+    "sha256": "132bc3cbe9731cf99d2a386c43c37d00e510828074f201199f0e7e3a3301d745"
+  },
+  {
+    "file": "frame-00834.jpg",
+    "t": 65.91238403320312,
+    "sha256": "31be6eb2d66d0b05281c8a57ec183d1aac5ba5bd55ca04f5131766bbf1288fe0"
+  },
+  {
+    "file": "frame-00835.jpg",
+    "t": 65.99744415283203,
+    "sha256": "da09a109db413548f7ac31be40e387b96fe16a8bc9fa9e7fd526e4c96ae6e035"
+  },
+  {
+    "file": "frame-00836.jpg",
+    "t": 66.06857299804688,
+    "sha256": "75836fed7b3aff8fa5ec4274a05695e193928c85776ad6b404e51cfcde17c358"
+  },
+  {
+    "file": "frame-00837.jpg",
+    "t": 66.14376068115234,
+    "sha256": "daad02d0797d38ca824e80c1e67936a861fa9777fa5076ac7c34a6b32b18ddba"
+  },
+  {
+    "file": "frame-00838.jpg",
+    "t": 66.221435546875,
+    "sha256": "8cac767da569232580f9046310255852dba791faa0757723b9b09248911fabf3"
+  },
+  {
+    "file": "frame-00839.jpg",
+    "t": 66.29553985595703,
+    "sha256": "026b1c97dda1a956958efbcba66f61837aa4bbbeb6f850a4d8e3f1a4b66c7bf3"
+  },
+  {
+    "file": "frame-00840.jpg",
+    "t": 66.38545227050781,
+    "sha256": "0937283dab8996a0280ca76a1ccf8761e434188a925718047b32c991a494a49e"
+  },
+  {
+    "file": "frame-00841.jpg",
+    "t": 66.4634017944336,
+    "sha256": "4449ea113ac89c997f751964b73025007584b9188a2142c637aaa9ad6c4fbe33"
+  },
+  {
+    "file": "frame-00842.jpg",
+    "t": 66.54450988769531,
+    "sha256": "5308afc3a7c6c2e6ff705ca88aabfb89e85bced750a870c5a4d075d13973103a"
+  },
+  {
+    "file": "frame-00843.jpg",
+    "t": 66.61502075195312,
+    "sha256": "924b33c809df3c64401f88f714086810ba970e0d24d62093400144bb8dec766c"
+  },
+  {
+    "file": "frame-00844.jpg",
+    "t": 66.68981170654297,
+    "sha256": "3ae01b96996fc998a36e230862ec77d96eaf26b0ced16df38c4a9b00b86e6419"
+  },
+  {
+    "file": "frame-00845.jpg",
+    "t": 66.76568603515625,
+    "sha256": "4885b873c295dd9febb3fc3b88bc66b21f451a7ecbdeee660d4824ead56c04bc"
+  },
+  {
+    "file": "frame-00846.jpg",
+    "t": 66.83973693847656,
+    "sha256": "98232cae4fa9634f38942b3fd8d6efea061392227e8c449f9835fafbc7a4eb0c"
+  },
+  {
+    "file": "frame-00847.jpg",
+    "t": 66.91724395751953,
+    "sha256": "cdc485cc82e9926774bb9d3a5ab0dc33154897a1c0da7dc0e789038288e98f24"
+  },
+  {
+    "file": "frame-00848.jpg",
+    "t": 66.99483489990234,
+    "sha256": "6a48a00a99258a0bb70b3dc24dc3c78ba63a82b625bd760445a522199545f516"
+  },
+  {
+    "file": "frame-00849.jpg",
+    "t": 67.06830596923828,
+    "sha256": "3805be54d116ec8abef7c710d1b8d828d2de524c4109aef03663e173b419dd1b"
+  },
+  {
+    "file": "frame-00850.jpg",
+    "t": 67.16011047363281,
+    "sha256": "0ca7753117154478e48673fb7fd18908fdcdfd8d3cd086d210aa2add24c64711"
+  },
+  {
+    "file": "frame-00851.jpg",
+    "t": 67.23690032958984,
+    "sha256": "47a54a2f62862b18b4960b7b14dd624026e74dad70fe61f6fd020f541ef2f52a"
+  },
+  {
+    "file": "frame-00852.jpg",
+    "t": 67.3183822631836,
+    "sha256": "a96af97f22795a2a415558c9d41e06d8363d9726294ecde9bd03129320c49128"
+  },
+  {
+    "file": "frame-00853.jpg",
+    "t": 67.40184783935547,
+    "sha256": "8cc31500ea975875cf54ca0bcc487945fb515d3751226a6b3cc97efecf80b179"
+  },
+  {
+    "file": "frame-00854.jpg",
+    "t": 67.48566436767578,
+    "sha256": "4ccbe5eff7f461ad2145ff9fea0f37dae8065f34711a8411cce7c7055ca25c98"
+  },
+  {
+    "file": "frame-00855.jpg",
+    "t": 67.56712341308594,
+    "sha256": "c46c73c195ebfc7c625369d37d17dd868cc45aa1340511ffc9f3a9580a9d7cef"
+  },
+  {
+    "file": "frame-00856.jpg",
+    "t": 67.64262390136719,
+    "sha256": "58689bed38576848c13f6d74df0a6e122f552599705efdc0bba3e69a769c8c57"
+  },
+  {
+    "file": "frame-00857.jpg",
+    "t": 67.73579406738281,
+    "sha256": "058179dc636f5fbe78ad14c0dab7af4124d22c916cdb9723b28444bf9bd8fa7e"
+  },
+  {
+    "file": "frame-00858.jpg",
+    "t": 67.83283233642578,
+    "sha256": "867c4b73a7608dbb9f2124d5f8d1ece79254a497aa5e66d2b16729ceda49afee"
+  },
+  {
+    "file": "frame-00859.jpg",
+    "t": 67.9092025756836,
+    "sha256": "2d70b27a2a5c77448b21019ecfbbfe61d9704eb235f54b9dcd00aefdd48f3f93"
+  },
+  {
+    "file": "frame-00860.jpg",
+    "t": 67.99050903320312,
+    "sha256": "ec8bf96ad24b8b5746672413a4e758033c0d49343e060a86e9d8bfc261a781e7"
+  },
+  {
+    "file": "frame-00861.jpg",
+    "t": 68.06783294677734,
+    "sha256": "ad12d6437d5c3dd204cb199d559554400477fca9ff4803934fefd4c8af7c961c"
+  },
+  {
+    "file": "frame-00862.jpg",
+    "t": 68.14096069335938,
+    "sha256": "16defa5aa4809a3f809c418c11fb005fd6827ae514fb2fb32cd4e61cca9aa0e4"
+  },
+  {
+    "file": "frame-00863.jpg",
+    "t": 68.21487426757812,
+    "sha256": "a35c6ef08ecb2e499a615aa898904ef00d794a37f179a286502e511e335069bc"
+  },
+  {
+    "file": "frame-00864.jpg",
+    "t": 68.35282135009766,
+    "sha256": "bd3d6c5551313e8e40690aa8e18f319dcd35483e6c913f6667656a8cd1cbb3c1"
+  },
+  {
+    "file": "frame-00865.jpg",
+    "t": 68.42659759521484,
+    "sha256": "e031fc7bf6634f2aa859ce43f1e1368e1b33e0eb860a516d41e47c1e5ee1f3f7"
+  },
+  {
+    "file": "frame-00866.jpg",
+    "t": 68.5051040649414,
+    "sha256": "2581521a08526251b18432830b5087f5ccf82dfa358d03ffbc2c3a49c1e466b2"
+  },
+  {
+    "file": "frame-00867.jpg",
+    "t": 68.58981323242188,
+    "sha256": "428d16125e617f4df2d2202d194b838b1d685dcf26f62bda8df3b3abdabeb8d6"
+  },
+  {
+    "file": "frame-00868.jpg",
+    "t": 68.6635513305664,
+    "sha256": "752e41f86b859177dd43f01a7442ffaafc0810b02145f4f9fcb4f9a5ec0699a0"
+  },
+  {
+    "file": "frame-00869.jpg",
+    "t": 68.75001525878906,
+    "sha256": "6a41e98d11748fc539ea39cbf43bb61e8bd3d7df7c8217cb355c10d822cbeb76"
+  },
+  {
+    "file": "frame-00870.jpg",
+    "t": 68.82563018798828,
+    "sha256": "40d12645ba87f96e4fb5e7963d0271e1944b3902d5f25480d5e2feb726ae3b28"
+  },
+  {
+    "file": "frame-00871.jpg",
+    "t": 68.90299224853516,
+    "sha256": "c01a319e4add122871e53aed328ac9fddf74e323c99e37fb9d04015bed4c3c64"
+  },
+  {
+    "file": "frame-00872.jpg",
+    "t": 68.9853286743164,
+    "sha256": "f5acc92fedf7103b4a8c165d714fd3dc6006034ca8580e4f1c32a00e589a35ea"
+  },
+  {
+    "file": "frame-00873.jpg",
+    "t": 69.06626892089844,
+    "sha256": "5c9940933471d9b2fc7e58654cede784a3597708aa2b92c5063d40cfc4326303"
+  },
+  {
+    "file": "frame-00874.jpg",
+    "t": 69.13964080810547,
+    "sha256": "8d6efaf210770ab0414f8f4c265d36c0fa73a6997d32464cb706df616d0873e0"
+  },
+  {
+    "file": "frame-00875.jpg",
+    "t": 69.21837615966797,
+    "sha256": "fbb358edec990f9b4402fad719822159733b9c165f3d150ba0d313eac90411ce"
+  },
+  {
+    "file": "frame-00876.jpg",
+    "t": 69.28593444824219,
+    "sha256": "967c9b565c7c9811fc8c63875911a9349d3da6689b41171ac7f7eb0b7b6e9a4a"
+  },
+  {
+    "file": "frame-00877.jpg",
+    "t": 69.36073303222656,
+    "sha256": "e1cefbad7a3e61f419630dc80a06cc4945f668575ce76a9daf49477d6a15e7bb"
+  },
+  {
+    "file": "frame-00878.jpg",
+    "t": 69.43586730957031,
+    "sha256": "5cf3f6fd531b8114ec0665d2874509d7c41b278e4200c592bfc38a4f6271774d"
+  },
+  {
+    "file": "frame-00879.jpg",
+    "t": 69.51467895507812,
+    "sha256": "527cee593832af920edf0a0291a0e07f7a5d2e9a274ee7d51c080a9f76ae072b"
+  },
+  {
+    "file": "frame-00880.jpg",
+    "t": 69.59205627441406,
+    "sha256": "4726dc4643ccd1757b3a6216fdce947802338083423d6a51230451b6371b947d"
+  },
+  {
+    "file": "frame-00881.jpg",
+    "t": 69.67015075683594,
+    "sha256": "78f152a7d05c27cbf507e2b157a42c2df5a5ccb67fb8ebdae7d8a25b0dd424d1"
+  },
+  {
+    "file": "frame-00882.jpg",
+    "t": 69.75935363769531,
+    "sha256": "b603ee2b7ec09883cd7395284b7955de3bd206cfc67c0508aaa3e13337ff7766"
+  },
+  {
+    "file": "frame-00883.jpg",
+    "t": 69.83937072753906,
+    "sha256": "85bd6181202cb4d6d7344aa592056fa5554820c4b8709a8cdcf9909b9a934d89"
+  },
+  {
+    "file": "frame-00884.jpg",
+    "t": 69.9122314453125,
+    "sha256": "c9b77d0134a5162f5a799a2d900a0e2904bb520f3b8d45fe8369414df92b176b"
+  },
+  {
+    "file": "frame-00885.jpg",
+    "t": 69.99759674072266,
+    "sha256": "5c76c753a16081b7a57bb8132a3b8225407e21e43670eb6a7f0b52d623928f3f"
+  },
+  {
+    "file": "frame-00886.jpg",
+    "t": 70.09066009521484,
+    "sha256": "27f413cb7c6b940fbc0692519003b91fc6208f19697e4181b923d02187a06f8f"
+  },
+  {
+    "file": "frame-00887.jpg",
+    "t": 70.17047882080078,
+    "sha256": "37ff3e01ab2f6af486828c3363d35a100a204f65cb81b5342c0419fd800bd6ae"
+  },
+  {
+    "file": "frame-00888.jpg",
+    "t": 70.24260711669922,
+    "sha256": "84dcc8437daf2168c71a483491cd6b036ed53c4652a34198b5f0b4aac3692620"
+  },
+  {
+    "file": "frame-00889.jpg",
+    "t": 70.32809448242188,
+    "sha256": "47e8239df9c6f3f183f5413c9b808f9327fd0d1b10f1337c085c26c8565d61cc"
+  },
+  {
+    "file": "frame-00890.jpg",
+    "t": 70.39901733398438,
+    "sha256": "c718f64044831da9a2333cc1da2c57ce0012f0e5826bf0a317de6ebd7efeacaa"
+  },
+  {
+    "file": "frame-00891.jpg",
+    "t": 70.47280883789062,
+    "sha256": "736c54061411f9a003a1100c9acdb52d11151ba23d60ef4dc35a9c1eb930134f"
+  },
+  {
+    "file": "frame-00892.jpg",
+    "t": 70.55351257324219,
+    "sha256": "6250d77bd45f4d17a2e0e6bc2bf7e6809feb90258a8006cb3366cdb8d2b792a3"
+  },
+  {
+    "file": "frame-00893.jpg",
+    "t": 70.66411590576172,
+    "sha256": "c9f1201200ba304ada18a68cb2ba6c3fc86147eaa93c86610b3a95682c88a3c2"
+  },
+  {
+    "file": "frame-00894.jpg",
+    "t": 70.74264526367188,
+    "sha256": "6495aa1301d8ecf62a0258f103e53973f93de2d4172c7065671031f4300a3260"
+  },
+  {
+    "file": "frame-00895.jpg",
+    "t": 70.81368255615234,
+    "sha256": "ece5e2d9a33f1e8b9ef66fc9580e035072489975d74031dfa8a30221cc18c247"
+  },
+  {
+    "file": "frame-00896.jpg",
+    "t": 70.88662719726562,
+    "sha256": "e35558d7b8fde3ca43a431528143ccd91e181f9f223f6e9852cbb43de86e59e1"
+  },
+  {
+    "file": "frame-00897.jpg",
+    "t": 70.96109771728516,
+    "sha256": "eb5c086eeacb7d17ffef69735ebe783e522adfa87b1f6bc1c73e0a0c02b6c516"
+  },
+  {
+    "file": "frame-00898.jpg",
+    "t": 71.04467010498047,
+    "sha256": "9894b0f95de387e9d5b509b58ded467404093506e702dbf37de9a4d0e311164f"
+  },
+  {
+    "file": "frame-00899.jpg",
+    "t": 71.11957550048828,
+    "sha256": "15c10800084f6dbcbdf87808ed2eb4095596ee7d9b7d0597f1fe9bfde2c0f230"
+  },
+  {
+    "file": "frame-00900.jpg",
+    "t": 71.19026947021484,
+    "sha256": "51de33480fea0c62d944be29073c1eb87c7f7dcff179d3c7046d4982b40feb3d"
+  },
+  {
+    "file": "frame-00901.jpg",
+    "t": 71.26807403564453,
+    "sha256": "44cac2f6ff791e6c5979f250dbd89ab03afd07c9653f858e7fc78d0c85697f8d"
+  },
+  {
+    "file": "frame-00902.jpg",
+    "t": 71.34434509277344,
+    "sha256": "f10f171ecbe4142fba70822398926a1968ba9fd77100f25def82a5b540776344"
+  },
+  {
+    "file": "frame-00903.jpg",
+    "t": 71.41754913330078,
+    "sha256": "ee4d0a7bb9a5c2410e312cbbf6c5e275fba3f84b19a514d652f7fb419706d06e"
+  },
+  {
+    "file": "frame-00904.jpg",
+    "t": 71.49368286132812,
+    "sha256": "f54d54e5b7ae0b83a3e06729d622669748fe5a478cf27c4e59cf2f7ddb4bcb4f"
+  },
+  {
+    "file": "frame-00905.jpg",
+    "t": 71.57169342041016,
+    "sha256": "0733f167e3fe1d9f5fe3cb89be759ce653be02413a40031cfedcbe09dca93ea9"
+  },
+  {
+    "file": "frame-00906.jpg",
+    "t": 71.64360809326172,
+    "sha256": "2de26a2bedd1cd585febd254c8d0a5596ea0513abf51f1ab52f5563763c8c065"
+  },
+  {
+    "file": "frame-00907.jpg",
+    "t": 71.71633911132812,
+    "sha256": "c6fcac62b67372495ea702aeedbefdbd8d21768767ffe20f73bedfdf480a2928"
+  },
+  {
+    "file": "frame-00908.jpg",
+    "t": 71.79058074951172,
+    "sha256": "9f32a1abdd46e12d9fa5789ba2709dc39b7d261c1121e0f05aa613f37bb5e0eb"
+  },
+  {
+    "file": "frame-00909.jpg",
+    "t": 71.87181091308594,
+    "sha256": "9a93dfaa513f73116bee645d41ac18b010f30a0f2fb46d02f8b01b28aaf6dfcf"
+  },
+  {
+    "file": "frame-00910.jpg",
+    "t": 71.94068145751953,
+    "sha256": "6380ad0810768f839b3b585a60d4cf20269da0be973126c67b7c5ab9a1d10094"
+  },
+  {
+    "file": "frame-00911.jpg",
+    "t": 72.01383209228516,
+    "sha256": "6f95ba4f5ce491c98f2f7b1b483cc1512e989ccc176203fba0f914c1bb09ef90"
+  },
+  {
+    "file": "frame-00912.jpg",
+    "t": 72.09688568115234,
+    "sha256": "7a93805d466c4cc9598be954a2ca52a2bcfb3dec8bc1acc72a4591cd167b746b"
+  },
+  {
+    "file": "frame-00913.jpg",
+    "t": 72.17262268066406,
+    "sha256": "e099ef84d1133edff6c1ed23f7816f5404c6af3065b11bcfc491ee06b47347f1"
+  },
+  {
+    "file": "frame-00914.jpg",
+    "t": 72.24675750732422,
+    "sha256": "58e574ae2a6689bc30f8537d0fe331f438e357714a547120102e14c49669c0ed"
+  },
+  {
+    "file": "frame-00915.jpg",
+    "t": 72.33289337158203,
+    "sha256": "b9e61e6d835bb83378ba2595ba0506f0eb4701de3f44add18ea7cb0977a9babd"
+  },
+  {
+    "file": "frame-00916.jpg",
+    "t": 72.41577911376953,
+    "sha256": "5faa012bd639bfc4df0826e87de94aff6a378c7d267dd1fe28c21f9b1fa06135"
+  },
+  {
+    "file": "frame-00917.jpg",
+    "t": 72.49048614501953,
+    "sha256": "3a03d5feda7104cc2ef25bd0419caf5b1e33fc02b599667df5ee3331101d94b3"
+  },
+  {
+    "file": "frame-00918.jpg",
+    "t": 72.65699005126953,
+    "sha256": "9d6335be4eb3ec2f854d1d5cfcc7d53a227dd1126adc0690ef64fb444b6ded27"
+  },
+  {
+    "file": "frame-00919.jpg",
+    "t": 72.73200988769531,
+    "sha256": "6e1a505f996b2eb8e96e8033ec3c6f66bf2074f72f0c16f59c401cca1a6c49e2"
+  },
+  {
+    "file": "frame-00920.jpg",
+    "t": 72.81300354003906,
+    "sha256": "1ac244c3c4e53cae3b711501288af58032ca191f02f6e25db9b706a5c0438462"
+  },
+  {
+    "file": "frame-00921.jpg",
+    "t": 72.89259338378906,
+    "sha256": "8e9233490f5969f3f9ff4620c721c261ec10add306ae4621dc15187d599a57f7"
+  },
+  {
+    "file": "frame-00922.jpg",
+    "t": 72.9660873413086,
+    "sha256": "7efd49f5bf2b5d0a166b7c70e14f551afc8d8fe08ab1dad20a70fe243fc26c05"
+  },
+  {
+    "file": "frame-00923.jpg",
+    "t": 73.03772735595703,
+    "sha256": "648e72d6cf4a8cbab5ab2b011fbff37ae5f78f28e5e99df4f78960f4d6701834"
+  },
+  {
+    "file": "frame-00924.jpg",
+    "t": 73.11849975585938,
+    "sha256": "b423d5a74de4e82ebabbbda6b49f3a5ce142ee6999c4d1ecc6bc1c38f0c3c6c9"
+  },
+  {
+    "file": "frame-00925.jpg",
+    "t": 73.19331359863281,
+    "sha256": "ad42a0cda058a168f83088b0486dafa6cc820bba88ba356f47470398ea86f8a3"
+  },
+  {
+    "file": "frame-00926.jpg",
+    "t": 73.27588653564453,
+    "sha256": "796d2e5e54853268ceb0fcef6ae891046834c90d9769b99a7fd73f4a8f817a3f"
+  },
+  {
+    "file": "frame-00927.jpg",
+    "t": 73.35226440429688,
+    "sha256": "adb810926e8622cade2baf9129ce67a13c487fce2b21ce0604eca798b07681fb"
+  },
+  {
+    "file": "frame-00928.jpg",
+    "t": 73.42668914794922,
+    "sha256": "a9f640c720dae8cf46dfc26458f93727918f76452e589f8a2187d654b4be7799"
+  },
+  {
+    "file": "frame-00929.jpg",
+    "t": 73.51052856445312,
+    "sha256": "53f830b2707d7267fc1c35e4be258275888193564845505cede540d6212e5882"
+  },
+  {
+    "file": "frame-00930.jpg",
+    "t": 73.58990478515625,
+    "sha256": "41122bed0d7914907c069d5cea03f84b5997caf1e45d9869b2f27dd3bf6eabad"
+  },
+  {
+    "file": "frame-00931.jpg",
+    "t": 73.66532897949219,
+    "sha256": "9e77a965aedb919a04cf6fdcde9cf009a1653d749842fea4ad8ed71aa31aada5"
+  },
+  {
+    "file": "frame-00932.jpg",
+    "t": 73.73750305175781,
+    "sha256": "b6ec38a8d38a61f2ecba596f3903ad32c97a138315282bd60c51f3c6676b000a"
+  },
+  {
+    "file": "frame-00933.jpg",
+    "t": 73.81350708007812,
+    "sha256": "a35062c36f0e029f81ea0e90e3f060974d0d2c8d5bebcd12078def46cca31c48"
+  },
+  {
+    "file": "frame-00934.jpg",
+    "t": 73.8919906616211,
+    "sha256": "dfe1b8118b9d941b46c97506139283a6afc9ab91789366df17e992e87394240f"
+  },
+  {
+    "file": "frame-00935.jpg",
+    "t": 73.96051788330078,
+    "sha256": "b90432f5c1873eb057c4b520255e72c62b6df9383b0bca702dc8e2651da59546"
+  },
+  {
+    "file": "frame-00936.jpg",
+    "t": 74.03517150878906,
+    "sha256": "4182b25649086efecd57a720cdbef45a7f9315a6682b40793b73dd02dbbfb365"
+  },
+  {
+    "file": "frame-00937.jpg",
+    "t": 74.10880279541016,
+    "sha256": "7c68543c4674f10ce4a06c4aac5a7e71bb4ff0383a7d88f1b19866949b06e2a2"
+  },
+  {
+    "file": "frame-00938.jpg",
+    "t": 74.1830825805664,
+    "sha256": "5c2f879de5a1fd08de460aa82ea98b84c137c8c59316bed452da439c76cf9d42"
+  },
+  {
+    "file": "frame-00939.jpg",
+    "t": 74.26016235351562,
+    "sha256": "f1ef47cfe591a5abb26106b90dd85470ba167bc3b8326239b5dbcfd9dbce28ad"
+  },
+  {
+    "file": "frame-00940.jpg",
+    "t": 74.33956146240234,
+    "sha256": "77d808bde47c63b7035dca7c3534adb34d733d4892c154e9f314b505cbf3d8ee"
+  },
+  {
+    "file": "frame-00941.jpg",
+    "t": 74.41384887695312,
+    "sha256": "e24476f4b38da5cac2ea828b15fa643b52308d58aa555346bb4fb6e1ffb89d8a"
+  },
+  {
+    "file": "frame-00942.jpg",
+    "t": 74.4886474609375,
+    "sha256": "dcbeeda96debc689476e6593828fd4d17b14bc1e42543f3b2bb8cfe8883c5dc7"
+  },
+  {
+    "file": "frame-00943.jpg",
+    "t": 74.59125518798828,
+    "sha256": "00e39eb887a79d5cc582d9a4930302c7063cbb43451e614a7231ca52cf4aed57"
+  },
+  {
+    "file": "frame-00944.jpg",
+    "t": 74.67716217041016,
+    "sha256": "2705777fec383b59b2eb08cfb7bbb08622dd29df7b0eaa9fb56e1d64af227f64"
+  },
+  {
+    "file": "frame-00945.jpg",
+    "t": 74.7498550415039,
+    "sha256": "12978a1d0712a96bed9baa8025ce537984d241deb3b2c7a22c5d926b8e2f0b4e"
+  },
+  {
+    "file": "frame-00946.jpg",
+    "t": 74.82147979736328,
+    "sha256": "b26568ade60c13d73a89d0e0e81a1bac4cf44e9876fb6efa5b62fd123e6f160f"
+  },
+  {
+    "file": "frame-00947.jpg",
+    "t": 74.90008544921875,
+    "sha256": "1e668ef17e783e8a169f18a062800c00e3f5eeb05b7b3d1c339b23cbe948e487"
+  },
+  {
+    "file": "frame-00948.jpg",
+    "t": 74.97917938232422,
+    "sha256": "aefaad45d9904d3413a5ccae336dd2699e10bb93733b1dd31842d79f86f05d65"
+  },
+  {
+    "file": "frame-00949.jpg",
+    "t": 75.04789733886719,
+    "sha256": "6cf5ec755dc8452674e447303c14c26f2e31a8bb4e0051eaa07194f3cbf9584d"
+  },
+  {
+    "file": "frame-00950.jpg",
+    "t": 75.12287139892578,
+    "sha256": "986f7cbb94481117e0e7f7b7c9b20e1e3c12206b4bbe86400dace67965b0bb15"
+  },
+  {
+    "file": "frame-00951.jpg",
+    "t": 75.19758605957031,
+    "sha256": "2e7a500d1eb4f0c44b6c9c94ba2d8deabd3059fcdf5c142d32581f0ed0711186"
+  },
+  {
+    "file": "frame-00952.jpg",
+    "t": 75.27055358886719,
+    "sha256": "f5c28a30fb8c4adb706229337117a1687e1c2bdd0d21c434b419b3d7a5e376f4"
+  },
+  {
+    "file": "frame-00953.jpg",
+    "t": 75.34635925292969,
+    "sha256": "0c7c4da513f0c98d306c3a3f73a7a8c9579c1b255e27b6d50bfd94f192614209"
+  },
+  {
+    "file": "frame-00954.jpg",
+    "t": 75.4242935180664,
+    "sha256": "e86114c6c093d31b2d04a1bd5c709d282daf52417a08e4fb2171a1a443d16d86"
+  },
+  {
+    "file": "frame-00955.jpg",
+    "t": 75.50619506835938,
+    "sha256": "f4c7dbb167a953416199e67d947aaff5af6adafdc8a96ad3a357d503fcf1bb81"
+  },
+  {
+    "file": "frame-00956.jpg",
+    "t": 75.58137512207031,
+    "sha256": "6a64798a5efe5d6bcb58d93ad4a48e778f7f4ebd05a07dc308e7f19c5caaa92f"
+  },
+  {
+    "file": "frame-00957.jpg",
+    "t": 75.65733337402344,
+    "sha256": "a98f8dcfb14a5ba4668739554a0bd9bc724b24bbb16e3d0e222b610a7c45affa"
+  },
+  {
+    "file": "frame-00958.jpg",
+    "t": 75.7389144897461,
+    "sha256": "f8ce5abdf08684bee49b046727ef5253c8cefdb3122f59ecd653d85396559dd8"
+  },
+  {
+    "file": "frame-00959.jpg",
+    "t": 75.81027221679688,
+    "sha256": "b397ef4ff621fb7e511dc5b72b192224920d04ce4dca285ad505a6b5ab874625"
+  },
+  {
+    "file": "frame-00960.jpg",
+    "t": 75.8844985961914,
+    "sha256": "90ac46a2671874c0d8456d1bcc787d8b72acc667356c64f053afb93b2d00e47a"
+  },
+  {
+    "file": "frame-00961.jpg",
+    "t": 75.96089172363281,
+    "sha256": "a31065b61024a8378bdbea33eef99cf6fd179d33d38e3128996982733bfb336e"
+  },
+  {
+    "file": "frame-00962.jpg",
+    "t": 76.03173065185547,
+    "sha256": "778af220615afc7521cfed0ab667acacb83ce7f1f3bda462004eaa9ff94c4869"
+  },
+  {
+    "file": "frame-00963.jpg",
+    "t": 76.10709381103516,
+    "sha256": "13e1cd1bef886beef3e952dcdfb7916f54a250a29b15048cb9e3614f5661453e"
+  },
+  {
+    "file": "frame-00964.jpg",
+    "t": 76.18609619140625,
+    "sha256": "76ce2cdf82a94521804466d06a7930313c1ee3362c419d08c431fe7233f2bb88"
+  },
+  {
+    "file": "frame-00965.jpg",
+    "t": 76.25963592529297,
+    "sha256": "c28b92f6824d92220ee33d199e2ea335971e440a23160aec343aa0ec3cae4dc1"
+  },
+  {
+    "file": "frame-00966.jpg",
+    "t": 76.33599090576172,
+    "sha256": "869ace1e61f721449db54ecdd4922b2a21d12a8d07bf66ae9af86f00aed30b60"
+  },
+  {
+    "file": "frame-00967.jpg",
+    "t": 76.44522857666016,
+    "sha256": "15a5145ffd6bdc5545972f3eb0e034c7db47c4bf027edd7b5ddeedc19aa1ce6e"
+  },
+  {
+    "file": "frame-00968.jpg",
+    "t": 76.53711700439453,
+    "sha256": "edd378a5c2c4239189a62d0c6f99074fb7159d7fb9ca674789fe6661d6864362"
+  },
+  {
+    "file": "frame-00969.jpg",
+    "t": 76.62491607666016,
+    "sha256": "5c23ca9e6291d3ae9b6d8c1f0f9836baf92214e081c7f78d73a4fb4838172823"
+  },
+  {
+    "file": "frame-00970.jpg",
+    "t": 76.70112609863281,
+    "sha256": "814f1ff47d06a7063cd87cf8c026c607196c4a36a0c088be90c6260790b83249"
+  },
+  {
+    "file": "frame-00971.jpg",
+    "t": 76.78147888183594,
+    "sha256": "d0342baf4fc23bb0f6c85ea14942a69abfdc215d4fa827e0eb4ca84c23f0ced5"
+  },
+  {
+    "file": "frame-00972.jpg",
+    "t": 76.85710144042969,
+    "sha256": "a166ad7c3820f6d872a1d9b4dbc2fdec93b3861d5fd50b14d99019f365a147c9"
+  },
+  {
+    "file": "frame-00973.jpg",
+    "t": 76.9514389038086,
+    "sha256": "24d82cc8a10e564ee308ce78f8a4859b4f15ffb77dfdd419909eb154684f4f57"
+  },
+  {
+    "file": "frame-00974.jpg",
+    "t": 77.02899932861328,
+    "sha256": "2904baeb33d2cf43ec5aedbe59aa11bf27ac371ed9e7bab57b268b755ae0c72b"
+  },
+  {
+    "file": "frame-00975.jpg",
+    "t": 77.10150909423828,
+    "sha256": "8c5413cc3296af9f2136fe10ad3d8a2723828af571e148f7422bd33f42d5d7db"
+  },
+  {
+    "file": "frame-00976.jpg",
+    "t": 77.17894744873047,
+    "sha256": "fa662057be784b824eb41a7e0b5800e180b0323db6e39658912383564c1ffc9b"
+  },
+  {
+    "file": "frame-00977.jpg",
+    "t": 77.24650573730469,
+    "sha256": "333d26b41c757551d6eae8377d4be96b3cea9dec0df02bd8f0c55594e2c7b540"
+  },
+  {
+    "file": "frame-00978.jpg",
+    "t": 77.32459259033203,
+    "sha256": "2bc0f93c653116b69510d14fe9118a60d0ac1487427ffc1d69fd843e8daaf113"
+  },
+  {
+    "file": "frame-00979.jpg",
+    "t": 77.40474700927734,
+    "sha256": "284338ffd46b8809f3ce967aafc9e1f27785c2c9876d8aa4da5251960ab0b841"
+  },
+  {
+    "file": "frame-00980.jpg",
+    "t": 77.48418426513672,
+    "sha256": "ad05e413c05fcdac91e4fb4f3f3e84922d79f978909df3bb8ba228368ea46a84"
+  },
+  {
+    "file": "frame-00981.jpg",
+    "t": 77.5587387084961,
+    "sha256": "87e0c70d3a065d35bda80aebe08253c67c567ed2ccb3e222b68fef9148fd51d1"
+  },
+  {
+    "file": "frame-00982.jpg",
+    "t": 77.64193725585938,
+    "sha256": "117da0bf32c8fc29f6a12e0a18765fe35c9adfc8404b5c019acb6c88fc14ab3c"
+  },
+  {
+    "file": "frame-00983.jpg",
+    "t": 77.7234115600586,
+    "sha256": "74bb12ba467a1e7bbb07f43f8d98f92fddebef51e38c067873f3b43f2a0ca5b8"
+  },
+  {
+    "file": "frame-00984.jpg",
+    "t": 77.80528259277344,
+    "sha256": "f648df610caa7abcb60c0cf7d548b3003b22288d1505f6c3811dd5cf0a412a1c"
+  },
+  {
+    "file": "frame-00985.jpg",
+    "t": 77.88595581054688,
+    "sha256": "2d233b0b22337199cc62a4df966dcbf3f910a04fafe54b00427c7188f6c9df3a"
+  },
+  {
+    "file": "frame-00986.jpg",
+    "t": 77.96194458007812,
+    "sha256": "942dc2738b6a64983d41cc0ec6d3a8e5d733160669388b42f05ceef9a78980ec"
+  },
+  {
+    "file": "frame-00987.jpg",
+    "t": 78.0353775024414,
+    "sha256": "37583931b6349aa5ae1ade153587af49f53353816210b698e952cdc131ebf48b"
+  },
+  {
+    "file": "frame-00988.jpg",
+    "t": 78.11199188232422,
+    "sha256": "88109316aa7d5389210dc1b7a1313c77e7c0d948dbf067b0ac4c8eb5dfe04611"
+  },
+  {
+    "file": "frame-00989.jpg",
+    "t": 78.18528747558594,
+    "sha256": "7b0f9ef140f9ab73664510a9a11df433a6a1a59ec79a9bfa0304cf28ce65e51b"
+  },
+  {
+    "file": "frame-00990.jpg",
+    "t": 78.26387023925781,
+    "sha256": "45df870c33ba2b167ff70eea04a0f0eb37883fb692289505c7c9c8b12285e6d2"
+  },
+  {
+    "file": "frame-00991.jpg",
+    "t": 78.3936538696289,
+    "sha256": "143280b9c7899932e4a4b83e318c5fa54fa9ee747b9bf05b21e0643ea5e8719c"
+  },
+  {
+    "file": "frame-00992.jpg",
+    "t": 78.48246765136719,
+    "sha256": "486baa39468d5e39f60905980741f47cd470e809e97e5dbe268ba4d796ae7111"
+  },
+  {
+    "file": "frame-00993.jpg",
+    "t": 78.55641174316406,
+    "sha256": "b839eb3db0e8d3745a087b95c984efba40dfba8cb417205d55218eda98525924"
+  },
+  {
+    "file": "frame-00994.jpg",
+    "t": 78.6321029663086,
+    "sha256": "91870813e3ba78ea4d0ef19ccb5ea694e8c6d4990127857750ffec5e3562966f"
+  },
+  {
+    "file": "frame-00995.jpg",
+    "t": 78.70708465576172,
+    "sha256": "235eea3d3695d63114c6c57d4d61b75051b0facd69a68e2d4e13a96ff37451e0"
+  },
+  {
+    "file": "frame-00996.jpg",
+    "t": 78.78868103027344,
+    "sha256": "d55517872c8916a1afb98862b8b46448733f39f7ed5c6921c91b294bdf1f58b1"
+  },
+  {
+    "file": "frame-00997.jpg",
+    "t": 78.86396026611328,
+    "sha256": "59a4b95d631dbaa9684711431ce3c3a81b48cfa772d1944e4d3a64ae945940e4"
+  },
+  {
+    "file": "frame-00998.jpg",
+    "t": 78.93830871582031,
+    "sha256": "2c98a8f773490b96c70d8848f12486efaf62409c4dc40da04caa2fc7057d6fef"
+  },
+  {
+    "file": "frame-00999.jpg",
+    "t": 79.02196502685547,
+    "sha256": "41434684069d256d1de4e2d130eae4a0c854b6a177bb37f43c849c02b22d8953"
+  },
+  {
+    "file": "frame-01000.jpg",
+    "t": 79.09712982177734,
+    "sha256": "becbd17f1acec4c92cc1166e9cad4d7569f14bc136d9d67f2aa08898801ffee0"
+  },
+  {
+    "file": "frame-01001.jpg",
+    "t": 79.17941284179688,
+    "sha256": "ed3ef444f917f370f54d4517700e20a3b3f85e86428006aa627234ba1746a7d8"
+  },
+  {
+    "file": "frame-01002.jpg",
+    "t": 79.2734375,
+    "sha256": "8db6a68155bbcd41f286c777ad03942d53e2313d68da3b001b1589ffdb70af55"
+  },
+  {
+    "file": "frame-01003.jpg",
+    "t": 79.35343170166016,
+    "sha256": "341a36ac921ba9c9089f29efa00d38950f99259306c062881687494525ca153f"
+  },
+  {
+    "file": "frame-01004.jpg",
+    "t": 79.42181396484375,
+    "sha256": "718755415afdca1bc28766c39f98e98d9c51cdfc51a9bb2d66daf1af95b4dc91"
+  },
+  {
+    "file": "frame-01005.jpg",
+    "t": 79.4966049194336,
+    "sha256": "a1da53ae76bf9e227b999db953e2b0abbc0603a9e268b9634453dcae4de3edeb"
+  },
+  {
+    "file": "frame-01006.jpg",
+    "t": 79.57357025146484,
+    "sha256": "9b3ee68806663cf8566acd8833f40b5a15b05ce930807c1f78c6ce26e4b709c2"
+  },
+  {
+    "file": "frame-01007.jpg",
+    "t": 79.64617919921875,
+    "sha256": "5a52f79e3ad29dd381418068c1ea8ca942baccf2288d83949265eee79d80f8ed"
+  },
+  {
+    "file": "frame-01008.jpg",
+    "t": 79.72124481201172,
+    "sha256": "4eb82c400585e6a6f7cebf0fb14f0165cc1af4efa82cb3e31e3849ed05e2d144"
+  },
+  {
+    "file": "frame-01009.jpg",
+    "t": 79.79688262939453,
+    "sha256": "709404d7f78b6b0931d83fe89f779146baaba0c359ac298f45b48827b4dedf06"
+  },
+  {
+    "file": "frame-01010.jpg",
+    "t": 79.87322998046875,
+    "sha256": "4aabeef498d7d032ced7dfda8e3524284f8f3b1ec4781b3aec81f08c07973953"
+  },
+  {
+    "file": "frame-01011.jpg",
+    "t": 79.95249938964844,
+    "sha256": "e9eb8e3f9b3d51c462241c41597481496d853a84038d7653451c079d4eab11fd"
+  },
+  {
+    "file": "frame-01012.jpg",
+    "t": 80.04165649414062,
+    "sha256": "ec78237e95aa0728d39ef651de54b972362ae9292646a3bd0e2b6af81705972a"
+  },
+  {
+    "file": "frame-01013.jpg",
+    "t": 80.12213134765625,
+    "sha256": "2991105bfc92a3ae42d0cee567f8864ba1bb213bbea2f15abfaea71893992e41"
+  },
+  {
+    "file": "frame-01014.jpg",
+    "t": 80.21733093261719,
+    "sha256": "46540198274395de6a254a7d9dff82463d099d31bdc09ac47828c8370f291816"
+  },
+  {
+    "file": "frame-01015.jpg",
+    "t": 80.32002258300781,
+    "sha256": "f413b726310159d10e72988eda197ec65cae807ae1708a516d9c7bf96aa286f9"
+  },
+  {
+    "file": "frame-01016.jpg",
+    "t": 80.38911437988281,
+    "sha256": "a2bda8b9569bf5bbcda470b47e7347e0cfe5525bc0f052fc92858f3a2c0c3e13"
+  },
+  {
+    "file": "frame-01017.jpg",
+    "t": 80.45706939697266,
+    "sha256": "390049fbfbe8014569c33717dd4a842d61abf550c6772d82aa5eef4d05f6ef49"
+  },
+  {
+    "file": "frame-01018.jpg",
+    "t": 80.53874969482422,
+    "sha256": "8980f40f2684a1062337dd3f962659411bbd2f6482a1e618002c011e7f54a946"
+  },
+  {
+    "file": "frame-01019.jpg",
+    "t": 80.61134338378906,
+    "sha256": "db0e259bad3d20bad9a5df5e95abb1315bef5516201aa1f145460589df0d4db6"
+  },
+  {
+    "file": "frame-01020.jpg",
+    "t": 80.6883316040039,
+    "sha256": "90619e0ef37a6d8502f127bd95186bfccdd97b109717aaae528c29f9eeade763"
+  },
+  {
+    "file": "frame-01021.jpg",
+    "t": 80.76454162597656,
+    "sha256": "454314c7462029a97e5cc4973731780a333918f588df3d2103898642327502e4"
+  },
+  {
+    "file": "frame-01022.jpg",
+    "t": 80.84173583984375,
+    "sha256": "c205c02a0d1d3ac9d3ae3d744556dea638dd94d413ecadd98f2cb6518119294b"
+  },
+  {
+    "file": "frame-01023.jpg",
+    "t": 80.91873931884766,
+    "sha256": "d2f88788d1f3267f975391f0bee27719f73075914379faa9ac1cc93d340ab0d2"
+  },
+  {
+    "file": "frame-01024.jpg",
+    "t": 81.00481414794922,
+    "sha256": "77310b23ba75253fe255fa0390c0d1725f5241c71874372029abe3a239666297"
+  },
+  {
+    "file": "frame-01025.jpg",
+    "t": 81.09270477294922,
+    "sha256": "4f9e4c5749a365c28cb0a5e4be7bff640efca47a4bcaa4c6c3b337d632057674"
+  },
+  {
+    "file": "frame-01026.jpg",
+    "t": 81.16791534423828,
+    "sha256": "97fa26af5a4169703f3217a78fc1b9dd62f7eb066e3ad819b3f0d58381ebeac7"
+  },
+  {
+    "file": "frame-01027.jpg",
+    "t": 81.2406997680664,
+    "sha256": "34f3bed35edf4f3ac462a11fe7fea0edb4b19d508a1822a9bf10d6805625532f"
+  },
+  {
+    "file": "frame-01028.jpg",
+    "t": 81.31873321533203,
+    "sha256": "b6fc7cca7918a03dd67457112a104fea5070c9c8ba6883e3f76fcf43cab9baee"
+  },
+  {
+    "file": "frame-01029.jpg",
+    "t": 81.39697265625,
+    "sha256": "0018a91c83fad094f0e946dbb60ed7e9acf41467e76945ec4fd37804b777cdb1"
+  },
+  {
+    "file": "frame-01030.jpg",
+    "t": 81.47724151611328,
+    "sha256": "e46e66a598dd422ecc9d8a81c46e032bf4f82c14c2701f8254e3503dd0c5d248"
+  },
+  {
+    "file": "frame-01031.jpg",
+    "t": 81.56586456298828,
+    "sha256": "7c311559a4cd3f60566fe93e6c0ea0607140b990f39275e62e61c7f9d07a4245"
+  },
+  {
+    "file": "frame-01032.jpg",
+    "t": 81.63861083984375,
+    "sha256": "88631dafb2d1430001814a0982e100b5e2b4ba21be60a59a571a9c7b47b3105d"
+  },
+  {
+    "file": "frame-01033.jpg",
+    "t": 81.71208953857422,
+    "sha256": "8495aaa338a34dbfce42fabb6661c92d9eee762ce7f826b996f7ace4b29b98c9"
+  },
+  {
+    "file": "frame-01034.jpg",
+    "t": 81.79265594482422,
+    "sha256": "585d4dc721541c7011f8cd3104a33b5dee48393389228eba433f07d6818eab79"
+  },
+  {
+    "file": "frame-01035.jpg",
+    "t": 81.86988830566406,
+    "sha256": "513a71a4e88845e943e5e80cc34081c1dc97bdf35b4144c8ecd8d437a6da7caa"
+  },
+  {
+    "file": "frame-01036.jpg",
+    "t": 81.9447021484375,
+    "sha256": "947e7db93ead6f2d7377c4df454c056ae3359ff471617b0611e9361a726aa48e"
+  },
+  {
+    "file": "frame-01037.jpg",
+    "t": 82.02208709716797,
+    "sha256": "f0b0c14338af17d1a14316831f2f306d3bf733f798e06e861ecd58bdf6a34e48"
+  },
+  {
+    "file": "frame-01038.jpg",
+    "t": 82.09801483154297,
+    "sha256": "2652209b2f8cf344633e540d49a986810373fbb570105f49465c439096f9e6a6"
+  },
+  {
+    "file": "frame-01039.jpg",
+    "t": 82.1762466430664,
+    "sha256": "09dc53a0382913e0139dc73e54e7057105bf146abe3718f37a76f2750a0373d7"
+  },
+  {
+    "file": "frame-01040.jpg",
+    "t": 82.25251770019531,
+    "sha256": "75e4520c5c8ae906c9fef871d9d7721daab207fef41212542acd10214ba59cb3"
+  },
+  {
+    "file": "frame-01041.jpg",
+    "t": 82.329345703125,
+    "sha256": "f38c6bbd5904dc6e06b5cabe488d185218259e491eab348ca9c8f86924addb22"
+  },
+  {
+    "file": "frame-01042.jpg",
+    "t": 82.40774536132812,
+    "sha256": "59d4fa58d50a1d05524d4ebfbcc126e9da4158280a23f6112dc1dcbdbaad8f70"
+  },
+  {
+    "file": "frame-01043.jpg",
+    "t": 82.4894027709961,
+    "sha256": "d2ffaf8fd4127cee65b81270f337ba8b7a734c9ebcda8733c14bffd47c7785de"
+  },
+  {
+    "file": "frame-01044.jpg",
+    "t": 82.5716552734375,
+    "sha256": "4350b8bfaa69ac1e00cf861c42c291f03acfa8b55e7dc3a3bdc30e4672470f9a"
+  },
+  {
+    "file": "frame-01045.jpg",
+    "t": 82.65119934082031,
+    "sha256": "7b53b54173a9f4ad3f07c983b3a1e616bd237c2ddb1378560699997dd251894c"
+  },
+  {
+    "file": "frame-01046.jpg",
+    "t": 82.72591400146484,
+    "sha256": "6a5595d6d72fc271d9a97031bf6d24cfbf48502f03de545e02a5cbf2be01c141"
+  },
+  {
+    "file": "frame-01047.jpg",
+    "t": 82.8052749633789,
+    "sha256": "4f2095f1f2b1ce0f423822e508730abfc495873c2ac81d69a0fe4b20f6c7e32c"
+  },
+  {
+    "file": "frame-01048.jpg",
+    "t": 82.87895965576172,
+    "sha256": "6e934f3f71cb662baa589b37119fbc218dfbece60d4db227e4dc4e2bcddda05c"
+  },
+  {
+    "file": "frame-01049.jpg",
+    "t": 82.95757293701172,
+    "sha256": "3c96ec81a3730218690ab0e256d0238b02f614a261502b5bd1f12e89c9834f32"
+  },
+  {
+    "file": "frame-01050.jpg",
+    "t": 83.03544616699219,
+    "sha256": "e64ad856a0fe4eb5efdbd1d4b388b1a2bc73615bb370a313534a7795a9f9b096"
+  },
+  {
+    "file": "frame-01051.jpg",
+    "t": 83.1084976196289,
+    "sha256": "4c0bab798e97e581ba1016fee22f19a62cb6d2bf25e16a7c3239090bb1b41ea2"
+  },
+  {
+    "file": "frame-01052.jpg",
+    "t": 83.18534088134766,
+    "sha256": "f981ec1041252eba322c4ce52bdecf501e9ca03560afbad6d0cb66d724c2eae1"
+  },
+  {
+    "file": "frame-01053.jpg",
+    "t": 83.26136016845703,
+    "sha256": "966119e23539678ea91cd73f40123cc16898da7c704496ca8e1f3732f5800266"
+  }
+]

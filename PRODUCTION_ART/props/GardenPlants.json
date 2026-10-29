@@ -1,0 +1,468 @@
+{
+ "source": "farm_raised_beds.png",
+ "plants": [
+  {
+   "name": "carrotA",
+   "kind": "carrot",
+   "box": [
+    105,
+    325,
+    240,
+    458
+   ],
+   "heightMetres": 0.42,
+   "pixels": [
+    135,
+    133
+   ],
+   "lush": {
+    "x": 934,
+    "y": 379,
+    "w": 135,
+    "h": 133
+   },
+   "withered": {
+    "x": 1073,
+    "y": 379,
+    "w": 135,
+    "h": 133
+   }
+  },
+  {
+   "name": "carrotB",
+   "kind": "carrot",
+   "box": [
+    265,
+    300,
+    400,
+    432
+   ],
+   "heightMetres": 0.42,
+   "pixels": [
+    135,
+    132
+   ],
+   "lush": {
+    "x": 1212,
+    "y": 380,
+    "w": 135,
+    "h": 132
+   },
+   "withered": {
+    "x": 1351,
+    "y": 380,
+    "w": 135,
+    "h": 132
+   }
+  },
+  {
+   "name": "lettuceA",
+   "kind": "lettuce",
+   "box": [
+    402,
+    385,
+    520,
+    482
+   ],
+   "heightMetres": 0.3,
+   "pixels": [
+    118,
+    97
+   ],
+   "lush": {
+    "x": 332,
+    "y": 238,
+    "w": 118,
+    "h": 97
+   },
+   "withered": {
+    "x": 454,
+    "y": 238,
+    "w": 118,
+    "h": 97
+   }
+  },
+  {
+   "name": "lettuceB",
+   "kind": "lettuce",
+   "box": [
+    248,
+    460,
+    340,
+    540
+   ],
+   "heightMetres": 0.26,
+   "pixels": [
+    92,
+    80
+   ],
+   "lush": {
+    "x": 1026,
+    "y": 255,
+    "w": 92,
+    "h": 80
+   },
+   "withered": {
+    "x": 1122,
+    "y": 255,
+    "w": 92,
+    "h": 80
+   }
+  },
+  {
+   "name": "redLettuce",
+   "kind": "redlettuce",
+   "box": [
+    520,
+    425,
+    595,
+    508
+   ],
+   "heightMetres": 0.3,
+   "pixels": [
+    60,
+    57
+   ],
+   "lush": {
+    "x": 1724,
+    "y": 278,
+    "w": 60,
+    "h": 57
+   },
+   "withered": {
+    "x": 1788,
+    "y": 278,
+    "w": 60,
+    "h": 57
+   }
+  },
+  {
+   "name": "seedlingA",
+   "kind": "seedling",
+   "box": [
+    448,
+    543,
+    497,
+    598
+   ],
+   "heightMetres": 0.18,
+   "pixels": [
+    49,
+    54
+   ],
+   "lush": {
+    "x": 1852,
+    "y": 281,
+    "w": 49,
+    "h": 54
+   },
+   "withered": {
+    "x": 1905,
+    "y": 281,
+    "w": 49,
+    "h": 54
+   }
+  },
+  {
+   "name": "seedlingB",
+   "kind": "seedling",
+   "box": [
+    528,
+    503,
+    582,
+    562
+   ],
+   "heightMetres": 0.18,
+   "pixels": [
+    54,
+    59
+   ],
+   "lush": {
+    "x": 1608,
+    "y": 276,
+    "w": 54,
+    "h": 59
+   },
+   "withered": {
+    "x": 1666,
+    "y": 276,
+    "w": 54,
+    "h": 59
+   }
+  },
+  {
+   "name": "lavender",
+   "kind": "lavender",
+   "box": [
+    570,
+    62,
+    845,
+    232
+   ],
+   "heightMetres": 0.78,
+   "pixels": [
+    271,
+    164
+   ],
+   "lush": {
+    "x": 168,
+    "y": 348,
+    "w": 271,
+    "h": 164
+   },
+   "withered": {
+    "x": 443,
+    "y": 348,
+    "w": 271,
+    "h": 164
+   }
+  },
+  {
+   "name": "daisies",
+   "kind": "daisy",
+   "box": [
+    682,
+    236,
+    795,
+    322
+   ],
+   "heightMetres": 0.36,
+   "pixels": [
+    113,
+    86
+   ],
+   "lush": {
+    "x": 792,
+    "y": 249,
+    "w": 113,
+    "h": 86
+   },
+   "withered": {
+    "x": 909,
+    "y": 249,
+    "w": 113,
+    "h": 86
+   }
+  },
+  {
+   "name": "rosemary",
+   "kind": "rosemary",
+   "box": [
+    822,
+    148,
+    902,
+    322
+   ],
+   "heightMetres": 0.62,
+   "pixels": [
+    80,
+    173
+   ],
+   "lush": {
+    "x": 0,
+    "y": 339,
+    "w": 80,
+    "h": 173
+   },
+   "withered": {
+    "x": 84,
+    "y": 339,
+    "w": 80,
+    "h": 173
+   }
+  },
+  {
+   "name": "oregano",
+   "kind": "herb",
+   "box": [
+    612,
+    232,
+    685,
+    302
+   ],
+   "heightMetres": 0.28,
+   "pixels": [
+    73,
+    70
+   ],
+   "lush": {
+    "x": 1454,
+    "y": 265,
+    "w": 73,
+    "h": 70
+   },
+   "withered": {
+    "x": 1531,
+    "y": 265,
+    "w": 73,
+    "h": 70
+   }
+  },
+  {
+   "name": "chives",
+   "kind": "chives",
+   "box": [
+    990,
+    456,
+    1094,
+    596
+   ],
+   "heightMetres": 0.46,
+   "pixels": [
+    104,
+    140
+   ],
+   "lush": {
+    "x": 718,
+    "y": 372,
+    "w": 104,
+    "h": 140
+   },
+   "withered": {
+    "x": 826,
+    "y": 372,
+    "w": 104,
+    "h": 140
+   }
+  },
+  {
+   "name": "basil",
+   "kind": "basil",
+   "box": [
+    884,
+    540,
+    1046,
+    652
+   ],
+   "heightMetres": 0.32,
+   "pixels": [
+    162,
+    112
+   ],
+   "lush": {
+    "x": 0,
+    "y": 223,
+    "w": 162,
+    "h": 112
+   },
+   "withered": {
+    "x": 166,
+    "y": 223,
+    "w": 162,
+    "h": 112
+   }
+  },
+  {
+   "name": "purpleBasil",
+   "kind": "purplebasil",
+   "box": [
+    1088,
+    508,
+    1192,
+    602
+   ],
+   "heightMetres": 0.32,
+   "pixels": [
+    104,
+    94
+   ],
+   "lush": {
+    "x": 576,
+    "y": 241,
+    "w": 104,
+    "h": 94
+   },
+   "withered": {
+    "x": 684,
+    "y": 241,
+    "w": 104,
+    "h": 94
+   }
+  },
+  {
+   "name": "thyme",
+   "kind": "thyme",
+   "box": [
+    840,
+    590,
+    930,
+    720
+   ],
+   "heightMetres": 0.4,
+   "pixels": [
+    90,
+    130
+   ],
+   "lush": {
+    "x": 1490,
+    "y": 382,
+    "w": 90,
+    "h": 130
+   },
+   "withered": {
+    "x": 1584,
+    "y": 382,
+    "w": 90,
+    "h": 130
+   }
+  },
+  {
+   "name": "seedlingC",
+   "kind": "seedling",
+   "box": [
+    1098,
+    598,
+    1212,
+    672
+   ],
+   "heightMetres": 0.2,
+   "pixels": [
+    114,
+    73
+   ],
+   "lush": {
+    "x": 1218,
+    "y": 262,
+    "w": 114,
+    "h": 73
+   },
+   "withered": {
+    "x": 1336,
+    "y": 262,
+    "w": 114,
+    "h": 73
+   }
+  },
+  {
+   "name": "rockA",
+   "kind": "rock",
+   "box": [
+    972,
+    839,
+    1088,
+    947
+   ],
+   "heightMetres": 1.0,
+   "pixels": [
+    125,
+    117
+   ],
+   "lush": {
+    "x": 1678,
+    "y": 395,
+    "w": 125,
+    "h": 117
+   },
+   "withered": {
+    "x": 1807,
+    "y": 395,
+    "w": 125,
+    "h": 117
+   }
+  }
+ ],
+ "atlas": [
+  2048,
+  512
+ ]
+}

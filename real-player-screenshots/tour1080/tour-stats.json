@@ -1,0 +1,333 @@
+{
+  "folder": "D:\\workshop\\oct\\echoes-of-the-valley\\artifacts\\visual-qa\\phase-5.2\\b5\\player-final\\tour1080-unrecorded",
+  "resolution": "1920x1080",
+  "recordedFramebuffer": false,
+  "presentation": "B5 painted environment (stage-painted spring, painted trees, garden beds, meadow and soil, minimap re-baked)",
+  "camera": "FixedFollowCamera25D yaw=45 pitch=48 distance=14 (zoom 10-17) fov=35",
+  "routeSeconds": 81.93,
+  "metres": 242.3,
+  "routePass": true,
+  "failures": [],
+  "events": [
+    {
+      "t": 0.0034332275390625,
+      "what": "idle start on the plaza"
+    },
+    {
+      "t": 2.517077922821045,
+      "what": "zoom in to 10"
+    },
+    {
+      "t": 4.118589878082275,
+      "what": "zoom out to 17"
+    },
+    {
+      "t": 5.7189249992370605,
+      "what": "zoom back to 14"
+    },
+    {
+      "t": 6.735707759857178,
+      "what": "eight directions (W, W+D, D, S+D, S, S+A, A, W+A)"
+    },
+    {
+      "t": 11.637651443481445,
+      "what": "stop after the directions"
+    },
+    {
+      "t": 12.455831527709961,
+      "what": "three small circles on the plaza (every facing three times)"
+    },
+    {
+      "t": 19.40831184387207,
+      "what": "stop after the circles"
+    },
+    {
+      "t": 20.024660110473633,
+      "what": "walk to Mira"
+    },
+    {
+      "t": 21.275060653686523,
+      "what": "stop at Mira"
+    },
+    {
+      "t": 21.78045082092285,
+      "what": "talk to Mira: dialogue open (Mira)"
+    },
+    {
+      "t": 26.276386260986328,
+      "what": "talk to Mira: dialogue closed after 3 lines; objective now Spring"
+    },
+    {
+      "t": 26.592754364013672,
+      "what": "walk to the workshop door"
+    },
+    {
+      "t": 28.492794036865234,
+      "what": "stop at the workshop door"
+    },
+    {
+      "t": 29.310230255126953,
+      "what": "walk round behind the painted workshop"
+    },
+    {
+      "t": 34.050506591796875,
+      "what": "stop behind the workshop (occluded)"
+    },
+    {
+      "t": 35.25109100341797,
+      "what": "walk along the workshop's back"
+    },
+    {
+      "t": 36.701698303222656,
+      "what": "circle under the willow canopy"
+    },
+    {
+      "t": 40.736717224121094,
+      "what": "walk to the Dawn Blossom"
+    },
+    {
+      "t": 42.003448486328125,
+      "what": "stop at the Dawn Blossom"
+    },
+    {
+      "t": 42.43735885620117,
+      "what": "gathered flower_3 (0 -> 1); ready visual shown False"
+    },
+    {
+      "t": 43.253074645996094,
+      "what": "walk south and under the broadleaf by the hen yard"
+    },
+    {
+      "t": 48.22152328491211,
+      "what": "stop under the broadleaf's canopy (behind its trunk)"
+    },
+    {
+      "t": 49.23813247680664,
+      "what": "walk to the garden's west gate"
+    },
+    {
+      "t": 52.339439392089844,
+      "what": "walk into the garden between the raised beds"
+    },
+    {
+      "t": 54.13998031616211,
+      "what": "stop at the garden's east end"
+    },
+    {
+      "t": 54.95613479614258,
+      "what": "walk back out of the garden"
+    },
+    {
+      "t": 56.707244873046875,
+      "what": "walk round the plaza to the west path and the spring"
+    },
+    {
+      "t": 66.914794921875,
+      "what": "step up to the spring until it is offered"
+    },
+    {
+      "t": 67.03024291992188,
+      "what": "stop at the spring"
+    },
+    {
+      "t": 68.04733276367188,
+      "what": "inspect the spring: dialogue open (The Ruined Spring)"
+    },
+    {
+      "t": 72.548583984375,
+      "what": "inspect the spring: dialogue closed after 3 lines; objective now Heart"
+    },
+    {
+      "t": 72.86546325683594,
+      "what": "walk down the stream bank under the trees"
+    },
+    {
+      "t": 75.1988525390625,
+      "what": "stop on the stream bank"
+    },
+    {
+      "t": 75.99948120117188,
+      "what": "walk back to the plaza"
+    },
+    {
+      "t": 79.93318939208984,
+      "what": "stop on the plaza"
+    },
+    {
+      "t": 144.3511199951172,
+      "what": "stage set by the evidence script: AwakeningStream"
+    },
+    {
+      "t": 156.06549072265625,
+      "what": "stage set by the evidence script: BloomingGarden"
+    },
+    {
+      "t": 166.86964416503906,
+      "what": "stage set by the evidence script: RestoredValley"
+    }
+  ],
+  "frames": 4916,
+  "frameMs": {
+    "p50": 16.67,
+    "p95": 16.69,
+    "p99": 16.84,
+    "worst": 21.1,
+    "mean": 16.67
+  },
+  "fps": {
+    "mean": 60.0,
+    "onePercentLow": 59.4
+  },
+  "speedWhileMoving": {
+    "mean": 4.33,
+    "max": 4.5
+  },
+  "directionSamples": {
+    "S/idle": 446,
+    "E/run": 928,
+    "N/run": 434,
+    "S/run": 785,
+    "W/run": 1212,
+    "W/idle": 518,
+    "N/idle": 384,
+    "E/idle": 214
+  },
+  "steps": [
+    "back-to-plaza",
+    "behind-workshop",
+    "directions",
+    "garden",
+    "gather",
+    "idle",
+    "interact",
+    "stop",
+    "stream",
+    "to-mira",
+    "to-spring",
+    "to-workshop",
+    "turns",
+    "under-tree",
+    "under-willow",
+    "zoom"
+  ],
+  "runPhaseVsDistance": {
+    "stride": 2.8,
+    "samples": 3334,
+    "medianError": 0.0,
+    "p95Error": 0.0028
+  },
+  "note": "unrecorded run: no framebuffer capture; one scripted route, not a human traversal benchmark",
+  "stills": [
+    "after-b5-plaza",
+    "before-b4-plaza",
+    "after-b5-workshop-front",
+    "before-b4-workshop-front",
+    "after-b5-workshop-side",
+    "before-b4-workshop-side",
+    "after-b5-willow",
+    "before-b4-willow",
+    "after-b5-spring",
+    "before-b4-spring",
+    "after-b5-garden",
+    "before-b4-garden",
+    "after-b5-hen-yard",
+    "before-b4-hen-yard",
+    "after-b5-stream",
+    "before-b4-stream",
+    "after-b5-windmill",
+    "before-b4-windmill",
+    "pitch-42-plaza",
+    "pitch-42-workshop-front",
+    "pitch-42-garden",
+    "pitch-48-plaza",
+    "pitch-48-workshop-front",
+    "pitch-48-garden",
+    "pitch-54-plaza",
+    "pitch-54-workshop-front",
+    "pitch-54-garden",
+    "occlusion-behind-workshop",
+    "occlusion-behind-workshop-closest-zoom",
+    "occlusion-behind-workshop-before-b4",
+    "occlusion-behind-workshop-before-b4-closest-zoom",
+    "occlusion-behind-willow",
+    "occlusion-behind-willow-closest-zoom",
+    "occlusion-behind-willow-before-b4",
+    "occlusion-behind-willow-before-b4-closest-zoom",
+    "occlusion-behind-broadleaf-henyard",
+    "occlusion-behind-broadleaf-henyard-closest-zoom",
+    "occlusion-behind-broadleaf-henyard-before-b4",
+    "occlusion-behind-broadleaf-henyard-before-b4-closest-zoom",
+    "occlusion-behind-broadleaf-stream",
+    "occlusion-behind-broadleaf-stream-closest-zoom",
+    "occlusion-behind-broadleaf-stream-before-b4",
+    "occlusion-behind-broadleaf-stream-before-b4-closest-zoom",
+    "ground-tiling-farthest-zoom",
+    "ground-tiling-farthest-zoom-before-b4",
+    "hero-idle-S-closest-zoom",
+    "hero-idle-S-default-zoom",
+    "hero-idle-W-closest-zoom",
+    "hero-idle-W-default-zoom",
+    "hero-idle-E-closest-zoom",
+    "hero-idle-E-default-zoom",
+    "hero-idle-N-closest-zoom",
+    "hero-idle-N-default-zoom",
+    "hero-walk-S-closest-zoom",
+    "hero-walk-W-closest-zoom",
+    "hero-walk-E-closest-zoom",
+    "hero-walk-N-closest-zoom",
+    "dialogue-mira",
+    "inventory-portrait",
+    "pause-menu",
+    "stage-S1-set-by-script-spring",
+    "stage-S1-set-by-script-before-b4-spring",
+    "stage-S1-set-by-script-garden",
+    "stage-S1-set-by-script-plaza",
+    "stage-S1-set-by-script-workshop-front",
+    "stage-S1-set-by-script-stream",
+    "stage-S1-set-by-script-windmill",
+    "stage-S2-set-by-script-spring",
+    "stage-S2-set-by-script-garden",
+    "stage-S2-set-by-script-plaza",
+    "stage-S2-set-by-script-workshop-front",
+    "stage-S2-set-by-script-stream",
+    "stage-S2-set-by-script-windmill",
+    "stage-S3-set-by-script-spring",
+    "stage-S3-set-by-script-before-b4-spring",
+    "stage-S3-set-by-script-garden",
+    "stage-S3-set-by-script-before-b4-garden",
+    "stage-S3-set-by-script-plaza",
+    "stage-S3-set-by-script-before-b4-plaza",
+    "stage-S3-set-by-script-workshop-front",
+    "stage-S3-set-by-script-before-b4-workshop-front",
+    "stage-S3-set-by-script-stream",
+    "stage-S3-set-by-script-before-b4-stream",
+    "stage-S3-set-by-script-windmill",
+    "stage-S3-set-by-script-before-b4-windmill"
+  ],
+  "minimap": {
+    "objectiveTimeline": [
+      {
+        "t": 0.0,
+        "objective": "Mira",
+        "step": "idle"
+      },
+      {
+        "t": 26.28,
+        "objective": "Spring",
+        "step": "interact"
+      },
+      {
+        "t": 72.55,
+        "objective": "Heart",
+        "step": "interact"
+      }
+    ],
+    "mapUnitsPerMetre": {
+      "samples": 3336,
+      "p05": 3.568,
+      "median": 3.684,
+      "p95": 3.792
+    },
+    "edgeClampedFraction": 0.493
+  }
+}

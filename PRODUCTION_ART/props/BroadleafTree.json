@@ -1,0 +1,18 @@
+{
+ "source": "broadleaf_tree.png",
+ "size": [
+  1188,
+  1288
+ ],
+ "cropOrigin": [
+  17,
+  6
+ ],
+ "trunkFootPx": [
+  673,
+  1179
+ ],
+ "opaqueTopPx": 7,
+ "opaqueBottomPx": 1279,
+ "removedHazeTexels": 72930
+}

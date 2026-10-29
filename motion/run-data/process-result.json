@@ -1,0 +1,37 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "naturalExit": true,
+  "exitCode": 0,
+  "seconds": 198.8,
+  "secondsToReady": 8.42,
+  "exceptionLines": 0,
+  "video": true,
+  "before": false,
+  "automatedInput": true,
+  "otherGameProcessesRunning": [],
+  "resources": {
+    "note": "Windows performance counters for this process only, sampled about once a second after the tour was ready; integrated GPU: shared memory is the GPU memory in use",
+    "samples": 108,
+    "gpuDedicatedMB": {
+      "mean": 17.2,
+      "p95": 21.0,
+      "max": 21.0
+    },
+    "gpuSharedMB": {
+      "mean": 422.5,
+      "p95": 441.4,
+      "max": 441.4
+    },
+    "gpu3dUtilisationPercent": {
+      "mean": 27.0,
+      "p95": 45.5,
+      "max": 46.9
+    },
+    "privateMB": {
+      "mean": 923.5,
+      "p95": 1013.4,
+      "max": 1033.4
+    }
+  }
+}

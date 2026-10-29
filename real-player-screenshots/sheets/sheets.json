@@ -1,0 +1,180 @@
+{
+ "source": "D:\\workshop\\oct\\echoes-of-the-valley\\artifacts\\visual-qa\\phase-5.2\\b5\\player-final\\tour1080-unrecorded",
+ "note": "Unmodified REAL_PLAYER framebuffer stills, scaled, labels outside the pictures",
+ "sheets": [
+  "b4-vs-b5-garden.jpg",
+  "b4-vs-b5-hen-yard.jpg",
+  "b4-vs-b5-plaza.jpg",
+  "b4-vs-b5-spring.jpg",
+  "b4-vs-b5-stream.jpg",
+  "b4-vs-b5-willow.jpg",
+  "b4-vs-b5-windmill.jpg",
+  "b4-vs-b5-workshop-front.jpg",
+  "b4-vs-b5-workshop-side.jpg",
+  "b5-stages-spring.jpg",
+  "b4-vs-b5-S1-spring.jpg",
+  "b4-vs-b5-S3-spring.jpg",
+  "b5-stages-garden.jpg",
+  "b4-vs-b5-S3-garden.jpg",
+  "b5-stages-plaza.jpg",
+  "b4-vs-b5-S3-plaza.jpg",
+  "b5-stages-workshop-front.jpg",
+  "b4-vs-b5-S3-workshop-front.jpg",
+  "b5-stages-stream.jpg",
+  "b4-vs-b5-S3-stream.jpg",
+  "b5-stages-windmill.jpg",
+  "b4-vs-b5-S3-windmill.jpg",
+  "occlusion-behind-broadleaf-henyard.jpg",
+  "occlusion-behind-broadleaf-stream.jpg",
+  "occlusion-behind-willow.jpg",
+  "occlusion-behind-workshop.jpg",
+  "worst-occlusion-b5.jpg",
+  "ground-tiling-farthest-zoom.jpg"
+ ],
+ "occlusion": [
+  {
+   "still": "occlusion-behind-workshop",
+   "presentation": "B5",
+   "zoom": 14.0,
+   "visibleShare": 0.0,
+   "visibleShareWithoutOpening": 0.0,
+   "markedShare": 1.0,
+   "referencePixels": 3352
+  },
+  {
+   "still": "occlusion-behind-workshop-closest-zoom",
+   "presentation": "B5",
+   "zoom": 10.0,
+   "visibleShare": 0.0,
+   "visibleShareWithoutOpening": 0.0,
+   "markedShare": 1.0,
+   "referencePixels": 7015
+  },
+  {
+   "still": "occlusion-behind-workshop-before-b4",
+   "presentation": "B4",
+   "zoom": 14.0,
+   "visibleShare": 0.0,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.9183314442634583,
+   "referencePixels": 3523
+  },
+  {
+   "still": "occlusion-behind-workshop-before-b4-closest-zoom",
+   "presentation": "B4",
+   "zoom": 10.0,
+   "visibleShare": 0.0,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.9195783734321594,
+   "referencePixels": 7289
+  },
+  {
+   "still": "occlusion-behind-willow",
+   "presentation": "B5",
+   "zoom": 14.0,
+   "visibleShare": 0.8311983942985535,
+   "visibleShareWithoutOpening": 0.8311983942985535,
+   "markedShare": 0.8481924533843994,
+   "referencePixels": 3513
+  },
+  {
+   "still": "occlusion-behind-willow-closest-zoom",
+   "presentation": "B5",
+   "zoom": 10.0,
+   "visibleShare": 0.8355308771133423,
+   "visibleShareWithoutOpening": 0.8355308771133423,
+   "markedShare": 0.8456114530563354,
+   "referencePixels": 7205
+  },
+  {
+   "still": "occlusion-behind-willow-before-b4",
+   "presentation": "B4",
+   "zoom": 14.0,
+   "visibleShare": 0.8105822801589966,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.8501430153846741,
+   "referencePixels": 4139
+  },
+  {
+   "still": "occlusion-behind-willow-before-b4-closest-zoom",
+   "presentation": "B4",
+   "zoom": 10.0,
+   "visibleShare": 0.8141342997550964,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.8502100110054016,
+   "referencePixels": 8490
+  },
+  {
+   "still": "occlusion-behind-broadleaf-henyard",
+   "presentation": "B5",
+   "zoom": 14.0,
+   "visibleShare": 0.6886819005012512,
+   "visibleShareWithoutOpening": 0.0,
+   "markedShare": 0.8912931680679321,
+   "referencePixels": 3543
+  },
+  {
+   "still": "occlusion-behind-broadleaf-henyard-closest-zoom",
+   "presentation": "B5",
+   "zoom": 10.0,
+   "visibleShare": 0.7283164858818054,
+   "visibleShareWithoutOpening": 0.0,
+   "markedShare": 0.8936970829963684,
+   "referencePixels": 7229
+  },
+  {
+   "still": "occlusion-behind-broadleaf-henyard-before-b4",
+   "presentation": "B4",
+   "zoom": 14.0,
+   "visibleShare": 0.2341534048318863,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.97309809923172,
+   "referencePixels": 3455
+  },
+  {
+   "still": "occlusion-behind-broadleaf-henyard-before-b4-closest-zoom",
+   "presentation": "B4",
+   "zoom": 10.0,
+   "visibleShare": 0.14311493933200836,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.9850823879241943,
+   "referencePixels": 7204
+  },
+  {
+   "still": "occlusion-behind-broadleaf-stream",
+   "presentation": "B5",
+   "zoom": 14.0,
+   "visibleShare": 0.8469894528388977,
+   "visibleShareWithoutOpening": 0.0,
+   "markedShare": 0.9900285005569458,
+   "referencePixels": 3222
+  },
+  {
+   "still": "occlusion-behind-broadleaf-stream-closest-zoom",
+   "presentation": "B5",
+   "zoom": 10.0,
+   "visibleShare": 0.8408476114273071,
+   "visibleShareWithoutOpening": 0.0,
+   "markedShare": 0.9937892556190491,
+   "referencePixels": 6654
+  },
+  {
+   "still": "occlusion-behind-broadleaf-stream-before-b4",
+   "presentation": "B4",
+   "zoom": 14.0,
+   "visibleShare": 0.6439142227172852,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.9938557744026184,
+   "referencePixels": 3311
+  },
+  {
+   "still": "occlusion-behind-broadleaf-stream-before-b4-closest-zoom",
+   "presentation": "B4",
+   "zoom": 10.0,
+   "visibleShare": 0.71913081407547,
+   "visibleShareWithoutOpening": -1.0,
+   "markedShare": 0.9862995743751526,
+   "referencePixels": 6811
+  }
+ ]
+}

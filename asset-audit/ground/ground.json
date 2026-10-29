@@ -1,0 +1,174 @@
+{
+ "MeadowA": {
+  "recipe": {
+   "source": "meadow_grass_albedo",
+   "rotate": 0,
+   "hue": 88.0,
+   "sat": 0.5,
+   "val": 0.5,
+   "warm": 0.0
+  },
+  "sourceWrap": {
+   "seamRatioX": 1.224,
+   "seamRatioY": 1.343
+  },
+  "finalWrap": {
+   "seamRatioX": 1.04,
+   "seamRatioY": 0.965
+  },
+  "sourceColour": {
+   "hueDeg": 80.0,
+   "saturation": 0.667,
+   "value": 0.543,
+   "meanRGB": [
+    107.7,
+    138.5,
+    46.2
+   ]
+  },
+  "finalColour": {
+   "hueDeg": 88.0,
+   "saturation": 0.5,
+   "value": 0.5,
+   "meanRGB": [
+    97.8,
+    127.5,
+    63.8
+   ]
+  },
+  "size": [
+   1024,
+   1024
+  ],
+  "bandPx": [
+   230,
+   230
+  ]
+ },
+ "MeadowB": {
+  "recipe": {
+   "source": "meadow_grass_albedo",
+   "rotate": 1,
+   "hue": 72.0,
+   "sat": 0.44,
+   "val": 0.53,
+   "warm": 0.04
+  },
+  "sourceWrap": {
+   "seamRatioX": 1.224,
+   "seamRatioY": 1.343
+  },
+  "finalWrap": {
+   "seamRatioX": 0.968,
+   "seamRatioY": 1.037
+  },
+  "sourceColour": {
+   "hueDeg": 80.0,
+   "saturation": 0.667,
+   "value": 0.543,
+   "meanRGB": [
+    107.7,
+    138.5,
+    46.2
+   ]
+  },
+  "finalColour": {
+   "hueDeg": 66.5,
+   "saturation": 0.443,
+   "value": 0.533,
+   "meanRGB": [
+    128.4,
+    134.9,
+    75.7
+   ]
+  },
+  "size": [
+   1024,
+   1024
+  ],
+  "bandPx": [
+   230,
+   230
+  ]
+ },
+ "TilledSoil": {
+  "recipe": {
+   "source": "tilled_soil_albedo",
+   "rotate": 0,
+   "hue": 27.0,
+   "sat": 0.52,
+   "val": 0.38,
+   "warm": 0.0
+  },
+  "sourceWrap": {
+   "seamRatioX": 1.705,
+   "seamRatioY": 1.414
+  },
+  "finalWrap": {
+   "seamRatioX": 0.914,
+   "seamRatioY": 1.001
+  },
+  "sourceColour": {
+   "hueDeg": 25.1,
+   "saturation": 0.666,
+   "value": 0.403,
+   "meanRGB": [
+    102.8,
+    63.5,
+    35.2
+   ]
+  },
+  "finalColour": {
+   "hueDeg": 27.0,
+   "saturation": 0.52,
+   "value": 0.38,
+   "meanRGB": [
+    96.9,
+    69.5,
+    47.2
+   ]
+  },
+  "size": [
+   1024,
+   1024
+  ],
+  "bandPx": [
+   230,
+   230
+  ]
+ },
+ "PlazaCobbleWarm": {
+  "recipe": {
+   "source": "Phase52B4/Terrain/PlazaCobble.png",
+   "method": "luminance x (1.10, 1.00, 0.84) x 0.98 + 25 % of the original chroma"
+  },
+  "sourceColour": {
+   "hueDeg": 46.6,
+   "saturation": 0.171,
+   "value": 0.498,
+   "meanRGB": [
+    126.0,
+    121.8,
+    107.2
+   ]
+  },
+  "finalColour": {
+   "hueDeg": 38.2,
+   "saturation": 0.272,
+   "value": 0.518,
+   "meanRGB": [
+    132.0,
+    119.1,
+    96.4
+   ]
+  },
+  "finalWrap": {
+   "seamRatioX": 0.0,
+   "seamRatioY": 0.0
+  },
+  "size": [
+   1024,
+   1024
+  ]
+ }
+}

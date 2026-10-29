@@ -1,0 +1,890 @@
+[
+  {
+    "t": 2.32,
+    "dedicatedMB": 12.8,
+    "sharedMB": 98.5,
+    "gpu3dPercent": 45.2,
+    "privateMB": 374.0,
+    "ready": false
+  },
+  {
+    "t": 4.12,
+    "dedicatedMB": 12.8,
+    "sharedMB": 98.5,
+    "gpu3dPercent": 38.4,
+    "privateMB": 381.1,
+    "ready": false
+  },
+  {
+    "t": 5.88,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 17.3,
+    "privateMB": 863.8,
+    "ready": false
+  },
+  {
+    "t": 7.63,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.9,
+    "privateMB": 863.8,
+    "ready": true
+  },
+  {
+    "t": 9.37,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.2,
+    "privateMB": 859.3,
+    "ready": true
+  },
+  {
+    "t": 11.12,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.3,
+    "privateMB": 860.0,
+    "ready": true
+  },
+  {
+    "t": 12.87,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.4,
+    "privateMB": 857.0,
+    "ready": true
+  },
+  {
+    "t": 14.63,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.3,
+    "privateMB": 857.4,
+    "ready": true
+  },
+  {
+    "t": 16.38,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.6,
+    "privateMB": 857.4,
+    "ready": true
+  },
+  {
+    "t": 18.13,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.4,
+    "privateMB": 857.4,
+    "ready": true
+  },
+  {
+    "t": 19.88,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.9,
+    "privateMB": 857.5,
+    "ready": true
+  },
+  {
+    "t": 21.63,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.8,
+    "privateMB": 858.5,
+    "ready": true
+  },
+  {
+    "t": 23.37,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.4,
+    "privateMB": 858.6,
+    "ready": true
+  },
+  {
+    "t": 25.12,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.7,
+    "privateMB": 858.6,
+    "ready": true
+  },
+  {
+    "t": 26.87,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.5,
+    "privateMB": 858.6,
+    "ready": true
+  },
+  {
+    "t": 28.63,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.7,
+    "privateMB": 858.6,
+    "ready": true
+  },
+  {
+    "t": 30.39,
+    "dedicatedMB": 21.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.0,
+    "privateMB": 858.6,
+    "ready": true
+  },
+  {
+    "t": 32.15,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 35.2,
+    "privateMB": 859.1,
+    "ready": true
+  },
+  {
+    "t": 33.9,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.3,
+    "privateMB": 859.1,
+    "ready": true
+  },
+  {
+    "t": 35.65,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.6,
+    "privateMB": 859.1,
+    "ready": true
+  },
+  {
+    "t": 37.39,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 35.7,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 39.13,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.4,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 40.89,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.7,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 42.64,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.0,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 44.39,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.3,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 46.14,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.6,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 47.88,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.9,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 49.64,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.7,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 51.39,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.2,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 53.13,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.0,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 54.88,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.2,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 56.63,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.0,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 58.37,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 36.7,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 60.11,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.3,
+    "privateMB": 861.1,
+    "ready": true
+  },
+  {
+    "t": 61.85,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.2,
+    "privateMB": 861.0,
+    "ready": true
+  },
+  {
+    "t": 63.59,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.8,
+    "privateMB": 861.0,
+    "ready": true
+  },
+  {
+    "t": 65.33,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.7,
+    "privateMB": 861.0,
+    "ready": true
+  },
+  {
+    "t": 67.07,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.1,
+    "privateMB": 861.0,
+    "ready": true
+  },
+  {
+    "t": 68.81,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.0,
+    "privateMB": 861.0,
+    "ready": true
+  },
+  {
+    "t": 70.55,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.9,
+    "privateMB": 861.2,
+    "ready": true
+  },
+  {
+    "t": 72.3,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.7,
+    "privateMB": 861.2,
+    "ready": true
+  },
+  {
+    "t": 74.04,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.1,
+    "privateMB": 861.3,
+    "ready": true
+  },
+  {
+    "t": 75.79,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.8,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 77.53,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.1,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 79.3,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.0,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 81.04,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.1,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 82.77,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.9,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 84.52,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.8,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 86.26,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.7,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 88.03,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.6,
+    "privateMB": 861.4,
+    "ready": true
+  },
+  {
+    "t": 89.77,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.8,
+    "privateMB": 862.9,
+    "ready": true
+  },
+  {
+    "t": 91.53,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.5,
+    "privateMB": 862.9,
+    "ready": true
+  },
+  {
+    "t": 93.27,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 43.7,
+    "privateMB": 897.5,
+    "ready": true
+  },
+  {
+    "t": 95.01,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.6,
+    "privateMB": 901.7,
+    "ready": true
+  },
+  {
+    "t": 96.75,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.1,
+    "privateMB": 901.7,
+    "ready": true
+  },
+  {
+    "t": 98.51,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.1,
+    "privateMB": 901.8,
+    "ready": true
+  },
+  {
+    "t": 100.25,
+    "dedicatedMB": 21.5,
+    "sharedMB": 452.9,
+    "gpu3dPercent": 38.5,
+    "privateMB": 901.8,
+    "ready": true
+  },
+  {
+    "t": 101.99,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 42.1,
+    "privateMB": 902.1,
+    "ready": true
+  },
+  {
+    "t": 103.73,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 43.0,
+    "privateMB": 902.1,
+    "ready": true
+  },
+  {
+    "t": 105.47,
+    "dedicatedMB": 21.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 43.5,
+    "privateMB": 902.1,
+    "ready": true
+  },
+  {
+    "t": 107.21,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 43.7,
+    "privateMB": 902.6,
+    "ready": true
+  },
+  {
+    "t": 108.95,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 46.4,
+    "privateMB": 902.7,
+    "ready": true
+  },
+  {
+    "t": 110.69,
+    "dedicatedMB": 22.0,
+    "sharedMB": 452.9,
+    "gpu3dPercent": 40.0,
+    "privateMB": 902.8,
+    "ready": true
+  },
+  {
+    "t": 112.43,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.1,
+    "privateMB": 901.2,
+    "ready": true
+  },
+  {
+    "t": 114.18,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.3,
+    "privateMB": 901.2,
+    "ready": true
+  },
+  {
+    "t": 115.92,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.7,
+    "privateMB": 901.2,
+    "ready": true
+  },
+  {
+    "t": 117.67,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.3,
+    "privateMB": 901.2,
+    "ready": true
+  },
+  {
+    "t": 119.42,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 36.0,
+    "privateMB": 1001.5,
+    "ready": true
+  },
+  {
+    "t": 121.19,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.8,
+    "privateMB": 1017.4,
+    "ready": true
+  },
+  {
+    "t": 122.93,
+    "dedicatedMB": 22.0,
+    "sharedMB": 462.9,
+    "gpu3dPercent": 38.6,
+    "privateMB": 1024.9,
+    "ready": true
+  },
+  {
+    "t": 124.67,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.8,
+    "privateMB": 1024.9,
+    "ready": true
+  },
+  {
+    "t": 126.42,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.5,
+    "privateMB": 1024.9,
+    "ready": true
+  },
+  {
+    "t": 128.17,
+    "dedicatedMB": 22.0,
+    "sharedMB": 462.9,
+    "gpu3dPercent": 36.2,
+    "privateMB": 1024.9,
+    "ready": true
+  },
+  {
+    "t": 129.92,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 43.6,
+    "privateMB": 1024.9,
+    "ready": true
+  },
+  {
+    "t": 131.66,
+    "dedicatedMB": 22.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 36.1,
+    "privateMB": 1014.9,
+    "ready": true
+  },
+  {
+    "t": 133.4,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 44.0,
+    "privateMB": 1014.9,
+    "ready": true
+  },
+  {
+    "t": 135.14,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.3,
+    "privateMB": 1024.9,
+    "ready": true
+  },
+  {
+    "t": 136.88,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.7,
+    "privateMB": 1024.9,
+    "ready": true
+  },
+  {
+    "t": 138.62,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.8,
+    "privateMB": 1024.4,
+    "ready": true
+  },
+  {
+    "t": 140.36,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.0,
+    "privateMB": 1021.4,
+    "ready": true
+  },
+  {
+    "t": 142.1,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.9,
+    "privateMB": 1002.4,
+    "ready": true
+  },
+  {
+    "t": 143.85,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.9,
+    "privateMB": 997.0,
+    "ready": true
+  },
+  {
+    "t": 145.61,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.9,
+    "privateMB": 996.9,
+    "ready": true
+  },
+  {
+    "t": 147.36,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 41.8,
+    "privateMB": 996.9,
+    "ready": true
+  },
+  {
+    "t": 149.1,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.8,
+    "privateMB": 996.9,
+    "ready": true
+  },
+  {
+    "t": 150.85,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.1,
+    "privateMB": 996.9,
+    "ready": true
+  },
+  {
+    "t": 152.61,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.4,
+    "privateMB": 997.0,
+    "ready": true
+  },
+  {
+    "t": 154.36,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.4,
+    "privateMB": 996.9,
+    "ready": true
+  },
+  {
+    "t": 156.11,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.0,
+    "privateMB": 996.9,
+    "ready": true
+  },
+  {
+    "t": 157.87,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.9,
+    "privateMB": 996.9,
+    "ready": true
+  },
+  {
+    "t": 159.62,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.6,
+    "privateMB": 989.2,
+    "ready": true
+  },
+  {
+    "t": 161.37,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 42.3,
+    "privateMB": 991.2,
+    "ready": true
+  },
+  {
+    "t": 163.12,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.6,
+    "privateMB": 991.2,
+    "ready": true
+  },
+  {
+    "t": 164.86,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.3,
+    "privateMB": 989.7,
+    "ready": true
+  },
+  {
+    "t": 166.62,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.9,
+    "privateMB": 989.7,
+    "ready": true
+  },
+  {
+    "t": 168.36,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.9,
+    "privateMB": 989.7,
+    "ready": true
+  },
+  {
+    "t": 170.1,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 35.7,
+    "privateMB": 989.7,
+    "ready": true
+  },
+  {
+    "t": 171.85,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.1,
+    "privateMB": 989.7,
+    "ready": true
+  },
+  {
+    "t": 173.6,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 40.8,
+    "privateMB": 989.7,
+    "ready": true
+  },
+  {
+    "t": 175.34,
+    "dedicatedMB": 22.5,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.2,
+    "privateMB": 989.7,
+    "ready": true
+  },
+  {
+    "t": 177.08,
+    "dedicatedMB": 23.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 37.5,
+    "privateMB": 990.2,
+    "ready": true
+  },
+  {
+    "t": 178.83,
+    "dedicatedMB": 23.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 36.6,
+    "privateMB": 990.2,
+    "ready": true
+  },
+  {
+    "t": 180.56,
+    "dedicatedMB": 23.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 38.1,
+    "privateMB": 990.2,
+    "ready": true
+  },
+  {
+    "t": 182.32,
+    "dedicatedMB": 23.0,
+    "sharedMB": 445.0,
+    "gpu3dPercent": 39.1,
+    "privateMB": 982.2,
+    "ready": true
+  },
+  {
+    "t": 184.08,
+    "dedicatedMB": 22.9,
+    "sharedMB": 403.5,
+    "gpu3dPercent": 43.5,
+    "privateMB": 991.8,
+    "ready": true
+  },
+  {
+    "t": 185.82,
+    "dedicatedMB": 22.9,
+    "sharedMB": 403.5,
+    "gpu3dPercent": 43.8,
+    "privateMB": 991.7,
+    "ready": true
+  },
+  {
+    "t": 187.57,
+    "dedicatedMB": 22.9,
+    "sharedMB": 403.5,
+    "gpu3dPercent": 45.0,
+    "privateMB": 991.7,
+    "ready": true
+  },
+  {
+    "t": 189.32,
+    "dedicatedMB": 22.9,
+    "sharedMB": 403.5,
+    "gpu3dPercent": 41.0,
+    "privateMB": 991.7,
+    "ready": true
+  },
+  {
+    "t": 191.07,
+    "dedicatedMB": 22.9,
+    "sharedMB": 403.5,
+    "gpu3dPercent": 40.3,
+    "privateMB": 991.7,
+    "ready": true
+  },
+  {
+    "t": 192.83,
+    "dedicatedMB": 22.9,
+    "sharedMB": 403.5,
+    "gpu3dPercent": 39.3,
+    "privateMB": 991.8,
+    "ready": true
+  },
+  {
+    "t": 194.58,
+    "dedicatedMB": 22.9,
+    "sharedMB": 403.5,
+    "gpu3dPercent": 39.7,
+    "privateMB": 1001.4,
+    "ready": true
+  }
+]

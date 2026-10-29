@@ -1,0 +1,14 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "naturalExit": true,
+  "exitCode": 0,
+  "seconds": 80.9,
+  "screenshots": 40,
+  "exceptionLines": 0,
+  "passLines": [
+    "[Echoes][SMOKE] PASS: all steps passed in 76 s, 40 screenshots"
+  ],
+  "automated": true,
+  "teleportsForSetup": true
+}

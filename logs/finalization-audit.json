@@ -1,0 +1,2304 @@
+{
+  "checkedAtUtc": "2026-10-29T09:06:55.091870+00:00",
+  "sourceCommit": "e4e4e0fa2e6dd9cece55af9f3cf2d1206cad8e75",
+  "testInputCorrespondence": {
+    "result": "PASS",
+    "files": 1741,
+    "manifest": "artifacts\\visual-qa\\phase-5.2\\logs\\b5-finalization-verified\\source-inputs-SHA256.json"
+  },
+  "unchangedBaselineTestFiles": 64,
+  "tests": {
+    "EditMode": {
+      "result": "Passed",
+      "total": "262",
+      "passed": "262",
+      "failed": "0",
+      "skipped": "0",
+      "inconclusive": "0",
+      "start-time": "2026-10-29 08:58:43Z",
+      "end-time": "2026-10-29 09:01:40Z",
+      "sha256": "59b3718431cf2fc16bf26d8cefd0fafbd4f6dfe3d4ec0a62a47f24f0a677723a",
+      "b5Cases": [
+        "Echoes.Tests.Phase52B5Tests.B5Scene_KeepsTheB4CaretakerCameraAndPlayerRoot",
+        "Echoes.Tests.Phase52B5Tests.B5Sources_AreTheUnmodifiedOwnerSuppliedFiles",
+        "Echoes.Tests.Phase52B5Tests.B5Terrain_KeepsTheB4Heights_AndUsesThePaintedLayers",
+        "Echoes.Tests.Phase52B5Tests.BeforeMode_RestoresTheB4Presentation_InTheSameScene",
+        "Echoes.Tests.Phase52B5Tests.EveryInteraction_StaysReachable_WithTheB5Collision",
+        "Echoes.Tests.Phase52B5Tests.GardenBeds_StandOnTheRealGardenLayout_WithCollision_AndThePlantsFollowTheGardensOwnStage",
+        "Echoes.Tests.Phase52B5Tests.GatheringSpots_KeepTheirNodes_WithPaintedReadyAndCutVisuals",
+        "Echoes.Tests.Phase52B5Tests.GroundTextures_ImportAsOpaqueRepeatingMipmappedDxt1_WithAnisotropy",
+        "Echoes.Tests.Phase52B5Tests.GroundTextures_WrapWithoutSeams_InBothDirections",
+        "Echoes.Tests.Phase52B5Tests.Minimap_IsTheB5ValleyBaked_AndBeforeModeShowsTheB4Bake",
+        "Echoes.Tests.Phase52B5Tests.OriginalB2B3AndB4Scenes_ContainNoB5Presentation",
+        "Echoes.Tests.Phase52B5Tests.PaintedCards_AreAlphaTestedWithDepth_AndTheirTexturesKeepCoverageInTheMipmaps",
+        "Echoes.Tests.Phase52B5Tests.PaintedTextures_TransparentTexelsCarryBledColour_NoDarkOrWhiteHalo",
+        "Echoes.Tests.Phase52B5Tests.PaintedTrees_StandOnTheOldTrees_WhoseTrunksStillBlock_AndWhoseShadowsStay",
+        "Echoes.Tests.Phase52B5Tests.SilentValleyLight_IsLessBlue_InB5_AndTheB4LightIsKeptForBeforeMode",
+        "Echoes.Tests.Phase52B5Tests.SpringCard_ShowsTheShownStage_OnTheSpringsLandmark",
+        "Echoes.Tests.Phase52B5Tests.SpringFootprint_IsSolid_AndOnlyOldStonesOutsideThePaintingStopBlocking",
+        "Echoes.Tests.Phase52B5Tests.SpringStages_AreFourRegisteredPaintingsOnOneFootprint"
+      ]
+    },
+    "PlayMode": {
+      "result": "Passed",
+      "total": "106",
+      "passed": "106",
+      "failed": "0",
+      "skipped": "0",
+      "inconclusive": "0",
+      "start-time": "2026-10-29 09:02:13Z",
+      "end-time": "2026-10-29 09:06:26Z",
+      "sha256": "f9aacdc70da628a9c42bf6d21489bb2834dec7751b93d216ae1225e19ad53dcc",
+      "b5Cases": [
+        "Echoes.Tests.Phase52B5PlayTests.B5Scene_RestoresTheStream_TheSpringPaintingFollowsTheStage_AndContinueKeepsIt",
+        "Echoes.Tests.Phase52B5PlayTests.GatheringAHerb_SwapsThePaintedPlantForItsCutStump_AndTheTimerBringsItBack",
+        "Echoes.Tests.Phase52B5PlayTests.Minimap_ShowsTheB5Bake_AndStillFollowsThePlayerAndTheObjective",
+        "Echoes.Tests.Phase52B5PlayTests.PlayerBehindAPaintedTree_StaysVisibleThroughTheCanopysOpening",
+        "Echoes.Tests.Phase52B5PlayTests.RaisedBeds_StopThePlayer_InB5_AndNotInTheB4BeforeMode",
+        "Echoes.Tests.Phase52B5PlayTests.SilentValleyLight_IsTheB5One_AndBeforeModeRestoresTheB4Light"
+      ]
+    }
+  },
+  "build": {
+    "result": "Succeeded",
+    "id": "8dcf20bf30374cc1b676ad6c2df2fd78",
+    "errors": 0,
+    "warnings": 0,
+    "sourceCommit": "e4e4e0fa2e6dd9cece55af9f3cf2d1206cad8e75",
+    "files": [
+      {
+        "path": "D3D12/D3D12Core.dll",
+        "sha256": "625bd40005b1c3708695d5256ecf230d278e6b8edba5a88af70f3d91324f3052",
+        "bytes": 4725304
+      },
+      {
+        "path": "Echoes of the Valley_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt",
+        "sha256": "7b56a81d2ada95ceef46f4031ac226523587d8c3ee0a33ac277c2b1bc736153b",
+        "bytes": 193357
+      },
+      {
+        "path": "EchoesOfTheValley.exe",
+        "sha256": "f083b0e879a9298cdcf9933a8f3b4f2b013e13f7d3e51221fc0d756b79e28807",
+        "bytes": 667136
+      },
+      {
+        "path": "EchoesOfTheValley_Data/app.info",
+        "sha256": "86a28bf593ffbc18a97bcd6d9fc3008895ca1e365ce2380c69d45dfa394eda54",
+        "bytes": 30
+      },
+      {
+        "path": "EchoesOfTheValley_Data/boot.config",
+        "sha256": "d35c0cc6aa08e17a56387509347857fd919d9d4f53e91fb8add495a531358c33",
+        "bytes": 156
+      },
+      {
+        "path": "EchoesOfTheValley_Data/globalgamemanagers",
+        "sha256": "7f0022d86c6d1428dcbd7910b11b989594e58ee7c80d45a71ac43f666e28cf5d",
+        "bytes": 219604
+      },
+      {
+        "path": "EchoesOfTheValley_Data/globalgamemanagers.assets",
+        "sha256": "abde02356a3bfdee7d6b47ccf4717682c3cc956451eecf98cba290e68867daa5",
+        "bytes": 930984
+      },
+      {
+        "path": "EchoesOfTheValley_Data/globalgamemanagers.assets.resS",
+        "sha256": "f2e891f1a2eca090fd71651b299b57c89b6f16599aee6dd338e290ba791e314b",
+        "bytes": 5716192
+      },
+      {
+        "path": "EchoesOfTheValley_Data/level0",
+        "sha256": "4657c58ffb19e855b7e4d927484475784d138e8f549ec1c17748891019f77ba1",
+        "bytes": 686688
+      },
+      {
+        "path": "EchoesOfTheValley_Data/level0.resS",
+        "sha256": "4efc923465169b9097f4b6bc169904d36c069fd924661f58d59555028c81410f",
+        "bytes": 5221472
+      },
+      {
+        "path": "EchoesOfTheValley_Data/level1",
+        "sha256": "0d995f8b3d39e76f25d31c5fd0d464ac3b2460f4d9dd5d8154e3c7011dfa8ee9",
+        "bytes": 3453176
+      },
+      {
+        "path": "EchoesOfTheValley_Data/level1.resS",
+        "sha256": "9ea27b86f72bfb0a6286e421f759382135e1f2f0cbfb94d3abb764d5d3282c88",
+        "bytes": 21170640
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Echoes.Runtime.dll",
+        "sha256": "ff283068698d84923f8738ef59f9dcc7f50a8c0798c8551da37c0ba8e29c7abb",
+        "bytes": 293888
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Mono.Security.dll",
+        "sha256": "5d31f464d713c407bad0a90fd2447565ca49256b8ce33c39a16eb6db2cb02e25",
+        "bytes": 241152
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/mscorlib.dll",
+        "sha256": "88cf708875a938c510a22bf246459e148cf19a9d9b812990a5af695d13252e4b",
+        "bytes": 4632064
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/netstandard.dll",
+        "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
+        "bytes": 90112
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.ComponentModel.Composition.dll",
+        "sha256": "40bf98b40377cc030b2f8a933899ec9ca721d81edf7b3f8c9ae15882401efb72",
+        "bytes": 257024
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Configuration.dll",
+        "sha256": "3e7e2368d76810ce0a8edef0b20e5d927126fe3dd7a8f1ed1a896c1c146b10f4",
+        "bytes": 124928
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Core.dll",
+        "sha256": "2bdd5d2c6bb88c47893bb96c1420f63627519f0fa6f504ce963cc305d86a29d9",
+        "bytes": 1113088
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Data.DataSetExtensions.dll",
+        "sha256": "9289021d5905c70be32aba1ac8fa25070e407d6a2e4f6c9673adde941aefa73f",
+        "bytes": 29696
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Data.dll",
+        "sha256": "d7b938b66130ffde13ee9c4c624b28c1b79ca2c11a57e776bf722e70a5bf6c72",
+        "bytes": 2125312
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.dll",
+        "sha256": "6f0024fe5efaa74add45d3bd52d9de4569e246a6b0c3ce413b821bebc58984ab",
+        "bytes": 2641920
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Drawing.dll",
+        "sha256": "8774095688ddaba20edcac24a9789674fcfabf5e4733c2bf3a71fb0a0cda1597",
+        "bytes": 489984
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.EnterpriseServices.dll",
+        "sha256": "3587e65c48d4a26af9df8b47b5f689b0b79913fd44263e30c024b702edfea6d3",
+        "bytes": 44544
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.IO.Compression.dll",
+        "sha256": "24ad13bff1a635a589d0a2264558ba4826261fff226732f6605254e3b952e375",
+        "bytes": 114688
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.IO.Compression.FileSystem.dll",
+        "sha256": "6f260a2f7b3005f4fafaee0dff4b2458920c74a3978bd3ad8f5fba943de2b87f",
+        "bytes": 18432
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Net.Http.dll",
+        "sha256": "6bff14de0e159b0c7aebe91fc06ece5ac5457abfee125bb098ee5b09da22ffdd",
+        "bytes": 122880
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Numerics.dll",
+        "sha256": "186ecd00df724714191400dfef9926662a1c8235dbbcdac8643d6546fcb649a5",
+        "bytes": 119296
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Runtime.dll",
+        "sha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
+        "bytes": 12288
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Runtime.Serialization.dll",
+        "sha256": "18b8701188117a07853a67e7f05d58fa5f44bab843c57772ca955db00976feb2",
+        "bytes": 934400
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Security.dll",
+        "sha256": "93716b1a2384af184ca04e6cc2706ab72ba1dff6445207b1d13e37cea2a66432",
+        "bytes": 320000
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.ServiceModel.Internals.dll",
+        "sha256": "3ff6b69bbbc49139320fbf7ce6092e253d5c17cd40d05d5cf60345888fad163d",
+        "bytes": 215040
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Transactions.dll",
+        "sha256": "73251ccfe8656e354fbeb33a95c8ef45ed7a9afb3566df213dfc5b0ef787203b",
+        "bytes": 35328
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Xml.dll",
+        "sha256": "d94453a9e1ed9b55b33ec49f9b38caad75306d3e7b0a8743937539437629b500",
+        "bytes": 3160064
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/System.Xml.Linq.dll",
+        "sha256": "9df5adedc6b590c8ae1c12345b6b981be8cb6afa5c799e67ec1de17b50b0c579",
+        "bytes": 136704
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.AI.Navigation.dll",
+        "sha256": "eafd3742833e29a2a0cc9a96479e5b5b955e6601eb840b3ab17ac2aee977ea4f",
+        "bytes": 29696
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.Burst.dll",
+        "sha256": "495777812f33dad9a32e190db5ba931991bd951c89750371ad0913929ec371b0",
+        "bytes": 296960
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.Burst.Unsafe.dll",
+        "sha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
+        "bytes": 5632
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.Collections.dll",
+        "sha256": "ff7408fbd9281ddfddfd56d7d9f1cc51fe200de295ad458e327caafaa1442223",
+        "bytes": 432128
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+        "sha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
+        "bytes": 5120
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.InputSystem.dll",
+        "sha256": "b059ac9b37ab9c748b690ee0e3922aeb4081b6519fd7d90890c80713920cbd63",
+        "bytes": 1095680
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.InputSystem.ForUI.dll",
+        "sha256": "c24bc58c9e9c75549d9ca4b7bf8f79a73eb339c0ca1d69aa124d508d0b8ce137",
+        "bytes": 15360
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+        "sha256": "a35d2bd999b627d17aa699c3a1375ac0f58686dd37eaa604f506cbc940282730",
+        "bytes": 4096
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.Mathematics.dll",
+        "sha256": "e5961c8e74aa08751dbb74b57058cd478ad523ab65ee0a4125c36b3212dfb50f",
+        "bytes": 737280
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.Multiplayer.Center.Common.dll",
+        "sha256": "12888757f278a80379ddb616ea887b9bc28652336ca07b7d0b77a16b903ae831",
+        "bytes": 8704
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "sha256": "ad6454844aede99e439044bfda9eb78a4a6aa2bf88ec7002e164bddadddf354c",
+        "bytes": 7680
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+        "sha256": "02183e9d32fe851f399b6e4c0081fd1cdb99c1bf16be737acccdb8ebc685a38f",
+        "bytes": 1139712
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+        "sha256": "46fcfbb183189c7ec4a87f9fe13d528e90129732e88130738749c2804d50c24a",
+        "bytes": 4608
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "sha256": "28647c80db4352fecda6e88447f8b21e3a84f35d16f01a641707525ae0c450d1",
+        "bytes": 3584
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+        "sha256": "d290ae34e9cebad92fce4718bddefe7d4544aee633b9dc3bbed0a867b808ca72",
+        "bytes": 220160
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "sha256": "861f6c6c3867614ae3c40a5f568129df591b048e6467ecb939b05790c1594bbf",
+        "bytes": 3584
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+        "sha256": "7dcee8292d5c7c8bcc6d013e3c2e0a5239bbdcdb14ff7070a9bd345c0c88be03",
+        "bytes": 220672
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "sha256": "30db0c97c44a09f2726086d8fa4aaffde767a5b72cef733f474d6248f8bd27db",
+        "bytes": 4096
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+        "sha256": "5f7e573b85a640b4034ed3aa9f3d955f5d6e45141bebd4c162d2ea28a0872838",
+        "bytes": 714752
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+        "sha256": "0262f38aa6076062b37be3d391674f943771c1088c532137a5bd840e9da34725",
+        "bytes": 3584
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.TextMeshPro.dll",
+        "sha256": "58dba600425af5b6e78bba2acc01e11d3bfbab4ad2e29ba925c3651151471dba",
+        "bytes": 438784
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.Timeline.dll",
+        "sha256": "4cdff86a066246d2c363b4a2b6e2ab8bdc47af24501da7ee60324c45d95359b1",
+        "bytes": 121856
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+        "sha256": "f6ccbc012690e8b30e4ae6e9243fef325023a5c7bbcf4a93bc2b52afc5ad3034",
+        "bytes": 91136
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "sha256": "ed7ce205f66eafe39bbb5d084d42e7fe11cb4b386ff208e5d5110891be0b7b37",
+        "bytes": 86016
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.VisualScripting.Core.dll",
+        "sha256": "533c7bb4eac1f7a105cf78a8ea122f7511bebfe548204bdbfacd9a45d5c59100",
+        "bytes": 549888
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.VisualScripting.DocCodeExamples.dll",
+        "sha256": "0d0369f6f3ea107754f372294b7761fbc44a41b9217895070f8160065cdffdea",
+        "bytes": 6144
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.VisualScripting.Flow.dll",
+        "sha256": "d06c261133bb9e1c41e0f71646179ca86f4a400ebdb56c0a56273da054e5a3b7",
+        "bytes": 335872
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/Unity.VisualScripting.State.dll",
+        "sha256": "fa06dd5888ac5afd71dca52d8711498bf4c47ca243d23a31ef4493106e61d48b",
+        "bytes": 27136
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AccessibilityModule.dll",
+        "sha256": "442beb2de0ec1b4f4a3171e7c79f0b6559868c3152ccefe4049517817ff4f41b",
+        "bytes": 51120
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+        "sha256": "13881ed68a1346e2574a25bf268faf50f2fed34de9cd821e54a8bd27b08e233e",
+        "bytes": 125352
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AIModule.dll",
+        "sha256": "c5a0b0631b1f5ccd3be0b7ad402a2d9470f8e9df148fa81ba22d4b6e7f67305f",
+        "bytes": 77224
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AMDModule.dll",
+        "sha256": "5225280fc82c27161ef353d9085cfdcbb90d0b12bb68de898e619a78174a37bd",
+        "bytes": 21936
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "sha256": "bd2969a567d89f3b777c400f5aa032d0f8008320b642a9625439d1c0e6ce6513",
+        "bytes": 121776
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AnimationModule.dll",
+        "sha256": "adc6409f1904d7eb81beb837f82adc2963b9870b6f2f1fb82ccbdb95eaae6553",
+        "bytes": 225192
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ARModule.dll",
+        "sha256": "209e79beb27a982cd6138f3f27c9df0079cf0f4734e1034385ade9a9f521ecfc",
+        "bytes": 25520
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "sha256": "fdddfc9fdd8b8111427468e675831676390b815f513f55b9fae2efe177c98944",
+        "bytes": 41904
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.AudioModule.dll",
+        "sha256": "ed1cf512657624d465c6694d5699b2fbcec3ac463684d4f8f098b95d89662bdb",
+        "bytes": 142760
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ClothModule.dll",
+        "sha256": "30f65f178b46be60d46c8cbe6abe2cea303e804335e147d9364f3a034ad74772",
+        "bytes": 36264
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ClusterInputModule.dll",
+        "sha256": "36b7dc56f94789420c1ff5397d8c9fc33d781990254e9cb78a73351750a2007c",
+        "bytes": 28080
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+        "sha256": "ceac807790561d6a09289fd456c9d7c134225004605f4fdadac06d6c94aacb7e",
+        "bytes": 26544
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ContentLoadModule.dll",
+        "sha256": "db2f65e0b69d25de8a3c45c1c673260f95410f2f88781203114bf41e39300a37",
+        "bytes": 32688
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.CoreModule.dll",
+        "sha256": "9c8111978e073d75f535c819b4e64a0bc1770ae3b5b14a9894911ca977d9cad5",
+        "bytes": 1985960
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.CrashReportingModule.dll",
+        "sha256": "5fc996a90ab5984a1328a8b40a511aee6efa17d661d0dacd13ea41bc575a8525",
+        "bytes": 26536
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.DirectorModule.dll",
+        "sha256": "c9932f7e8910bf1e74312330d323a3caa1305cc8377239fd0c41dc4e7a260e60",
+        "bytes": 41904
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.dll",
+        "sha256": "be9528e70fefa76c7868c772b83592a3ae35881b924f2c4a082188fe1fdeb65a",
+        "bytes": 197544
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.DSPGraphModule.dll",
+        "sha256": "e8fd53b96b696241155caf69cf8bcc449622d4e05e4db6781d5ff9b3702c6497",
+        "bytes": 31656
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.GameCenterModule.dll",
+        "sha256": "c70a2d5658429be29b1dae226e81eb446069386f026e0fa6960a51a45476dc24",
+        "bytes": 45992
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.GIModule.dll",
+        "sha256": "e5afe58161d32e56a93f74265e98e7bdd10b07fd7e0aed10f7912f4452b6ebf6",
+        "bytes": 24496
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+        "sha256": "02abee679551aa0e7797c0f66fcf259fc3ba24632f3513caae085a526349c9e5",
+        "bytes": 14256
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.GridModule.dll",
+        "sha256": "f71bb7229a36a6b6438e5b00562359cb545f7c3f3ad856e88479f5d6fb0e5c4d",
+        "bytes": 30640
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+        "sha256": "9e689a52dedacd8f5c3bcac31a9e0a181bd607d87ca9dc1e60f89e945b749c4a",
+        "bytes": 109488
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.HierarchyModule.dll",
+        "sha256": "52d25be01992f1e9d1bbcfa0e272a62cf06e30fea3d2ed4bafd3dcad1289aeab",
+        "bytes": 102320
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.HotReloadModule.dll",
+        "sha256": "10fb96fe9daa75c55dc84966866ab97f51635c4327561dadcdf2158dcabd1228",
+        "bytes": 24488
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.IdentifiersModule.dll",
+        "sha256": "0bd79194805cf9ac93fb113ab6530a057601ce0afcf2ad74b76b25032fe1dda6",
+        "bytes": 16808
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "sha256": "b5f15bae01a57b29049bc8c710d88b4ccb349370de923b01e3a782c89e0427fa",
+        "bytes": 31144
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.IMGUIModule.dll",
+        "sha256": "339d6b270183d5c15141ec3f56ca4e7baf2771b5f9aa7588b76a71b5b1f73008",
+        "bytes": 214440
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.InputForUIModule.dll",
+        "sha256": "36934e41ced0af39f7af8e2c6bddc1ee6ff03d6795e2d40f9b5bf37079d816bf",
+        "bytes": 57776
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "sha256": "17469853ab1ad77dfd1d9eafb7d16c2895c2019d143a3c7018828849c250b924",
+        "bytes": 45488
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.InputModule.dll",
+        "sha256": "ccded6c8e5079be8d933b8d9bfabd43fedcdd4b1cbc0e62e2f0ddbaac0a488cc",
+        "bytes": 28584
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.InsightsModule.dll",
+        "sha256": "105465684c0d747083baee1be832312367e8f0a1842d573c28cbdd4a4d243140",
+        "bytes": 14248
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "sha256": "776ae3680f7efec5dec58bed58d0056d695b66e79de2ca837d39046ec6589360",
+        "bytes": 27048
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.LocalizationModule.dll",
+        "sha256": "a7258d3786263e7ed2e8760f6e68a18ff7a83bde59d3702481888aa18f8a0ab0",
+        "bytes": 27048
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.MarshallingModule.dll",
+        "sha256": "d1345c867bd792c20424c1e43169c5ea09b39cdbd57301fcdeb58381e34e820e",
+        "bytes": 83888
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.MultiplayerModule.dll",
+        "sha256": "e546269934123416a03a79394f227965c8340ada62edfebb67ad9b60b599fc6c",
+        "bytes": 17840
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.NVIDIAModule.dll",
+        "sha256": "6adeab93cfe56683ba1b542ceb850af601f87564c38d5e5e9b004c3b8da99d42",
+        "bytes": 40872
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "sha256": "149b36542f81840999f6174abf4220a7e152375dc7e2ba4b5479b0fd1578bfc6",
+        "bytes": 172456
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "sha256": "548b60cbe2a338bd009b2ed07d18f4d0d1a800ecc38eeb9d8d150beea45a02e9",
+        "bytes": 25008
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.Physics2DModule.dll",
+        "sha256": "888ab4ed5093e41fdc8b0a08b2f7de768723936e1a027aa0b2d23bbd61042cb5",
+        "bytes": 585640
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+        "sha256": "026dcb0a3ecbca2978fffca1f1327f93fb20ddda1dac0ad7f48ea2534fd77d92",
+        "bytes": 14256
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.PhysicsModule.dll",
+        "sha256": "6550298ffcf3c9703daafe444b5f02a58af5ed4a17943c8d859fa15303eb33b1",
+        "bytes": 183720
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.PropertiesModule.dll",
+        "sha256": "190c700a682c8d26786dafbb5f4a15bcc00854b905c57dafb26e21493f0dfb2f",
+        "bytes": 134064
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+        "sha256": "129e267f9d2d62099a64cb8c9f5d68a0ff8b40ea84d8ad5e865f0ef9334b3d38",
+        "bytes": 25520
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "sha256": "ae5e1fc3ec98fb839cbf9c8b8f8c019fbd08b201b120aeeb4e4e745592b62e11",
+        "bytes": 24488
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "sha256": "322e9138a67ff8aa7c154a8eebf5b8a96fa1cd014c1008094acfe533353d3e69",
+        "bytes": 26536
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ShaderRuntimeModule.dll",
+        "sha256": "4140ba8837449f78eeffaeacf6457e8ac723493579776e97255909ef378c70b1",
+        "bytes": 25520
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+        "sha256": "0553cd3735e099371f5978ceeb3dc3a784f1a3d5812041dc07ff97c5fac354d1",
+        "bytes": 24488
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "sha256": "7856689039403d1cae83b6d19998e2a25839f38078ea24816cc5c3937c024f69",
+        "bytes": 38320
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+        "sha256": "4b109631a4dd5c2ea76adc7f8be6dca2abb9fc362d5adc2212d29dee9928224e",
+        "bytes": 28592
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "sha256": "c78de281a16d151ab5a6b93eb65f485c438d0029cb2c7f3143240eb89a0760c3",
+        "bytes": 32680
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.StreamingModule.dll",
+        "sha256": "e427e7abb657e09605e8f74c3380426657ce744fe9ceab18c9532a5bb0ace237",
+        "bytes": 26024
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.SubstanceModule.dll",
+        "sha256": "d037388cbce303b3b2406e3c3a3827d36523203d2b66a6731edb570400115f68",
+        "bytes": 29104
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "sha256": "d0e817e1c70f0bed527f7e2d116f9ae26a43f1c0c13802e65904a7d7794c123b",
+        "bytes": 41904
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.TerrainModule.dll",
+        "sha256": "955ccf8fea49d83fe629d0ba21cff4936cd06a6172c00af021e7ef46c79e8038",
+        "bytes": 134064
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "sha256": "b73c4ee167f458344f916441f1ebfa8fb6ad4570113d328d7e343d95a85e473b",
+        "bytes": 25512
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "sha256": "78cfd939acc8b8976c60985dae7ffae01771afb2a2ef55e29b239c2f8febdfd4",
+        "bytes": 91568
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "sha256": "bc411104d7544c4d268db0f52711a0e97c7a75f65c49c67b28ea711f8020fa07",
+        "bytes": 334760
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "sha256": "2304db3f51951463a7db45219b3ac8ce9c13ccb346f1a56c52c2f1bc9a963703",
+        "bytes": 39344
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.TilemapModule.dll",
+        "sha256": "147eb74a8b0250a2a5edee9ceaace7fb41f0ed7989daf7441fac167bcd348370",
+        "bytes": 58800
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.TLSModule.dll",
+        "sha256": "cd10e680c8ebca12756d22c4ca6dfa0ed5782a754ec6c0c54c60792ff27f7b9e",
+        "bytes": 32176
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UI.dll",
+        "sha256": "4c7c90f03fb213aad440aeed185efb4923eef32e3e8797ebba3c3e236ef24121",
+        "bytes": 263168
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UIElementsModule.dll",
+        "sha256": "626ed8ba55b1441d553725f81af8f9752697e5dc78293c5e83b2660886c7a8d3",
+        "bytes": 2453936
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UIModule.dll",
+        "sha256": "d8db67c6d9fc805103456232b5c6fbdb4d159555cf0f6d08401312a8a6505fe4",
+        "bytes": 50088
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UmbraModule.dll",
+        "sha256": "d9a09e7f1f36a2def0c81d2e6debe25d41f0716dea76c2575fc1844fe50f43f8",
+        "bytes": 24496
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "sha256": "f08714505f790891047c14267d6eb756fac886222bd21d9938d7a91b021f6f45",
+        "bytes": 35752
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "sha256": "5cc53f32ce6e67e88d4dd5bdb4ba96c15e545e0e42adbcf76a8c1e36960ddbed",
+        "bytes": 60840
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityConnectModule.dll",
+        "sha256": "2a19aee5618167f728814d81a56330fbcb56d4536f7e6f5e081d44f4bcad96ea",
+        "bytes": 27568
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityConsentModule.dll",
+        "sha256": "1137b51f15ddd6b806c8de81f01d963e79abf17d805596a77d671128a3e06f0d",
+        "bytes": 16304
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityCurlModule.dll",
+        "sha256": "3a8ce3d0b1a41ef999b5fb727c82205633df190136ed52befa366c9b3212c094",
+        "bytes": 26032
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "sha256": "9ea50d7095aaff9e8a5be3665642e18e4d85200e7ae8ded081aaefe0f6d3acc6",
+        "bytes": 28584
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "sha256": "4bc8333f4a37a7278c697e168589286eabbbb4ee89190ec11f90ebf51a8772b7",
+        "bytes": 28584
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "sha256": "3b7c90dc673b26a2aa0f169e0236000d0d8c9ce87263f1937be025e185a5a8f9",
+        "bytes": 70064
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "sha256": "2486d6c3a289311a7e637828ddaa02cff2d1d7745373fa2660e4577b39b0d552",
+        "bytes": 27568
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "sha256": "bd14adea58a9d96857ce1a4b5b5dfc58352cda26004ef6601e01e5ab25c99fa3",
+        "bytes": 36776
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+        "sha256": "37274bedc8811bcb51f7e36b802ce8d34061172fcf5b31dfc76aca61f4347e26",
+        "bytes": 254888
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.VehiclesModule.dll",
+        "sha256": "6b74f465072a43bfa7f11a935d8b01e4b80f35da036f3104897f725909f8cc90",
+        "bytes": 31656
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.VFXModule.dll",
+        "sha256": "2150fe80f1fad4bd4b66e0c41fb34f404c80a8c87e42eaf4801c118215cba390",
+        "bytes": 78256
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.VideoModule.dll",
+        "sha256": "5f4e7f2cadce7ea5ded26692492c73e7da516cc601c49109513a77d404f68a6f",
+        "bytes": 49072
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+        "sha256": "415f5f6c0274ab7be1bc27748c99ae3df0a78bb31275db3ba2dd8f1c359443cd",
+        "bytes": 42920
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.VRModule.dll",
+        "sha256": "3cb0728788130b00bb7db870bf3db47dd1cac9e9b8fcc3d1a200f43ae1cadcfb",
+        "bytes": 31656
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.WindModule.dll",
+        "sha256": "7ea4f812c7f788429fa6a27f0680f12a615009c741ace12f261d21c55e39bb08",
+        "bytes": 26544
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Managed/UnityEngine.XRModule.dll",
+        "sha256": "6657ffbc31ecfb708b30ec37c924dfe1750784af3742861f1adac75789ff611a",
+        "bytes": 88488
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Plugins/x86_64/lib_burst_generated.dll",
+        "sha256": "d844ea30012abe065e0995033aac4a79cc8705e936d185c73cef9a49fa512dc2",
+        "bytes": 453632
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Plugins/x86_64/libonigwrap.dll",
+        "sha256": "c22db1e7be04c50eb47e67362bf705830bb95df30c02c22dd7add835ee777583",
+        "bytes": 551336
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Resources/unity default resources",
+        "sha256": "32b58bdb9cf090212b46a8ca7436dcdae89e4ef43e9d55a835233c21d1347734",
+        "bytes": 5883716
+      },
+      {
+        "path": "EchoesOfTheValley_Data/Resources/unity_builtin_extra",
+        "sha256": "efe1710d89781ce3716957e1247f4e9213e07a5155a8b3381e9cbe5171a7caff",
+        "bytes": 403832
+      },
+      {
+        "path": "EchoesOfTheValley_Data/resources.assets",
+        "sha256": "e0650e58ba586ff43491035eaeccc99b6a1a03548f9457b149e8755ac3d3a04d",
+        "bytes": 348968
+      },
+      {
+        "path": "EchoesOfTheValley_Data/resources.assets.resS",
+        "sha256": "f12f30b4c1648273e460dab9f8ec974e616980f7a3027d54ac4ca0f19ba89cd3",
+        "bytes": 7232
+      },
+      {
+        "path": "EchoesOfTheValley_Data/RuntimeInitializeOnLoads.json",
+        "sha256": "9e4ccbd2e41f4079f2c8169330fe28aab01c9168c192314a3695836c2e0fcad2",
+        "bytes": 5492
+      },
+      {
+        "path": "EchoesOfTheValley_Data/ScriptingAssemblies.json",
+        "sha256": "f350e6e85e92364afe346f4ce0fc51a3d79beb85c15654e7a13ebc8ab1c96292",
+        "bytes": 4318
+      },
+      {
+        "path": "EchoesOfTheValley_Data/sharedassets0.assets",
+        "sha256": "38497ec346ff8aeb0019237f8287add86c35690640040f3f57ae40733e3b10e4",
+        "bytes": 13000992
+      },
+      {
+        "path": "EchoesOfTheValley_Data/sharedassets0.assets.resS",
+        "sha256": "f8b0c20ee715187f0a4b593ced302f93593bb5f6f9348bfd24a4d101dd1af1da",
+        "bytes": 551616
+      },
+      {
+        "path": "EchoesOfTheValley_Data/sharedassets0.resource",
+        "sha256": "17652cbdf5fc531680ca55980e002fc4a84d1ef74c647e8c21b71d289c0caee9",
+        "bytes": 7223776
+      },
+      {
+        "path": "EchoesOfTheValley_Data/sharedassets1.assets",
+        "sha256": "76ef3c9f1801c78caf5ec48118d9af71f126251053c73be7e36e5107a4368f2b",
+        "bytes": 43554636
+      },
+      {
+        "path": "EchoesOfTheValley_Data/sharedassets1.assets.resS",
+        "sha256": "438ccf45acb07b3fc3153cd06adc3d578f30f0044f37021ba8fe26c2f760b271",
+        "bytes": 93536096
+      },
+      {
+        "path": "EchoesOfTheValley_Data/sharedassets1.resource",
+        "sha256": "fffdaba7beb2fa1572791e7cbbf4ea62d6cfc977e13c95b1bb0a88b7f2106ef4",
+        "bytes": 12968352
+      },
+      {
+        "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+        "sha256": "291b88cb83c507c1686ad0850a38920d388bdce1e68ab9e13a07f878f4cccd1a",
+        "bytes": 7829928
+      },
+      {
+        "path": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+        "sha256": "4175159f49c346a7fb5c8dc19352226cff13fcac049661d8ca4ff95f97b0f7ef",
+        "bytes": 611248
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+        "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+        "bytes": 1605
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+        "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+        "bytes": 60575
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+        "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30",
+        "bytes": 29066
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+        "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2",
+        "bytes": 2622
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/2.0/web.config",
+        "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92",
+        "bytes": 11635
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+        "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+        "bytes": 1605
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+        "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+        "bytes": 60575
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+        "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed",
+        "bytes": 33598
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+        "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+        "bytes": 2622
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.0/web.config",
+        "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492",
+        "bytes": 18802
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+        "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+        "bytes": 1605
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+        "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+        "bytes": 60575
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+        "sha256": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c",
+        "bytes": 34056
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+        "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+        "bytes": 2622
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/4.5/web.config",
+        "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824",
+        "bytes": 18811
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/browscap.ini",
+        "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e",
+        "bytes": 311984
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/config",
+        "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662",
+        "bytes": 3815
+      },
+      {
+        "path": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+        "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d",
+        "bytes": 25817
+      },
+      {
+        "path": "UnityCrashHandler64.exe",
+        "sha256": "f5c3ca7999433768865c2f40688b980e18512cbd25a7b9da597729783ecb3d58",
+        "bytes": 1669552
+      },
+      {
+        "path": "UnityPlayer.dll",
+        "sha256": "baad0ccef88aabf544e14b6a576d718f46d24abe6ed550469436862a7d56f3f0",
+        "bytes": 36798384
+      }
+    ],
+    "correspondence": "Original-project build log after source commit; Unity inputs still match that commit. Build and player paths match. No pre-build input hash was recorded; the new test input manifest now preserves the same source."
+  },
+  "b5GuidReferences": {
+    "result": "PASS",
+    "unresolved": {}
+  },
+  "smoke1080": {
+    "width": 1920,
+    "height": 1080,
+    "naturalExit": true,
+    "exitCode": 0,
+    "seconds": 80.9,
+    "screenshots": 40,
+    "exceptionLines": 0,
+    "passLines": [
+      "[Echoes][SMOKE] PASS: all steps passed in 76 s, 40 screenshots"
+    ],
+    "automated": true,
+    "teleportsForSetup": true
+  },
+  "smoke720": "NOT RUN as a separate whole-game run; the 1080p smoke includes a brief 720p performance sample only",
+  "routes": {
+    "tour1080-video": {
+      "process": {
+        "width": 1920,
+        "height": 1080,
+        "naturalExit": true,
+        "exitCode": 0,
+        "seconds": 198.8,
+        "secondsToReady": 8.42,
+        "exceptionLines": 0,
+        "video": true,
+        "before": false,
+        "automatedInput": true,
+        "otherGameProcessesRunning": [],
+        "resources": {
+          "note": "Windows performance counters for this process only, sampled about once a second after the tour was ready; integrated GPU: shared memory is the GPU memory in use",
+          "samples": 108,
+          "gpuDedicatedMB": {
+            "mean": 17.2,
+            "p95": 21.0,
+            "max": 21.0
+          },
+          "gpuSharedMB": {
+            "mean": 422.5,
+            "p95": 441.4,
+            "max": 441.4
+          },
+          "gpu3dUtilisationPercent": {
+            "mean": 27.0,
+            "p95": 45.5,
+            "max": 46.9
+          },
+          "privateMB": {
+            "mean": 923.5,
+            "p95": 1013.4,
+            "max": 1033.4
+          }
+        }
+      },
+      "statistics": {
+        "folder": "D:\\workshop\\oct\\echoes-of-the-valley\\artifacts\\visual-qa\\phase-5.2\\b5\\player-final\\tour1080-video",
+        "resolution": "1920x1080",
+        "recordedFramebuffer": true,
+        "presentation": "B5 painted environment (stage-painted spring, painted trees, garden beds, meadow and soil, minimap re-baked)",
+        "camera": "FixedFollowCamera25D yaw=45 pitch=48 distance=14 (zoom 10-17) fov=35",
+        "routeSeconds": 83.18,
+        "metres": 243.3,
+        "routePass": true,
+        "failures": [],
+        "events": [
+          {
+            "t": 0.008389472961425781,
+            "what": "idle start on the plaza"
+          },
+          {
+            "t": 2.564467430114746,
+            "what": "zoom in to 10"
+          },
+          {
+            "t": 4.186712265014648,
+            "what": "zoom out to 17"
+          },
+          {
+            "t": 5.836362838745117,
+            "what": "zoom back to 14"
+          },
+          {
+            "t": 6.840913772583008,
+            "what": "eight directions (W, W+D, D, S+D, S, S+A, A, W+A)"
+          },
+          {
+            "t": 11.812207221984863,
+            "what": "stop after the directions"
+          },
+          {
+            "t": 12.664883613586426,
+            "what": "three small circles on the plaza (every facing three times)"
+          },
+          {
+            "t": 19.709075927734375,
+            "what": "stop after the circles"
+          },
+          {
+            "t": 20.34630584716797,
+            "what": "walk to Mira"
+          },
+          {
+            "t": 21.58202362060547,
+            "what": "stop at Mira"
+          },
+          {
+            "t": 22.116226196289062,
+            "what": "talk to Mira: dialogue open (Mira)"
+          },
+          {
+            "t": 26.752635955810547,
+            "what": "talk to Mira: dialogue closed after 3 lines; objective now Spring"
+          },
+          {
+            "t": 27.122154235839844,
+            "what": "walk to the workshop door"
+          },
+          {
+            "t": 28.993980407714844,
+            "what": "stop at the workshop door"
+          },
+          {
+            "t": 29.79638671875,
+            "what": "walk round behind the painted workshop"
+          },
+          {
+            "t": 34.50943374633789,
+            "what": "stop behind the workshop (occluded)"
+          },
+          {
+            "t": 35.7674674987793,
+            "what": "walk along the workshop's back"
+          },
+          {
+            "t": 37.23154830932617,
+            "what": "circle under the willow canopy"
+          },
+          {
+            "t": 41.32181930541992,
+            "what": "walk to the Dawn Blossom"
+          },
+          {
+            "t": 42.534664154052734,
+            "what": "stop at the Dawn Blossom"
+          },
+          {
+            "t": 43.09291076660156,
+            "what": "gathered flower_3 (0 -> 1); ready visual shown False"
+          },
+          {
+            "t": 43.91976547241211,
+            "what": "walk south and under the broadleaf by the hen yard"
+          },
+          {
+            "t": 48.908348083496094,
+            "what": "stop under the broadleaf's canopy (behind its trunk)"
+          },
+          {
+            "t": 49.95039367675781,
+            "what": "walk to the garden's west gate"
+          },
+          {
+            "t": 53.049842834472656,
+            "what": "walk into the garden between the raised beds"
+          },
+          {
+            "t": 54.87347412109375,
+            "what": "stop at the garden's east end"
+          },
+          {
+            "t": 55.74311828613281,
+            "what": "walk back out of the garden"
+          },
+          {
+            "t": 57.60198211669922,
+            "what": "walk round the plaza to the west path and the spring"
+          },
+          {
+            "t": 67.83113861083984,
+            "what": "step up to the spring until it is offered"
+          },
+          {
+            "t": 67.98712921142578,
+            "what": "stop at the spring"
+          },
+          {
+            "t": 69.06382751464844,
+            "what": "inspect the spring: dialogue open (The Ruined Spring)"
+          },
+          {
+            "t": 73.6634521484375,
+            "what": "inspect the spring: dialogue closed after 3 lines; objective now Heart"
+          },
+          {
+            "t": 74.03369140625,
+            "what": "walk down the stream bank under the trees"
+          },
+          {
+            "t": 76.42961883544922,
+            "what": "stop on the stream bank"
+          },
+          {
+            "t": 77.24442291259766,
+            "what": "walk back to the plaza"
+          },
+          {
+            "t": 81.16560363769531,
+            "what": "stop on the plaza"
+          },
+          {
+            "t": 145.5025177001953,
+            "what": "stage set by the evidence script: AwakeningStream"
+          },
+          {
+            "t": 157.25978088378906,
+            "what": "stage set by the evidence script: BloomingGarden"
+          },
+          {
+            "t": 168.02682495117188,
+            "what": "stage set by the evidence script: RestoredValley"
+          }
+        ],
+        "frames": 1049,
+        "frameMs": {
+          "p50": 76.94,
+          "p95": 93.0,
+          "p99": 129.22,
+          "worst": 164.2,
+          "mean": 79.06
+        },
+        "fps": {
+          "mean": 12.6,
+          "onePercentLow": 7.7
+        },
+        "speedWhileMoving": {
+          "mean": 4.34,
+          "max": 4.5
+        },
+        "directionSamples": {
+          "S/idle": 99,
+          "E/run": 194,
+          "N/run": 90,
+          "S/run": 164,
+          "W/run": 260,
+          "W/idle": 116,
+          "N/idle": 84,
+          "E/idle": 47
+        },
+        "steps": [
+          "back-to-plaza",
+          "behind-workshop",
+          "directions",
+          "garden",
+          "gather",
+          "idle",
+          "interact",
+          "stop",
+          "stream",
+          "to-mira",
+          "to-spring",
+          "to-workshop",
+          "turns",
+          "under-tree",
+          "under-willow",
+          "zoom"
+        ],
+        "runPhaseVsDistance": {
+          "stride": 2.8,
+          "samples": 683,
+          "medianError": 0.0087,
+          "p95Error": 0.0639
+        },
+        "note": "recorded run: framebuffer capture overhead included, not a rendering benchmark",
+        "stills": [
+          "after-b5-plaza",
+          "before-b4-plaza",
+          "after-b5-workshop-front",
+          "before-b4-workshop-front",
+          "after-b5-workshop-side",
+          "before-b4-workshop-side",
+          "after-b5-willow",
+          "before-b4-willow",
+          "after-b5-spring",
+          "before-b4-spring",
+          "after-b5-garden",
+          "before-b4-garden",
+          "after-b5-hen-yard",
+          "before-b4-hen-yard",
+          "after-b5-stream",
+          "before-b4-stream",
+          "after-b5-windmill",
+          "before-b4-windmill",
+          "pitch-42-plaza",
+          "pitch-42-workshop-front",
+          "pitch-42-garden",
+          "pitch-48-plaza",
+          "pitch-48-workshop-front",
+          "pitch-48-garden",
+          "pitch-54-plaza",
+          "pitch-54-workshop-front",
+          "pitch-54-garden",
+          "occlusion-behind-workshop",
+          "occlusion-behind-workshop-closest-zoom",
+          "occlusion-behind-workshop-before-b4",
+          "occlusion-behind-workshop-before-b4-closest-zoom",
+          "occlusion-behind-willow",
+          "occlusion-behind-willow-closest-zoom",
+          "occlusion-behind-willow-before-b4",
+          "occlusion-behind-willow-before-b4-closest-zoom",
+          "occlusion-behind-broadleaf-henyard",
+          "occlusion-behind-broadleaf-henyard-closest-zoom",
+          "occlusion-behind-broadleaf-henyard-before-b4",
+          "occlusion-behind-broadleaf-henyard-before-b4-closest-zoom",
+          "occlusion-behind-broadleaf-stream",
+          "occlusion-behind-broadleaf-stream-closest-zoom",
+          "occlusion-behind-broadleaf-stream-before-b4",
+          "occlusion-behind-broadleaf-stream-before-b4-closest-zoom",
+          "ground-tiling-farthest-zoom",
+          "ground-tiling-farthest-zoom-before-b4",
+          "hero-idle-S-closest-zoom",
+          "hero-idle-S-default-zoom",
+          "hero-idle-W-closest-zoom",
+          "hero-idle-W-default-zoom",
+          "hero-idle-E-closest-zoom",
+          "hero-idle-E-default-zoom",
+          "hero-idle-N-closest-zoom",
+          "hero-idle-N-default-zoom",
+          "hero-walk-S-closest-zoom",
+          "hero-walk-W-closest-zoom",
+          "hero-walk-E-closest-zoom",
+          "hero-walk-N-closest-zoom",
+          "dialogue-mira",
+          "inventory-portrait",
+          "pause-menu",
+          "stage-S1-set-by-script-spring",
+          "stage-S1-set-by-script-before-b4-spring",
+          "stage-S1-set-by-script-garden",
+          "stage-S1-set-by-script-plaza",
+          "stage-S1-set-by-script-workshop-front",
+          "stage-S1-set-by-script-stream",
+          "stage-S1-set-by-script-windmill",
+          "stage-S2-set-by-script-spring",
+          "stage-S2-set-by-script-garden",
+          "stage-S2-set-by-script-plaza",
+          "stage-S2-set-by-script-workshop-front",
+          "stage-S2-set-by-script-stream",
+          "stage-S2-set-by-script-windmill",
+          "stage-S3-set-by-script-spring",
+          "stage-S3-set-by-script-before-b4-spring",
+          "stage-S3-set-by-script-garden",
+          "stage-S3-set-by-script-before-b4-garden",
+          "stage-S3-set-by-script-plaza",
+          "stage-S3-set-by-script-before-b4-plaza",
+          "stage-S3-set-by-script-workshop-front",
+          "stage-S3-set-by-script-before-b4-workshop-front",
+          "stage-S3-set-by-script-stream",
+          "stage-S3-set-by-script-before-b4-stream",
+          "stage-S3-set-by-script-windmill",
+          "stage-S3-set-by-script-before-b4-windmill"
+        ],
+        "minimap": {
+          "objectiveTimeline": [
+            {
+              "t": 0.01,
+              "objective": "Mira",
+              "step": "idle"
+            },
+            {
+              "t": 26.75,
+              "objective": "Spring",
+              "step": "interact"
+            },
+            {
+              "t": 73.66,
+              "objective": "Heart",
+              "step": "interact"
+            }
+          ],
+          "mapUnitsPerMetre": {
+            "samples": 708,
+            "p05": 2.322,
+            "median": 3.648,
+            "p95": 5.071
+          },
+          "edgeClampedFraction": 0.491
+        }
+      }
+    },
+    "tour1080-unrecorded": {
+      "process": {
+        "width": 1920,
+        "height": 1080,
+        "naturalExit": true,
+        "exitCode": 0,
+        "seconds": 197.0,
+        "secondsToReady": 6.61,
+        "exceptionLines": 0,
+        "video": false,
+        "before": false,
+        "automatedInput": true,
+        "otherGameProcessesRunning": [],
+        "resources": {
+          "note": "Windows performance counters for this process only, sampled about once a second after the tour was ready; integrated GPU: shared memory is the GPU memory in use",
+          "samples": 108,
+          "gpuDedicatedMB": {
+            "mean": 21.9,
+            "p95": 22.9,
+            "max": 23.0
+          },
+          "gpuSharedMB": {
+            "mean": 442.8,
+            "p95": 445.0,
+            "max": 462.9
+          },
+          "gpu3dUtilisationPercent": {
+            "mean": 39.6,
+            "p95": 43.7,
+            "max": 46.4
+          },
+          "privateMB": {
+            "mean": 923.4,
+            "p95": 1024.9,
+            "max": 1024.9
+          }
+        }
+      },
+      "statistics": {
+        "folder": "D:\\workshop\\oct\\echoes-of-the-valley\\artifacts\\visual-qa\\phase-5.2\\b5\\player-final\\tour1080-unrecorded",
+        "resolution": "1920x1080",
+        "recordedFramebuffer": false,
+        "presentation": "B5 painted environment (stage-painted spring, painted trees, garden beds, meadow and soil, minimap re-baked)",
+        "camera": "FixedFollowCamera25D yaw=45 pitch=48 distance=14 (zoom 10-17) fov=35",
+        "routeSeconds": 81.93,
+        "metres": 242.3,
+        "routePass": true,
+        "failures": [],
+        "events": [
+          {
+            "t": 0.0034332275390625,
+            "what": "idle start on the plaza"
+          },
+          {
+            "t": 2.517077922821045,
+            "what": "zoom in to 10"
+          },
+          {
+            "t": 4.118589878082275,
+            "what": "zoom out to 17"
+          },
+          {
+            "t": 5.7189249992370605,
+            "what": "zoom back to 14"
+          },
+          {
+            "t": 6.735707759857178,
+            "what": "eight directions (W, W+D, D, S+D, S, S+A, A, W+A)"
+          },
+          {
+            "t": 11.637651443481445,
+            "what": "stop after the directions"
+          },
+          {
+            "t": 12.455831527709961,
+            "what": "three small circles on the plaza (every facing three times)"
+          },
+          {
+            "t": 19.40831184387207,
+            "what": "stop after the circles"
+          },
+          {
+            "t": 20.024660110473633,
+            "what": "walk to Mira"
+          },
+          {
+            "t": 21.275060653686523,
+            "what": "stop at Mira"
+          },
+          {
+            "t": 21.78045082092285,
+            "what": "talk to Mira: dialogue open (Mira)"
+          },
+          {
+            "t": 26.276386260986328,
+            "what": "talk to Mira: dialogue closed after 3 lines; objective now Spring"
+          },
+          {
+            "t": 26.592754364013672,
+            "what": "walk to the workshop door"
+          },
+          {
+            "t": 28.492794036865234,
+            "what": "stop at the workshop door"
+          },
+          {
+            "t": 29.310230255126953,
+            "what": "walk round behind the painted workshop"
+          },
+          {
+            "t": 34.050506591796875,
+            "what": "stop behind the workshop (occluded)"
+          },
+          {
+            "t": 35.25109100341797,
+            "what": "walk along the workshop's back"
+          },
+          {
+            "t": 36.701698303222656,
+            "what": "circle under the willow canopy"
+          },
+          {
+            "t": 40.736717224121094,
+            "what": "walk to the Dawn Blossom"
+          },
+          {
+            "t": 42.003448486328125,
+            "what": "stop at the Dawn Blossom"
+          },
+          {
+            "t": 42.43735885620117,
+            "what": "gathered flower_3 (0 -> 1); ready visual shown False"
+          },
+          {
+            "t": 43.253074645996094,
+            "what": "walk south and under the broadleaf by the hen yard"
+          },
+          {
+            "t": 48.22152328491211,
+            "what": "stop under the broadleaf's canopy (behind its trunk)"
+          },
+          {
+            "t": 49.23813247680664,
+            "what": "walk to the garden's west gate"
+          },
+          {
+            "t": 52.339439392089844,
+            "what": "walk into the garden between the raised beds"
+          },
+          {
+            "t": 54.13998031616211,
+            "what": "stop at the garden's east end"
+          },
+          {
+            "t": 54.95613479614258,
+            "what": "walk back out of the garden"
+          },
+          {
+            "t": 56.707244873046875,
+            "what": "walk round the plaza to the west path and the spring"
+          },
+          {
+            "t": 66.914794921875,
+            "what": "step up to the spring until it is offered"
+          },
+          {
+            "t": 67.03024291992188,
+            "what": "stop at the spring"
+          },
+          {
+            "t": 68.04733276367188,
+            "what": "inspect the spring: dialogue open (The Ruined Spring)"
+          },
+          {
+            "t": 72.548583984375,
+            "what": "inspect the spring: dialogue closed after 3 lines; objective now Heart"
+          },
+          {
+            "t": 72.86546325683594,
+            "what": "walk down the stream bank under the trees"
+          },
+          {
+            "t": 75.1988525390625,
+            "what": "stop on the stream bank"
+          },
+          {
+            "t": 75.99948120117188,
+            "what": "walk back to the plaza"
+          },
+          {
+            "t": 79.93318939208984,
+            "what": "stop on the plaza"
+          },
+          {
+            "t": 144.3511199951172,
+            "what": "stage set by the evidence script: AwakeningStream"
+          },
+          {
+            "t": 156.06549072265625,
+            "what": "stage set by the evidence script: BloomingGarden"
+          },
+          {
+            "t": 166.86964416503906,
+            "what": "stage set by the evidence script: RestoredValley"
+          }
+        ],
+        "frames": 4916,
+        "frameMs": {
+          "p50": 16.67,
+          "p95": 16.69,
+          "p99": 16.84,
+          "worst": 21.1,
+          "mean": 16.67
+        },
+        "fps": {
+          "mean": 60.0,
+          "onePercentLow": 59.4
+        },
+        "speedWhileMoving": {
+          "mean": 4.33,
+          "max": 4.5
+        },
+        "directionSamples": {
+          "S/idle": 446,
+          "E/run": 928,
+          "N/run": 434,
+          "S/run": 785,
+          "W/run": 1212,
+          "W/idle": 518,
+          "N/idle": 384,
+          "E/idle": 214
+        },
+        "steps": [
+          "back-to-plaza",
+          "behind-workshop",
+          "directions",
+          "garden",
+          "gather",
+          "idle",
+          "interact",
+          "stop",
+          "stream",
+          "to-mira",
+          "to-spring",
+          "to-workshop",
+          "turns",
+          "under-tree",
+          "under-willow",
+          "zoom"
+        ],
+        "runPhaseVsDistance": {
+          "stride": 2.8,
+          "samples": 3334,
+          "medianError": 0.0,
+          "p95Error": 0.0028
+        },
+        "note": "unrecorded run: no framebuffer capture; one scripted route, not a human traversal benchmark",
+        "stills": [
+          "after-b5-plaza",
+          "before-b4-plaza",
+          "after-b5-workshop-front",
+          "before-b4-workshop-front",
+          "after-b5-workshop-side",
+          "before-b4-workshop-side",
+          "after-b5-willow",
+          "before-b4-willow",
+          "after-b5-spring",
+          "before-b4-spring",
+          "after-b5-garden",
+          "before-b4-garden",
+          "after-b5-hen-yard",
+          "before-b4-hen-yard",
+          "after-b5-stream",
+          "before-b4-stream",
+          "after-b5-windmill",
+          "before-b4-windmill",
+          "pitch-42-plaza",
+          "pitch-42-workshop-front",
+          "pitch-42-garden",
+          "pitch-48-plaza",
+          "pitch-48-workshop-front",
+          "pitch-48-garden",
+          "pitch-54-plaza",
+          "pitch-54-workshop-front",
+          "pitch-54-garden",
+          "occlusion-behind-workshop",
+          "occlusion-behind-workshop-closest-zoom",
+          "occlusion-behind-workshop-before-b4",
+          "occlusion-behind-workshop-before-b4-closest-zoom",
+          "occlusion-behind-willow",
+          "occlusion-behind-willow-closest-zoom",
+          "occlusion-behind-willow-before-b4",
+          "occlusion-behind-willow-before-b4-closest-zoom",
+          "occlusion-behind-broadleaf-henyard",
+          "occlusion-behind-broadleaf-henyard-closest-zoom",
+          "occlusion-behind-broadleaf-henyard-before-b4",
+          "occlusion-behind-broadleaf-henyard-before-b4-closest-zoom",
+          "occlusion-behind-broadleaf-stream",
+          "occlusion-behind-broadleaf-stream-closest-zoom",
+          "occlusion-behind-broadleaf-stream-before-b4",
+          "occlusion-behind-broadleaf-stream-before-b4-closest-zoom",
+          "ground-tiling-farthest-zoom",
+          "ground-tiling-farthest-zoom-before-b4",
+          "hero-idle-S-closest-zoom",
+          "hero-idle-S-default-zoom",
+          "hero-idle-W-closest-zoom",
+          "hero-idle-W-default-zoom",
+          "hero-idle-E-closest-zoom",
+          "hero-idle-E-default-zoom",
+          "hero-idle-N-closest-zoom",
+          "hero-idle-N-default-zoom",
+          "hero-walk-S-closest-zoom",
+          "hero-walk-W-closest-zoom",
+          "hero-walk-E-closest-zoom",
+          "hero-walk-N-closest-zoom",
+          "dialogue-mira",
+          "inventory-portrait",
+          "pause-menu",
+          "stage-S1-set-by-script-spring",
+          "stage-S1-set-by-script-before-b4-spring",
+          "stage-S1-set-by-script-garden",
+          "stage-S1-set-by-script-plaza",
+          "stage-S1-set-by-script-workshop-front",
+          "stage-S1-set-by-script-stream",
+          "stage-S1-set-by-script-windmill",
+          "stage-S2-set-by-script-spring",
+          "stage-S2-set-by-script-garden",
+          "stage-S2-set-by-script-plaza",
+          "stage-S2-set-by-script-workshop-front",
+          "stage-S2-set-by-script-stream",
+          "stage-S2-set-by-script-windmill",
+          "stage-S3-set-by-script-spring",
+          "stage-S3-set-by-script-before-b4-spring",
+          "stage-S3-set-by-script-garden",
+          "stage-S3-set-by-script-before-b4-garden",
+          "stage-S3-set-by-script-plaza",
+          "stage-S3-set-by-script-before-b4-plaza",
+          "stage-S3-set-by-script-workshop-front",
+          "stage-S3-set-by-script-before-b4-workshop-front",
+          "stage-S3-set-by-script-stream",
+          "stage-S3-set-by-script-before-b4-stream",
+          "stage-S3-set-by-script-windmill",
+          "stage-S3-set-by-script-before-b4-windmill"
+        ],
+        "minimap": {
+          "objectiveTimeline": [
+            {
+              "t": 0.0,
+              "objective": "Mira",
+              "step": "idle"
+            },
+            {
+              "t": 26.28,
+              "objective": "Spring",
+              "step": "interact"
+            },
+            {
+              "t": 72.55,
+              "objective": "Heart",
+              "step": "interact"
+            }
+          ],
+          "mapUnitsPerMetre": {
+            "samples": 3336,
+            "p05": 3.568,
+            "median": 3.684,
+            "p95": 3.792
+          },
+          "edgeClampedFraction": 0.493
+        }
+      }
+    },
+    "tour1080-before-unrecorded": {
+      "process": {
+        "width": 1920,
+        "height": 1080,
+        "naturalExit": true,
+        "exitCode": 1,
+        "seconds": 207.7,
+        "secondsToReady": 8.46,
+        "exceptionLines": 0,
+        "video": false,
+        "before": true,
+        "automatedInput": true,
+        "otherGameProcessesRunning": [],
+        "resources": {
+          "note": "Windows performance counters for this process only, sampled about once a second after the tour was ready; integrated GPU: shared memory is the GPU memory in use",
+          "samples": 113,
+          "gpuDedicatedMB": {
+            "mean": 24.0,
+            "p95": 28.3,
+            "max": 28.3
+          },
+          "gpuSharedMB": {
+            "mean": 355.7,
+            "p95": 371.2,
+            "max": 371.9
+          },
+          "gpu3dUtilisationPercent": {
+            "mean": 43.1,
+            "p95": 48.2,
+            "max": 49.1
+          },
+          "privateMB": {
+            "mean": 832.8,
+            "p95": 929.9,
+            "max": 941.4
+          }
+        }
+      },
+      "statistics": {
+        "folder": "D:\\workshop\\oct\\echoes-of-the-valley\\artifacts\\visual-qa\\phase-5.2\\b5\\player-final\\tour1080-before-unrecorded",
+        "resolution": "1920x1080",
+        "recordedFramebuffer": false,
+        "presentation": "B4 presentation in the B5 scene (before mode)",
+        "camera": "FixedFollowCamera25D yaw=45 pitch=48 distance=14 (zoom 10-17) fov=35",
+        "routeSeconds": 92.08,
+        "metres": 243.1,
+        "routePass": false,
+        "failures": [
+          "walk down the stream bank under the trees: did not reach (-21.40, 11.20) (stuck at (-20.1, 0.0, 12.6))"
+        ],
+        "events": [
+          {
+            "t": 0.0044727325439453125,
+            "what": "idle start on the plaza"
+          },
+          {
+            "t": 2.5067381858825684,
+            "what": "zoom in to 10"
+          },
+          {
+            "t": 4.117512226104736,
+            "what": "zoom out to 17"
+          },
+          {
+            "t": 5.717998027801514,
+            "what": "zoom back to 14"
+          },
+          {
+            "t": 6.718313694000244,
+            "what": "eight directions (W, W+D, D, S+D, S, S+A, A, W+A)"
+          },
+          {
+            "t": 11.569381713867188,
+            "what": "stop after the directions"
+          },
+          {
+            "t": 12.371946334838867,
+            "what": "three small circles on the plaza (every facing three times)"
+          },
+          {
+            "t": 19.305023193359375,
+            "what": "stop after the circles"
+          },
+          {
+            "t": 19.921764373779297,
+            "what": "walk to Mira"
+          },
+          {
+            "t": 21.188865661621094,
+            "what": "stop at Mira"
+          },
+          {
+            "t": 21.70779800415039,
+            "what": "talk to Mira: dialogue open (Mira)"
+          },
+          {
+            "t": 26.20611000061035,
+            "what": "talk to Mira: dialogue closed after 3 lines; objective now Spring"
+          },
+          {
+            "t": 26.506349563598633,
+            "what": "walk to the workshop door"
+          },
+          {
+            "t": 28.38960838317871,
+            "what": "stop at the workshop door"
+          },
+          {
+            "t": 29.206655502319336,
+            "what": "walk round behind the painted workshop"
+          },
+          {
+            "t": 33.957763671875,
+            "what": "stop behind the workshop (occluded)"
+          },
+          {
+            "t": 35.158287048339844,
+            "what": "walk along the workshop's back"
+          },
+          {
+            "t": 36.60860824584961,
+            "what": "circle under the willow canopy"
+          },
+          {
+            "t": 40.644676208496094,
+            "what": "walk to the Dawn Blossom"
+          },
+          {
+            "t": 41.91006851196289,
+            "what": "stop at the Dawn Blossom"
+          },
+          {
+            "t": 42.344852447509766,
+            "what": "gathered flower_3 (0 -> 1); ready visual shown False"
+          },
+          {
+            "t": 43.160945892333984,
+            "what": "walk south and under the broadleaf by the hen yard"
+          },
+          {
+            "t": 48.127960205078125,
+            "what": "stop under the broadleaf's canopy (behind its trunk)"
+          },
+          {
+            "t": 49.130043029785156,
+            "what": "walk to the garden's west gate"
+          },
+          {
+            "t": 52.230430603027344,
+            "what": "walk into the garden between the raised beds"
+          },
+          {
+            "t": 53.98149871826172,
+            "what": "stop at the garden's east end"
+          },
+          {
+            "t": 54.798072814941406,
+            "what": "walk back out of the garden"
+          },
+          {
+            "t": 56.498779296875,
+            "what": "walk round the plaza to the west path and the spring"
+          },
+          {
+            "t": 66.70787048339844,
+            "what": "step up to the spring until it is offered"
+          },
+          {
+            "t": 66.82238006591797,
+            "what": "stop at the spring"
+          },
+          {
+            "t": 67.82573699951172,
+            "what": "inspect the spring: dialogue open (The Ruined Spring)"
+          },
+          {
+            "t": 72.32585906982422,
+            "what": "inspect the spring: dialogue closed after 3 lines; objective now Heart"
+          },
+          {
+            "t": 72.64259338378906,
+            "what": "walk down the stream bank under the trees"
+          },
+          {
+            "t": 85.34662628173828,
+            "what": "stop on the stream bank"
+          },
+          {
+            "t": 86.14689636230469,
+            "what": "walk back to the plaza"
+          },
+          {
+            "t": 90.080322265625,
+            "what": "stop on the plaza"
+          },
+          {
+            "t": 154.4882049560547,
+            "what": "stage set by the evidence script: AwakeningStream"
+          },
+          {
+            "t": 166.2535858154297,
+            "what": "stage set by the evidence script: BloomingGarden"
+          },
+          {
+            "t": 176.99559020996094,
+            "what": "stage set by the evidence script: RestoredValley"
+          }
+        ],
+        "frames": 5489,
+        "frameMs": {
+          "p50": 16.67,
+          "p95": 16.69,
+          "p99": 16.86,
+          "worst": 225.6,
+          "mean": 16.78
+        },
+        "fps": {
+          "mean": 59.6,
+          "onePercentLow": 59.3
+        },
+        "speedWhileMoving": {
+          "mean": 4.26,
+          "max": 4.5
+        },
+        "directionSamples": {
+          "S/idle": 919,
+          "E/run": 930,
+          "N/run": 427,
+          "S/run": 891,
+          "W/run": 1216,
+          "W/idle": 516,
+          "N/idle": 383,
+          "E/idle": 212
+        },
+        "steps": [
+          "back-to-plaza",
+          "behind-workshop",
+          "directions",
+          "garden",
+          "gather",
+          "idle",
+          "interact",
+          "stop",
+          "stream",
+          "to-mira",
+          "to-spring",
+          "to-workshop",
+          "turns",
+          "under-tree",
+          "under-willow",
+          "zoom"
+        ],
+        "runPhaseVsDistance": {
+          "stride": 2.8,
+          "samples": 3437,
+          "medianError": 0.0,
+          "p95Error": 0.0027
+        },
+        "note": "unrecorded run: no framebuffer capture; one scripted route, not a human traversal benchmark",
+        "stills": [
+          "after-b5-plaza",
+          "before-b4-plaza",
+          "after-b5-workshop-front",
+          "before-b4-workshop-front",
+          "after-b5-workshop-side",
+          "before-b4-workshop-side",
+          "after-b5-willow",
+          "before-b4-willow",
+          "after-b5-spring",
+          "before-b4-spring",
+          "after-b5-garden",
+          "before-b4-garden",
+          "after-b5-hen-yard",
+          "before-b4-hen-yard",
+          "after-b5-stream",
+          "before-b4-stream",
+          "after-b5-windmill",
+          "before-b4-windmill",
+          "pitch-42-plaza",
+          "pitch-42-workshop-front",
+          "pitch-42-garden",
+          "pitch-48-plaza",
+          "pitch-48-workshop-front",
+          "pitch-48-garden",
+          "pitch-54-plaza",
+          "pitch-54-workshop-front",
+          "pitch-54-garden",
+          "occlusion-behind-workshop",
+          "occlusion-behind-workshop-closest-zoom",
+          "occlusion-behind-workshop-before-b4",
+          "occlusion-behind-workshop-before-b4-closest-zoom",
+          "occlusion-behind-willow",
+          "occlusion-behind-willow-closest-zoom",
+          "occlusion-behind-willow-before-b4",
+          "occlusion-behind-willow-before-b4-closest-zoom",
+          "occlusion-behind-broadleaf-henyard",
+          "occlusion-behind-broadleaf-henyard-closest-zoom",
+          "occlusion-behind-broadleaf-henyard-before-b4",
+          "occlusion-behind-broadleaf-henyard-before-b4-closest-zoom",
+          "occlusion-behind-broadleaf-stream",
+          "occlusion-behind-broadleaf-stream-closest-zoom",
+          "occlusion-behind-broadleaf-stream-before-b4",
+          "occlusion-behind-broadleaf-stream-before-b4-closest-zoom",
+          "ground-tiling-farthest-zoom",
+          "ground-tiling-farthest-zoom-before-b4",
+          "hero-idle-S-closest-zoom",
+          "hero-idle-S-default-zoom",
+          "hero-idle-W-closest-zoom",
+          "hero-idle-W-default-zoom",
+          "hero-idle-E-closest-zoom",
+          "hero-idle-E-default-zoom",
+          "hero-idle-N-closest-zoom",
+          "hero-idle-N-default-zoom",
+          "hero-walk-S-closest-zoom",
+          "hero-walk-W-closest-zoom",
+          "hero-walk-E-closest-zoom",
+          "hero-walk-N-closest-zoom",
+          "dialogue-mira",
+          "inventory-portrait",
+          "pause-menu",
+          "stage-S1-set-by-script-spring",
+          "stage-S1-set-by-script-before-b4-spring",
+          "stage-S1-set-by-script-garden",
+          "stage-S1-set-by-script-plaza",
+          "stage-S1-set-by-script-workshop-front",
+          "stage-S1-set-by-script-stream",
+          "stage-S1-set-by-script-windmill",
+          "stage-S2-set-by-script-spring",
+          "stage-S2-set-by-script-garden",
+          "stage-S2-set-by-script-plaza",
+          "stage-S2-set-by-script-workshop-front",
+          "stage-S2-set-by-script-stream",
+          "stage-S2-set-by-script-windmill",
+          "stage-S3-set-by-script-spring",
+          "stage-S3-set-by-script-before-b4-spring",
+          "stage-S3-set-by-script-garden",
+          "stage-S3-set-by-script-before-b4-garden",
+          "stage-S3-set-by-script-plaza",
+          "stage-S3-set-by-script-before-b4-plaza",
+          "stage-S3-set-by-script-workshop-front",
+          "stage-S3-set-by-script-before-b4-workshop-front",
+          "stage-S3-set-by-script-stream",
+          "stage-S3-set-by-script-before-b4-stream",
+          "stage-S3-set-by-script-windmill",
+          "stage-S3-set-by-script-before-b4-windmill"
+        ],
+        "minimap": {
+          "objectiveTimeline": [
+            {
+              "t": 0.01,
+              "objective": "Mira",
+              "step": "idle"
+            },
+            {
+              "t": 26.21,
+              "objective": "Spring",
+              "step": "interact"
+            },
+            {
+              "t": 72.33,
+              "objective": "Heart",
+              "step": "interact"
+            }
+          ],
+          "mapUnitsPerMetre": {
+            "samples": 3328,
+            "p05": 3.58,
+            "median": 3.684,
+            "p95": 3.791
+          },
+          "edgeClampedFraction": 0.553
+        }
+      }
+    }
+  },
+  "screenshots": {
+    "result": "PASS",
+    "count": 85,
+    "resolution": "1920x1080",
+    "automatedInput": true,
+    "stageStills": "S1-S3 set by evidence script, explicitly labelled"
+  },
+  "occlusion": [
+    {
+      "still": "occlusion-behind-workshop",
+      "presentation": "B5",
+      "zoom": 14.0,
+      "visibleShare": 0.0,
+      "visibleShareWithoutOpening": 0.0,
+      "markedShare": 1.0,
+      "referencePixels": 3352
+    },
+    {
+      "still": "occlusion-behind-workshop-closest-zoom",
+      "presentation": "B5",
+      "zoom": 10.0,
+      "visibleShare": 0.0,
+      "visibleShareWithoutOpening": 0.0,
+      "markedShare": 1.0,
+      "referencePixels": 7015
+    },
+    {
+      "still": "occlusion-behind-workshop-before-b4",
+      "presentation": "B4",
+      "zoom": 14.0,
+      "visibleShare": 0.0,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.9183314442634583,
+      "referencePixels": 3523
+    },
+    {
+      "still": "occlusion-behind-workshop-before-b4-closest-zoom",
+      "presentation": "B4",
+      "zoom": 10.0,
+      "visibleShare": 0.0,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.9195783734321594,
+      "referencePixels": 7289
+    },
+    {
+      "still": "occlusion-behind-willow",
+      "presentation": "B5",
+      "zoom": 14.0,
+      "visibleShare": 0.8311983942985535,
+      "visibleShareWithoutOpening": 0.8311983942985535,
+      "markedShare": 0.8481924533843994,
+      "referencePixels": 3513
+    },
+    {
+      "still": "occlusion-behind-willow-closest-zoom",
+      "presentation": "B5",
+      "zoom": 10.0,
+      "visibleShare": 0.8355308771133423,
+      "visibleShareWithoutOpening": 0.8355308771133423,
+      "markedShare": 0.8456114530563354,
+      "referencePixels": 7205
+    },
+    {
+      "still": "occlusion-behind-willow-before-b4",
+      "presentation": "B4",
+      "zoom": 14.0,
+      "visibleShare": 0.8105822801589966,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.8501430153846741,
+      "referencePixels": 4139
+    },
+    {
+      "still": "occlusion-behind-willow-before-b4-closest-zoom",
+      "presentation": "B4",
+      "zoom": 10.0,
+      "visibleShare": 0.8141342997550964,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.8502100110054016,
+      "referencePixels": 8490
+    },
+    {
+      "still": "occlusion-behind-broadleaf-henyard",
+      "presentation": "B5",
+      "zoom": 14.0,
+      "visibleShare": 0.6886819005012512,
+      "visibleShareWithoutOpening": 0.0,
+      "markedShare": 0.8912931680679321,
+      "referencePixels": 3543
+    },
+    {
+      "still": "occlusion-behind-broadleaf-henyard-closest-zoom",
+      "presentation": "B5",
+      "zoom": 10.0,
+      "visibleShare": 0.7283164858818054,
+      "visibleShareWithoutOpening": 0.0,
+      "markedShare": 0.8936970829963684,
+      "referencePixels": 7229
+    },
+    {
+      "still": "occlusion-behind-broadleaf-henyard-before-b4",
+      "presentation": "B4",
+      "zoom": 14.0,
+      "visibleShare": 0.2341534048318863,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.97309809923172,
+      "referencePixels": 3455
+    },
+    {
+      "still": "occlusion-behind-broadleaf-henyard-before-b4-closest-zoom",
+      "presentation": "B4",
+      "zoom": 10.0,
+      "visibleShare": 0.14311493933200836,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.9850823879241943,
+      "referencePixels": 7204
+    },
+    {
+      "still": "occlusion-behind-broadleaf-stream",
+      "presentation": "B5",
+      "zoom": 14.0,
+      "visibleShare": 0.8469894528388977,
+      "visibleShareWithoutOpening": 0.0,
+      "markedShare": 0.9900285005569458,
+      "referencePixels": 3222
+    },
+    {
+      "still": "occlusion-behind-broadleaf-stream-closest-zoom",
+      "presentation": "B5",
+      "zoom": 10.0,
+      "visibleShare": 0.8408476114273071,
+      "visibleShareWithoutOpening": 0.0,
+      "markedShare": 0.9937892556190491,
+      "referencePixels": 6654
+    },
+    {
+      "still": "occlusion-behind-broadleaf-stream-before-b4",
+      "presentation": "B4",
+      "zoom": 14.0,
+      "visibleShare": 0.6439142227172852,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.9938557744026184,
+      "referencePixels": 3311
+    },
+    {
+      "still": "occlusion-behind-broadleaf-stream-before-b4-closest-zoom",
+      "presentation": "B4",
+      "zoom": 10.0,
+      "visibleShare": 0.71913081407547,
+      "visibleShareWithoutOpening": -1.0,
+      "markedShare": 0.9862995743751526,
+      "referencePixels": 6811
+    }
+  ],
+  "performanceComparison": "PARTIAL: same build, hardware, cap and attempted route, but B4 stream segment collided and its route exited 1. Raw B4/B5 figures retained; no full-route parity claimed.",
+  "video": {
+    "result": "PASS_DECODE",
+    "sha256": "08cb8c141f3a17d420f35afbe0114ac369a4db6b3c02d929ab321be34b04865e",
+    "capturedFrames": 1054,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "26375/2084",
+          "nb_frames": "1055"
+        }
+      ],
+      "format": {
+        "duration": "83.320000"
+      }
+    },
+    "actualPlayback": "NOT VERIFIED: user stopped Computer Use with physical Escape before the B5 file was opened",
+    "audio": "NO AUDIO STREAM",
+    "humanPlaytest": false
+  },
+  "engineering": "PASS (automated Unity suites, build, 1080p full-game smoke and B5 movement route)",
+  "visualGate": "FAIL stop rule 3: caretaker body 0% visible behind workshop, silhouette only; inherited from B4. Owner review PENDING.",
+  "ownerPlaytest": "PENDING",
+  "overall": "PARTIAL"
+}

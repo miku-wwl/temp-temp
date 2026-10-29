@@ -1,0 +1,572 @@
+EDITOR_PREVIEW survey of Assets/Echoes/Art/Phase52B5/Scenes/Valley.unity (opened, never saved). Not Windows-player evidence.
+
+TERRAIN Assets/Echoes/Art/Phase52B5/B5Terrain.asset alphamap 512x512 size (120.00, 24.00, 120.00) origin (-60.00, -3.00, -60.00)
+  layer 0 B5MeadowA tile (5.50, 5.50) tex Assets/Echoes/Art/Phase52B5/Terrain/MeadowA.png dominant texels 190979 | plaza 1590, workshop 7566, willow 6130, spring 2470, garden 6158, henyard 7232, windmill 3425
+  layer 1 B5MeadowB tile (6.30, 6.30) tex Assets/Echoes/Art/Phase52B5/Terrain/MeadowB.png dominant texels 46997 | plaza 338, workshop 0, willow 75, spring 3800, garden 667, henyard 12, windmill 3707
+  layer 2 RouteDirt tile (2.80, 2.80) tex Assets/Echoes/Art/Phase52/Textures/RouteDirt.png dominant texels 12374 | plaza 1550, workshop 655, willow 1640, spring 1710, garden 630, henyard 446, windmill 1072
+  layer 3 Stone tile (7.00, 7.00) tex Assets/Echoes/Art/Terrain/StoneColor.asset dominant texels 4677 | plaza 0, workshop 0, willow 0, spring 0, garden 0, henyard 0, windmill 0
+  layer 4 B5PlazaCobble tile (3.40, 3.40) tex Assets/Echoes/Art/Phase52B5/Terrain/PlazaCobbleWarm.png dominant texels 4524 | plaza 4524, workshop 0, willow 339, spring 0, garden 0, henyard 0, windmill 0
+  layer 5 B5TilledSoil tile (3.20, 3.20) tex Assets/Echoes/Art/Phase52B5/Terrain/TilledSoil.png dominant texels 1001 | plaza 0, workshop 0, willow 0, spring 288, garden 713, henyard 510, windmill 0
+
+TREES (root name, position, drawn renderers / all, collider, hidden by B4, nearest zone)
+  Phase52_RouteOnly/Willow_Pilot at (14.5, 0.2, 11.0) active True drawn 0/1 collider CapsuleCollider r=0.50 h=3.0 hiddenB4 1 replacedB2 0 nearest willow 0.0 m
+  Gameplay/StreamBloom/Tree_Blossom at (-23.4, 0.0, 20.2) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf1 at (-23.4, 0.0, 20.2) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf2 at (-23.4, 0.0, 20.2) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Bark at (-23.4, 0.0, 20.2) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf0 at (-23.4, 0.0, 20.2) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf1 at (-19.4, 0.0, 11.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf2 at (-19.4, 0.0, 20.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Bark at (-25.7, 0.0, 16.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Bark at (-19.4, 0.0, 20.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom at (-25.7, 0.0, 16.8) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf2 at (-19.4, 0.0, 11.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Bark at (-19.4, 0.0, 11.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom at (-19.4, 0.0, 11.5) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf1 at (-19.4, 0.0, 20.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf2 at (-25.7, 0.0, 16.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom at (-19.4, 0.0, 20.5) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf0 at (-25.7, 0.0, 16.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf1 at (-25.7, 0.0, 16.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf0 at (-19.4, 0.0, 20.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/StreamBloom/Tree_Blossom/Tree/Tree_Leaf0 at (-19.4, 0.0, 11.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 4.8 m
+  Gameplay/VillageLife/Tree_Blossom at (22.8, 0.0, -9.8) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest henyard 4.9 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf0 at (22.8, 0.0, -9.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 4.9 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf1 at (22.8, 0.0, -9.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 4.9 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf2 at (22.8, 0.0, -9.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 4.9 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Bark at (22.8, 0.0, -9.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 4.9 m
+  Phase52_RouteOnly/Oak_Pilot at (-3.5, 0.0, 3.5) active True drawn 1/1 collider CapsuleCollider r=0.17 h=2.4 hiddenB4 0 replacedB2 0 nearest plaza 4.9 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf1 at (12.5, 2.2, 32.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 6.5 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf2 at (12.5, 2.2, 32.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 6.5 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf0 at (12.5, 2.2, 32.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 6.5 m
+  Gameplay/VillageLife/Tree_Blossom at (12.5, 2.2, 32.5) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest windmill 6.5 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Bark at (12.5, 2.2, 32.5) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 6.5 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf0 at (15.0, 0.0, -7.4) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 6.7 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf1 at (15.0, 0.0, -7.4) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 6.7 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf2 at (15.0, 0.0, -7.4) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 6.7 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Bark at (15.0, 0.0, -7.4) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 6.7 m
+  Gameplay/VillageLife/Tree_Blossom at (15.0, 0.0, -7.4) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 6.7 m
+  World/WindmillPilot/Tree/Tree_Leaf1 at (-1.0, 2.2, 31.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.1 m
+  World/WindmillPilot/Tree/Tree_Bark at (-1.0, 2.2, 31.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.1 m
+  World/WindmillPilot/Tree/Tree_Leaf2 at (-1.0, 2.2, 31.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.1 m
+  Phase52_RouteOnly/Willow_Pilot at (-1.0, 2.2, 31.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 7.1 m
+  World/WindmillPilot/Tree/Tree_Leaf0 at (-1.0, 2.2, 31.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.1 m
+  World/WindmillPilot/Tree at (-1.0, 2.2, 31.0) active True drawn 0/4 collider none hiddenB4 0 replacedB2 4 nearest windmill 7.1 m
+  World/WindmillPilot/Tree/Tree_Leaf1 at (13.0, 2.2, 34.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.3 m
+  World/WindmillPilot/Tree/Tree_Leaf2 at (13.0, 2.2, 34.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.3 m
+  World/WindmillPilot/Tree/Tree_Bark at (13.0, 2.2, 34.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.3 m
+  World/WindmillPilot/Tree/Tree_Leaf0 at (13.0, 2.2, 34.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 7.3 m
+  World/WindmillPilot/Tree at (13.0, 2.2, 34.0) active True drawn 0/4 collider none hiddenB4 0 replacedB2 4 nearest windmill 7.3 m
+  Phase52_RouteOnly/Aspen_Pilot at (13.0, 2.2, 34.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 7.3 m
+  World/Trees/Tree_Round at (13.7, 1.9, 18.3) active True drawn 4/4 collider CapsuleCollider r=0.23 h=1.7 hiddenB4 0 replacedB2 0 nearest willow 7.4 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (13.7, 1.9, 18.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest willow 7.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (13.7, 1.9, 18.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest willow 7.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (13.7, 1.9, 18.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest willow 7.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (13.7, 1.9, 18.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest willow 7.4 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf2 at (-0.8, 2.2, 28.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 7.5 m
+  Gameplay/VillageLife/Tree_Blossom at (-0.8, 2.2, 28.8) active False drawn 1/5 collider CapsuleCollider r=0.17 h=1.7 hiddenB4 0 replacedB2 0 nearest windmill 7.5 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf0 at (-0.8, 2.2, 28.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 7.5 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Leaf1 at (-0.8, 2.2, 28.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 7.5 m
+  Gameplay/VillageLife/Tree_Blossom/Tree/Tree_Bark at (-0.8, 2.2, 28.8) active False drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 7.5 m
+  Phase52_RouteOnly/Aspen_Pilot at (14.5, 0.0, -5.5) active True drawn 1/1 collider CapsuleCollider r=0.17 h=2.4 hiddenB4 0 replacedB2 0 nearest henyard 7.5 m
+  World/Trees/Tree_Tall at (-29.4, 0.2, 15.4) active True drawn 4/4 collider CapsuleCollider r=0.25 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 8.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-29.4, 0.2, 15.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 8.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-29.4, 0.2, 15.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 8.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-29.4, 0.2, 15.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 8.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-29.4, 0.2, 15.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 8.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (25.6, 0.1, 17.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 9.4 m
+  World/Trees/Tree_Round at (25.6, 0.1, 17.4) active True drawn 4/4 collider CapsuleCollider r=0.24 h=1.7 hiddenB4 0 replacedB2 0 nearest workshop 9.4 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (25.6, 0.1, 17.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 9.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (25.6, 0.1, 17.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 9.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (25.6, 0.1, 17.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 9.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (16.5, 0.2, -24.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 10.3 m
+  World/Trees/Tree_Round at (16.5, 0.2, -24.3) active True drawn 4/4 collider CapsuleCollider r=0.25 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 10.3 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (16.5, 0.2, -24.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 10.3 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (16.5, 0.2, -24.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 10.3 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (16.5, 0.2, -24.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 10.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (-10.7, 0.2, 14.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.5 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (-10.7, 0.2, 14.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.5 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (-10.7, 0.2, 14.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.5 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (-10.7, 0.2, 14.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.5 m
+  World/Trees/Tree_Blossom at (-10.7, 0.2, 14.1) active True drawn 4/4 collider CapsuleCollider r=0.28 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 10.5 m
+  World/Trees/Tree_Round at (-15.1, 0.9, 25.1) active True drawn 4/4 collider CapsuleCollider r=0.32 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 10.8 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-15.1, 0.9, 25.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.8 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-15.1, 0.9, 25.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.8 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-15.1, 0.9, 25.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.8 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-15.1, 0.9, 25.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 10.8 m
+  Phase52_RouteOnly/Aspen_Pilot at (9.5, 2.2, 21.5) active True drawn 1/1 collider CapsuleCollider r=0.17 h=2.4 hiddenB4 0 replacedB2 0 nearest windmill 11.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-30.5, 0.9, 21.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 11.1 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-30.5, 0.9, 21.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 11.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-30.5, 0.9, 21.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 11.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-30.5, 0.9, 21.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 11.1 m
+  World/Trees/Tree_Round at (-30.5, 0.9, 21.8) active True drawn 4/4 collider CapsuleCollider r=0.23 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 11.1 m
+  World/Trees/Tree_Tall at (-23.4, 0.0, 4.1) active True drawn 4/4 collider CapsuleCollider r=0.34 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 12.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-23.4, 0.0, 4.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-23.4, 0.0, 4.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-23.4, 0.0, 4.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-23.4, 0.0, 4.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.1 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (36.8, 0.6, 11.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 12.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (36.8, 0.6, 11.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 12.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (36.8, 0.6, 11.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 12.3 m
+  World/Trees/Tree_Blossom at (36.8, 0.6, 11.5) active True drawn 4/4 collider CapsuleCollider r=0.24 h=1.7 hiddenB4 0 replacedB2 0 nearest workshop 12.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (36.8, 0.6, 11.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 12.3 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (9.9, 0.6, -24.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 12.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (9.9, 0.6, -24.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 12.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (9.9, 0.6, -24.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 12.4 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (9.9, 0.6, -24.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 12.4 m
+  World/Trees/Tree_Round at (9.9, 0.6, -24.8) active True drawn 4/4 collider CapsuleCollider r=0.30 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 12.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-30.0, 0.0, 7.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-30.0, 0.0, 7.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.5 m
+  World/Trees/Tree_Tall at (-30.0, 0.0, 7.3) active True drawn 4/4 collider CapsuleCollider r=0.36 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 12.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-30.0, 0.0, 7.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-30.0, 0.0, 7.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 12.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (11.8, 2.6, 43.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (11.8, 2.6, 43.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (11.8, 2.6, 43.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (11.8, 2.6, 43.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.7 m
+  World/Trees/Tree_Tall at (11.8, 2.6, 43.3) active True drawn 4/4 collider CapsuleCollider r=0.29 h=2.4 hiddenB4 0 replacedB2 0 nearest windmill 12.7 m
+  World/WindmillPilot/Tree/Tree_Bark at (-4.0, 2.6, 40.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.8 m
+  World/WindmillPilot/Tree/Tree_Leaf0 at (-4.0, 2.6, 40.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.8 m
+  World/WindmillPilot/Tree at (-4.0, 2.6, 40.0) active True drawn 4/4 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.8 m
+  World/WindmillPilot/Tree/Tree_Leaf1 at (-4.0, 2.6, 40.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.8 m
+  World/WindmillPilot/Tree/Tree_Leaf2 at (-4.0, 2.6, 40.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 12.8 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (20.3, 1.8, 29.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 14.6 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (20.3, 1.8, 29.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 14.6 m
+  World/Trees/Tree_Blossom at (20.3, 1.8, 29.5) active True drawn 4/4 collider CapsuleCollider r=0.30 h=1.7 hiddenB4 0 replacedB2 0 nearest windmill 14.6 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (20.3, 1.8, 29.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 14.6 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (20.3, 1.8, 29.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 14.6 m
+  Phase52_RouteOnly/Oak_Pilot at (-6.2, 1.1, 17.5) active True drawn 1/1 collider CapsuleCollider r=0.17 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 14.9 m
+  World/Trees/Tree_Blossom at (0.7, 4.0, 46.0) active True drawn 4/4 collider CapsuleCollider r=0.27 h=1.7 hiddenB4 0 replacedB2 0 nearest windmill 15.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (0.7, 4.0, 46.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 15.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (0.7, 4.0, 46.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 15.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (0.7, 4.0, 46.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 15.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (0.7, 4.0, 46.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 15.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-36.3, 3.2, 11.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 15.9 m
+  World/Trees/Tree_Tall at (-36.3, 3.2, 11.6) active True drawn 4/4 collider CapsuleCollider r=0.37 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 15.9 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-36.3, 3.2, 11.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 15.9 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-36.3, 3.2, 11.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 15.9 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-36.3, 3.2, 11.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 15.9 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (26.0, 1.9, -26.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (26.0, 1.9, -26.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.0 m
+  World/Trees/Tree_Tall at (26.0, 1.9, -26.6) active True drawn 4/4 collider CapsuleCollider r=0.24 h=2.4 hiddenB4 0 replacedB2 0 nearest garden 16.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (26.0, 1.9, -26.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (26.0, 1.9, -26.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (12.9, 0.5, -29.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (12.9, 0.5, -29.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.1 m
+  World/Trees/Tree_Tall at (12.9, 0.5, -29.8) active True drawn 4/4 collider CapsuleCollider r=0.24 h=2.4 hiddenB4 0 replacedB2 0 nearest garden 16.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (12.9, 0.5, -29.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (12.9, 0.5, -29.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 16.1 m
+  World/Trees/Tree_Blossom at (-5.3, 1.9, 20.2) active True drawn 0/4 collider CapsuleCollider r=0.28 h=1.7 hiddenB4 0 replacedB2 4 nearest windmill 16.3 m
+  Phase52_RouteOnly/Oak_Pilot at (-5.3, 1.9, 20.2) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 16.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (-5.3, 1.9, 20.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 16.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (-5.3, 1.9, 20.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 16.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (-5.3, 1.9, 20.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 16.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (-5.3, 1.9, 20.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 1 nearest windmill 16.3 m
+  World/Trees/Tree_Tall at (-34.1, 4.4, 26.4) active True drawn 4/4 collider CapsuleCollider r=0.34 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 16.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-34.1, 4.4, 26.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 16.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-34.1, 4.4, 26.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 16.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-34.1, 4.4, 26.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 16.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-34.1, 4.4, 26.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 16.7 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (27.6, 1.1, 25.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 17.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (27.6, 1.1, 25.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 17.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (27.6, 1.1, 25.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 17.1 m
+  World/Trees/Tree_Round at (27.6, 1.1, 25.0) active True drawn 4/4 collider CapsuleCollider r=0.24 h=1.7 hiddenB4 0 replacedB2 0 nearest workshop 17.1 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (27.6, 1.1, 25.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 17.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (38.3, 2.3, -11.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 17.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (38.3, 2.3, -11.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 17.7 m
+  World/Trees/Tree_Tall at (38.3, 2.3, -11.9) active True drawn 4/4 collider CapsuleCollider r=0.25 h=2.4 hiddenB4 0 replacedB2 0 nearest henyard 17.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (38.3, 2.3, -11.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 17.7 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (38.3, 2.3, -11.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 17.7 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (40.2, 5.4, 17.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 18.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (40.2, 5.4, 17.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 18.0 m
+  World/Trees/Tree_Round at (40.2, 5.4, 17.7) active True drawn 4/4 collider CapsuleCollider r=0.29 h=1.7 hiddenB4 0 replacedB2 0 nearest workshop 18.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (40.2, 5.4, 17.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 18.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (40.2, 5.4, 17.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 18.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-38.9, 4.5, 18.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 18.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-38.9, 4.5, 18.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 18.1 m
+  World/Trees/Tree_Tall at (-38.9, 4.5, 18.8) active True drawn 4/4 collider CapsuleCollider r=0.23 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 18.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-38.9, 4.5, 18.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 18.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-38.9, 4.5, 18.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 18.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-12.2, 2.0, 33.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-12.2, 2.0, 33.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-12.2, 2.0, 33.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.2 m
+  World/Trees/Tree_Tall at (-12.2, 2.0, 33.0) active True drawn 4/4 collider CapsuleCollider r=0.27 h=2.4 hiddenB4 0 replacedB2 0 nearest windmill 18.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-12.2, 2.0, 33.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-7.2, 6.4, 44.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-7.2, 6.4, 44.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-7.2, 6.4, 44.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.3 m
+  World/Trees/Tree_Tall at (-7.2, 6.4, 44.7) active True drawn 4/4 collider CapsuleCollider r=0.33 h=2.4 hiddenB4 0 replacedB2 0 nearest windmill 18.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-7.2, 6.4, 44.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 18.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (40.3, 2.7, -2.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 18.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (40.3, 2.7, -2.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 18.5 m
+  World/Trees/Tree_Tall at (40.3, 2.7, -2.7) active True drawn 4/4 collider CapsuleCollider r=0.29 h=2.4 hiddenB4 0 replacedB2 0 nearest henyard 18.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (40.3, 2.7, -2.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 18.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (40.3, 2.7, -2.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 18.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-18.6, 2.1, 34.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 19.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-18.6, 2.1, 34.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 19.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-18.6, 2.1, 34.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 19.0 m
+  World/Trees/Tree_Tall at (-18.6, 2.1, 34.9) active True drawn 4/4 collider CapsuleCollider r=0.29 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 19.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-18.6, 2.1, 34.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 19.0 m
+  World/Trees/Tree_Round at (31.8, 4.2, -24.9) active True drawn 4/4 collider CapsuleCollider r=0.35 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 19.2 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (31.8, 4.2, -24.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 19.2 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (31.8, 4.2, -24.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 19.2 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (31.8, 4.2, -24.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 19.2 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (31.8, 4.2, -24.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 19.2 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (13.6, 9.6, 50.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.1 m
+  World/DistantTreeLine/Tree/Tree_Bark at (13.6, 9.6, 50.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (13.6, 9.6, 50.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.1 m
+  World/DistantTreeLine/Tree at (13.6, 9.6, 50.7) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (13.6, 9.6, 50.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.1 m
+  World/Trees/Tree_Tall at (25.9, 5.1, 36.9) active True drawn 4/4 collider CapsuleCollider r=0.23 h=2.4 hiddenB4 0 replacedB2 0 nearest windmill 20.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (25.9, 5.1, 36.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (25.9, 5.1, 36.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (25.9, 5.1, 36.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.5 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (25.9, 5.1, 36.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.5 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (26.9, 2.6, 30.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.9 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (26.9, 2.6, 30.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.9 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (26.9, 2.6, 30.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.9 m
+  World/Trees/Tree_Round at (26.9, 2.6, 30.5) active True drawn 4/4 collider CapsuleCollider r=0.23 h=1.7 hiddenB4 0 replacedB2 0 nearest windmill 20.9 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (26.9, 2.6, 30.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 20.9 m
+  World/Trees/Tree_Round at (37.2, 6.0, -20.1) active True drawn 4/4 collider CapsuleCollider r=0.27 h=1.7 hiddenB4 0 replacedB2 0 nearest henyard 21.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (37.2, 6.0, -20.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 21.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (37.2, 6.0, -20.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 21.4 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (37.2, 6.0, -20.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 21.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (37.2, 6.0, -20.1) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 21.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (13.7, 1.3, -36.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 22.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (13.7, 1.3, -36.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 22.1 m
+  World/Trees/Tree_Round at (13.7, 1.3, -36.0) active True drawn 4/4 collider CapsuleCollider r=0.32 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 22.1 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (13.7, 1.3, -36.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 22.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (13.7, 1.3, -36.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 22.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-29.7, 8.8, 36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 22.1 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-29.7, 8.8, 36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 22.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-29.7, 8.8, 36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 22.1 m
+  World/Trees/Tree_Round at (-29.7, 8.8, 36.4) active True drawn 4/4 collider CapsuleCollider r=0.28 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 22.1 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-29.7, 8.8, 36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 22.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (21.7, 3.3, -36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (21.7, 3.3, -36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.1 m
+  World/Trees/Tree_Tall at (21.7, 3.3, -36.4) active True drawn 4/4 collider CapsuleCollider r=0.24 h=2.4 hiddenB4 0 replacedB2 0 nearest garden 23.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (21.7, 3.3, -36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (21.7, 3.3, -36.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.1 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (-40.2, 4.8, 2.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 23.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (-40.2, 4.8, 2.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 23.3 m
+  World/Trees/Tree_Blossom at (-40.2, 4.8, 2.8) active True drawn 4/4 collider CapsuleCollider r=0.33 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 23.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (-40.2, 4.8, 2.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 23.3 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (-40.2, 4.8, 2.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 23.3 m
+  World/Trees/Tree_Tall at (30.1, 5.9, -32.6) active True drawn 4/4 collider CapsuleCollider r=0.26 h=2.4 hiddenB4 0 replacedB2 0 nearest garden 23.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (30.1, 5.9, -32.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (30.1, 5.9, -32.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (30.1, 5.9, -32.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.3 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (30.1, 5.9, -32.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 23.3 m
+  World/Trees/Tree_Round at (43.6, 7.8, -13.9) active True drawn 4/4 collider CapsuleCollider r=0.23 h=1.7 hiddenB4 0 replacedB2 0 nearest henyard 23.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (43.6, 7.8, -13.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 23.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (43.6, 7.8, -13.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 23.4 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (43.6, 7.8, -13.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 23.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (43.6, 7.8, -13.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 23.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-44.6, 8.7, 11.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 24.0 m
+  World/Trees/Tree_Round at (-44.6, 8.7, 11.7) active True drawn 4/4 collider CapsuleCollider r=0.27 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 24.0 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-44.6, 8.7, 11.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 24.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-44.6, 8.7, 11.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 24.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-44.6, 8.7, 11.7) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 24.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (35.8, 8.2, 29.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 24.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (35.8, 8.2, 29.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 24.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (35.8, 8.2, 29.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 24.4 m
+  World/Trees/Tree_Tall at (35.8, 8.2, 29.9) active True drawn 4/4 collider CapsuleCollider r=0.23 h=2.4 hiddenB4 0 replacedB2 0 nearest workshop 24.4 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (35.8, 8.2, 29.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 24.4 m
+  World/Trees/Tree_Blossom at (26.8, 7.2, -37.6) active True drawn 4/4 collider CapsuleCollider r=0.25 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 26.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (26.8, 7.2, -37.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (26.8, 7.2, -37.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (26.8, 7.2, -37.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (26.8, 7.2, -37.6) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (35.0, 9.7, -31.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.1 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (35.0, 9.7, -31.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.1 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (35.0, 9.7, -31.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.1 m
+  World/Trees/Tree_Blossom at (35.0, 9.7, -31.9) active True drawn 4/4 collider CapsuleCollider r=0.26 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 26.1 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (35.0, 9.7, -31.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 26.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-45.3, 12.6, 26.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.3 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-45.3, 12.6, 26.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.3 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-45.3, 12.6, 26.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.3 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-45.3, 12.6, 26.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.3 m
+  World/DistantTreeLine/Tree at (-45.3, 12.6, 26.2) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest spring 26.3 m
+  World/DistantTreeLine/Tree at (0.0, 18.9, 57.9) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest windmill 26.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (0.0, 18.9, 57.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 26.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (0.0, 18.9, 57.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 26.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (0.0, 18.9, 57.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 26.6 m
+  World/DistantTreeLine/Tree/Tree_Bark at (0.0, 18.9, 57.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 26.6 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-36.8, 0.0, -5.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.6 m
+  World/Trees/Tree_Tall at (-36.8, 0.0, -5.4) active True drawn 4/4 collider CapsuleCollider r=0.24 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 26.6 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-36.8, 0.0, -5.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.6 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-36.8, 0.0, -5.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.6 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-36.8, 0.0, -5.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 26.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (45.0, 12.9, 26.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 26.9 m
+  World/DistantTreeLine/Tree/Tree_Bark at (45.0, 12.9, 26.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 26.9 m
+  World/DistantTreeLine/Tree at (45.0, 12.9, 26.0) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest workshop 26.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (45.0, 12.9, 26.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 26.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (45.0, 12.9, 26.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 26.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (27.8, 17.1, 48.1) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 27.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (27.8, 17.1, 48.1) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 27.1 m
+  World/DistantTreeLine/Tree at (27.8, 17.1, 48.1) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest windmill 27.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (27.8, 17.1, 48.1) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 27.1 m
+  World/DistantTreeLine/Tree/Tree_Bark at (27.8, 17.1, 48.1) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 27.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-46.9, 10.1, 6.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 27.6 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-46.9, 10.1, 6.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 27.6 m
+  World/Trees/Tree_Tall at (-46.9, 10.1, 6.4) active True drawn 4/4 collider CapsuleCollider r=0.34 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 27.6 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-46.9, 10.1, 6.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 27.6 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-46.9, 10.1, 6.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 27.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-13.9, 15.8, 51.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 28.1 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-13.9, 15.8, 51.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 28.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-13.9, 15.8, 51.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 28.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-13.9, 15.8, 51.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 28.1 m
+  World/DistantTreeLine/Tree at (-13.9, 15.8, 51.8) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest windmill 28.1 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (15.3, 6.1, -42.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 28.5 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (15.3, 6.1, -42.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 28.5 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (15.3, 6.1, -42.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 28.5 m
+  World/Trees/Tree_Round at (15.3, 6.1, -42.5) active True drawn 4/4 collider CapsuleCollider r=0.28 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 28.5 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (15.3, 6.1, -42.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 28.5 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (-19.2, 0.0, -21.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 28.7 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (-19.2, 0.0, -21.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 28.7 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (-19.2, 0.0, -21.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 28.7 m
+  World/Trees/Tree_Blossom at (-19.2, 0.0, -21.4) active True drawn 4/4 collider CapsuleCollider r=0.30 h=1.7 hiddenB4 0 replacedB2 0 nearest plaza 28.7 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (-19.2, 0.0, -21.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 28.7 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (6.5, 2.1, -41.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 29.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (6.5, 2.1, -41.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 29.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (6.5, 2.1, -41.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 29.0 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (6.5, 2.1, -41.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 29.0 m
+  World/Trees/Tree_Blossom at (6.5, 2.1, -41.4) active True drawn 4/4 collider CapsuleCollider r=0.23 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 29.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-45.9, 7.0, -1.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 30.6 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-45.9, 7.0, -1.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 30.6 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-45.9, 7.0, -1.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 30.6 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-45.9, 7.0, -1.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 30.6 m
+  World/Trees/Tree_Round at (-45.9, 7.0, -1.8) active True drawn 4/4 collider CapsuleCollider r=0.27 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 30.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (36.8, 14.9, -36.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 30.9 m
+  World/DistantTreeLine/Tree at (36.8, 14.9, -36.8) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest garden 30.9 m
+  World/DistantTreeLine/Tree/Tree_Bark at (36.8, 14.9, -36.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 30.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (36.8, 14.9, -36.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 30.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (36.8, 14.9, -36.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 30.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (55.3, 17.4, 14.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Bark at (55.3, 17.4, 14.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree at (55.3, 17.4, 14.8) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (55.3, 17.4, 14.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (55.3, 17.4, 14.8) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (55.0, 15.4, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (55.0, 15.4, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree at (55.0, 15.4, 0.0) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (55.0, 15.4, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Bark at (55.0, 15.4, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest workshop 31.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-27.0, 15.0, 46.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.3 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-27.0, 15.0, 46.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.3 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-27.0, 15.0, 46.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.3 m
+  World/DistantTreeLine/Tree at (-27.0, 15.0, 46.7) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest spring 31.3 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-27.0, 15.0, 46.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.3 m
+  World/DistantTreeLine/Tree at (-40.9, 17.4, 40.9) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest spring 31.8 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-40.9, 17.4, 40.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.8 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-40.9, 17.4, 40.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.8 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-40.9, 17.4, 40.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.8 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-40.9, 17.4, 40.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 31.8 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (0.2, 1.3, -42.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 32.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (0.2, 1.3, -42.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 32.4 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (0.2, 1.3, -42.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 32.4 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (0.2, 1.3, -42.3) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 32.4 m
+  World/Trees/Tree_Round at (0.2, 1.3, -42.3) active True drawn 4/4 collider CapsuleCollider r=0.32 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 32.4 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-53.9, 16.9, 14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-53.9, 16.9, 14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.0 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-53.9, 16.9, 14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.0 m
+  World/DistantTreeLine/Tree at (-53.9, 16.9, 14.4) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest spring 33.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-53.9, 16.9, 14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.0 m
+  World/DistantTreeLine/Tree at (53.9, 17.3, -14.4) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest henyard 33.3 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (53.9, 17.3, -14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 33.3 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (53.9, 17.3, -14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 33.3 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (53.9, 17.3, -14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 33.3 m
+  World/DistantTreeLine/Tree/Tree_Bark at (53.9, 17.3, -14.4) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 33.3 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-42.9, 1.9, -9.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.5 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-42.9, 1.9, -9.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.5 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-42.9, 1.9, -9.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.5 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-42.9, 1.9, -9.4) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 33.5 m
+  World/Trees/Tree_Round at (-42.9, 1.9, -9.4) active True drawn 4/4 collider CapsuleCollider r=0.24 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 33.5 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-37.8, 0.0, -13.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 34.0 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-37.8, 0.0, -13.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 34.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-37.8, 0.0, -13.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 34.0 m
+  World/Trees/Tree_Round at (-37.8, 0.0, -13.5) active True drawn 4/4 collider CapsuleCollider r=0.29 h=1.7 hiddenB4 0 replacedB2 0 nearest spring 34.0 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-37.8, 0.0, -13.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 34.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (40.2, 16.9, 40.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 35.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (40.2, 16.9, 40.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 35.1 m
+  World/DistantTreeLine/Tree at (40.2, 16.9, 40.2) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest windmill 35.1 m
+  World/DistantTreeLine/Tree/Tree_Bark at (40.2, 16.9, 40.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 35.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (40.2, 16.9, 40.2) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest windmill 35.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (49.0, 17.4, -28.3) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 35.7 m
+  World/DistantTreeLine/Tree at (49.0, 17.4, -28.3) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest henyard 35.7 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (49.0, 17.4, -28.3) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 35.7 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (49.0, 17.4, -28.3) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 35.7 m
+  World/DistantTreeLine/Tree/Tree_Bark at (49.0, 17.4, -28.3) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest henyard 35.7 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-3.8, 7.6, -45.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.6 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-3.8, 7.6, -45.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.6 m
+  World/Trees/Tree_Round at (-3.8, 7.6, -45.9) active True drawn 4/4 collider CapsuleCollider r=0.27 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 37.6 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-3.8, 7.6, -45.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.6 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-3.8, 7.6, -45.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (28.7, 17.5, -49.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (28.7, 17.5, -49.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.9 m
+  World/DistantTreeLine/Tree at (28.7, 17.5, -49.7) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest garden 37.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (28.7, 17.5, -49.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.9 m
+  World/DistantTreeLine/Tree/Tree_Bark at (28.7, 17.5, -49.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 37.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (14.2, 14.3, -52.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 38.9 m
+  World/DistantTreeLine/Tree at (14.2, 14.3, -52.9) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest garden 38.9 m
+  World/DistantTreeLine/Tree/Tree_Bark at (14.2, 14.3, -52.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 38.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (14.2, 14.3, -52.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 38.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (14.2, 14.3, -52.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 38.9 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-56.6, 18.0, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-56.6, 18.0, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.0 m
+  World/DistantTreeLine/Tree at (-56.6, 18.0, 0.0) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest spring 39.0 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-56.6, 18.0, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-56.6, 18.0, 0.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.0 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-45.1, -3.0, -15.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.9 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-45.1, -3.0, -15.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.9 m
+  World/Trees/Tree_Tall at (-45.1, -3.0, -15.8) active True drawn 4/4 collider CapsuleCollider r=0.26 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 39.9 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-45.1, -3.0, -15.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.9 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-45.1, -3.0, -15.8) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 39.9 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf0 at (-9.0, 8.3, -45.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 40.2 m
+  World/Trees/Tree_Round at (-9.0, 8.3, -45.5) active True drawn 4/4 collider CapsuleCollider r=0.32 h=1.7 hiddenB4 0 replacedB2 0 nearest garden 40.2 m
+  World/Trees/Tree_Round/Tree/Tree_Bark at (-9.0, 8.3, -45.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 40.2 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf2 at (-9.0, 8.3, -45.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 40.2 m
+  World/Trees/Tree_Round/Tree/Tree_Leaf1 at (-9.0, 8.3, -45.5) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest garden 40.2 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-50.3, -3.0, -13.5) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 41.5 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-50.3, -3.0, -13.5) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 41.5 m
+  World/DistantTreeLine/Tree at (-50.3, -3.0, -13.5) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest spring 41.5 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-50.3, -3.0, -13.5) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 41.5 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-50.3, -3.0, -13.5) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 41.5 m
+  World/DistantTreeLine/Tree/Tree_Bark at (0.0, 14.4, -53.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 42.1 m
+  World/DistantTreeLine/Tree at (0.0, 14.4, -53.0) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest garden 42.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (0.0, 14.4, -53.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 42.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (0.0, 14.4, -53.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 42.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (0.0, 14.4, -53.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 42.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-30.1, 4.4, -31.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 43.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-30.1, 4.4, -31.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 43.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-30.1, 4.4, -31.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 43.2 m
+  World/Trees/Tree_Tall at (-30.1, 4.4, -31.0) active True drawn 4/4 collider CapsuleCollider r=0.27 h=2.4 hiddenB4 0 replacedB2 0 nearest plaza 43.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-30.1, 4.4, -31.0) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 43.2 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf0 at (-39.1, 2.3, -24.2) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 44.1 m
+  World/Trees/Tree_Tall at (-39.1, 2.3, -24.2) active True drawn 4/4 collider CapsuleCollider r=0.22 h=2.4 hiddenB4 0 replacedB2 0 nearest spring 44.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf1 at (-39.1, 2.3, -24.2) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 44.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Bark at (-39.1, 2.3, -24.2) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 44.1 m
+  World/Trees/Tree_Tall/Tree/Tree_Leaf2 at (-39.1, 2.3, -24.2) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest spring 44.1 m
+  World/Trees/Tree_Blossom/Tree/Tree_Bark at (-22.0, 9.7, -39.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 45.6 m
+  World/Trees/Tree_Blossom at (-22.0, 9.7, -39.9) active True drawn 4/4 collider CapsuleCollider r=0.28 h=1.7 hiddenB4 0 replacedB2 0 nearest plaza 45.6 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf1 at (-22.0, 9.7, -39.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 45.6 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf2 at (-22.0, 9.7, -39.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 45.6 m
+  World/Trees/Tree_Blossom/Tree/Tree_Leaf0 at (-22.0, 9.7, -39.9) active True drawn 1/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 45.6 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-15.0, 16.9, -56.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 52.2 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-15.0, 16.9, -56.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 52.2 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-15.0, 16.9, -56.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 52.2 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-15.0, 16.9, -56.0) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest garden 52.2 m
+  World/DistantTreeLine/Tree at (-15.0, 16.9, -56.0) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest garden 52.2 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-26.5, 17.3, -45.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 53.0 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-26.5, 17.3, -45.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 53.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-26.5, 17.3, -45.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 53.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-26.5, 17.3, -45.9) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 53.0 m
+  World/DistantTreeLine/Tree at (-26.5, 17.3, -45.9) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest plaza 53.0 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-49.7, 17.4, -28.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 53.1 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-49.7, 17.4, -28.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 53.1 m
+  World/DistantTreeLine/Tree at (-49.7, 17.4, -28.7) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest spring 53.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-49.7, 17.4, -28.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 53.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-49.7, 17.4, -28.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest spring 53.1 m
+  World/DistantTreeLine/Tree/Tree_Leaf2 at (-38.7, 16.7, -38.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 54.7 m
+  World/DistantTreeLine/Tree/Tree_Bark at (-38.7, 16.7, -38.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 54.7 m
+  World/DistantTreeLine/Tree at (-38.7, 16.7, -38.7) active True drawn 0/4 collider none hiddenB4 0 replacedB2 0 nearest plaza 54.7 m
+  World/DistantTreeLine/Tree/Tree_Leaf0 at (-38.7, 16.7, -38.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 54.7 m
+  World/DistantTreeLine/Tree/Tree_Leaf1 at (-38.7, 16.7, -38.7) active True drawn 0/1 collider none hiddenB4 0 replacedB2 0 nearest plaza 54.7 m
+
+STAGE ROOT troubledStream = World/Water/StreamTrickle children 0 renderers 1 materials Water_Murky
+STAGE ROOT clearStream = World/Water/Stream children 1 renderers 2 materials Water_Clear,ParticleGlow
+    Sparkles at (0.0, 0.1, 0.0) scale 1.00 nearest plaza 0.0
+STAGE ROOT bloomRoot = Gameplay/StreamBloom children 22 renderers 146 materials Art_Brass,Art_Leaf0,Art_Leaf1,FlowerPink,Card_Foliage,FlowerYellow,Card_GardenPlants,FlowerWhite
+    Flowers_Pink at (-19.9, 0.0, 12.1) scale 1.83 nearest spring 4.1
+    Flowers_Yellow at (-26.1, 0.0, 13.6) scale 1.84 nearest spring 5.6
+    Flowers_White at (-21.3, 0.0, 10.0) scale 1.92 nearest spring 6.0
+    Flowers_Lilac at (-28.0, 0.0, 11.7) scale 1.97 nearest spring 8.2
+    Flowers_Pink at (-22.2, 0.0, 7.1) scale 1.94 nearest spring 9.0
+    Flowers_Yellow at (-28.8, 0.0, 9.3) scale 1.67 nearest spring 10.3
+    Flowers_White at (-22.9, 0.0, 4.7) scale 1.87 nearest spring 11.5
+    Flowers_Lilac at (-30.5, 0.0, 5.9) scale 1.74 nearest spring 13.8
+    Flowers_Pink at (-23.9, 0.0, 3.2) scale 1.98 nearest spring 13.1
+    Flowers_Yellow at (-30.3, 0.0, 2.2) scale 1.86 nearest spring 16.7
+    Flowers_White at (-23.6, 0.0, 0.4) scale 1.56 nearest spring 15.8
+    Flowers_Lilac at (-30.6, 0.0, -0.6) scale 1.53 nearest spring 19.2
+    Flowers_Pink at (-23.9, 0.0, -3.3) scale 1.77 nearest spring 19.5
+    Flowers_Yellow at (-32.0, 0.0, -3.3) scale 1.83 nearest spring 22.2
+    Flowers_White at (-25.3, 0.0, -6.0) scale 1.80 nearest spring 22.5
+    Flowers_Lilac at (-32.5, 0.0, -6.8) scale 1.78 nearest spring 25.6
+    Flowers_Pink at (-24.6, -0.2, -8.2) scale 1.61 nearest spring 24.4
+    Flowers_Yellow at (-32.2, -0.5, -10.4) scale 1.96 nearest spring 28.7
+    Tree_Blossom at (-19.4, 0.0, 20.5) scale 0.55 nearest spring 4.8
+    Tree_Blossom at (-23.4, 0.0, 20.2) scale 0.55 nearest spring 4.8
+    Tree_Blossom at (-25.7, 0.0, 16.8) scale 0.55 nearest spring 4.8
+    Tree_Blossom at (-19.4, 0.0, 11.5) scale 0.55 nearest spring 4.8
+STAGE ROOT gardenDormant = Gameplay/Garden/Dormant children 59 renderers 59 materials Bed_SoilDry,Withered,WitheredLeaf,Card_GardenPlants,Card_Foliage
+STAGE ROOT gardenBloomRoot = Gameplay/Garden/Bloom children 58 renderers 298 materials Bed_SoilRich,Art_Brass,Art_Leaf0,Art_Leaf1,FlowerPink,FlowerOrange,FlowerYellow,FlowerLilac
+STAGE ROOT yardLifeRoot = Gameplay/HenYardLife children 12 renderers 142 materials Roof,SoilRich,Art_Brass,Art_Leaf0,Art_Leaf1,FlowerPink,FlowerYellow,FlowerOrange
+    Pot0 at (19.4, 0.0, -7.6) scale 1.00 nearest henyard 3.6
+    Pot1 at (24.6, 0.0, -7.6) scale 1.00 nearest henyard 3.6
+    Pot2 at (19.4, 0.0, -2.4) scale 1.00 nearest henyard 3.6
+    Pot3 at (24.6, 0.0, -2.4) scale 1.00 nearest henyard 3.6
+    Bunting0 at (22.0, 0.0, -5.0) scale 1.00 nearest henyard 0.0
+    Bunting1 at (22.0, 0.0, -5.0) scale 1.00 nearest henyard 0.0
+    YardFlower0 at (23.4, 0.0, -4.4) scale 0.60 nearest henyard 1.5
+    YardFlower1 at (22.2, 0.0, -3.6) scale 0.71 nearest henyard 1.4
+    YardFlower2 at (20.9, 0.0, -4.1) scale 0.75 nearest henyard 1.4
+    YardFlower3 at (20.6, 0.0, -5.5) scale 0.65 nearest henyard 1.5
+    YardFlower4 at (21.7, 0.0, -6.6) scale 0.67 nearest henyard 1.6
+    YardFlower5 at (23.1, 0.0, -5.9) scale 0.57 nearest henyard 1.4
+STAGE ROOT villageLifeRoot = Gameplay/VillageLife children 30 renderers 178 materials WoodDark,LanternGlow,Iron,Art_Brass,Art_Leaf0,Art_Leaf1,FlowerPink,Card_GardenPlants
+    LanternPost0 at (7.6, 0.1, 7.6) scale 1.00 nearest willow 7.6
+    LanternPost1 at (-7.6, 0.0, 7.6) scale 1.00 nearest plaza 10.8
+    LanternPost2 at (-7.6, 0.0, -7.6) scale 1.00 nearest plaza 10.8
+    LanternPost3 at (7.6, 0.0, -7.6) scale 1.00 nearest garden 10.5
+    LanternPost4 at (10.8, 0.0, -11.8) scale 1.00 nearest garden 5.6
+    LanternPost5 at (10.8, 0.0, -18.4) scale 1.00 nearest garden 6.8
+    LanternPost6 at (9.6, 2.2, 27.8) scale 1.00 nearest windmill 5.5
+    LanternPost7 at (0.2, 2.2, 32.8) scale 1.00 nearest windmill 5.9
+    Flowers_Pink at (-3.7, 1.2, 17.3) scale 1.90 nearest spring 17.4
+    Flowers_Yellow at (-15.5, 0.0, 18.0) scale 1.50 nearest spring 5.8
+    Flowers_White at (-6.2, 0.7, 15.8) scale 1.46 nearest spring 14.8
+    Flowers_Lilac at (5.9, 0.9, -21.9) scale 1.85 nearest garden 12.9
+    Flowers_Pink at (7.5, 0.5, -19.9) scale 1.71 nearest garden 10.3
+    Flowers_Yellow at (13.0, 0.4, 11.5) scale 1.79 nearest willow 1.6
+    Flowers_White at (-14.5, 0.0, -6.4) scale 1.45 nearest plaza 15.8
+    Flowers_Lilac at (-9.2, 1.1, 17.7) scale 1.69 nearest spring 11.9
+    Flowers_Pink at (-19.1, 0.0, -5.4) scale 1.89 nearest plaza 19.8
+    Flowers_Yellow at (15.7, 0.0, -0.3) scale 1.82 nearest henyard 7.8
+    Flowers_White at (20.1, 0.5, 16.7) scale 1.55 nearest willow 8.0
+    Flowers_Lilac at (-10.8, 0.2, -16.1) scale 1.84 nearest plaza 19.4
+    Flowers_Pink at (5.0, 0.5, -18.1) scale 1.71 nearest garden 11.8
+    Flowers_Yellow at (-5.9, 2.4, 23.9) scale 1.71 nearest windmill 14.3
+    Flowers_White at (14.5, 2.2, 22.2) scale 1.55 nearest willow 11.2
+    Flowers_Lilac at (11.1, 0.5, -23.9) scale 1.48 nearest garden 11.1
+    Flowers_Pink at (-5.6, 1.7, 19.5) scale 1.90 nearest spring 15.8
+    Flowers_Yellow at (7.1, 0.0, -11.9) scale 1.62 nearest garden 9.2
+    Tree_Blossom at (22.8, 0.0, -9.8) scale 0.60 nearest henyard 4.9
+    Tree_Blossom at (15.0, 0.0, -7.4) scale 0.60 nearest garden 6.7
+    Tree_Blossom at (12.5, 2.2, 32.5) scale 0.60 nearest windmill 6.5
+    Tree_Blossom at (-0.8, 2.2, 28.8) scale 0.60 nearest windmill 7.5
+GARDEN HUD/Minimap_B4/Window/Map/Garden at (586.11, 426.11, 0.00) rotation (0, 0, 0)
+GROUP StreamBankDetails children 56 renderers 92 drawn 38
+GROUP Water children 9 renderers 10 drawn 10
+GROUP WindmillPilot children 94 renderers 378 drawn 25
+GROUP DistantTreeLine children 24 renderers 96 drawn 0
+GROUP Flowers children 6 renderers 6 drawn 0
+GROUP Rocks children 14 renderers 42 drawn 0
+GROUP Trees children 56 renderers 224 drawn 220
+GROUP B4_GroundFoliage children 0 renderers 1 drawn 1
+GROUP Phase52_RouteOnly children 109 renderers 109 drawn 7
+NODE herb_1 at (-19.5, 0.0, 8.5) nearest spring 7.6
+NODE herb_3 at (-19.0, 0.0, -8.0) nearest plaza 20.6
+NODE ore_3 at (-38.0, 4.7, 22.0) nearest spring 18.0
+NODE ore_4 at (-33.0, 4.3, -30.0) nearest plaza 44.6
+NODE flower_5 at (-9.0, 0.0, -13.0) nearest plaza 15.8
+NODE herb_5 at (8.0, 0.0, -17.0) nearest garden 8.5
+NODE herb_2 at (-20.5, 0.6, 0.5) nearest spring 15.5
+NODE ore_2 at (37.0, 1.4, -8.0) nearest henyard 15.3
+NODE ore_1 at (35.0, 1.3, 18.0) nearest workshop 14.1
+NODE flower_2 at (18.0, 0.0, 1.0) nearest henyard 7.2
+NODE flower_1 at (13.0, 0.0, -3.5) nearest henyard 9.1
+NODE herb_6 at (-12.0, 1.1, -26.0) nearest plaza 28.6
+NODE herb_4 at (-6.0, 0.4, -19.0) nearest plaza 19.9
+NODE flower_4 at (3.0, 1.0, 14.0) nearest willow 11.9
+NODE flower_3 at (10.0, 0.3, 10.5) nearest willow 4.5

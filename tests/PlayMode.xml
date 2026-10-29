@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="106" result="Passed" total="106" passed="106" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-29 09:02:13Z" end-time="2026-10-29 09:06:26Z" duration="252.6212766">
+  <test-suite type="TestSuite" id="1130" name="Echoes of the Valley" fullname="Echoes of the Valley" runstate="Runnable" testcasecount="106" result="Passed" start-time="2026-10-29 09:02:13Z" end-time="2026-10-29 09:06:26Z" duration="252.621277" total="106" passed="106" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1124" name="Echoes.Tests.PlayMode.dll" fullname="D:/Unity/Temp/Echoes/phase52-b5-finalization-verified-20261029-215605/game/Library/ScriptAssemblies/Echoes.Tests.PlayMode.dll" runstate="Runnable" testcasecount="106" result="Passed" start-time="2026-10-29 09:02:13Z" end-time="2026-10-29 09:06:26Z" duration="252.603001" total="106" passed="106" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="26224" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1125" name="Echoes" fullname="Echoes" runstate="Runnable" testcasecount="106" result="Passed" start-time="2026-10-29 09:02:13Z" end-time="2026-10-29 09:06:26Z" duration="252.599737" total="106" passed="106" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1126" name="Tests" fullname="Echoes.Tests" runstate="Runnable" testcasecount="106" result="Passed" start-time="2026-10-29 09:02:13Z" end-time="2026-10-29 09:06:26Z" duration="252.597256" total="106" passed="106" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1025" name="ChickenPlayTests" fullname="Echoes.Tests.ChickenPlayTests" classname="Echoes.Tests.ChickenPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-29 09:02:13Z" end-time="2026-10-29 09:02:18Z" duration="4.581003" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1026" name="Hen_FeedWaitCollect_ThroughRealInteractions" fullname="Echoes.Tests.ChickenPlayTests.Hen_FeedWaitCollect_ThroughRealInteractions" methodname="Hen_FeedWaitCollect_ThroughRealInteractions" classname="Echoes.Tests.ChickenPlayTests" runstate="Runnable" seed="1618370950" result="Passed" start-time="2026-10-29 09:02:13Z" end-time="2026-10-29 09:02:16Z" duration="2.409122" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1028" name="HenStatus_AppearsInTheHud" fullname="Echoes.Tests.ChickenPlayTests.HenStatus_AppearsInTheHud" methodname="HenStatus_AppearsInTheHud" classname="Echoes.Tests.ChickenPlayTests" runstate="Runnable" seed="1549385632" result="Passed" start-time="2026-10-29 09:02:16Z" end-time="2026-10-29 09:02:17Z" duration="1.192466" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1027" name="HungryHen_WithoutFeed_ExplainsWhatIsNeeded_AndChangesNothing" fullname="Echoes.Tests.ChickenPlayTests.HungryHen_WithoutFeed_ExplainsWhatIsNeeded_AndChangesNothing" methodname="HungryHen_WithoutFeed_ExplainsWhatIsNeeded_AndChangesNothing" classname="Echoes.Tests.ChickenPlayTests" runstate="Runnable" seed="187596474" result="Passed" start-time="2026-10-29 09:02:17Z" end-time="2026-10-29 09:02:18Z" duration="0.953570" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1018" name="CraftingPlayTests" fullname="Echoes.Tests.CraftingPlayTests" classname="Echoes.Tests.CraftingPlayTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-29 09:02:18Z" end-time="2026-10-29 09:02:24Z" duration="6.368850" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1023" name="Inventory_ListsTheRealStacks_SlotsAndCoins" fullname="Echoes.Tests.CraftingPlayTests.Inventory_ListsTheRealStacks_SlotsAndCoins" methodname="Inventory_ListsTheRealStacks_SlotsAndCoins" classname="Echoes.Tests.CraftingPlayTests" runstate="Runnable" seed="1076927644" result="Passed" start-time="2026-10-29 09:02:18Z" end-time="2026-10-29 09:02:19Z" duration="1.058649" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1020" name="MissingIngredients_ChangeNothing_AndTheStatusSaysSo" fullname="Echoes.Tests.CraftingPlayTests.MissingIngredients_ChangeNothing_AndTheStatusSaysSo" methodname="MissingIngredients_ChangeNothing_AndTheStatusSaysSo" classname="Echoes.Tests.CraftingPlayTests" runstate="Runnable" seed="599727248" result="Passed" start-time="2026-10-29 09:02:19Z" end-time="2026-10-29 09:02:20Z" duration="0.964827" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1024" name="OnlyOnePanelCanBeOpen_AndPanelsRefuseToOpenDuringADialogue" fullname="Echoes.Tests.CraftingPlayTests.OnlyOnePanelCanBeOpen_AndPanelsRefuseToOpenDuringADialogue" methodname="OnlyOnePanelCanBeOpen_AndPanelsRefuseToOpenDuringADialogue" classname="Echoes.Tests.CraftingPlayTests" runstate="Runnable" seed="1252134342" result="Passed" start-time="2026-10-29 09:02:20Z" end-time="2026-10-29 09:02:21Z" duration="1.060441" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1022" name="OutputWithoutRoom_KeepsTheIngredients" fullname="Echoes.Tests.CraftingPlayTests.OutputWithoutRoom_KeepsTheIngredients" methodname="OutputWithoutRoom_KeepsTheIngredients" classname="Echoes.Tests.CraftingPlayTests" runstate="Runnable" seed="1236841335" result="Passed" start-time="2026-10-29 09:02:21Z" end-time="2026-10-29 09:02:22Z" duration="1.089814" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1021" name="RepeatedClicks_CraftOnlyAsOftenAsTheIngredientsAllow" fullname="Echoes.Tests.CraftingPlayTests.RepeatedClicks_CraftOnlyAsOftenAsTheIngredientsAllow" methodname="RepeatedClicks_CraftOnlyAsOftenAsTheIngredientsAllow" classname="Echoes.Tests.CraftingPlayTests" runstate="Runnable" seed="331489337" result="Passed" start-time="2026-10-29 09:02:22Z" end-time="2026-10-29 09:02:23Z" duration="1.110513" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1019" name="Workshop_OpensThePanel_AndTheButtonCraftsFromRealIngredients" fullname="Echoes.Tests.CraftingPlayTests.Workshop_OpensThePanel_AndTheButtonCraftsFromRealIngredients" methodname="Workshop_OpensThePanel_AndTheButtonCraftsFromRealIngredients" classname="Echoes.Tests.CraftingPlayTests" runstate="Runnable" seed="457520023" result="Passed" start-time="2026-10-29 09:02:23Z" end-time="2026-10-29 09:02:24Z" duration="1.079590" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1012" name="GatheringPlayTests" fullname="Echoes.Tests.GatheringPlayTests" classname="Echoes.Tests.GatheringPlayTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-29 09:02:24Z" end-time="2026-10-29 09:02:30Z" duration="5.409459" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1017" name="EveryNode_StartsReady_AndComesBack" fullname="Echoes.Tests.GatheringPlayTests.EveryNode_StartsReady_AndComesBack" methodname="EveryNode_StartsReady_AndComesBack" classname="Echoes.Tests.GatheringPlayTests" runstate="Runnable" seed="1625398383" result="Passed" start-time="2026-10-29 09:02:24Z" end-time="2026-10-29 09:02:25Z" duration="1.048139" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1016" name="FullStack_DoesNotConsumeTheNode_AndExplainsWhy" fullname="Echoes.Tests.GatheringPlayTests.FullStack_DoesNotConsumeTheNode_AndExplainsWhy" methodname="FullStack_DoesNotConsumeTheNode_AndExplainsWhy" classname="Echoes.Tests.GatheringPlayTests" runstate="Runnable" seed="1398029869" result="Passed" start-time="2026-10-29 09:02:25Z" end-time="2026-10-29 09:02:26Z" duration="1.070753" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1013" name="InRange_Gathering_GrantsTheItem_AndTheNodeShowsItsRegrowingLook" fullname="Echoes.Tests.GatheringPlayTests.InRange_Gathering_GrantsTheItem_AndTheNodeShowsItsRegrowingLook" methodname="InRange_Gathering_GrantsTheItem_AndTheNodeShowsItsRegrowingLook" classname="Echoes.Tests.GatheringPlayTests" runstate="Runnable" seed="1713946550" result="Passed" start-time="2026-10-29 09:02:26Z" end-time="2026-10-29 09:02:27Z" duration="1.121677" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1014" name="OutOfRange_Gathering_IsRejected" fullname="Echoes.Tests.GatheringPlayTests.OutOfRange_Gathering_IsRejected" methodname="OutOfRange_Gathering_IsRejected" classname="Echoes.Tests.GatheringPlayTests" runstate="Runnable" seed="613657439" result="Passed" start-time="2026-10-29 09:02:27Z" end-time="2026-10-29 09:02:29Z" duration="1.066059" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1015" name="PressingTwice_GathersOnce_UntilTheNodeRegrows" fullname="Echoes.Tests.GatheringPlayTests.PressingTwice_GathersOnce_UntilTheNodeRegrows" methodname="PressingTwice_GathersOnce_UntilTheNodeRegrows" classname="Echoes.Tests.GatheringPlayTests" runstate="Runnable" seed="553133238" result="Passed" start-time="2026-10-29 09:02:29Z" end-time="2026-10-29 09:02:30Z" duration="1.097654" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1001" name="KeyboardPlayTests" fullname="Echoes.Tests.KeyboardPlayTests" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-29 09:02:30Z" end-time="2026-10-29 09:02:39Z" duration="9.791461" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="E_OpensDialogue_AdvancesOneLinePerPress_AndNeverReopensOnTheClosingPress" fullname="Echoes.Tests.KeyboardPlayTests.E_OpensDialogue_AdvancesOneLinePerPress_AndNeverReopensOnTheClosingPress" methodname="E_OpensDialogue_AdvancesOneLinePerPress_AndNeverReopensOnTheClosingPress" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" seed="1586628585" result="Passed" start-time="2026-10-29 09:02:30Z" end-time="2026-10-29 09:02:31Z" duration="1.302753" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1007" name="Ending_ClosingConversationByKeyboard_OpensTheScreen_AndEscapeContinuesWithoutPausing" fullname="Echoes.Tests.KeyboardPlayTests.Ending_ClosingConversationByKeyboard_OpensTheScreen_AndEscapeContinuesWithoutPausing" methodname="Ending_ClosingConversationByKeyboard_OpensTheScreen_AndEscapeContinuesWithoutPausing" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" seed="427466580" result="Passed" start-time="2026-10-29 09:02:31Z" end-time="2026-10-29 09:02:32Z" duration="1.409046" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1008" name="Ending_EnterContinuesExploring" fullname="Echoes.Tests.KeyboardPlayTests.Ending_EnterContinuesExploring" methodname="Ending_EnterContinuesExploring" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" seed="84778118" result="Passed" start-time="2026-10-29 09:02:32Z" end-time="2026-10-29 09:02:34Z" duration="1.225037" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1002" name="Escape_PausesAndResumes" fullname="Echoes.Tests.KeyboardPlayTests.Escape_PausesAndResumes" methodname="Escape_PausesAndResumes" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" seed="980948613" result="Passed" start-time="2026-10-29 09:02:34Z" end-time="2026-10-29 09:02:35Z" duration="1.052635" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1003" name="HoldingW_WalksTheCharacterForward" fullname="Echoes.Tests.KeyboardPlayTests.HoldingW_WalksTheCharacterForward" methodname="HoldingW_WalksTheCharacterForward" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" seed="722044311" result="Passed" start-time="2026-10-29 09:02:35Z" end-time="2026-10-29 09:02:37Z" duration="2.537646" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1005" name="I_TogglesTheSatchel_AndEscClosesItWithoutPausing" fullname="Echoes.Tests.KeyboardPlayTests.I_TogglesTheSatchel_AndEscClosesItWithoutPausing" methodname="I_TogglesTheSatchel_AndEscClosesItWithoutPausing" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" seed="590445122" result="Passed" start-time="2026-10-29 09:02:37Z" end-time="2026-10-29 09:02:38Z" duration="1.109710" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1006" name="PressingE_GathersFromBushes_AndKeyOneCraftsTheTonicAtTheWorkshop" fullname="Echoes.Tests.KeyboardPlayTests.PressingE_GathersFromBushes_AndKeyOneCraftsTheTonicAtTheWorkshop" methodname="PressingE_GathersFromBushes_AndKeyOneCraftsTheTonicAtTheWorkshop" classname="Echoes.Tests.KeyboardPlayTests" runstate="Runnable" seed="1636556583" result="Passed" start-time="2026-10-29 09:02:38Z" end-time="2026-10-29 09:02:39Z" duration="1.148777" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1009" name="MainMenuPlayTests" fullname="Echoes.Tests.MainMenuPlayTests" classname="Echoes.Tests.MainMenuPlayTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-29 09:02:39Z" end-time="2026-10-29 09:02:42Z" duration="2.641221" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1010" name="Menu_StartsWithARunningClockAndAVisibleCursor_AndUiInputIsBound" fullname="Echoes.Tests.MainMenuPlayTests.Menu_StartsWithARunningClockAndAVisibleCursor_AndUiInputIsBound" methodname="Menu_StartsWithARunningClockAndAVisibleCursor_AndUiInputIsBound" classname="Echoes.Tests.MainMenuPlayTests" runstate="Runnable" seed="1472590151" result="Passed" start-time="2026-10-29 09:02:39Z" end-time="2026-10-29 09:02:40Z" duration="0.634321" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+            <test-case id="1011" name="PlayButton_LoadsTheValleyInGameplayMode" fullname="Echoes.Tests.MainMenuPlayTests.PlayButton_LoadsTheValleyInGameplayMode" methodname="PlayButton_LoadsTheValleyInGameplayMode" classname="Echoes.Tests.MainMenuPlayTests" runstate="Runnable" seed="1383215289" result="Passed" start-time="2026-10-29 09:02:40Z" end-time="2026-10-29 09:02:42Z" duration="2.003934" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1041" name="MainMenuSavePlayTests" fullname="Echoes.Tests.MainMenuSavePlayTests" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-29 09:02:42Z" end-time="2026-10-29 09:02:51Z" duration="8.634083" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1047" name="NewGame_Cancel_KeepsTheTitleScreenAndTheSave" fullname="Echoes.Tests.MainMenuSavePlayTests.NewGame_Cancel_KeepsTheTitleScreenAndTheSave" methodname="NewGame_Cancel_KeepsTheTitleScreenAndTheSave" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" seed="533178418" result="Passed" start-time="2026-10-29 09:02:42Z" end-time="2026-10-29 09:02:43Z" duration="0.646661" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+            <test-case id="1046" name="NewGame_WithAnExistingSave_AsksFirst_AndOnlyConfirmingStartsClean" fullname="Echoes.Tests.MainMenuSavePlayTests.NewGame_WithAnExistingSave_AsksFirst_AndOnlyConfirmingStartsClean" methodname="NewGame_WithAnExistingSave_AsksFirst_AndOnlyConfirmingStartsClean" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" seed="1469110480" result="Passed" start-time="2026-10-29 09:02:43Z" end-time="2026-10-29 09:02:45Z" duration="1.942267" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1048" name="NewGame_WithAnUnreadableSave_AlsoAsks_AndKeepsTheFileAside" fullname="Echoes.Tests.MainMenuSavePlayTests.NewGame_WithAnUnreadableSave_AlsoAsks_AndKeepsTheFileAside" methodname="NewGame_WithAnUnreadableSave_AlsoAsks_AndKeepsTheFileAside" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" seed="1381548438" result="Passed" start-time="2026-10-29 09:02:45Z" end-time="2026-10-29 09:02:47Z" duration="1.995954" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1045" name="WhenOnlyTheBackupIsGood_ContinueStillWorks_AndMentionsTheBackup" fullname="Echoes.Tests.MainMenuSavePlayTests.WhenOnlyTheBackupIsGood_ContinueStillWorks_AndMentionsTheBackup" methodname="WhenOnlyTheBackupIsGood_ContinueStillWorks_AndMentionsTheBackup" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" seed="1512078271" result="Passed" start-time="2026-10-29 09:02:47Z" end-time="2026-10-29 09:02:47Z" duration="0.699782" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+            <test-case id="1044" name="WithACorruptSave_ContinueIsDisabled_AndSaysWhy" fullname="Echoes.Tests.MainMenuSavePlayTests.WithACorruptSave_ContinueIsDisabled_AndSaysWhy" methodname="WithACorruptSave_ContinueIsDisabled_AndSaysWhy" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" seed="1913734561" result="Passed" start-time="2026-10-29 09:02:47Z" end-time="2026-10-29 09:02:48Z" duration="0.628913" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+            <test-case id="1043" name="WithAValidSave_ContinueLoadsTheSavedGame" fullname="Echoes.Tests.MainMenuSavePlayTests.WithAValidSave_ContinueLoadsTheSavedGame" methodname="WithAValidSave_ContinueLoadsTheSavedGame" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" seed="1440899319" result="Passed" start-time="2026-10-29 09:02:48Z" end-time="2026-10-29 09:02:50Z" duration="1.978170" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1042" name="WithoutASave_ContinueIsDisabled_AndTheMenuExplainsIt" fullname="Echoes.Tests.MainMenuSavePlayTests.WithoutASave_ContinueIsDisabled_AndTheMenuExplainsIt" methodname="WithoutASave_ContinueIsDisabled_AndTheMenuExplainsIt" classname="Echoes.Tests.MainMenuSavePlayTests" runstate="Runnable" seed="2120598920" result="Passed" start-time="2026-10-29 09:02:50Z" end-time="2026-10-29 09:02:51Z" duration="0.737677" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1049" name="Phase3PlayTests" fullname="Echoes.Tests.Phase3PlayTests" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-29 09:02:51Z" end-time="2026-10-29 09:03:39Z" duration="48.118754" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1061" name="ClosingConversation_ShowsTheEnding_AndContinueExploringReturnsTheValley" fullname="Echoes.Tests.Phase3PlayTests.ClosingConversation_ShowsTheEnding_AndContinueExploringReturnsTheValley" methodname="ClosingConversation_ShowsTheEnding_AndContinueExploringReturnsTheValley" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="809875897" result="Passed" start-time="2026-10-29 09:02:51Z" end-time="2026-10-29 09:02:53Z" duration="2.216423" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1062" name="Ending_IsRemembered_AndNeverReplaysOnContinue" fullname="Echoes.Tests.Phase3PlayTests.Ending_IsRemembered_AndNeverReplaysOnContinue" methodname="Ending_IsRemembered_AndNeverReplaysOnContinue" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1796985609" result="Passed" start-time="2026-10-29 09:02:53Z" end-time="2026-10-29 09:02:55Z" duration="2.201385" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1063" name="Ending_MainMenuButton_LeavesForTheTitle_AndContinueResumesTheEndedGame" fullname="Echoes.Tests.Phase3PlayTests.Ending_MainMenuButton_LeavesForTheTitle_AndContinueResumesTheEndedGame" methodname="Ending_MainMenuButton_LeavesForTheTitle_AndContinueResumesTheEndedGame" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="2014482848" result="Passed" start-time="2026-10-29 09:02:55Z" end-time="2026-10-29 09:02:58Z" duration="3.300366" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] MainMenu ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1064" name="EverythingStaysGatherableCraftableAndFeedable_AfterAllThreeRestorations" fullname="Echoes.Tests.Phase3PlayTests.EverythingStaysGatherableCraftableAndFeedable_AfterAllThreeRestorations" methodname="EverythingStaysGatherableCraftableAndFeedable_AfterAllThreeRestorations" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1142999396" result="Passed" start-time="2026-10-29 09:02:58Z" end-time="2026-10-29 09:03:00Z" duration="1.806658" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1050" name="GardenKeeper_BeforeTheStream_ExplainsWhyTheGardenSleeps_AndStartsNothing" fullname="Echoes.Tests.Phase3PlayTests.GardenKeeper_BeforeTheStream_ExplainsWhyTheGardenSleeps_AndStartsNothing" methodname="GardenKeeper_BeforeTheStream_ExplainsWhyTheGardenSleeps_AndStartsNothing" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1139403371" result="Passed" start-time="2026-10-29 09:03:00Z" end-time="2026-10-29 09:03:01Z" duration="1.229179" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1051" name="GardenQuest_ThroughRealInteractions_BlossomsTheGarden_AndTheWorldKeepsEverythingEarlier" fullname="Echoes.Tests.Phase3PlayTests.GardenQuest_ThroughRealInteractions_BlossomsTheGarden_AndTheWorldKeepsEverythingEarlier" methodname="GardenQuest_ThroughRealInteractions_BlossomsTheGarden_AndTheWorldKeepsEverythingEarlier" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1572825253" result="Passed" start-time="2026-10-29 09:03:01Z" end-time="2026-10-29 09:03:10Z" duration="8.926058" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1052" name="GardenQuest_WithAnEggAlreadyInTheSatchel_StillCompletes" fullname="Echoes.Tests.Phase3PlayTests.GardenQuest_WithAnEggAlreadyInTheSatchel_StillCompletes" methodname="GardenQuest_WithAnEggAlreadyInTheSatchel_StillCompletes" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1072558345" result="Passed" start-time="2026-10-29 09:03:10Z" end-time="2026-10-29 09:03:12Z" duration="1.112428" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1053" name="GardenWorld_PersistsAcrossSaveAndLoad_WithoutReplayingTheReward" fullname="Echoes.Tests.Phase3PlayTests.GardenWorld_PersistsAcrossSaveAndLoad_WithoutReplayingTheReward" methodname="GardenWorld_PersistsAcrossSaveAndLoad_WithoutReplayingTheReward" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1500272915" result="Passed" start-time="2026-10-29 09:03:12Z" end-time="2026-10-29 09:03:14Z" duration="2.169856" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1060" name="Mira_DoesNotStartTheEnding_BeforeTheWindmillIsMended" fullname="Echoes.Tests.Phase3PlayTests.Mira_DoesNotStartTheEnding_BeforeTheWindmillIsMended" methodname="Mira_DoesNotStartTheEnding_BeforeTheWindmillIsMended" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="2143553325" result="Passed" start-time="2026-10-29 09:03:14Z" end-time="2026-10-29 09:03:15Z" duration="1.049486" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1054" name="UnfinishedGardenQuest_SurvivesSaveAndLoad" fullname="Echoes.Tests.Phase3PlayTests.UnfinishedGardenQuest_SurvivesSaveAndLoad" methodname="UnfinishedGardenQuest_SurvivesSaveAndLoad" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="591982458" result="Passed" start-time="2026-10-29 09:03:15Z" end-time="2026-10-29 09:03:17Z" duration="2.238381" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1059" name="Windmill_StandsStillWhilePaused_AndTurnsAgainOnResume" fullname="Echoes.Tests.Phase3PlayTests.Windmill_StandsStillWhilePaused_AndTurnsAgainOnResume" methodname="Windmill_StandsStillWhilePaused_AndTurnsAgainOnResume" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="2024828422" result="Passed" start-time="2026-10-29 09:03:17Z" end-time="2026-10-29 09:03:23Z" duration="5.957045" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1057" name="WindmillBraces_CraftedBeforeTheQuest_StillCompleteIt" fullname="Echoes.Tests.Phase3PlayTests.WindmillBraces_CraftedBeforeTheQuest_StillCompleteIt" methodname="WindmillBraces_CraftedBeforeTheQuest_StillCompleteIt" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1305369258" result="Passed" start-time="2026-10-29 09:03:23Z" end-time="2026-10-29 09:03:24Z" duration="1.251784" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1056" name="WindmillQuest_ThroughRealInteractions_MendsAndTurnsTheWindmill" fullname="Echoes.Tests.Phase3PlayTests.WindmillQuest_ThroughRealInteractions_MendsAndTurnsTheWindmill" methodname="WindmillQuest_ThroughRealInteractions_MendsAndTurnsTheWindmill" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1249373143" result="Passed" start-time="2026-10-29 09:03:24Z" end-time="2026-10-29 09:03:35Z" duration="10.697393" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1055" name="WindmillRestorer_BeforeTheGarden_AsksYouToWait_AndStartsNothing" fullname="Echoes.Tests.Phase3PlayTests.WindmillRestorer_BeforeTheGarden_AsksYouToWait_AndStartsNothing" methodname="WindmillRestorer_BeforeTheGarden_AsksYouToWait_AndStartsNothing" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="1347499713" result="Passed" start-time="2026-10-29 09:03:35Z" end-time="2026-10-29 09:03:36Z" duration="1.164045" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1058" name="WindmillWorld_PersistsAcrossSaveAndLoad_AndKeepsTurning" fullname="Echoes.Tests.Phase3PlayTests.WindmillWorld_PersistsAcrossSaveAndLoad_AndKeepsTurning" methodname="WindmillWorld_PersistsAcrossSaveAndLoad_AndKeepsTurning" classname="Echoes.Tests.Phase3PlayTests" runstate="Runnable" seed="769428377" result="Passed" start-time="2026-10-29 09:03:36Z" end-time="2026-10-29 09:03:39Z" duration="2.791441" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1078" name="Phase4MenuPlayTests" fullname="Echoes.Tests.Phase4MenuPlayTests" classname="Echoes.Tests.Phase4MenuPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-29 09:03:39Z" end-time="2026-10-29 09:03:41Z" duration="2.176969" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1080" name="Credits_OpenAndClose_ShowTheTruth_AndKeepTheMenuUsable" fullname="Echoes.Tests.Phase4MenuPlayTests.Credits_OpenAndClose_ShowTheTruth_AndKeepTheMenuUsable" methodname="Credits_OpenAndClose_ShowTheTruth_AndKeepTheMenuUsable" classname="Echoes.Tests.Phase4MenuPlayTests" runstate="Runnable" seed="442227504" result="Passed" start-time="2026-10-29 09:03:39Z" end-time="2026-10-29 09:03:40Z" duration="0.700704" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+            <test-case id="1079" name="TheTitleScreen_PlaysItsWelcomeMix_WhateverTheSave" fullname="Echoes.Tests.Phase4MenuPlayTests.TheTitleScreen_PlaysItsWelcomeMix_WhateverTheSave" methodname="TheTitleScreen_PlaysItsWelcomeMix_WhateverTheSave" classname="Echoes.Tests.Phase4MenuPlayTests" runstate="Runnable" seed="381835463" result="Passed" start-time="2026-10-29 09:03:40Z" end-time="2026-10-29 09:03:40Z" duration="0.716821" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+            <test-case id="1081" name="TheTitleVolumeSliders_ChangeTheMixAtOnce" fullname="Echoes.Tests.Phase4MenuPlayTests.TheTitleVolumeSliders_ChangeTheMixAtOnce" methodname="TheTitleVolumeSliders_ChangeTheMixAtOnce" classname="Echoes.Tests.Phase4MenuPlayTests" runstate="Runnable" seed="793447654" result="Passed" start-time="2026-10-29 09:03:40Z" end-time="2026-10-29 09:03:41Z" duration="0.756241" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1065" name="Phase4PlayTests" fullname="Echoes.Tests.Phase4PlayTests" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-29 09:03:41Z" end-time="2026-10-29 09:04:18Z" duration="36.928158" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1068" name="ALoadedGame_IsHeardAtOnce_AndReplaysNoSound" fullname="Echoes.Tests.Phase4PlayTests.ALoadedGame_IsHeardAtOnce_AndReplaysNoSound" methodname="ALoadedGame_IsHeardAtOnce_AndReplaysNoSound" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1283853980" result="Passed" start-time="2026-10-29 09:03:41Z" end-time="2026-10-29 09:03:44Z" duration="2.509373" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1076" name="Clouds_Drift_WaterFlows_AndWindowsGlowBrighterOnceRestored" fullname="Echoes.Tests.Phase4PlayTests.Clouds_Drift_WaterFlows_AndWindowsGlowBrighterOnceRestored" methodname="Clouds_Drift_WaterFlows_AndWindowsGlowBrighterOnceRestored" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1588280382" result="Passed" start-time="2026-10-29 09:03:44Z" end-time="2026-10-29 09:03:46Z" duration="2.277919" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1069" name="Cues_FollowRealChanges_OncePerCommit_AndRejectionsAreSilent" fullname="Echoes.Tests.Phase4PlayTests.Cues_FollowRealChanges_OncePerCommit_AndRejectionsAreSilent" methodname="Cues_FollowRealChanges_OncePerCommit_AndRejectionsAreSilent" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="829500529" result="Passed" start-time="2026-10-29 09:03:46Z" end-time="2026-10-29 09:03:47Z" duration="1.073371" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1067" name="EachRestoration_AddsItsLayers_AndTheStreamFadesInSmoothly" fullname="Echoes.Tests.Phase4PlayTests.EachRestoration_AddsItsLayers_AndTheStreamFadesInSmoothly" methodname="EachRestoration_AddsItsLayers_AndTheStreamFadesInSmoothly" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1678315585" result="Passed" start-time="2026-10-29 09:03:47Z" end-time="2026-10-29 09:03:55Z" duration="8.128945" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1071" name="Footsteps_PlayWhenWalking_ButNotWhenTeleported" fullname="Echoes.Tests.Phase4PlayTests.Footsteps_PlayWhenWalking_ButNotWhenTeleported" methodname="Footsteps_PlayWhenWalking_ButNotWhenTeleported" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1756762327" result="Passed" start-time="2026-10-29 09:03:55Z" end-time="2026-10-29 09:04:00Z" duration="4.623282" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1070" name="Panels_AndButtons_HaveTheirSounds_AndButtonsSwellUnderThePointer" fullname="Echoes.Tests.Phase4PlayTests.Panels_AndButtons_HaveTheirSounds_AndButtonsSwellUnderThePointer" methodname="Panels_AndButtons_HaveTheirSounds_AndButtonsSwellUnderThePointer" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1699833593" result="Passed" start-time="2026-10-29 09:04:00Z" end-time="2026-10-29 09:04:01Z" duration="1.851941" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1073" name="Pausing_DucksTheMix_AndResumingRestoresIt" fullname="Echoes.Tests.Phase4PlayTests.Pausing_DucksTheMix_AndResumingRestoresIt" methodname="Pausing_DucksTheMix_AndResumingRestoresIt" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1044319813" result="Passed" start-time="2026-10-29 09:04:01Z" end-time="2026-10-29 09:04:03Z" duration="1.160595" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1074" name="TheEnding_PlaysItsOwnPiece_StepsTheBedsAside_AndClearsTheBanner" fullname="Echoes.Tests.Phase4PlayTests.TheEnding_PlaysItsOwnPiece_StepsTheBedsAside_AndClearsTheBanner" methodname="TheEnding_PlaysItsOwnPiece_StepsTheBedsAside_AndClearsTheBanner" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1929070661" result="Passed" start-time="2026-10-29 09:04:03Z" end-time="2026-10-29 09:04:04Z" duration="1.852201" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1075" name="TheGrading_GetsWarmerAndBrighterWithEachStage_AndTheSilentValleyIsNotDark" fullname="Echoes.Tests.Phase4PlayTests.TheGrading_GetsWarmerAndBrighterWithEachStage_AndTheSilentValleyIsNotDark" methodname="TheGrading_GetsWarmerAndBrighterWithEachStage_AndTheSilentValleyIsNotDark" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="1492309537" result="Passed" start-time="2026-10-29 09:04:04Z" end-time="2026-10-29 09:04:06Z" duration="1.081825" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1077" name="TheHero_SwingsLimbsWhileWalking_AndBlinksWhileStanding" fullname="Echoes.Tests.Phase4PlayTests.TheHero_SwingsLimbsWhileWalking_AndBlinksWhileStanding" methodname="TheHero_SwingsLimbsWhileWalking_AndBlinksWhileStanding" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="2139552891" result="Passed" start-time="2026-10-29 09:04:06Z" end-time="2026-10-29 09:04:15Z" duration="9.075417" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1066" name="TheValleyStartsSparse_EveryLayerRunning_OnlyBellsAndWindHeard" fullname="Echoes.Tests.Phase4PlayTests.TheValleyStartsSparse_EveryLayerRunning_OnlyBellsAndWindHeard" methodname="TheValleyStartsSparse_EveryLayerRunning_OnlyBellsAndWindHeard" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="2095841526" result="Passed" start-time="2026-10-29 09:04:15Z" end-time="2026-10-29 09:04:16Z" duration="1.340211" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1072" name="Volume_ScalesTheMix_AndTheSlidersChangeAndKeepIt" fullname="Echoes.Tests.Phase4PlayTests.Volume_ScalesTheMix_AndTheSlidersChangeAndKeepIt" methodname="Volume_ScalesTheMix_AndTheSlidersChangeAndKeepIt" classname="Echoes.Tests.Phase4PlayTests" runstate="Runnable" seed="958323251" result="Passed" start-time="2026-10-29 09:04:16Z" end-time="2026-10-29 09:04:18Z" duration="1.946277" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1082" name="Phase51UiPlayTests" fullname="Echoes.Tests.Phase51UiPlayTests" classname="Echoes.Tests.Phase51UiPlayTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-29 09:04:18Z" end-time="2026-10-29 09:04:20Z" duration="2.368147" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1084" name="ConsumingAnEarlierStack_MovesTheEggWithItsOwnIcon" fullname="Echoes.Tests.Phase51UiPlayTests.ConsumingAnEarlierStack_MovesTheEggWithItsOwnIcon" methodname="ConsumingAnEarlierStack_MovesTheEggWithItsOwnIcon" classname="Echoes.Tests.Phase51UiPlayTests" runstate="Runnable" seed="670088295" result="Passed" start-time="2026-10-29 09:04:18Z" end-time="2026-10-29 09:04:19Z" duration="1.322434" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1083" name="VillagerFeet_AreAtTheTerrainSurface" fullname="Echoes.Tests.Phase51UiPlayTests.VillagerFeet_AreAtTheTerrainSurface" methodname="VillagerFeet_AreAtTheTerrainSurface" classname="Echoes.Tests.Phase51UiPlayTests" runstate="Runnable" seed="396624874" result="Passed" start-time="2026-10-29 09:04:19Z" end-time="2026-10-29 09:04:20Z" duration="1.042402" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1085" name="Phase52B3PlayTests" fullname="Echoes.Tests.Phase52B3PlayTests" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-29 09:04:20Z" end-time="2026-10-29 09:04:34Z" duration="14.054465" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1092" name="B3PilotScene_ShowsOnlyTheSprite_TalksAndSaves_AndContinueRestoresTheQuest" fullname="Echoes.Tests.Phase52B3PlayTests.B3PilotScene_ShowsOnlyTheSprite_TalksAndSaves_AndContinueRestoresTheQuest" methodname="B3PilotScene_ShowsOnlyTheSprite_TalksAndSaves_AndContinueRestoresTheQuest" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" seed="2023956081" result="Passed" start-time="2026-10-29 09:04:20Z" end-time="2026-10-29 09:04:25Z" duration="4.546461" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1091" name="DialoguePortraits_ShowTheCaretakerAndTheVillagerWhoSpeaks" fullname="Echoes.Tests.Phase52B3PlayTests.DialoguePortraits_ShowTheCaretakerAndTheVillagerWhoSpeaks" methodname="DialoguePortraits_ShowTheCaretakerAndTheVillagerWhoSpeaks" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" seed="323711279" result="Passed" start-time="2026-10-29 09:04:25Z" end-time="2026-10-29 09:04:26Z" duration="1.170642" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1087" name="Direction_FollowsTheFacingRelativeToTheCamera_WithTheDiagonalsOnTheSideViews" fullname="Echoes.Tests.Phase52B3PlayTests.Direction_FollowsTheFacingRelativeToTheCamera_WithTheDiagonalsOnTheSideViews" methodname="Direction_FollowsTheFacingRelativeToTheCamera_WithTheDiagonalsOnTheSideViews" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" seed="57153865" result="Passed" start-time="2026-10-29 09:04:26Z" end-time="2026-10-29 09:04:27Z" duration="1.050792" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1089" name="FixedCamera_FollowsWithAConstantYaw_IgnoresTheOrbit_AndYieldsToScriptedShots" fullname="Echoes.Tests.Phase52B3PlayTests.FixedCamera_FollowsWithAConstantYaw_IgnoresTheOrbit_AndYieldsToScriptedShots" methodname="FixedCamera_FollowsWithAConstantYaw_IgnoresTheOrbit_AndYieldsToScriptedShots" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" seed="1406535492" result="Passed" start-time="2026-10-29 09:04:27Z" end-time="2026-10-29 09:04:30Z" duration="2.580676" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1090" name="Interaction_StillWorks_WithTheSpritePresentation" fullname="Echoes.Tests.Phase52B3PlayTests.Interaction_StillWorks_WithTheSpritePresentation" methodname="Interaction_StillWorks_WithTheSpritePresentation" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" seed="994920114" result="Passed" start-time="2026-10-29 09:04:30Z" end-time="2026-10-29 09:04:31Z" duration="1.114548" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1088" name="Teleport_DoesNotAdvanceTheRunCycle" fullname="Echoes.Tests.Phase52B3PlayTests.Teleport_DoesNotAdvanceTheRunCycle" methodname="Teleport_DoesNotAdvanceTheRunCycle" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" seed="1027563591" result="Passed" start-time="2026-10-29 09:04:31Z" end-time="2026-10-29 09:04:32Z" duration="1.189097" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1086" name="Walking_AdvancesTheRunCycleByDistanceOverStride_AndStoppingReturnsToIdle" fullname="Echoes.Tests.Phase52B3PlayTests.Walking_AdvancesTheRunCycleByDistanceOverStride_AndStoppingReturnsToIdle" methodname="Walking_AdvancesTheRunCycleByDistanceOverStride_AndStoppingReturnsToIdle" classname="Echoes.Tests.Phase52B3PlayTests" runstate="Runnable" seed="1520156510" result="Passed" start-time="2026-10-29 09:04:32Z" end-time="2026-10-29 09:04:34Z" duration="2.395437" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1093" name="Phase52B4PlayTests" fullname="Echoes.Tests.Phase52B4PlayTests" classname="Echoes.Tests.Phase52B4PlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-29 09:04:34Z" end-time="2026-10-29 09:04:52Z" duration="18.083714" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1094" name="B4Scene_RestoresTheStreamThroughTheWorkshopAndTheSpring_AndContinueKeepsIt" fullname="Echoes.Tests.Phase52B4PlayTests.B4Scene_RestoresTheStreamThroughTheWorkshopAndTheSpring_AndContinueKeepsIt" methodname="B4Scene_RestoresTheStreamThroughTheWorkshopAndTheSpring_AndContinueKeepsIt" classname="Echoes.Tests.Phase52B4PlayTests" runstate="Runnable" seed="222640443" result="Passed" start-time="2026-10-29 09:04:34Z" end-time="2026-10-29 09:04:42Z" duration="7.928590" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1096" name="BeforeAndAfter_SwitchOnlyThePresentation" fullname="Echoes.Tests.Phase52B4PlayTests.BeforeAndAfter_SwitchOnlyThePresentation" methodname="BeforeAndAfter_SwitchOnlyThePresentation" classname="Echoes.Tests.Phase52B4PlayTests" runstate="Runnable" seed="1559813623" result="Passed" start-time="2026-10-29 09:04:42Z" end-time="2026-10-29 09:04:45Z" duration="2.989588" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1097" name="HighCamera_StaysFixed_AndDoesNotJumpInBehindThePaintedWorkshop" fullname="Echoes.Tests.Phase52B4PlayTests.HighCamera_StaysFixed_AndDoesNotJumpInBehindThePaintedWorkshop" methodname="HighCamera_StaysFixed_AndDoesNotJumpInBehindThePaintedWorkshop" classname="Echoes.Tests.Phase52B4PlayTests" runstate="Runnable" seed="795903612" result="Passed" start-time="2026-10-29 09:04:45Z" end-time="2026-10-29 09:04:49Z" duration="4.077748" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1095" name="Minimap_FollowsThePlayer_AndPointsAtTheCurrentObjective" fullname="Echoes.Tests.Phase52B4PlayTests.Minimap_FollowsThePlayer_AndPointsAtTheCurrentObjective" methodname="Minimap_FollowsThePlayer_AndPointsAtTheCurrentObjective" classname="Echoes.Tests.Phase52B4PlayTests" runstate="Runnable" seed="1562696589" result="Passed" start-time="2026-10-29 09:04:49Z" end-time="2026-10-29 09:04:52Z" duration="3.083350" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1098" name="Phase52B5PlayTests" fullname="Echoes.Tests.Phase52B5PlayTests" classname="Echoes.Tests.Phase52B5PlayTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-29 09:04:52Z" end-time="2026-10-29 09:05:31Z" duration="38.934769" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1099" name="B5Scene_RestoresTheStream_TheSpringPaintingFollowsTheStage_AndContinueKeepsIt" fullname="Echoes.Tests.Phase52B5PlayTests.B5Scene_RestoresTheStream_TheSpringPaintingFollowsTheStage_AndContinueKeepsIt" methodname="B5Scene_RestoresTheStream_TheSpringPaintingFollowsTheStage_AndContinueKeepsIt" classname="Echoes.Tests.Phase52B5PlayTests" runstate="Runnable" seed="1302394318" result="Passed" start-time="2026-10-29 09:04:52Z" end-time="2026-10-29 09:05:01Z" duration="8.639969" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1101" name="GatheringAHerb_SwapsThePaintedPlantForItsCutStump_AndTheTimerBringsItBack" fullname="Echoes.Tests.Phase52B5PlayTests.GatheringAHerb_SwapsThePaintedPlantForItsCutStump_AndTheTimerBringsItBack" methodname="GatheringAHerb_SwapsThePaintedPlantForItsCutStump_AndTheTimerBringsItBack" classname="Echoes.Tests.Phase52B5PlayTests" runstate="Runnable" seed="1796235828" result="Passed" start-time="2026-10-29 09:05:01Z" end-time="2026-10-29 09:05:04Z" duration="2.510483" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1104" name="Minimap_ShowsTheB5Bake_AndStillFollowsThePlayerAndTheObjective" fullname="Echoes.Tests.Phase52B5PlayTests.Minimap_ShowsTheB5Bake_AndStillFollowsThePlayerAndTheObjective" methodname="Minimap_ShowsTheB5Bake_AndStillFollowsThePlayerAndTheObjective" classname="Echoes.Tests.Phase52B5PlayTests" runstate="Runnable" seed="1426683125" result="Passed" start-time="2026-10-29 09:05:04Z" end-time="2026-10-29 09:05:07Z" duration="3.169822" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1102" name="PlayerBehindAPaintedTree_StaysVisibleThroughTheCanopysOpening" fullname="Echoes.Tests.Phase52B5PlayTests.PlayerBehindAPaintedTree_StaysVisibleThroughTheCanopysOpening" methodname="PlayerBehindAPaintedTree_StaysVisibleThroughTheCanopysOpening" classname="Echoes.Tests.Phase52B5PlayTests" runstate="Runnable" seed="1025095191" result="Passed" start-time="2026-10-29 09:05:07Z" end-time="2026-10-29 09:05:25Z" duration="17.909579" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5 TEST] behind the painted tree: visible share 0.748 with the opening, 0.000 without
+]]></output>
+            </test-case>
+            <test-case id="1100" name="RaisedBeds_StopThePlayer_InB5_AndNotInTheB4BeforeMode" fullname="Echoes.Tests.Phase52B5PlayTests.RaisedBeds_StopThePlayer_InB5_AndNotInTheB4BeforeMode" methodname="RaisedBeds_StopThePlayer_InB5_AndNotInTheB4BeforeMode" classname="Echoes.Tests.Phase52B5PlayTests" runstate="Runnable" seed="1952502080" result="Passed" start-time="2026-10-29 09:05:25Z" end-time="2026-10-29 09:05:29Z" duration="4.270196" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+            <test-case id="1103" name="SilentValleyLight_IsTheB5One_AndBeforeModeRestoresTheB4Light" fullname="Echoes.Tests.Phase52B5PlayTests.SilentValleyLight_IsTheB5One_AndBeforeModeRestoresTheB4Light" methodname="SilentValleyLight_IsTheB5One_AndBeforeModeRestoresTheB4Light" classname="Echoes.Tests.Phase52B5PlayTests" runstate="Runnable" seed="1919931065" result="Passed" start-time="2026-10-29 09:05:29Z" end-time="2026-10-29 09:05:31Z" duration="2.429632" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes][P52] isolated pilot, baseline=False; owner approval PENDING; world expansion disabled.
+[Echoes] Valley ready.
+[Echoes][P52 B3] 2.5D pilot, legacyHero=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B4] high-angle 2.5D pilot, before=False; owner approval PENDING; world expansion disabled.
+[Echoes][P52 B5] painted environment pilot, before=False; owner approval PENDING; world expansion disabled.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1105" name="Phase52MotionPlayTests" fullname="Echoes.Tests.Phase52MotionPlayTests" classname="Echoes.Tests.Phase52MotionPlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-29 09:05:31Z" end-time="2026-10-29 09:05:37Z" duration="5.245896" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1106" name="ActualMovement_DrivesSkin_AndPauseStopsItsPhase" fullname="Echoes.Tests.Phase52MotionPlayTests.ActualMovement_DrivesSkin_AndPauseStopsItsPhase" methodname="ActualMovement_DrivesSkin_AndPauseStopsItsPhase" classname="Echoes.Tests.Phase52MotionPlayTests" runstate="Runnable" seed="1520987557" result="Passed" start-time="2026-10-29 09:05:31Z" end-time="2026-10-29 09:05:33Z" duration="2.001761" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1108" name="FoliageFadeDriver_PublishesThePlayerAsTheShaderFocus_AndClearsItOnDisable" fullname="Echoes.Tests.Phase52MotionPlayTests.FoliageFadeDriver_PublishesThePlayerAsTheShaderFocus_AndClearsItOnDisable" methodname="FoliageFadeDriver_PublishesThePlayerAsTheShaderFocus_AndClearsItOnDisable" classname="Echoes.Tests.Phase52MotionPlayTests" runstate="Runnable" seed="1063610009" result="Passed" start-time="2026-10-29 09:05:33Z" end-time="2026-10-29 09:05:34Z" duration="1.036513" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1109" name="TeleportDoesNotBecomeWalkingEvidence" fullname="Echoes.Tests.Phase52MotionPlayTests.TeleportDoesNotBecomeWalkingEvidence" methodname="TeleportDoesNotBecomeWalkingEvidence" classname="Echoes.Tests.Phase52MotionPlayTests" runstate="Runnable" seed="488182148" result="Passed" start-time="2026-10-29 09:05:34Z" end-time="2026-10-29 09:05:36Z" duration="1.227968" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1107" name="TurnClipsPlayOnAnUpperBodyLayer_AndLocomotionStaysOnTheBaseLayer" fullname="Echoes.Tests.Phase52MotionPlayTests.TurnClipsPlayOnAnUpperBodyLayer_AndLocomotionStaysOnTheBaseLayer" methodname="TurnClipsPlayOnAnUpperBodyLayer_AndLocomotionStaysOnTheBaseLayer" classname="Echoes.Tests.Phase52MotionPlayTests" runstate="Runnable" seed="1962313055" result="Passed" start-time="2026-10-29 09:05:36Z" end-time="2026-10-29 09:05:37Z" duration="0.974543" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1035" name="SaveLoadPlayTests" fullname="Echoes.Tests.SaveLoadPlayTests" classname="Echoes.Tests.SaveLoadPlayTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-29 09:05:37Z" end-time="2026-10-29 09:05:47Z" duration="10.465281" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1037" name="CompletedRestoration_PersistsAcrossSaveAndLoad_WithoutReplayingAnyReward" fullname="Echoes.Tests.SaveLoadPlayTests.CompletedRestoration_PersistsAcrossSaveAndLoad_WithoutReplayingAnyReward" methodname="CompletedRestoration_PersistsAcrossSaveAndLoad_WithoutReplayingAnyReward" classname="Echoes.Tests.SaveLoadPlayTests" runstate="Runnable" seed="1624012118" result="Passed" start-time="2026-10-29 09:05:37Z" end-time="2026-10-29 09:05:39Z" duration="1.923356" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1039" name="Continue_WithACorruptSave_NeverLoadsIt" fullname="Echoes.Tests.SaveLoadPlayTests.Continue_WithACorruptSave_NeverLoadsIt" methodname="Continue_WithACorruptSave_NeverLoadsIt" classname="Echoes.Tests.SaveLoadPlayTests" runstate="Runnable" seed="1308023799" result="Passed" start-time="2026-10-29 09:05:39Z" end-time="2026-10-29 09:05:41Z" duration="2.138573" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1038" name="Continue_WithoutASave_FallsBackToANewGame_AndSaysSo" fullname="Echoes.Tests.SaveLoadPlayTests.Continue_WithoutASave_FallsBackToANewGame_AndSaysSo" methodname="Continue_WithoutASave_FallsBackToANewGame_AndSaysSo" classname="Echoes.Tests.SaveLoadPlayTests" runstate="Runnable" seed="1966144696" result="Passed" start-time="2026-10-29 09:05:41Z" end-time="2026-10-29 09:05:43Z" duration="1.998809" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1040" name="MilestonesAutosave_AndNewGameStartsCleanEvenWhenASaveExists" fullname="Echoes.Tests.SaveLoadPlayTests.MilestonesAutosave_AndNewGameStartsCleanEvenWhenASaveExists" methodname="MilestonesAutosave_AndNewGameStartsCleanEvenWhenASaveExists" classname="Echoes.Tests.SaveLoadPlayTests" runstate="Runnable" seed="63995879" result="Passed" start-time="2026-10-29 09:05:43Z" end-time="2026-10-29 09:05:45Z" duration="2.256069" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1036" name="SaveFromThePauseMenu_ThenContinue_RestoresTheSessionAndTheScene" fullname="Echoes.Tests.SaveLoadPlayTests.SaveFromThePauseMenu_ThenContinue_RestoresTheSessionAndTheScene" methodname="SaveFromThePauseMenu_ThenContinue_RestoresTheSessionAndTheScene" classname="Echoes.Tests.SaveLoadPlayTests" runstate="Runnable" seed="55072972" result="Passed" start-time="2026-10-29 09:05:45Z" end-time="2026-10-29 09:05:47Z" duration="2.144411" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1029" name="StreamQuestPlayTests" fullname="Echoes.Tests.StreamQuestPlayTests" classname="Echoes.Tests.StreamQuestPlayTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-29 09:05:47Z" end-time="2026-10-29 09:05:57Z" duration="9.810623" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1032" name="FullQuest_GatherCraftDeliver_RestoresTheStream_AndTheWorldVisiblyChanges" fullname="Echoes.Tests.StreamQuestPlayTests.FullQuest_GatherCraftDeliver_RestoresTheStream_AndTheWorldVisiblyChanges" methodname="FullQuest_GatherCraftDeliver_RestoresTheStream_AndTheWorldVisiblyChanges" classname="Echoes.Tests.StreamQuestPlayTests" runstate="Runnable" seed="263063548" result="Passed" start-time="2026-10-29 09:05:47Z" end-time="2026-10-29 09:05:53Z" duration="5.444364" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1034" name="Lighting_ComposesTheHeartAndTheStream_InAnyOrder" fullname="Echoes.Tests.StreamQuestPlayTests.Lighting_ComposesTheHeartAndTheStream_InAnyOrder" methodname="Lighting_ComposesTheHeartAndTheStream_InAnyOrder" classname="Echoes.Tests.StreamQuestPlayTests" runstate="Runnable" seed="96050500" result="Passed" start-time="2026-10-29 09:05:53Z" end-time="2026-10-29 09:05:54Z" duration="1.071193" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1033" name="Mira_FollowsTheRealQuestState" fullname="Echoes.Tests.StreamQuestPlayTests.Mira_FollowsTheRealQuestState" methodname="Mira_FollowsTheRealQuestState" classname="Echoes.Tests.StreamQuestPlayTests" runstate="Runnable" seed="1516514700" result="Passed" start-time="2026-10-29 09:05:54Z" end-time="2026-10-29 09:05:55Z" duration="1.127203" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1031" name="Spring_CannotRestoreTheStream_WithoutTheQuestAndTheTonic" fullname="Echoes.Tests.StreamQuestPlayTests.Spring_CannotRestoreTheStream_WithoutTheQuestAndTheTonic" methodname="Spring_CannotRestoreTheStream_WithoutTheQuestAndTheTonic" classname="Echoes.Tests.StreamQuestPlayTests" runstate="Runnable" seed="663043322" result="Passed" start-time="2026-10-29 09:05:55Z" end-time="2026-10-29 09:05:56Z" duration="1.122975" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1030" name="TheValley_StartsSilent" fullname="Echoes.Tests.StreamQuestPlayTests.TheValley_StartsSilent" methodname="TheValley_StartsSilent" classname="Echoes.Tests.StreamQuestPlayTests" runstate="Runnable" seed="1812161665" result="Passed" start-time="2026-10-29 09:05:56Z" end-time="2026-10-29 09:05:57Z" duration="1.039959" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1110" name="ValleyPlayTests" fullname="Echoes.Tests.ValleyPlayTests" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-29 09:05:57Z" end-time="2026-10-29 09:06:26Z" duration="28.976547" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1116" name="Camera_KeepsItsDistanceAndTheVerticalAngleInRange" fullname="Echoes.Tests.ValleyPlayTests.Camera_KeepsItsDistanceAndTheVerticalAngleInRange" methodname="Camera_KeepsItsDistanceAndTheVerticalAngleInRange" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="475727316" result="Passed" start-time="2026-10-29 09:05:57Z" end-time="2026-10-29 09:05:58Z" duration="1.043871" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1117" name="Camera_StaysAboveTheGround_OnHillsAndNearTheRim" fullname="Echoes.Tests.ValleyPlayTests.Camera_StaysAboveTheGround_OnHillsAndNearTheRim" methodname="Camera_StaysAboveTheGround_OnHillsAndNearTheRim" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="1581206771" result="Passed" start-time="2026-10-29 09:05:58Z" end-time="2026-10-29 09:05:59Z" duration="1.082923" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1119" name="Dialogue_FreezesMovementUntilItCloses" fullname="Echoes.Tests.ValleyPlayTests.Dialogue_FreezesMovementUntilItCloses" methodname="Dialogue_FreezesMovementUntilItCloses" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="286679326" result="Passed" start-time="2026-10-29 09:05:59Z" end-time="2026-10-29 09:06:01Z" duration="1.884467" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1118" name="Interaction_IsOfferedAndAllowedOnlyInRange" fullname="Echoes.Tests.ValleyPlayTests.Interaction_IsOfferedAndAllowedOnlyInRange" methodname="Interaction_IsOfferedAndAllowedOnlyInRange" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="498177863" result="Passed" start-time="2026-10-29 09:06:01Z" end-time="2026-10-29 09:06:02Z" duration="1.044739" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1121" name="Objective_FollowsTheExpectedOrder_CompletesOnce_AndANewGameResetsIt" fullname="Echoes.Tests.ValleyPlayTests.Objective_FollowsTheExpectedOrder_CompletesOnce_AndANewGameResetsIt" methodname="Objective_FollowsTheExpectedOrder_CompletesOnce_AndANewGameResetsIt" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="170682165" result="Passed" start-time="2026-10-29 09:06:02Z" end-time="2026-10-29 09:06:10Z" duration="7.954053" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] MainMenu ready.
+[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1122" name="Pause_FreezesTimeAndMovement_AndResumeRestoresThem" fullname="Echoes.Tests.ValleyPlayTests.Pause_FreezesTimeAndMovement_AndResumeRestoresThem" methodname="Pause_FreezesTimeAndMovement_AndResumeRestoresThem" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="1952268848" result="Passed" start-time="2026-10-29 09:06:10Z" end-time="2026-10-29 09:06:12Z" duration="1.753533" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1123" name="Pause_ResumeButtonAndMainMenuButtonWork_AndTimeIsRunningInTheMenu" fullname="Echoes.Tests.ValleyPlayTests.Pause_ResumeButtonAndMainMenuButtonWork_AndTimeIsRunningInTheMenu" methodname="Pause_ResumeButtonAndMainMenuButtonWork_AndTimeIsRunningInTheMenu" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="1202222486" result="Passed" start-time="2026-10-29 09:06:12Z" end-time="2026-10-29 09:06:13Z" duration="1.704512" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+[Echoes] MainMenu ready.
+]]></output>
+            </test-case>
+            <test-case id="1114" name="Player_IsStoppedByTheHeartObelisk" fullname="Echoes.Tests.ValleyPlayTests.Player_IsStoppedByTheHeartObelisk" methodname="Player_IsStoppedByTheHeartObelisk" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="290967135" result="Passed" start-time="2026-10-29 09:06:13Z" end-time="2026-10-29 09:06:18Z" duration="4.341957" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1115" name="Player_RespawnsWhenItFallsOutOfTheWorld" fullname="Echoes.Tests.ValleyPlayTests.Player_RespawnsWhenItFallsOutOfTheWorld" methodname="Player_RespawnsWhenItFallsOutOfTheWorld" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="1267563074" result="Passed" start-time="2026-10-29 09:06:18Z" end-time="2026-10-29 09:06:19Z" duration="0.985656" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1111" name="Player_SettlesOnTheTerrainAndStaysThere" fullname="Echoes.Tests.ValleyPlayTests.Player_SettlesOnTheTerrainAndStaysThere" methodname="Player_SettlesOnTheTerrainAndStaysThere" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="1047794279" result="Passed" start-time="2026-10-29 09:06:19Z" end-time="2026-10-29 09:06:21Z" duration="2.050193" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1113" name="Player_TurnsSmoothlyTowardTheMovementDirection" fullname="Echoes.Tests.ValleyPlayTests.Player_TurnsSmoothlyTowardTheMovementDirection" methodname="Player_TurnsSmoothlyTowardTheMovementDirection" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="706345472" result="Passed" start-time="2026-10-29 09:06:21Z" end-time="2026-10-29 09:06:22Z" duration="1.281668" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1112" name="Player_WalksAlongTheCameraDirection_AtWalkingSpeed" fullname="Echoes.Tests.ValleyPlayTests.Player_WalksAlongTheCameraDirection_AtWalkingSpeed" methodname="Player_WalksAlongTheCameraDirection_AtWalkingSpeed" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="131834172" result="Passed" start-time="2026-10-29 09:06:22Z" end-time="2026-10-29 09:06:25Z" duration="2.815071" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+]]></output>
+            </test-case>
+            <test-case id="1120" name="Workshop_OpensTheAlchemyPanel_WithoutChangingTheObjective" fullname="Echoes.Tests.ValleyPlayTests.Workshop_OpensTheAlchemyPanel_WithoutChangingTheObjective" methodname="Workshop_OpensTheAlchemyPanel_WithoutChangingTheObjective" classname="Echoes.Tests.ValleyPlayTests" runstate="Runnable" seed="67874469" result="Passed" start-time="2026-10-29 09:06:25Z" end-time="2026-10-29 09:06:26Z" duration="1.024643" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Echoes] Valley ready.
+Saving results to: C:/Users/weila/AppData/LocalLow/EchoesJam/Echoes of the Valley\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
