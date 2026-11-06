@@ -38,6 +38,7 @@ python labs/supply-chain-consumer/attest.py verify --source labs/supply-chain-co
 
 - Syft 发布包 `syft_1.55.0_windows_amd64.zip` SHA-256：`ada4c9b93af575f479ce80fce6629897272a2d41f300a14bc49bace020767ca2`，与官方 checksums 文件一致。
 - 实际扫描识别 2 个 package，包含 `requests` 2.31.0。
+- 已合入 PR #3（merge commit `b28108f21ab9460d00897e7b57992268a150ec51`）；Linux Actions run `42294129417` 的三个 job 全部成功。
 - 签名 envelope 验证通过，源码摘要为 `01150085a4d3469a1905909c0b4aa1850359dfb79c9530e83a1b6eb00d74738b`。
 - Windows 本地单测：11 项运行，10 通过，1 项因 Windows 符号链接权限跳过。Linux Actions job 已配置，CI 结果以 PR run 为准。
 - 负向测试拒绝 payload 篡改、错误公钥、修改后的源码、错误 subject、缺失策略包、被替换的 detached SBOM 和错误 payload type。
