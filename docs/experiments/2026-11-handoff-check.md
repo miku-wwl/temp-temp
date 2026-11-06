@@ -16,3 +16,5 @@ python labs/handoff-check/validate.py --root labs/handoff-check/sample --bundle 
 ## 实测
 
 样例关联 `High5xxRate` 告警、runbook 和本地证据文件。测试覆盖缺字段、缺 runbook、内容变更、路径穿越、绝对路径、时区缺失、重复告警及坏摘要。完整验证输出见 `evidence/p08/`。
+
+已合入 PR #8（merge commit `d9ddd41d4f0c7f28cbd593648462d51f5e08b486`）；PR 与 push runs `42297007440`、`42297043623` 的八个 job 全部通过。

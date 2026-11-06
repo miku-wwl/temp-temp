@@ -88,8 +88,10 @@
 
 - 最小目标：校验 incident 元数据、唯一告警名、时区时间、仓库内 runbook 路径及证据 SHA-256；拒绝绝对路径、路径穿越和符号链接。
 - 实验代码：`labs/handoff-check/`；样例交接包和验证输出位于 `evidence/p08/`。
-- 当前分支：`p08-handoff-validator`；本地验证完成后经 PR 提交，远端 CI 待确认。
+- Windows 本地验证：10 项运行，9 通过，1 项符号链接用例因宿主权限跳过；样例交接包实际输出 PASS。
+- 已完成并合入 PR #8；提交 `a1aac2cd1f30602bf974b6155698abe6185b4db6`，merge commit `d9ddd41d4f0c7f28cbd593648462d51f5e08b486`；PR run `42297007440` 和 push run `42297043623` 的八个 job 全绿。
+- 总体验收报告位于 `docs/acceptance-report.md`，经后续受保护 PR 提交。
 
 ## 恢复方式
 
-恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03–P07 已合入；当前恢复点为 `p08-handoff-validator`。不要重置或清理工作区；写入新文件前先确认目标不存在。
+恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md`、`docs/ROADMAP.md` 与 `docs/acceptance-report.md`，并检查当前阶段 PR/CI。P03–P08 已合入；当前为验收报告检查点。不要重置或清理工作区；写入新文件前先确认目标不存在。
