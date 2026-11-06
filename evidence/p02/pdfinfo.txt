@@ -1,0 +1,19 @@
+Title:           用 SOURCE_DATE_EPOCH 构建可重复归档
+Creator:         Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0
+Producer:        Skia/PDF m156
+CreationDate:    Sat Nov  7 09:27:18 2026 ����������ʱ
+ModDate:         Sat Nov  7 09:27:18 2026 ����������ʱ
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           4
+Encrypted:       no
+Page size:       594.96 x 841.92 pts (A4)
+Page rot:        0
+File size:       347457 bytes
+Optimized:       no
+PDF version:     1.4

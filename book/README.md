@@ -5,18 +5,26 @@
 ## 章节
 
 - [第 1 章：把生产故障配置挡在合并之前](chapters/01-prod-config-safety.md)
+- [第 2 章：用 SOURCE_DATE_EPOCH 构建可重复归档](chapters/02-reproducible-archive.md)
 - [P01 实验代码](../labs/prod-config-guard/)
-- [P01 实验记录](../docs/experiments/2026-11-prod-config-guard.md)
+- [P02 实验代码](../labs/reproducible-archive/)
+- [P02 实验记录](../docs/experiments/2026-11-reproducible-archive.md)
 - [进度与恢复检查点](../docs/WORKLOG.md)
 
-## 构建第 1 章 PDF
+## 构建 PDF
 
-依赖：Pandoc、Microsoft Edge 与 Microsoft YaHei 字体；策略实验需要 requirements.txt 中的 PyYAML。
+依赖：Pandoc、Microsoft Edge 与 Microsoft YaHei 字体。构建脚本默认拒绝覆盖已有 PDF；有意重建时追加 -Force。
 
-在仓库根目录运行以下命令，构建脚本会生成独立 HTML，再使用 Edge headless 打印 PDF：
+重建第 1 章：
 
 ~~~powershell
-powershell -ExecutionPolicy Bypass -File book/tools/build_pdf.ps1
+powershell -ExecutionPolicy Bypass -File book/tools/build_pdf.ps1 -ChapterPath book/chapters/01-prod-config-safety.md -OutputName 01-prod-config-safety.pdf -Force
 ~~~
 
-构建脚本会先运行 Pandoc。配图可通过 python book/tools/render_diagram.py 重绘。HTML、浏览器隔离 profile 和打印中间产物放在忽略的 book/build/；PDF 文件保存在 book/dist/。
+首次构建第 2 章：
+
+~~~powershell
+powershell -ExecutionPolicy Bypass -File book/tools/build_pdf.ps1 -ChapterPath book/chapters/02-reproducible-archive.md -OutputName 02-reproducible-archive.pdf
+~~~
+
+章节 HTML、Edge 隔离 profile 和打印中间文件放在忽略的 book/build/。P02 配图是可编辑的 SVG 源文件，可用文本编辑器更新。

@@ -43,8 +43,13 @@ python labs/prod-config-guard/guard.py labs/prod-config-guard/fixtures/prod-dupl
 - 提交：873f54be5b503242354e8ec97447c80398cfef2b。
 - Run #1：[Independent lab validation](https://github.com/miku-wwl/temp-temp/actions/runs/42283738283)，事件 push，结论 success。
 - Job production-config-guard：success；checkout、Python 3.13 设置、PyYAML 安装、20 项回归测试与生产 values CLI 检查均成功。
-- 仓库 main 保护状态已读取确认：strict required status check 为 production-config-guard；enforce_admins=false。
-- 未要求 PR 审批或禁止直接推送；管理员可以直接推送。因此状态检查会用于 PR 合并条件，但仓库策略不强制所有变更必须走 PR。
+- 当前 branch protection 已读取确认：strict required status checks production-config-guard 与 reproducible-archive；PR 审批数为 0；enforce_admins=true。P01 提交发生在最终 PR 规则生效前。
+
+- Run #2：[Independent lab validation](https://github.com/miku-wwl/temp-temp/actions/runs/42284531560)，提交 047925a0d7f0725469a9dddee8058bf870874cf9，结论 success。
+
+## 后续保护规则校正
+
+- P01 提交之后将 main 保护强化为必须通过 PR，要求 production-config-guard 成功，审批数为 0，并对管理员生效。P02 工作改为分支 PR；每次完成后复核远端规则。
 
 ## 教材 PDF
 
@@ -63,4 +68,4 @@ python labs/prod-config-guard/guard.py labs/prod-config-guard/fixtures/prod-dupl
 
 ## 当前结论
 
-P01 的本地策略、正反例、远端 Actions、main 上 required status check 和 PDF 均已验证。Branch protection 没有要求 PR 审批或阻止管理员直接推送；此限制已记录，没有声称它阻止所有绕过方式。
+P01 的本地策略、正反例、两次远端 Actions、required status check 和 PDF 均已验证。当前 main 还要求经 PR 并通过 required checks，审批数为 0，且该规则对管理员生效。P01 提交发生在最终保护规则生效前。

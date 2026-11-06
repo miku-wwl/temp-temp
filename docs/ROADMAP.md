@@ -4,14 +4,14 @@
 
 - 独立仓库：miku-wwl/temp-temp
 - 基线：main；实验放入 labs/，教材放入 book/，证据放入 evidence/
-- 当前状态：P01 已验证，已选择 P02 确定性制品构建作为下一项
+- 当前状态：P01 已验证；P02 本地与 Linux Actions 验证完成，PR #1 待合并
 
 ## 阶段顺序
 
 | 阶段 | 目标 | 验收证据 | 状态 |
 |---|---|---|---|
-| P01 | 生产 Helm values 策略门禁 | 20 项本地测试、远端 Actions success、main required status check、实验记录、教材 PDF | VALIDATED |
-| P02 | 用 SOURCE_DATE_EPOCH 生成可重复归档，比较两次 SHA-256，并证明内容变化会改变摘要 | 独立 Python 实验、重复构建证据、教材第 2 章 | IN_PROGRESS |
+| P01 | 生产 Helm values 策略门禁 | 20 项本地测试、远端 Actions success、main branch protection、实验记录、教材 PDF | VALIDATED |
+| P02 | 用 SOURCE_DATE_EPOCH 生成可重复归档，比较两次 SHA-256，并证明内容变化会改变摘要 | 独立 Python 实验、Windows 本地结果、Linux Actions、教材第 2 章与页面渲染 | CI_VALIDATED (MERGE_PENDING) |
 | P03 | 镜像供应链：SBOM、来源证明、签名与消费方验证 | 本地可复现构建和消费方验证记录 | PLANNED |
 | P04 | Canary 指标门禁：数据解释、阈值与回滚边界 | 隔离的本地模拟和演练记录 | PLANNED |
 | P05 | 观测数据与 SLO/RCA 教学实验 | 可重复的故障注入、信号关联和 RCA | PLANNED |
@@ -21,4 +21,4 @@
 1. 先选能填补真实工程缺口、能在本机零付费验证的任务。
 2. 每个实验先写资源边界、版本、命令、预期、实测、失败与清理。
 3. 先本地隔离验证，再决定是否接入云或外部服务；不得声称未运行的外部验证已通过。
-4. 每个阶段结束后更新本文件和 WORKLOG，再开始下一阶段。
+4. 每个阶段结束后更新本文件和 WORKLOG，再开始 P 阶段。所有 main 更新通过 PR 和必需状态检查。
