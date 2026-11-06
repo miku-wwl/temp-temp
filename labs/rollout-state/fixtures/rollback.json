@@ -1,0 +1,5 @@
+{
+  "desired": 4,
+  "max_unavailable": 2,
+  "batch_ready_counts": [2, 1]
+}
