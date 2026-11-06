@@ -36,6 +36,27 @@
 
 继续沿用独立分支与受保护 PR。研究镜像供应链工件和消费方校验，先选零付费、可本地验证的路径；任何 OCI 镜像重建结论都必须基于真实构建器、基础镜像与依赖输入，不得从 tar.gz 实验外推。
 
+## P03 执行记录：本地 SBOM 消费方验签
+
+- 当前分支：`p03-supply-chain`，起点 `c4f278dc5244bd72a5d6847226d0d6c21cb0b99b`；尚未提交或推送。
+- 实验范围收敛为源码目录，而非 OCI 镜像重建：Syft v1.55.0 实际扫描 `requirements.txt`，生成 SPDX 2.3；Python 消费方按 DSSE v1 PAE 用 Ed25519 验签，并检查源码树 SHA-256、subject 名、SPDX 与 `requests==2.31.0` 策略。
+- Syft Windows 发布包 SHA-256 经 GitHub release metadata 与 checksums 文件核对：`ada4c9b93af575f479ce80fce6629897272a2d41f300a14bc49bace020767ca2`。工具实际报告 v1.55.0。
+- 真实端到端结果：2 个 SBOM package；源码树 SHA-256 `01150085a4d3469a1905909c0b4aa1850359dfb79c9530e83a1b6eb00d74738b`；可信 key id `4ee1d7ca0889c0e8d574372d50663338cc6ebda6de4dc5dbf7ac042f89781b0f`；生成后消费方实际输出 `PASS`。私钥留在系统临时目录，未加入仓库；仅提交公钥、SBOM 和签名 envelope 作为可核查证据。
+- 本地测试：11 项，10 通过；符号链接拒绝用例因 Windows 权限跳过。测试覆盖篡改 payload、错误信任密钥、源码漂移、错误 subject、缺包、脱离签名的 SBOM 与错误 payload type。Linux Actions job 已配置，等待 PR 结果。
+- 工具恢复记录：第一次复合命令被执行策略拒绝；移除清理/管道步骤后，Syft 能正常运行。检查工作流时尝试读取不存在的 `ci.yml`，根据仓库文件清单改用实际的 `.github/workflows/lab-validation.yml`。
+- 限制：未构建/扫描 OCI 镜像；这是本地自签名教学样例，不是 SLSA 构建证明、透明日志或生产信任根。
+- 实验记录与执行证据：`docs/experiments/2026-11-supply-chain-consumer.md`、`evidence/p03/`。
+
+## P03–P08 轻量连续执行范围
+
+- P03：源码 SBOM/签名消费方校验。
+- P04：Canary 指标门禁。
+- P05：SLI/SLO 与错误预算计算。
+- P06：备份和恢复完整性校验。
+- P07：滚动发布状态机模拟。
+- P08：值班交接包完整性检查。
+- 每阶段保留最小代码、真实测试/验证和短记录；不为阶段单独生成 PDF。
+
 ## 恢复方式
 
 先运行 git status --short --branch、git log -3 --oneline 和 gh pr view 1。确认 main 与 origin/main 同步后，阅读本文件和 docs/ROADMAP.md，再创建 P03 分支。不要重置或清理工作区；写入新文件前先确认目标不存在。
