@@ -69,3 +69,20 @@ jobs:
           python labs/canary-gate/gate.py labs/canary-gate/fixtures/promote.json
           python labs/canary-gate/gate.py labs/canary-gate/fixtures/hold.json
           python labs/canary-gate/gate.py labs/canary-gate/fixtures/rollback.json
+
+  slo-budget:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
+      - name: Run SLO and error-budget tests
+        run: python -m unittest discover -v -s labs/slo-budget/tests
+      - name: Evaluate SLO fixtures
+        run: |
+          python labs/slo-budget/calculate.py labs/slo-budget/fixtures/within-budget.json
+          python labs/slo-budget/calculate.py labs/slo-budget/fixtures/exhausted.json
+          python labs/slo-budget/calculate.py labs/slo-budget/fixtures/at-target.json

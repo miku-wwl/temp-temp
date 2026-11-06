@@ -20,3 +20,5 @@ python labs/canary-gate/gate.py labs/canary-gate/fixtures/rollback.json
 ## 实测
 
 Windows Python 3.13.9：10 项测试全部通过。三个样例输出分别为 `promote`、`hold` 和 `rollback`；rollback 样例同时超过错误率和 p95 门槛。首轮边界复核发现 JSON 解析器接受 `NaN`，会让比较结果失真；策略现拒绝非有限 p95 和非有限阈值，并有两项回归测试。完整命令输出见 `evidence/p04/`；GitHub Actions 结果待 PR。
+
+已合入 PR #4（merge commit `a492c9929bff979e231049928a6024c23abe91dd`）；两个 PR Actions run 均包含全部通过的四个实验 job。

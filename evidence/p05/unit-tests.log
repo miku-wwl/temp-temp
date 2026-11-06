@@ -1,0 +1,13 @@
+test_accepts_three_xx_as_success (test_calculate.SloBudgetTests.test_accepts_three_xx_as_success) ... ok
+test_excludes_client_errors_from_availability_sli (test_calculate.SloBudgetTests.test_excludes_client_errors_from_availability_sli) ... ok
+test_rejects_boolean_and_negative_counts (test_calculate.SloBudgetTests.test_rejects_boolean_and_negative_counts) ... ok
+test_rejects_invalid_status_codes (test_calculate.SloBudgetTests.test_rejects_invalid_status_codes) ... ok
+test_rejects_no_availability_eligible_requests (test_calculate.SloBudgetTests.test_rejects_no_availability_eligible_requests) ... ok
+test_rejects_non_finite_or_out_of_range_target (test_calculate.SloBudgetTests.test_rejects_non_finite_or_out_of_range_target) ... ok
+test_reports_exhausted_budget_below_target (test_calculate.SloBudgetTests.test_reports_exhausted_budget_below_target) ... ok
+test_reports_half_of_error_budget_consumed (test_calculate.SloBudgetTests.test_reports_half_of_error_budget_consumed) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

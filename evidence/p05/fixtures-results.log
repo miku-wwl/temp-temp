@@ -1,0 +1,43 @@
+
+--- within-budget ---
+{
+  "allowed_error_count": 10.0,
+  "availability": 0.9995,
+  "error_budget_burn_percent": 50.0,
+  "error_budget_remaining_percent": 50.0,
+  "error_requests": 5,
+  "excluded_requests": 50,
+  "sli_requests": 10000,
+  "slo_met": true,
+  "slo_target": 0.999,
+  "successful_requests": 9995,
+  "total_requests": 10050
+}
+--- exhausted ---
+{
+  "allowed_error_count": 10.0,
+  "availability": 0.9985,
+  "error_budget_burn_percent": 150.0,
+  "error_budget_remaining_percent": -50.0,
+  "error_requests": 15,
+  "excluded_requests": 50,
+  "sli_requests": 10000,
+  "slo_met": false,
+  "slo_target": 0.999,
+  "successful_requests": 9985,
+  "total_requests": 10050
+}
+--- at-target ---
+{
+  "allowed_error_count": 10.0,
+  "availability": 0.999,
+  "error_budget_burn_percent": 100.0,
+  "error_budget_remaining_percent": 0.0,
+  "error_requests": 10,
+  "excluded_requests": 50,
+  "sli_requests": 10000,
+  "slo_met": true,
+  "slo_target": 0.999,
+  "successful_requests": 9990,
+  "total_requests": 10050
+}
