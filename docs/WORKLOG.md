@@ -62,8 +62,14 @@
 - 最小目标：对一份 baseline/canary 指标 JSON 计算 `promote`、`hold` 或 `rollback`；低样本量进入 hold，观察到错误率或 p95 越界则 rollback。
 - 实验代码：`labs/canary-gate/`；本地测试和 fixture 结果保存在 `evidence/p04/`。
 - 本地 Windows 验证：10 项测试通过；三个夹具分别输出 promote、hold、rollback。首轮边界复核发现 JSON `NaN` 可绕过延迟比较，已加入非有限数拒绝和回归测试。
-- 当前分支：`p04-canary-gate`；本地验证完成，远端 CI 待确认。
+- 已完成并合入 PR #4；实现提交 `0fdacb9d262a58dae13daa8d0a226cbe47a06425`，合并提交 `a492c9929bff979e231049928a6024c23abe91dd`；Actions runs `42294566158` 和 `42294608733` 全绿。首次普通 merge 被保护策略拒绝，改用 GitHub 建议的 auto-merge，未绕过保护。
+
+## P05 执行记录：SLI 与错误预算
+
+- 最小目标：从 HTTP 状态计数计算可用性、SLO 是否达标、错误预算消耗与剩余比例；按明确规则排除 4xx。
+- 实验代码：`labs/slo-budget/`；输入夹具和本地输出位于 `evidence/p05/`。
+- 当前分支：`p05-slo-budget`；本地验证完成后经 PR 提交，远端 CI 待确认。
 
 ## 恢复方式
 
-恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03 已合入；当前恢复点为 `p04-canary-gate`。不要重置或清理工作区；写入新文件前先确认目标不存在。
+恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03、P04 已合入；当前恢复点为 `p05-slo-budget`。不要重置或清理工作区；写入新文件前先确认目标不存在。
