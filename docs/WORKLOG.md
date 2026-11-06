@@ -75,8 +75,15 @@
 - 最小目标：对隔离样例目录建立 SHA-256 文件清单，实际恢复到新目录并再次校验；篡改、缺文件与目标已存在都应安全拒绝。
 - 实验代码：`labs/backup-restore/`；实际备份、恢复和验证记录位于 `evidence/p06/`。
 - 本地 Windows 验证：10 项测试通过，2 项符号链接用例因宿主策略跳过；实际备份/校验/恢复 2 个文件成功，inventory SHA-256 `b902fc9d26839a39cc7b1ffeaaaaaa9f0d93eb35e2bb006cc96eab68dc157482`。
-- 当前分支：`p06-backup-restore`；本地验证完成，远端 CI 待确认。
+- 已完成并合入 PR #6；实现提交 `afe73b5e4b83e160d0209e0ce41ea4a1590d1b18`、证据字节保护提交 `493add1da3b3d94f17d10e5dd08d291254e0f16c`，合并提交 `81f136133ebc00cf2a748c91843c5007f13c6b52`；PR checks runs `42296001380` 与 `42296041323` 全绿。
+
+## P07 执行记录：滚动发布状态模拟
+
+- 最小目标：按 desired replicas、maxUnavailable 和每批就绪数模拟 complete、progressing 与 readiness 失败后的 rollback。
+- 实验代码：`labs/rollout-state/`；测试和三种模拟输出位于 `evidence/p07/`。
+- Windows 本地验证：8 项测试通过；模拟 `complete`、`progressing`、`rolled_back`。首轮测试发现遗漏了旧副本下线后的短暂可用数低谷，现记录下线前后状态；第二轮将 maxUnavailable=2 的预期最小可用数修正为 2。
+- 当前分支：`p07-rollout-state`；本地验证完成，远端 CI 待确认。
 
 ## 恢复方式
 
-恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03–P05 已合入；当前恢复点为 `p06-backup-restore`。不要重置或清理工作区；写入新文件前先确认目标不存在。
+恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03–P06 已合入；当前恢复点为 `p07-rollout-state`。不要重置或清理工作区；写入新文件前先确认目标不存在。

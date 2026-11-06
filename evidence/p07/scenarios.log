@@ -1,0 +1,85 @@
+--- complete ---
+{
+  "available_replicas": 4,
+  "desired": 4,
+  "events": [
+    {
+      "available_after_readiness": 4,
+      "available_after_removal": 3,
+      "batch": 1,
+      "new_ready": 1,
+      "old_removed": 1
+    },
+    {
+      "available_after_readiness": 4,
+      "available_after_removal": 3,
+      "batch": 2,
+      "new_ready": 1,
+      "old_removed": 1
+    },
+    {
+      "available_after_readiness": 4,
+      "available_after_removal": 3,
+      "batch": 3,
+      "new_ready": 1,
+      "old_removed": 1
+    },
+    {
+      "available_after_readiness": 4,
+      "available_after_removal": 3,
+      "batch": 4,
+      "new_ready": 1,
+      "old_removed": 1
+    }
+  ],
+  "max_unavailable": 1,
+  "min_available_seen": 3,
+  "reason": "all replicas reached readiness",
+  "state": "complete",
+  "updated_replicas": 4
+}
+--- progressing ---
+{
+  "available_replicas": 4,
+  "desired": 4,
+  "events": [
+    {
+      "available_after_readiness": 4,
+      "available_after_removal": 2,
+      "batch": 1,
+      "new_ready": 2,
+      "old_removed": 2
+    }
+  ],
+  "max_unavailable": 2,
+  "min_available_seen": 2,
+  "reason": "readiness batches ended before all replicas were updated",
+  "state": "progressing",
+  "updated_replicas": 2
+}
+--- rollback ---
+{
+  "available_replicas": 4,
+  "desired": 4,
+  "events": [
+    {
+      "available_after_readiness": 4,
+      "available_after_removal": 2,
+      "batch": 1,
+      "new_ready": 2,
+      "old_removed": 2
+    },
+    {
+      "available_after_readiness": 3,
+      "available_after_removal": 2,
+      "batch": 2,
+      "new_ready": 1,
+      "old_removed": 2
+    }
+  ],
+  "max_unavailable": 2,
+  "min_available_seen": 2,
+  "reason": "batch 2 did not reach readiness; old replicas restored",
+  "state": "rolled_back",
+  "updated_replicas": 0
+}
