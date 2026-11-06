@@ -6,7 +6,7 @@
 | 参考问题 | 参考项目 P10 记录同一提交两次镜像构建 digest 不同，并提出固定 SOURCE_DATE_EPOCH |
 | 实验位置 | labs/reproducible-archive/ |
 | 成本 / 资源 | 本地 Python 标准库；GitHub Actions 标准 ubuntu-24.04 runner；没有容器、云资源或付费 API |
-| 状态 | 本地与 push/PR GitHub Actions 验证通过；PR #1 待合并 |
+| 状态 | 本地与 push/PR GitHub Actions 验证通过；PR #1 已合并，P02 VALIDATED |
 
 ## 假设
 
@@ -43,6 +43,6 @@
 ## 远端验证与恢复点
 
 - P02 commit：18650c9129352088dc4fa1358d57f3641e4d7202。
-- Push run [42288716912](https://github.com/miku-wwl/temp-temp/actions/runs/42288716912) 与 PR run [42288843939](https://github.com/miku-wwl/temp-temp/actions/runs/42288843939) 的 production-config-guard、reproducible-archive 两个 job 均成功。Linux job 运行 12 项测试全部通过，并生成样例归档 SHA-256 81e474718db3baf6bdeb7439b53bee8ce9bfeee8a309dca803e393df568b1edd。
+- 代码 Push run [42288716912](https://github.com/miku-wwl/temp-temp/actions/runs/42288716912) 与 PR run [42288843939](https://github.com/miku-wwl/temp-temp/actions/runs/42288843939) 的两个 job 均成功。文档证据提交对应的 Push run [42289268526](https://github.com/miku-wwl/temp-temp/actions/runs/42289268526) 与 PR run [42289274237](https://github.com/miku-wwl/temp-temp/actions/runs/42289274237) 也都成功。Linux job 运行 12 项测试全部通过，并生成样例归档 SHA-256 81e474718db3baf6bdeb7439b53bee8ce9bfeee8a309dca803e393df568b1edd。
 - 当前 main 保护要求以上两个状态检查、PR 与 0 个审批，并对管理员生效；保护规则已通过 GitHub API 复核。
-- PR #1 已打开且 mergeStateStatus=CLEAN，待合并。合并后检查 main HEAD 与 branch protection，再进入 P03 镜像供应链材料和消费方校验。
+- PR [#1](https://github.com/miku-wwl/temp-temp/pull/1) 已合并，merge commit 为 3104a82ae1d863b738f3eabd21a7dee1cc46d57d；合并后的 main push run [42289359295](https://github.com/miku-wwl/temp-temp/actions/runs/42289359295) 两个 job 均成功。main 保护规则包含两个必需状态检查、PR 与管理员约束。下一阶段为 P03 镜像供应链材料和消费方校验。

@@ -46,4 +46,4 @@ MiKTeX XeLaTeX 在首次编译中无日志、无进度，已中止。Pandoc HTML
 
 ## 局限与后续
 
-当前规则只检查源 values 中两个字段，没有运行 Helm 模板渲染。源 values 尚未经过 Helm 模板渲染，因此真实仓库仍应对最终渲染结果检查同一不变量。main 当前已强制所有变更经 PR 且通过必需状态检查（审批数 0，管理员也受约束）。
+当前规则只检查源 values 中两个字段，没有运行 Helm 模板渲染。源 values 尚未经过 Helm 模板渲染，因此真实仓库仍应对最终渲染结果检查同一不变量。main 当前已强制所有变更经 PR 且通过 production-config-guard 与 reproducible-archive 两项必需状态检查（审批数 0，管理员也受约束）。
