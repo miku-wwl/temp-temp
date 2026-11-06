@@ -24,3 +24,17 @@ jobs:
         run: python -m unittest discover -v -s labs/prod-config-guard/tests
       - name: Validate the production values
         run: python labs/prod-config-guard/guard.py labs/prod-config-guard/envs/prod/values.yaml
+
+  reproducible-archive:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
+      - name: Run archive regression cases
+        run: python -m unittest discover -v -s labs/reproducible-archive/tests
+      - name: Build the normalized sample archive
+        run: python labs/reproducible-archive/pack.py --source labs/reproducible-archive/sample/source --output "$RUNNER_TEMP/sample.tar.gz" --source-date-epoch 1700000000

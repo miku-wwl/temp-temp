@@ -1,0 +1,17 @@
+test_archive_mode_uses_explicit_posix_execute_bits (test_pack.ReproducibleArchiveTests.test_archive_mode_uses_explicit_posix_execute_bits) ... ok
+test_cli_reads_source_date_epoch_from_environment (test_pack.ReproducibleArchiveTests.test_cli_reads_source_date_epoch_from_environment) ... ok
+test_cli_requires_epoch_when_environment_is_unset (test_pack.ReproducibleArchiveTests.test_cli_requires_epoch_when_environment_is_unset) ... ok
+test_content_change_changes_digest (test_pack.ReproducibleArchiveTests.test_content_change_changes_digest) ... ok
+test_epoch_range_is_checked (test_pack.ReproducibleArchiveTests.test_epoch_range_is_checked) ... ok
+test_executable_bit_is_normalized_in_archive (test_pack.ReproducibleArchiveTests.test_executable_bit_is_normalized_in_archive) ... skipped 'Windows chmod does not expose POSIX execute bits'
+test_existing_output_is_preserved_unless_force_is_set (test_pack.ReproducibleArchiveTests.test_existing_output_is_preserved_unless_force_is_set) ... ok
+test_member_order_metadata_and_gzip_time_are_normalized (test_pack.ReproducibleArchiveTests.test_member_order_metadata_and_gzip_time_are_normalized) ... ok
+test_naive_baseline_tracks_source_mtime (test_pack.ReproducibleArchiveTests.test_naive_baseline_tracks_source_mtime) ... ok
+test_normalized_digest_ignores_source_mtime (test_pack.ReproducibleArchiveTests.test_normalized_digest_ignores_source_mtime) ... ok
+test_output_inside_source_is_rejected (test_pack.ReproducibleArchiveTests.test_output_inside_source_is_rejected) ... ok
+test_symlinked_file_and_directory_are_rejected (test_pack.ReproducibleArchiveTests.test_symlinked_file_and_directory_are_rejected) ... skipped 'Windows symlink creation may require elevated policy'
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.558s
+
+OK (skipped=2)

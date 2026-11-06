@@ -31,8 +31,10 @@
 - YAML 重复键 CLI：退出码 2，安全解析错误。
 - workflow 静态检查：push、pull_request、workflow_dispatch 均存在，push/PR 没有分支过滤；检查命令仅传入 labs/prod-config-guard/envs/prod/values.yaml。
 - 远端 GitHub Actions：[run #1](https://github.com/miku-wwl/temp-temp/actions/runs/42283738283)，提交 873f54be5b503242354e8ec97447c80398cfef2b，结论 success。20 项回归测试与生产 values 检查都成功。
-- main 保护已设为 strict required status check production-config-guard；没有要求 PR 审批，也没有禁止管理员直接推送。
+- 当前 main protection 已复核：strict required status check production-config-guard；所有人（含管理员）必须经 PR 并通过检查；审批数为 0。P01 提交发生在最终 PR 规则生效之前。
 - PDF：4 页 A4，已生成并完成逐页视觉检查。
+
+- 后续记录提交 047925a0d7f0725469a9dddee8058bf870874cf9 的 Actions [run #2](https://github.com/miku-wwl/temp-temp/actions/runs/42284531560) 也成功；它验证了当时 main 上的检查点。
 
 ## 调试与修正
 
@@ -44,4 +46,4 @@ MiKTeX XeLaTeX 在首次编译中无日志、无进度，已中止。Pandoc HTML
 
 ## 局限与后续
 
-当前规则只检查源 values 中两个字段，没有运行 Helm 模板渲染。main 的 required status check 已设置，但仓库没有强制 PR 流程，管理员可直接推送。真实仓库还需确保合并只通过 PR，并对最终渲染值执行同样的不变量检查。下一步已选定 P02：用 SOURCE_DATE_EPOCH 构建并比对确定性制品，复现参考项目记录的同一提交产生不同镜像摘要问题。
+当前规则只检查源 values 中两个字段，没有运行 Helm 模板渲染。源 values 尚未经过 Helm 模板渲染，因此真实仓库仍应对最终渲染结果检查同一不变量。main 当前已强制所有变更经 PR 且通过必需状态检查（审批数 0，管理员也受约束）；P02 将通过该门禁更新仓库。

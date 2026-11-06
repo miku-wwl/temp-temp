@@ -4,24 +4,33 @@
 
 ## 工作边界
 
-- 只写入 D:\workshop\nov\temp-temp。
-- D:\workshop\nov\devops-delivery 是只读参考仓；任务开始时本地副本是 p12/manual，已有用户改动。工作期间该仓的未提交文件清单继续扩大；本任务没有在其中写入或运行构建。
-- 实验不启动 Docker、Podman、WSL、Kubernetes、云资源或付费 API，除非后续任务另有明确、低成本的本地隔离方案。
-- PDF 中间文件、页图和证据都在独立仓内；book/build/ 已加入 .gitignore。
+- 独立仓库：D:\workshop\nov\temp-temp。只在该仓库中创建实验、教材、PDF 和证据。
+- 参考仓库：D:\workshop\nov\devops-delivery，只读。本任务只读取 P10 章节中“同一提交两次构建 digest 不同，固定 SOURCE_DATE_EPOCH”这一条目；参考仓库原本已有用户修改，且期间修改文件清单继续扩大。没有在参考仓库中写文件、运行构建或启动其环境。
+- 不启动 Docker、Podman、WSL、Kubernetes、云资源或付费 API。P02 使用本地 Python 标准库和公开仓库的 GitHub-hosted runner。
+- P01 PDF 与实验输入保持不变；P02 页面图像与日志放在 evidence/p02/。
+
+## 仓库与分支保护
+
+- 起点 main：047925a0d7f0725469a9dddee8058bf870874cf9；从此提交创建 p02/reproducible-archive。
+- main 的远端保护规则最近读取确认：required status production-config-guard，strict=true；必须经 PR，审批数 0；enforce_admins=true。
+- P01 的两个提交在最终 PR 保护规则生效前直接推送。保护规则生效之后，本任务在 P02 分支工作，后续 main 变更必须走 PR。
+- P01 两次远端 Actions 已成功：run 42283738283 与 42284531560；证据见 evidence/p01/local-validation.md。
 
 ## P01 已完成
 
-- 本地生产配置策略、测试、20 个测试用例、GitHub Actions 和中文版首章/PDF 已提交并推送。
-- 代码提交：873f54be5b503242354e8ec97447c80398cfef2b。
-- GitHub Actions run #1 成功：https://github.com/miku-wwl/temp-temp/actions/runs/42283738283。
-- main strict required status check 已设为 production-config-guard。没有强制 PR 审批或禁止管理员直接推送；此限制已记录。
-- 证据：evidence/p01/local-validation.md；实验：docs/experiments/2026-11-prod-config-guard.md。
-- 参考仓仍只读；没有使用其中的共享运行环境。
+- P01：生产配置 faults.errorRate / faults.latencyMs 合并门禁；20 项本地测试通过，GitHub Actions 成功，首章 PDF 4 页并完成逐页检查。
+- 提交：873f54be5b503242354e8ec97447c80398cfef2b 与 047925a0d7f0725469a9dddee8058bf870874cf9。
+- 实验与验证证据：docs/experiments/2026-11-prod-config-guard.md、evidence/p01/local-validation.md。
 
-## 下一任务 P02：确定性制品
+## P02 进行中：确定性 tar.gz
 
-参考项目 P10 记录了同一提交重复构建得到不同镜像摘要的问题，并提出固定构建时间输入。先用 Python 标准库构建确定性 tar.gz：稳定路径顺序、文件元数据、uid/gid 和 mtime；用 SOURCE_DATE_EPOCH 固定 gzip/tar 时间；重复构建应有相同 SHA-256，修改内容应产生不同摘要。这个本地归档实验不等价于 Docker 镜像可复现构建，教材会明确边界。
+- 目标：用标准库生成确定性归档，固定路径顺序、tar 时间/uid/gid/owner/mode 与 gzip 时间/名称；拒绝 symlink/特殊文件、源内输出与默认覆盖。
+- 代码：labs/reproducible-archive/；CI 在 .github/workflows/lab-validation.yml 新增独立 job。
+- 本机 Python 3.13.9：12 项测试中 10 项通过，Windows chmod 与符号链接集成断言按平台跳过；实际对照重放中，朴素归档摘要不同，固定 epoch 后摘要相同，改变内容后摘要变化。
+- 原始日志：evidence/p02/unit-tests.log、evidence/p02/reproduction.log。
+- 教材：book/chapters/02-reproducible-archive.md，SVG 源图位于 book/assets/reproducible-archive.svg；PDF 已生成（4 页 A4、347457 bytes）；四页已渲染并逐页检查，图像位于 evidence/p02/pdf-page-1.png 至 pdf-page-4.png。
+- 分支当前尚未推送；GitHub Actions 尚未运行。下一步：复核 staged diff；提交并推送该分支；创建 PR，等待两个验证 job 成功；将 reproducible-archive 加入 main required checks；复核规则后合并 PR。
 
-预计目录：labs/reproducible-archive/、docs/experiments/、book/chapters/、evidence/p02/。先查看 P01 完成后 git status 和 GitHub main 状态，再创建这些新路径。保持参考仓只读，禁止覆写已存在路径。
+## 恢复方式
 
-恢复方式：先运行 git status --short --branch、git log -3 --oneline，阅读本文件，再按 P02 目标继续；若已开始 P02，查 labs/reproducible-archive/ 与 docs/experiments/ 的现状，不重置、不清理。
+运行 git status --short --branch 与 git log -3 --oneline，阅读本文件，再查看 labs/reproducible-archive/、book/chapters/02-reproducible-archive.md 和 evidence/p02/。不要重置或清理工作区；先确认文件存在性后续写，避免重复覆盖已有证据。
