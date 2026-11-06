@@ -3,18 +3,18 @@
 ## 当前工作区
 
 - 独立仓库：miku-wwl/temp-temp
-- 基线：main 上的初始提交；新实验放入 labs/，教材放入 book/，证据放入 evidence/
-- 当前主题：生产配置左移检查，补足参考项目 P10 中的生产故障注入合并前门禁练习
-- 当前状态：P01 本地验证与首章 PDF 已完成；推送触发远端 Actions 后完成验收
+- 基线：main；实验放入 labs/，教材放入 book/，证据放入 evidence/
+- 当前状态：P01 已验证，已选择 P02 确定性制品构建作为下一项
 
 ## 阶段顺序
 
 | 阶段 | 目标 | 验收证据 | 状态 |
 |---|---|---|---|
-| P01 | 生产 Helm values 策略门禁 | 20 项本地测试、CLI 反例、实验记录、教材 PDF；远端 Actions 待运行 | IN_PROGRESS |
-| P02 | 镜像供应链：SBOM、来源证明、签名与验证 | 本地可复现构建和消费方验证记录 | PLANNED |
-| P03 | Canary 指标门禁：数据解释、阈值与回滚边界 | 隔离的本地模拟和演练记录 | PLANNED |
-| P04 | 观测数据与 SLO/RCA 教学实验 | 可重复的故障注入、信号关联和 RCA | PLANNED |
+| P01 | 生产 Helm values 策略门禁 | 20 项本地测试、远端 Actions success、main required status check、实验记录、教材 PDF | VALIDATED |
+| P02 | 用 SOURCE_DATE_EPOCH 生成可重复归档，比较两次 SHA-256，并证明内容变化会改变摘要 | 独立 Python 实验、重复构建证据、教材第 2 章 | IN_PROGRESS |
+| P03 | 镜像供应链：SBOM、来源证明、签名与消费方验证 | 本地可复现构建和消费方验证记录 | PLANNED |
+| P04 | Canary 指标门禁：数据解释、阈值与回滚边界 | 隔离的本地模拟和演练记录 | PLANNED |
+| P05 | 观测数据与 SLO/RCA 教学实验 | 可重复的故障注入、信号关联和 RCA | PLANNED |
 
 ## 选择后续任务的规则
 

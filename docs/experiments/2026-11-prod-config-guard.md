@@ -5,10 +5,10 @@
 | 日期 | 2026-11-07（Pacific/Auckland） |
 | 参考缺口 | 参考项目 P10 练习提出：生产 values 中的 faults.errorRate 与 faults.latencyMs 必须为 0 或缺省，并应成为合并门禁 |
 | 实验位置 | labs/prod-config-guard/ |
-| 成本 / 资源 | 本地 Python 测试、公共仓库免费 GitHub Actions；没有云资源、容器、集群、付费 API 或用户凭据 |
-| 实验状态 | 本地验证通过；远端 Actions 待推送触发 |
+| 成本 / 资源 | 本地 Python 测试、公开仓库的标准 GitHub Actions runner；没有云资源、容器、集群、付费 API 或用户凭据 |
+| 实验状态 | **VALIDATED**：本地测试、远端 Actions、main required status check 与 PDF 均已验证 |
 
-成本依据：仓库当前为公开仓库，工作流使用标准 ubuntu-24.04 runner。GitHub 文档说明，公开仓库使用标准 GitHub-hosted runners 免费且不限量：[GitHub-hosted runners reference](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)。
+成本依据：仓库为公开仓库，工作流只使用标准 ubuntu-24.04 runner。GitHub 文档说明公开仓库使用标准 GitHub-hosted runners 免费且不限量：[GitHub-hosted runners reference](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)。
 
 ## 问题与假设
 
@@ -25,14 +25,14 @@
 
 ## 实测结果
 
-- 单元测试：20 项全部通过；详见 [本地验证证据](../../evidence/p01/local-validation.md)。
+- 单元测试：20 项全部通过；详见 [验证证据](../../evidence/p01/local-validation.md)。
 - 生产配置 CLI：退出码 0，输出 PASS。
 - 非零延迟 CLI：退出码 1，输出 BLOCK。
 - YAML 重复键 CLI：退出码 2，安全解析错误。
 - workflow 静态检查：push、pull_request、workflow_dispatch 均存在，push/PR 没有分支过滤；检查命令仅传入 labs/prod-config-guard/envs/prod/values.yaml。
+- 远端 GitHub Actions：[run #1](https://github.com/miku-wwl/temp-temp/actions/runs/42283738283)，提交 873f54be5b503242354e8ec97447c80398cfef2b，结论 success。20 项回归测试与生产 values 检查都成功。
+- main 保护已设为 strict required status check production-config-guard；没有要求 PR 审批，也没有禁止管理员直接推送。
 - PDF：4 页 A4，已生成并完成逐页视觉检查。
-- GitHub Actions：尚未推送触发；未声称远端验证通过。
-- 仓库 branch protection：没有设置；工作流状态尚未配置为必需合并状态。
 
 ## 调试与修正
 
@@ -44,4 +44,4 @@ MiKTeX XeLaTeX 在首次编译中无日志、无进度，已中止。Pandoc HTML
 
 ## 局限与后续
 
-当前规则只检查源 values 中两个字段，没有运行 Helm 模板渲染，也没有连到 GitHub branch protection 将状态设为必需。要在真实仓库中完整生效，需要配置仓库保护，并对最终渲染值执行同样的不变量检查。下一步先提交并推送独立仓库，再读取远端 Actions 结果；若远端运行失败，继续修复后更新状态。
+当前规则只检查源 values 中两个字段，没有运行 Helm 模板渲染。main 的 required status check 已设置，但仓库没有强制 PR 流程，管理员可直接推送。真实仓库还需确保合并只通过 PR，并对最终渲染值执行同样的不变量检查。下一步已选定 P02：用 SOURCE_DATE_EPOCH 构建并比对确定性制品，复现参考项目记录的同一提交产生不同镜像摘要问题。

@@ -5,24 +5,23 @@
 ## 工作边界
 
 - 只写入 D:\workshop\nov\temp-temp。
-- D:\workshop\nov\devops-delivery 是只读参考仓；检查时它在 p12/manual 分支，已有用户未提交的教材变更和 evidence/p12/，不能覆盖或运行会生成文件的构建。
-- 本实验不启动 Docker、Podman、WSL、Kubernetes、云资源或付费服务。
-- Python/YAML 测试、PDF 中间文件、图像和证据均放在独立仓内；book/build/ 已加入 .gitignore。
+- D:\workshop\nov\devops-delivery 是只读参考仓；任务开始时本地副本是 p12/manual，已有用户改动。工作期间该仓的未提交文件清单继续扩大；本任务没有在其中写入或运行构建。
+- 实验不启动 Docker、Podman、WSL、Kubernetes、云资源或付费 API，除非后续任务另有明确、低成本的本地隔离方案。
+- PDF 中间文件、页图和证据都在独立仓内；book/build/ 已加入 .gitignore。
 
-## 当前检查点
+## P01 已完成
 
-- P01 代码、夹具、GitHub Actions 工作流、实验记录、中文版第 1 章、流程图、4 页 PDF 和页图已写入。
-- 本地验证：20 项 unittest 通过；生产正例退出 0；非零延迟退出 1；重复键退出 2；PDF 元数据和 4 页图像已经检查。
-- 首次测试中的开发/生产路径假设、PyYAML 对 workflow 键 on 的解析、XeLaTeX 无进度和 Edge 异步打印竞态均已修正，实情记录在 evidence/p01/local-validation.md。
-- 尚需：检查 Git 状态/diff 和空白；确认 origin/main 最新仍是初始提交；提交并推送；通过 GitHub 读取远端 Actions 运行结果。若远端失败则修复并重新提交。
-- P01 完成后，回到 docs/ROADMAP.md 选择 P02 镜像供应链实验。
-- 若中断，先运行 git status --short --branch、git log -1 --oneline，阅读本文件和 evidence/p01/local-validation.md。不要重置、清理或改动其他工作区。
+- 本地生产配置策略、测试、20 个测试用例、GitHub Actions 和中文版首章/PDF 已提交并推送。
+- 代码提交：873f54be5b503242354e8ec97447c80398cfef2b。
+- GitHub Actions run #1 成功：https://github.com/miku-wwl/temp-temp/actions/runs/42283738283。
+- main strict required status check 已设为 production-config-guard。没有强制 PR 审批或禁止管理员直接推送；此限制已记录。
+- 证据：evidence/p01/local-validation.md；实验：docs/experiments/2026-11-prod-config-guard.md。
+- 参考仓仍只读；没有使用其中的共享运行环境。
 
-## P01 验收条件
+## 下一任务 P02：确定性制品
 
-1. 生产配置缺省或显式数值 0 通过；非零值、类型错配、重复键、格式错误和缺失输入有明确阻断及非零状态码。
-2. GitHub Actions 对所有分支 push、pull request 及手动触发执行，不只覆盖 main。
-3. 教材明确区分预部署策略门禁和部署后 Canary 的作用与边界。
-4. PDF 实际生成并完成页图检查；证据只记录实际观察结果。
-5. git diff --check 通过；变更只在本仓新增工作目录和根 README 中。
-6. GitHub Actions 远端运行通过，记录 run URL 和状态。Branch protection 由仓库所有者设置，本任务未配置。
+参考项目 P10 记录了同一提交重复构建得到不同镜像摘要的问题，并提出固定构建时间输入。先用 Python 标准库构建确定性 tar.gz：稳定路径顺序、文件元数据、uid/gid 和 mtime；用 SOURCE_DATE_EPOCH 固定 gzip/tar 时间；重复构建应有相同 SHA-256，修改内容应产生不同摘要。这个本地归档实验不等价于 Docker 镜像可复现构建，教材会明确边界。
+
+预计目录：labs/reproducible-archive/、docs/experiments/、book/chapters/、evidence/p02/。先查看 P01 完成后 git status 和 GitHub main 状态，再创建这些新路径。保持参考仓只读，禁止覆写已存在路径。
+
+恢复方式：先运行 git status --short --branch、git log -3 --oneline，阅读本文件，再按 P02 目标继续；若已开始 P02，查 labs/reproducible-archive/ 与 docs/experiments/ 的现状，不重置、不清理。
