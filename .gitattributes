@@ -3,3 +3,4 @@ evidence/p03/*.pem -text
 labs/backup-restore/sample/source/** -text
 evidence/p06/backup/** -text
 evidence/p06/restored/** -text
+labs/handoff-check/sample/evidence/** -text

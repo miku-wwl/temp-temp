@@ -121,3 +121,17 @@ jobs:
           python labs/rollout-state/simulate.py labs/rollout-state/fixtures/complete.json
           python labs/rollout-state/simulate.py labs/rollout-state/fixtures/progressing.json
           python labs/rollout-state/simulate.py labs/rollout-state/fixtures/rollback.json
+
+  handoff-check:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
+      - name: Run handoff bundle tests
+        run: python -m unittest discover -v -s labs/handoff-check/tests
+      - name: Validate the sample handoff bundle
+        run: python labs/handoff-check/validate.py --root labs/handoff-check/sample --bundle handoff.json
