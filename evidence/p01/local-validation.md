@@ -43,7 +43,7 @@ python labs/prod-config-guard/guard.py labs/prod-config-guard/fixtures/prod-dupl
 - 提交：873f54be5b503242354e8ec97447c80398cfef2b。
 - Run #1：[Independent lab validation](https://github.com/miku-wwl/temp-temp/actions/runs/42283738283)，事件 push，结论 success。
 - Job production-config-guard：success；checkout、Python 3.13 设置、PyYAML 安装、20 项回归测试与生产 values CLI 检查均成功。
-- 当前 branch protection 已读取确认：strict required status check production-config-guard；PR 审批数为 0；enforce_admins=true。P01 提交发生在最终 PR 规则生效前。
+- 当前 branch protection 已读取确认：strict required status checks production-config-guard 与 reproducible-archive；PR 审批数为 0；enforce_admins=true。P01 提交发生在最终 PR 规则生效前。
 
 - Run #2：[Independent lab validation](https://github.com/miku-wwl/temp-temp/actions/runs/42284531560)，提交 047925a0d7f0725469a9dddee8058bf870874cf9，结论 success。
 

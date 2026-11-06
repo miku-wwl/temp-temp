@@ -12,7 +12,7 @@
 ## 仓库与分支保护
 
 - 起点 main：047925a0d7f0725469a9dddee8058bf870874cf9；从此提交创建 p02/reproducible-archive。
-- main 的远端保护规则最近读取确认：required status production-config-guard，strict=true；必须经 PR，审批数 0；enforce_admins=true。
+- main 的远端保护规则最近读取确认：required statuses production-config-guard 与 reproducible-archive，strict=true；必须经 PR，审批数 0；enforce_admins=true。
 - P01 的两个提交在最终 PR 保护规则生效前直接推送。保护规则生效之后，本任务在 P02 分支工作，后续 main 变更必须走 PR。
 - P01 两次远端 Actions 已成功：run 42283738283 与 42284531560；证据见 evidence/p01/local-validation.md。
 
@@ -29,7 +29,7 @@
 - 本机 Python 3.13.9：12 项测试中 10 项通过，Windows chmod 与符号链接集成断言按平台跳过；实际对照重放中，朴素归档摘要不同，固定 epoch 后摘要相同，改变内容后摘要变化。
 - 原始日志：evidence/p02/unit-tests.log、evidence/p02/reproduction.log。
 - 教材：book/chapters/02-reproducible-archive.md，SVG 源图位于 book/assets/reproducible-archive.svg；PDF 已生成（4 页 A4、347457 bytes）；四页已渲染并逐页检查，图像位于 evidence/p02/pdf-page-1.png 至 pdf-page-4.png。
-- 分支当前尚未推送；GitHub Actions 尚未运行。下一步：复核 staged diff；提交并推送该分支；创建 PR，等待两个验证 job 成功；将 reproducible-archive 加入 main required checks；复核规则后合并 PR。
+- 分支提交 18650c9129352088dc4fa1358d57f3641e4d7202 已推送。PR #1 已打开；push run 42288716912 与 PR run 42288843939 中两个 job 均成功，Linux 上 12 项测试全通过。main 的两个 required statuses 与 PR/admin 保护已复核。下一步合并 PR #1，再检查 main HEAD、保护规则和 clean worktree。
 
 ## 恢复方式
 

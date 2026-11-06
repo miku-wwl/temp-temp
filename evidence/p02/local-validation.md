@@ -46,9 +46,12 @@ python -B labs/reproducible-archive/reproduce.py
 
 朴素摘要是某一次实测值，不是跨运行的固定预期值；tar/gzip 默认时间和源文件 mtime 会使它漂移。稳定摘要仅说明当前样例、规则和 Python/zlib 工具链中的重复结果，不代表跨平台或容器镜像可复现。
 
-## CI 工作流静态检查
+## CI 与 PR 验证
 
-使用 PyYAML BaseLoader 解析工作流并断言两个 job、push/PR 触发、contents: read 和 SHA 固定的第三方 action，结果 PASS。静态检查原始输出未单独存档。GitHub Actions 尚待 PR 运行，不能将 Linux 集成测试记为已通过。
+- 使用 PyYAML BaseLoader 解析工作流并断言两个 job、push/PR 触发、contents: read 和 SHA 固定的 action，结果 PASS。
+- Push run [42288716912](https://github.com/miku-wwl/temp-temp/actions/runs/42288716912) 与 PR run [42288843939](https://github.com/miku-wwl/temp-temp/actions/runs/42288843939) 均成功；两个 job production-config-guard 与 reproducible-archive 均成功。
+- Linux job 在 Python 3.13.18 / ubuntu-24.04 执行 12 项测试，无跳过；chmod 和符号链接拒绝断言均通过。runner 临时归档 SHA-256：81e474718db3baf6bdeb7439b53bee8ce9bfeee8a309dca803e393df568b1edd。
+- GitHub 分支保护现要求 production-config-guard 与 reproducible-archive，strict=true；必须经 PR，审批数 0，enforce_admins=true。PR #1 已打开，状态检查通过，尚待合并。
 
 ## 教材 PDF
 
@@ -60,6 +63,6 @@ python -B labs/reproducible-archive/reproduce.py
 - 视觉检查：中文字体和符号、SVG 图、表格、代码块、页边距和分页均清楚；没有发现裁切、重叠、缺字或越界。
 - 可复现 PDF 构建命令见 book/README.md；默认不覆盖已存在 PDF。
 
-## 未完成的外部验证
+## 待完成
 
-分支还没有推送；Linux GitHub Actions、PR required checks 和合并后的 branch protection 更新尚未执行。下一次恢复从 docs/WORKLOG.md 的 P02 恢复点继续。P02 仅是 tar.gz 封装实验，不提供 OCI 镜像或 Docker build 的可复现性结论。
+PR #1 的合并仍待完成。分支保护已更新，PR 两个 required checks 全部成功。下一次恢复从 docs/WORKLOG.md 的 P02 恢复点继续，合并后复核 main HEAD 和保护规则。P02 仅是 tar.gz 封装实验，不提供 OCI 镜像或 Docker build 的可复现性结论。
