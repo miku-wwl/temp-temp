@@ -1,0 +1,67 @@
+--- promote ---
+{
+  "baseline": {
+    "error_rate": 0.002,
+    "p95_ms": 180.0,
+    "requests": 1000
+  },
+  "canary": {
+    "error_rate": 0.004,
+    "p95_ms": 210.0,
+    "requests": 250
+  },
+  "decision": "promote",
+  "limits": {
+    "error_rate": 0.007,
+    "min_requests": 100,
+    "p95_ms": 270.0
+  },
+  "reasons": [
+    "error-rate and p95 limits pass with sufficient samples"
+  ]
+}
+--- hold ---
+{
+  "baseline": {
+    "error_rate": 0.002,
+    "p95_ms": 180.0,
+    "requests": 1000
+  },
+  "canary": {
+    "error_rate": 0.0,
+    "p95_ms": 190.0,
+    "requests": 40
+  },
+  "decision": "hold",
+  "limits": {
+    "error_rate": 0.007,
+    "min_requests": 100,
+    "p95_ms": 270.0
+  },
+  "reasons": [
+    "need at least 100 requests in baseline and canary"
+  ]
+}
+--- rollback ---
+{
+  "baseline": {
+    "error_rate": 0.002,
+    "p95_ms": 180.0,
+    "requests": 1000
+  },
+  "canary": {
+    "error_rate": 0.02,
+    "p95_ms": 310.0,
+    "requests": 250
+  },
+  "decision": "rollback",
+  "limits": {
+    "error_rate": 0.007,
+    "min_requests": 100,
+    "p95_ms": 270.0
+  },
+  "reasons": [
+    "canary error rate 2.0000% exceeds 0.7000%",
+    "canary p95 310 ms exceeds 270 ms"
+  ]
+}

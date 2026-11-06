@@ -1,0 +1,15 @@
+test_holds_when_sample_count_is_too_low (test_gate.CanaryGateTests.test_holds_when_sample_count_is_too_low) ... ok
+test_observed_breach_rolls_back_even_with_few_samples (test_gate.CanaryGateTests.test_observed_breach_rolls_back_even_with_few_samples) ... ok
+test_promotes_when_samples_and_metrics_pass (test_gate.CanaryGateTests.test_promotes_when_samples_and_metrics_pass) ... ok
+test_rejects_boolean_request_count (test_gate.CanaryGateTests.test_rejects_boolean_request_count) ... ok
+test_rejects_impossible_error_count (test_gate.CanaryGateTests.test_rejects_impossible_error_count) ... ok
+test_rejects_invalid_thresholds (test_gate.CanaryGateTests.test_rejects_invalid_thresholds) ... ok
+test_rejects_non_finite_latency (test_gate.CanaryGateTests.test_rejects_non_finite_latency) ... ok
+test_rejects_non_finite_threshold (test_gate.CanaryGateTests.test_rejects_non_finite_threshold) ... ok
+test_rolls_back_on_error_rate_limit (test_gate.CanaryGateTests.test_rolls_back_on_error_rate_limit) ... ok
+test_rolls_back_on_latency_regression (test_gate.CanaryGateTests.test_rolls_back_on_latency_regression) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK

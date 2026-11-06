@@ -38,7 +38,7 @@
 
 ## P03 执行记录：本地 SBOM 消费方验签
 
-- 当前分支：`p03-supply-chain`，起点 `c4f278dc5244bd72a5d6847226d0d6c21cb0b99b`；尚未提交或推送。
+- 已完成并合入 PR #3；实现提交 `9d6bcf90665cddde38770c741110cb09242f7fcc`，合并提交 `b28108f21ab9460d00897e7b57992268a150ec51`；PR Actions run `42294129417` 三个 job 全绿。
 - 实验范围收敛为源码目录，而非 OCI 镜像重建：Syft v1.55.0 实际扫描 `requirements.txt`，生成 SPDX 2.3；Python 消费方按 DSSE v1 PAE 用 Ed25519 验签，并检查源码树 SHA-256、subject 名、SPDX 与 `requests==2.31.0` 策略。
 - Syft Windows 发布包 SHA-256 经 GitHub release metadata 与 checksums 文件核对：`ada4c9b93af575f479ce80fce6629897272a2d41f300a14bc49bace020767ca2`。工具实际报告 v1.55.0。
 - 真实端到端结果：2 个 SBOM package；源码树 SHA-256 `01150085a4d3469a1905909c0b4aa1850359dfb79c9530e83a1b6eb00d74738b`；可信 key id `4ee1d7ca0889c0e8d574372d50663338cc6ebda6de4dc5dbf7ac042f89781b0f`；生成后消费方实际输出 `PASS`。私钥留在系统临时目录，未加入仓库；仅提交公钥、SBOM 和签名 envelope 作为可核查证据。
@@ -57,6 +57,13 @@
 - P08：值班交接包完整性检查。
 - 每阶段保留最小代码、真实测试/验证和短记录；不为阶段单独生成 PDF。
 
+## P04 执行记录：Canary 指标门禁
+
+- 最小目标：对一份 baseline/canary 指标 JSON 计算 `promote`、`hold` 或 `rollback`；低样本量进入 hold，观察到错误率或 p95 越界则 rollback。
+- 实验代码：`labs/canary-gate/`；本地测试和 fixture 结果保存在 `evidence/p04/`。
+- 本地 Windows 验证：10 项测试通过；三个夹具分别输出 promote、hold、rollback。首轮边界复核发现 JSON `NaN` 可绕过延迟比较，已加入非有限数拒绝和回归测试。
+- 当前分支：`p04-canary-gate`；本地验证完成，远端 CI 待确认。
+
 ## 恢复方式
 
-先运行 git status --short --branch、git log -3 --oneline 和 gh pr view 1。确认 main 与 origin/main 同步后，阅读本文件和 docs/ROADMAP.md，再创建 P03 分支。不要重置或清理工作区；写入新文件前先确认目标不存在。
+恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03 已合入；当前恢复点为 `p04-canary-gate`。不要重置或清理工作区；写入新文件前先确认目标不存在。
