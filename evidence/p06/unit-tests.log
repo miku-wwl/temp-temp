@@ -1,0 +1,15 @@
+test_creates_verifies_and_restores_backup (test_backup.BackupRestoreTests.test_creates_verifies_and_restores_backup) ... ok
+test_detects_missing_backup_file (test_backup.BackupRestoreTests.test_detects_missing_backup_file) ... ok
+test_detects_modified_backup_file (test_backup.BackupRestoreTests.test_detects_modified_backup_file) ... ok
+test_refuses_dangling_destination_symlink (test_backup.BackupRestoreTests.test_refuses_dangling_destination_symlink) ... skipped 'symlink creation is not permitted'
+test_refuses_to_overwrite_existing_destination (test_backup.BackupRestoreTests.test_refuses_to_overwrite_existing_destination) ... ok
+test_rejects_backup_destination_inside_source (test_backup.BackupRestoreTests.test_rejects_backup_destination_inside_source) ... ok
+test_rejects_malformed_manifest (test_backup.BackupRestoreTests.test_rejects_malformed_manifest) ... ok
+test_rejects_reserved_manifest_source_file (test_backup.BackupRestoreTests.test_rejects_reserved_manifest_source_file) ... ok
+test_rejects_symlinked_source_file (test_backup.BackupRestoreTests.test_rejects_symlinked_source_file) ... skipped 'symlink creation is not permitted'
+test_restore_refuses_existing_destination (test_backup.BackupRestoreTests.test_restore_refuses_existing_destination) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.206s
+
+OK (skipped=2)
