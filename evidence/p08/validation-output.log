@@ -1,0 +1,16 @@
+{
+  "alerts_checked": 1,
+  "incident_id": "INC-2026-0001",
+  "opened_at": "2026-11-07T00:00:00Z",
+  "owner": "primary-oncall",
+  "references": [
+    {
+      "evidence": "evidence/incident.json",
+      "name": "High5xxRate",
+      "runbook": "runbooks/high-5xx.md",
+      "sha256": "bc947f29b0c73112ab591e2d6191430e7f61134cf7159fe1838ac88c1757b445"
+    }
+  ],
+  "service": "checkout",
+  "status": "PASS"
+}

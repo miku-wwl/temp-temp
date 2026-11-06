@@ -82,8 +82,14 @@
 - 最小目标：按 desired replicas、maxUnavailable 和每批就绪数模拟 complete、progressing 与 readiness 失败后的 rollback。
 - 实验代码：`labs/rollout-state/`；测试和三种模拟输出位于 `evidence/p07/`。
 - Windows 本地验证：8 项测试通过；模拟 `complete`、`progressing`、`rolled_back`。首轮测试发现遗漏了旧副本下线后的短暂可用数低谷，现记录下线前后状态；第二轮将 maxUnavailable=2 的预期最小可用数修正为 2。
-- 当前分支：`p07-rollout-state`；本地验证完成，远端 CI 待确认。
+- 已完成并合入 PR #7；提交 `8da19128c799512c1c555550b8ae12971b830c28`，merge commit `071522359a02c82318f129f17d01dcd4f8eb8392`；Actions runs `42296511990` 与 `42296549557` 的七个 job 全通过。
+
+## P08 执行记录：值班交接包校验
+
+- 最小目标：校验 incident 元数据、唯一告警名、时区时间、仓库内 runbook 路径及证据 SHA-256；拒绝绝对路径、路径穿越和符号链接。
+- 实验代码：`labs/handoff-check/`；样例交接包和验证输出位于 `evidence/p08/`。
+- 当前分支：`p08-handoff-validator`；本地验证完成后经 PR 提交，远端 CI 待确认。
 
 ## 恢复方式
 
-恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03–P06 已合入；当前恢复点为 `p07-rollout-state`。不要重置或清理工作区；写入新文件前先确认目标不存在。
+恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03–P07 已合入；当前恢复点为 `p08-handoff-validator`。不要重置或清理工作区；写入新文件前先确认目标不存在。
