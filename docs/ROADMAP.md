@@ -4,7 +4,7 @@
 
 - 独立仓库：miku-wwl/temp-temp
 - 基线：main；实验放入 labs/，教材放入 book/，证据放入 evidence/
-- 当前状态：P01、P02 均已验证并合入 main；P03 是下一阶段
+- 当前状态：P01、P02 已验证并合入 main；P03 正在独立分支实施
 
 ## 阶段顺序
 
@@ -12,9 +12,12 @@
 |---|---|---|---|
 | P01 | 生产 Helm values 策略门禁 | 20 项本地测试、远端 Actions success、main branch protection、实验记录、教材 PDF | VALIDATED |
 | P02 | 用 SOURCE_DATE_EPOCH 生成可重复归档，比较两次 SHA-256，并证明内容变化会改变摘要 | 独立 Python 实验、Windows 本地结果、Linux Actions、教材第 2 章与页面渲染 | VALIDATED (MERGED) |
-| P03 | 镜像供应链：SBOM、来源证明、签名与消费方验证 | 本地可复现构建和消费方验证记录 | PLANNED |
-| P04 | Canary 指标门禁：数据解释、阈值与回滚边界 | 隔离的本地模拟和演练记录 | PLANNED |
-| P05 | 观测数据与 SLO/RCA 教学实验 | 可重复的故障注入、信号关联和 RCA | PLANNED |
+| P03 | 本地 SPDX SBOM、DSSE/Ed25519 签名与消费方策略校验 | Syft 实际扫描、负向测试、Linux Actions | IN PROGRESS |
+| P04 | Canary 指标门禁：样本量、错误率、延迟与回滚边界 | 本地指标夹具和 promote/hold/rollback 测试 | PLANNED |
+| P05 | SLI/SLO 与错误预算消耗计算 | 请求日志夹具、计算器与边界用例 | PLANNED |
+| P06 | 备份清单、恢复校验与损坏检测 | 临时目录备份/恢复和篡改拒绝记录 | PLANNED |
+| P07 | 滚动发布状态机模拟 | 就绪/不可用约束、失败与回滚测试 | PLANNED |
+| P08 | 值班交接包完整性检查 | 本地告警/运行手册/证据索引校验 | PLANNED |
 
 ## 选择后续任务的规则
 
