@@ -18,3 +18,5 @@ python labs/slo-budget/calculate.py labs/slo-budget/fixtures/at-target.json
 ## 实测
 
 本地单测和三份输入夹具的输出保存在 `evidence/p05/`。夹具覆盖预算未耗尽、耗尽和恰好达到目标；单测检查 4xx 排除、3xx 成功、负值/布尔/非有限目标和无有效请求等边界。发现恰好达标时浮点舍入会留下极小的非零剩余值，已加断言并修正显示舍入。GitHub Actions 结果以 PR run 为准。
+
+已合入 PR #5（merge commit `fa9f2099efa631e8a328b9dd9d7919adf5967745`）；PR Actions run `42295160863` 的五个实验 job 均通过。

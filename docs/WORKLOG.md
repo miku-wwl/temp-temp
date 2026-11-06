@@ -68,8 +68,15 @@
 
 - 最小目标：从 HTTP 状态计数计算可用性、SLO 是否达标、错误预算消耗与剩余比例；按明确规则排除 4xx。
 - 实验代码：`labs/slo-budget/`；输入夹具和本地输出位于 `evidence/p05/`。
-- 当前分支：`p05-slo-budget`；本地验证完成后经 PR 提交，远端 CI 待确认。
+- 已完成并合入 PR #5；实现提交 `015f30c222b9a696365211bf73a91aeed13cc7e5`，合并提交 `fa9f2099efa631e8a328b9dd9d7919adf5967745`；Actions run `42295160863` 五个 job 全绿。首次输出发现浮点尾差，精度断言修复后本地和 CI 通过。
+
+## P06 执行记录：备份清单与恢复校验
+
+- 最小目标：对隔离样例目录建立 SHA-256 文件清单，实际恢复到新目录并再次校验；篡改、缺文件与目标已存在都应安全拒绝。
+- 实验代码：`labs/backup-restore/`；实际备份、恢复和验证记录位于 `evidence/p06/`。
+- 本地 Windows 验证：10 项测试通过，2 项符号链接用例因宿主策略跳过；实际备份/校验/恢复 2 个文件成功，inventory SHA-256 `b902fc9d26839a39cc7b1ffeaaaaaa9f0d93eb35e2bb006cc96eab68dc157482`。
+- 当前分支：`p06-backup-restore`；本地验证完成，远端 CI 待确认。
 
 ## 恢复方式
 
-恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03、P04 已合入；当前恢复点为 `p05-slo-budget`。不要重置或清理工作区；写入新文件前先确认目标不存在。
+恢复时先运行 `git status --short --branch`、`git log -3 --oneline`，查看 `docs/WORKLOG.md` 与 `docs/ROADMAP.md`，并检查当前阶段 PR/CI。P03–P05 已合入；当前恢复点为 `p06-backup-restore`。不要重置或清理工作区；写入新文件前先确认目标不存在。

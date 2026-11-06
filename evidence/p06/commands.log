@@ -1,0 +1,4 @@
+created backup: files=2 inventory_sha256=b902fc9d26839a39cc7b1ffeaaaaaa9f0d93eb35e2bb006cc96eab68dc157482
+PASS: backup verified: files=2 inventory_sha256=b902fc9d26839a39cc7b1ffeaaaaaa9f0d93eb35e2bb006cc96eab68dc157482
+PASS: restored and verified: files=2 inventory_sha256=b902fc9d26839a39cc7b1ffeaaaaaa9f0d93eb35e2bb006cc96eab68dc157482
+PASS: backup verified: files=2 inventory_sha256=b902fc9d26839a39cc7b1ffeaaaaaa9f0d93eb35e2bb006cc96eab68dc157482
