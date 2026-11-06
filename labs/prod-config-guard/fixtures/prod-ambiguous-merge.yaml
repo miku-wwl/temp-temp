@@ -1,0 +1,5 @@
+defaults: &defaults
+  latencyMs: 800
+faults:
+  <<: *defaults
+  latencyMs: 0

@@ -1,0 +1,26 @@
+name: Independent lab validation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  production-config-guard:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
+      - name: Install the pinned parser dependency
+        run: python -m pip install --disable-pip-version-check -r labs/prod-config-guard/requirements.txt
+      - name: Run policy and CLI regression cases
+        run: python -m unittest discover -v -s labs/prod-config-guard/tests
+      - name: Validate the production values
+        run: python labs/prod-config-guard/guard.py labs/prod-config-guard/envs/prod/values.yaml

@@ -1,0 +1,4 @@
+defaults: &defaults
+  faults:
+    errorRate: 0.02
+<<: *defaults

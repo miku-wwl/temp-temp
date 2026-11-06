@@ -1,0 +1,6 @@
+# Development may use fault injection for controlled experiments.
+service:
+  replicas: 1
+faults:
+  errorRate: 0.05
+  latencyMs: 800
