@@ -1,6 +1,0 @@
-# Production must not inject synthetic errors or latency.
-service:
-  replicas: 2
-faults:
-  errorRate: 0
-  latencyMs: 0
