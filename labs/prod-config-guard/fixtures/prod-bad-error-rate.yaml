@@ -1,4 +1,0 @@
-service:
-  replicas: 2
-faults:
-  errorRate: 0.02

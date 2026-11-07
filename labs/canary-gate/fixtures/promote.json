@@ -1,4 +1,0 @@
-{
-  "baseline": {"requests": 1000, "errors": 2, "p95_ms": 180},
-  "canary": {"requests": 250, "errors": 1, "p95_ms": 210}
-}
